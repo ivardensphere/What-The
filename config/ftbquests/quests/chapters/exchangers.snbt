@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exchangers"
+	group: "6CFDE535DE131F6B"
+	id: "362D88E205765DFE"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "&6Exchangers"
+}

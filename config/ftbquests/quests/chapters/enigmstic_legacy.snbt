@@ -1,0 +1,748 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmstic_legacy"
+	group: "23EAB276525434AF"
+	id: "4B26092D1BFF0425"
+	images: [{
+		height: 4.0d
+		image: "tnp:textures/other/enigmatic.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 10.5d
+		y: -1.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "3A1F86D8BD225EB7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2E1BAEBCF6089910"
+				title: "Welcome to Enigmatics"
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "3D8B1E7073A2A482"
+			tasks: [{
+				id: "3C4233BEEAF01FFC"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3D8B1E7073A2A482"]
+			id: "493AC354946B2358"
+			tasks: [{
+				id: "27DA3445FB027327"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["493AC354946B2358"]
+			id: "765E858C6B0B8552"
+			tasks: [{
+				id: "3BDB788E91FC7403"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["493AC354946B2358"]
+			id: "29F08CB2F2AA5DB9"
+			tasks: [{
+				id: "19AFAFC8A36ED1FC"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29F08CB2F2AA5DB9"]
+			id: "20EFE0081219547F"
+			tasks: [{
+				id: "38DC399A3CC0D19A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["20EFE0081219547F"]
+			id: "142568575D839B55"
+			tasks: [{
+				id: "7E9F29D955B65B59"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["142568575D839B55"]
+			id: "68C47DE3C4AF3EE7"
+			tasks: [{
+				id: "370B48B4CE9E6FE4"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["765E858C6B0B8552"]
+			id: "70AF84ECD4C58BDD"
+			tasks: [{
+				id: "5DCE0E1B5033E145"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["70AF84ECD4C58BDD"]
+			id: "2DC69DF9AE65F218"
+			tasks: [{
+				id: "17AA438DA8BA292B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DC69DF9AE65F218"]
+			id: "69AAA67AA047753E"
+			tasks: [{
+				id: "577976BCB7D3BE4D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -6.25d
+		}
+		{
+			dependencies: ["493AC354946B2358"]
+			id: "7985D487627453E6"
+			tasks: [{
+				id: "6D5EDBACB47CF463"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7985D487627453E6"]
+			id: "56CFE593BCCC9201"
+			tasks: [{
+				id: "1CE77BA980992E68"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "73B55963615E94C3"
+			tasks: [{
+				id: "53D6F5FAB2C24EAD"
+				item: "enigmaticlegacy:extradimensional_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["73B55963615E94C3"]
+			id: "4637A4ABDBC3CB9A"
+			tasks: [{
+				id: "31CB3849971FEDEC"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4637A4ABDBC3CB9A"]
+			id: "645A881AB89F62A0"
+			tasks: [{
+				id: "39013A3703DA54D4"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["645A881AB89F62A0"]
+			id: "111059884B896F29"
+			tasks: [{
+				id: "4AE1D767CD3EAB83"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["111059884B896F29"]
+			id: "48A354A79B2247AC"
+			tasks: [{
+				id: "2BF8127FED258CD0"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "1068EA02ACFAFF49"
+			tasks: [{
+				id: "048A08A2A5446997"
+				item: "enigmaticlegacy:xp_scroll"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1068EA02ACFAFF49"]
+			id: "0D4B5F8F171B306A"
+			tasks: [{
+				id: "6B7D1ACFF3D05F48"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0D4B5F8F171B306A"]
+			id: "3F09EDA7D3762CD9"
+			tasks: [{
+				id: "615DC5B01948D9C6"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F09EDA7D3762CD9"]
+			id: "030002A1E9DB5CDF"
+			tasks: [{
+				id: "0BA3007D0EF44109"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["030002A1E9DB5CDF"]
+			id: "7ADA458073DAF7F9"
+			tasks: [{
+				id: "3815D244C22E9966"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "2F5FF8E24507DCD5"
+			tasks: [{
+				id: "5FFC2E46C9DB736D"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D5040F058883047"]
+			id: "310748B2320B6684"
+			tasks: [{
+				id: "6B47BAD30EDBD512"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["310748B2320B6684"]
+			id: "1A5E42EED3D2F475"
+			tasks: [{
+				id: "4A184123BACA976A"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1A5E42EED3D2F475"]
+			id: "19A8E6EE236778BA"
+			tasks: [{
+				id: "2436026C02415F06"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2F5FF8E24507DCD5"]
+			id: "6D5040F058883047"
+			tasks: [{
+				id: "73A15BD2E5D2D176"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "69A5CB62F8D736FD"
+			tasks: [{
+				id: "4164A740F30DDF3F"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "4543CB1B0CD2FF48"
+			tasks: [{
+				id: "20154672BFD56B37"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			id: "1099C26DB30630D3"
+			tasks: [{
+				id: "6EC08D90C451F0A1"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.75d
+		}
+		{
+			id: "69DA37CC49BB5747"
+			tasks: [{
+				id: "75841FDF1129E6BA"
+				item: "enigmaticlegacy:withered_tome"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "0EFDFCD171D6C455"
+			tasks: [{
+				id: "40B47E4D07FEA0DE"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -8.0d
+		}
+		{
+			id: "15CB233935EFD1F3"
+			tasks: [{
+				id: "124864CA55EF00FF"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -6.75d
+		}
+		{
+			id: "123BC354F328EEFC"
+			tasks: [{
+				id: "3A71E319FFDAA81E"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -5.5d
+		}
+		{
+			id: "176B3503ED538EFB"
+			tasks: [{
+				id: "45B03BA3FE80AD81"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -4.25d
+		}
+		{
+			id: "3657D1B60C2EC30B"
+			tasks: [{
+				id: "53BF03B053C29D35"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.25d
+		}
+		{
+			id: "210ADC35087DF400"
+			tasks: [{
+				id: "7103D475B1A2DD9D"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			id: "063BD056838C5CA8"
+			tasks: [{
+				id: "46C6ED043E5AD7EC"
+				item: "enigmaticlegacy:eldritch_amulet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.75d
+		}
+		{
+			id: "4D1E4D61761D1920"
+			tasks: [{
+				id: "4586E98E5F52BAC7"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "511BF37CF5EE5325"
+			tasks: [{
+				id: "54CF567FCFBCF6B4"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "0A607F116DA8C75F"
+			tasks: [{
+				id: "259E2482D4530EDE"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "131C0662E113E85E"
+			tasks: [{
+				id: "3F906D3B455338DB"
+				item: "enigmaticlegacy:cosmic_heart"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "5577BA045B454EFA"
+			tasks: [{
+				id: "4BD67F89D87EF69D"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "1124F3ECCD517697"
+			tasks: [{
+				id: "11158328C5A98D9A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "2076CB7AB72DEA36"
+			tasks: [{
+				id: "591A7DD1EB23D2E3"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			hide_dependency_lines: true
+			id: "47577A00826215FF"
+			tasks: [{
+				id: "5D2F8B4119DBDF32"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A1F86D8BD225EB7"]
+			id: "783801F2A54E309E"
+			tasks: [{
+				id: "75C06AB245FF0A60"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "44F01F2866D33158"
+			tasks: [{
+				id: "66AAE271F589F8A1"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.75d
+		}
+		{
+			id: "16D091D512633BD3"
+			tasks: [{
+				id: "0258FD3EC3D91B76"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.75d
+		}
+		{
+			id: "5591249D65F7C8AE"
+			tasks: [{
+				id: "4FDBCBD0B10E8CF8"
+				item: "enigmaticaddons:adventure_charm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.75d
+		}
+		{
+			id: "5AD46EE92119EFDD"
+			tasks: [{
+				id: "6730A9A759857878"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "1F3585D5915A02CA"
+			tasks: [{
+				id: "3923731E70510CBB"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 3.0d
+		}
+		{
+			id: "53397CBEBCB908C2"
+			tasks: [{
+				id: "444F6032DB464D51"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "6B59F5EE0E3AECC4"
+			tasks: [{
+				id: "493AADF25C5BBF64"
+				item: "enigmaticaddons:antique_bag"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.25d
+		}
+		{
+			id: "4932FCD97FBDE475"
+			tasks: [{
+				id: "568DA5430BA35367"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.25d
+		}
+		{
+			id: "4093A449B29DB606"
+			tasks: [{
+				id: "4D9ACAC08DCB0DC0"
+				item: "enigmaticaddons:void_tome"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.25d
+		}
+		{
+			id: "094EDEE63FD0252F"
+			tasks: [{
+				id: "12263FC5FE401FA5"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "30E75BE24DCF8FDF"
+			tasks: [{
+				id: "2FCBB3D25C7CBD83"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:disaster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 5.5d
+		}
+		{
+			id: "4A32CEA9E57D9D3C"
+			tasks: [{
+				id: "65C522FA354106B8"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+	]
+	title: "&4Enigmatic Legacy"
+}

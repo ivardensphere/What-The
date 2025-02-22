@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons"
+	group: "2B0E76255596CDF2"
+	id: "08BC66CA2C6A512D"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "&5Iron's Spells"
+}

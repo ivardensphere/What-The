@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "yoyos:mana_cord"
+    },
+    "I": {
+      "item": "botania:gaia_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " I ",
+    "ISI",
+    "CI "
+  ],
+  "result": {
+    "item": "yoyos:gaia_spirit_yoyo"
+  },
+  "show_notification": true
+}

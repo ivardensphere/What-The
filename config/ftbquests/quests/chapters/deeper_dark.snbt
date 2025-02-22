@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_dark"
+	group: "04ABE459691915E3"
+	id: "63D338A3AEE897D0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&1Deeper Dark"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "2B0E76255596CDF2"
+	id: "6D0F82BD5303A513"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&5Ars Nouveau"
+}

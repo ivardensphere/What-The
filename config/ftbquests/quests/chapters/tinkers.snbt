@@ -1,0 +1,1746 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tinkers"
+	group: "23EAB276525434AF"
+	id: "03FAF23F341B4521"
+	images: [
+		{
+			height: 0.0d
+			image: "tnp:textures/other/tinkers.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "tnp:textures/other/tinkers.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &4Tinkers' Construct&r mod focuses on weapon and tool manufacturing."
+				""
+				"The mod adds &o&cpatterns&r for tool and weapon &o&cparts&r that allow the player to create &nhundreds of combinations&r; each with their own &o&cstrengths&r, &o&cweaknesses&r, and &o&ceffects&r."
+				""
+				"After the tool or weapon is created, &nadditional&r materials may be installed &o&cto boost the item's abilities&r, or to simulate &o&cvanilla enchantments&r."
+			]
+			id: "4842F6A24D8DF21B"
+			rewards: [{
+				id: "28D406BBBE9FDEDA"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Getting Started with Tinker's"
+			tasks: [{
+				id: "2C4BFA9A8E096FFC"
+				title: "Tinker's Construct"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4842F6A24D8DF21B"]
+			id: "4F32487E9A5DFCC2"
+			rewards: [{
+				id: "559C1D4BD62858F7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft 6x Patterns"
+			tasks: [{
+				count: 6L
+				id: "0AA4F1AAAEC547DE"
+				item: { Count: 6, id: "tconstruct:pattern" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F32487E9A5DFCC2"]
+			id: "27A4B8859EBA67C4"
+			rewards: [{
+				id: "380E60BC70C8CCE9"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Crafting Table"
+			tasks: [{
+				id: "1240D415C43F2F02"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["27A4B8859EBA67C4"]
+			id: "372FB66A1B44C2D9"
+			rewards: [{
+				id: "7B361DB0D33A2B41"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Tinker Station"
+			tasks: [{
+				id: "262D089B8637CF47"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["372FB66A1B44C2D9"]
+			id: "45B905E984E7323B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6973E2B1C2B4F244"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "1DD9768F3215C487"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Part Builder"
+			tasks: [{
+				id: "4415509DAE974FFE"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4F32487E9A5DFCC2"]
+			id: "72117B48D971871D"
+			rewards: [{
+				id: "7D3A41F14ACA121A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Cast Chest"
+			tasks: [{
+				id: "68D70295ACBC2272"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["72117B48D971871D"]
+			id: "74EA62AFBE73E5A7"
+			rewards: [{
+				id: "50A88F8BF5A055FA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Tinker's Chest"
+			tasks: [{
+				id: "3AA3B669479436A3"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74EA62AFBE73E5A7"]
+			id: "5F514A210DB1676C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "093B842CDABDCACF"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "119AA006F9B4ABB3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Part Chest"
+			tasks: [{
+				id: "0EAE42AA51F04F9F"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["45B905E984E7323B"]
+			id: "74604C37C82FEACA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37A5C28E39485DF2"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "3B460A6F81D6C8C6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 32x Grout"
+			tasks: [{
+				count: 32L
+				id: "17F8F62F4A9E0350"
+				item: { Count: 32, id: "tconstruct:grout" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["45B905E984E7323B"]
+			id: "32B2BCCA96A280D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "398B3AE3592C1325"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "08A56E7EA930623E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft Stone Parts"
+			tasks: [
+				{
+					id: "0C0B6B69B452B5B3"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49BBF861C3A0FF9F"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B00E217C05F613"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "080F7A2A5740FB42"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32B2BCCA96A280D7"]
+			id: "3227F50EB36BD2F7"
+			rewards: [{
+				id: "79BB8E26A231AD44"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Stone Pick and Axe"
+			tasks: [
+				{
+					id: "0402381E6A8DD1B9"
+					item: {
+						Count: 1
+						id: "tconstruct:pickaxe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock"
+								"tconstruct:rock"
+								"tconstruct:rock"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:stonebound"
+								}
+								{
+									level: 1
+									name: "tconstruct:pierce"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 2.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 117.0f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:mining_speed": 4.2f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "654CA3B22704D6A7"
+					item: {
+						Count: 1
+						id: "tconstruct:hand_axe"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock"
+								"tconstruct:rock"
+								"tconstruct:rock"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:stonebound"
+								}
+								{
+									level: 1
+									name: "tconstruct:stripping"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.0f
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:durability": 117.0f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:mining_speed": 4.2f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["3227F50EB36BD2F7"]
+			id: "4C5E3A3BB47D362E"
+			rewards: [
+				{
+					count: 2
+					id: "6FB1A228D21A886D"
+					item: "tconstruct:efln_ball"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "721E622849E309E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an EFLN"
+			tasks: [{
+				id: "4A39DAAB47006C23"
+				item: "tconstruct:efln_ball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74604C37C82FEACA"]
+			id: "20E591BE160DECC9"
+			rewards: [{
+				id: "47F224D76C441ABF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft 16x Seared Bricks"
+			tasks: [{
+				count: 16L
+				id: "1BDDC4A2965FB7CB"
+				item: { Count: 16, id: "tconstruct:seared_brick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "35BA406EECA60B06"
+			rewards: [{
+				id: "0E71704AC7787C46"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft s Seared Melter"
+			tasks: [{
+				id: "35C786A6D1C28EF7"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "1223FB2BAB9EFD10"
+			rewards: [{
+				id: "26607B8B3C476DDA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Seared Tank"
+			tasks: [{
+				id: "2AAF9237B66BFD98"
+				item: "tconstruct:seared_fuel_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "4A5119551C24A136"
+			rewards: [{
+				id: "3BFBC5E8DB4C7D5A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Seared Casting Basin"
+			tasks: [{
+				id: "26ECE06CAB38ABDD"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "319AAA9FBF315635"
+			rewards: [{
+				id: "44259AF32544D785"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Create a Seared Casting Basin"
+			tasks: [{
+				id: "0239FDAE2CEA19A1"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "52FEE37F7DD668ED"
+			rewards: [{
+				id: "4E0F90A569F58AA8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft 3x Seared Faucets"
+			tasks: [{
+				count: 3L
+				id: "770442225FEE0316"
+				item: { Count: 3, id: "tconstruct:seared_faucet" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20E591BE160DECC9"]
+			id: "0A77A7D1D35A20F1"
+			rewards: [{
+				id: "1158F7DFFE73746E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Seared Heater"
+			tasks: [{
+				id: "48333DC18456C9AB"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["319AAA9FBF315635"]
+			id: "4A8CB73AC260EE2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "464FC1FBBFF26174"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "0B797F914B6AC45F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Ingot Cast"
+			tasks: [{
+				id: "692D185D76215F99"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "48620A5C3668C05F"
+			tasks: [{
+				id: "0DEFCD52A0BD6383"
+				title: "Many Casts II"
+				type: "checkmark"
+			}]
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "4E4CDA3E4C00C4F8"
+			rewards: [{
+				id: "7F518A400EEC2C4E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Helm Cast"
+			tasks: [{
+				id: "5083DC5C3F2E49F9"
+				item: "tconstruct:helmet_plating_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "04DA1F23842E3D10"
+			rewards: [{
+				id: "4BA8611B369C176E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Chest Cast"
+			tasks: [{
+				id: "4724976F175C8780"
+				item: "tconstruct:chestplate_plating_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "2C9F2EF87B970B32"
+			rewards: [{
+				id: "2DCFA741BC78C872"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Legging Cast"
+			tasks: [{
+				id: "3D09DD26F7C95DD7"
+				item: "tconstruct:leggings_plating_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "6BD6A4B3B8ED4496"
+			rewards: [{
+				id: "3DA0C71C00759F9D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Boot Cast"
+			tasks: [{
+				id: "36BDE8EECD1DC09D"
+				item: "tconstruct:boots_plating_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "380644AA3B49C9DD"
+			rewards: [{
+				id: "247AB3CE27D22BE7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Cast a Maille Cast"
+			tasks: [{
+				id: "6FA0F4F06CDA824C"
+				item: "tconstruct:maille_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "1C761C385447EA8E"
+			rewards: [{
+				id: "72DA36183B88D8F0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Nugget Cast"
+			tasks: [{
+				id: "512390E0E7CD96FB"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "4D7DC29789FF89C1"
+			rewards: [{
+				id: "189C62EED849B332"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Gem Cast"
+			tasks: [{
+				id: "3B5AE30CAC6C8918"
+				item: "tconstruct:gem_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "4034CE89561F731A"
+			rewards: [{
+				id: "32DC0210CD6C04E6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Rod Cast"
+			tasks: [{
+				id: "1EE69CDCDAC055AE"
+				item: "tconstruct:rod_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "3A858489D963D60C"
+			rewards: [{
+				id: "32E378492AAC551C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "10F1671AF40B0B29"
+				title: "Many Casts I"
+				type: "checkmark"
+			}]
+			x: 6.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "6C1B85D022ABDE8C"
+			rewards: [{
+				id: "10CB5C47AE7B1545"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Repair Kit Cast"
+			tasks: [{
+				id: "28E26EC532E5A0C1"
+				item: "tconstruct:repair_kit_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "61499FDC0878971A"
+			rewards: [{
+				id: "329290261E5FCB33"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Small Plate Cast"
+			tasks: [{
+				id: "7EA0E89393293AD4"
+				item: "tconstruct:plate_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "30A2D4BC01CB5D69"
+			rewards: [{
+				id: "71C7FE9A465D0EE4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Gear Cast"
+			tasks: [{
+				id: "6A67CCD141690ED1"
+				item: "tconstruct:gear_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "436106F7C860E59D"
+			rewards: [{
+				id: "5064AB5105C29311"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Cast a Coin Cast"
+			tasks: [{
+				id: "7109DD7C74031428"
+				item: "tconstruct:coin_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A858489D963D60C"]
+			id: "414690F1F1EB0BE3"
+			rewards: [{
+				id: "3C6995A1E5F51A31"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Wire Cast"
+			tasks: [{
+				id: "23D226CF4E32EF74"
+				item: "tconstruct:wire_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "2D05D4BF9B69F1C3"
+			rewards: [{
+				id: "78E396ACD768AD60"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Pick Head Cast"
+			tasks: [{
+				id: "544832A570736C5E"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "47BEF5D5698F6873"
+			rewards: [{
+				id: "49445ECFF6954C2B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Small Axe Head Cast"
+			tasks: [{
+				id: "1984A48061CD00CF"
+				item: "tconstruct:small_axe_head_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "45CC6F8F110A155B"
+			rewards: [{
+				id: "42A255B0448AA524"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Small Blade Cast"
+			tasks: [{
+				id: "268D199C75BC486A"
+				item: "tconstruct:small_blade_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "2D7920820E19C457"
+			rewards: [{
+				id: "1AD48F22E80AEBF2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft an Adze Cast"
+			tasks: [{
+				id: "078C53742878D1DA"
+				item: "tconstruct:adze_head_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "01E520F7DE10575A"
+			rewards: [{
+				id: "26521DC49312E62F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Hammer Head Cast"
+			tasks: [{
+				id: "4306ED46CF7AD98A"
+				item: "tconstruct:hammer_head_cast"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "5DCD7633D3F73755"
+			rewards: [{
+				id: "54C16A8C6B4D9919"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Broad Axe Head Cast"
+			tasks: [{
+				id: "4789BDC959FDA6F3"
+				item: "tconstruct:broad_axe_head_cast"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "280BF4391BF8644A"
+			rewards: [{
+				id: "0340E4519205488C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Broad Blade Cast"
+			tasks: [{
+				id: "584AF758F37787A7"
+				item: "tconstruct:broad_blade_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51C8824BBE9E7CA9"]
+			id: "59E4F2EBF31DFD7C"
+			rewards: [{
+				id: "577997384AED93D9"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Large Plate Cast"
+			tasks: [{
+				id: "017BC91B3445833E"
+				item: "tconstruct:large_plate_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "51C8824BBE9E7CA9"
+			rewards: [{
+				id: "3948BA5B4451A15B"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "39EAD77D5D995F08"
+				title: "Many Casts III"
+				type: "checkmark"
+			}]
+			x: 6.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "31090207CC295441"
+			rewards: [{
+				id: "68AD91298AAA2B33"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Tool Handle Cast"
+			tasks: [{
+				id: "03383CC8D3C058A7"
+				item: "tconstruct:tool_handle_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "0FBDCB6743C4EE0D"
+			rewards: [{
+				id: "03628481E66D0BE6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Tool Binding Cast"
+			tasks: [{
+				id: "733A3EE67E75F7EC"
+				item: "tconstruct:tool_binding_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48620A5C3668C05F"]
+			id: "3AD620192F4D32F9"
+			rewards: [{
+				id: "1F9B8328FBF98F9A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Tough Handle Cast"
+			tasks: [{
+				id: "54BC6F5DCBE7DDE0"
+				item: "tconstruct:tough_handle_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "61EF78D476C3A732"
+			rewards: [{
+				id: "6D1FCC160838E76A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft Tough Collar Cast"
+			tasks: [{
+				id: "44A7D71522A3CF29"
+				item: "tconstruct:tough_binding_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "704BC9755C26009D"
+			rewards: [{
+				id: "0BAD73F55F7A791A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Bow Limb Cast"
+			tasks: [{
+				id: "27DF9B37D3B79DDF"
+				item: "tconstruct:bow_limb_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "5EDE2A58B7D1C730"
+			rewards: [{
+				id: "3FF088D2A463C10E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft a Bow Limb Cast"
+			tasks: [{
+				id: "7DECFF1B0105993A"
+				item: "tconstruct:bow_grip_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			description: ["To make &cSmeltery Controller&r, smelt 4 ingots of Copper in the Melter. Then place a Seared Brick in the Casting Basin and pour the molten copper over it."]
+			icon: "tconstruct:smeltery_controller"
+			id: "052A588CE530062A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CE6EA51A98F643E"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "074804324DB26D8B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Smeltery Controller"
+			tasks: [
+				{
+					id: "7CF859DFD4689D3F"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F91487A82407662"
+					item: { Count: 4, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					id: "347AA14D8167085A"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+			]
+			x: -3.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["052A588CE530062A"]
+			description: [
+				"It's time to build the real Smeltery."
+				""
+				"This can be any size, up to 16x16x64, but it must be rectangular."
+				""
+				"The basic standard Smeltery starts with a 3x3 base, usually in the ground."
+				""
+				"We're gonna make little bigger then that. Let's build 5x5x4."
+			]
+			icon: "tconstruct:seared_drain"
+			id: "7705AC441A5E4A9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "704B1F3A29BE8E38"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "3493661C22FCCAF0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Smeltery Time"
+			tasks: [
+				{
+					count: 64L
+					id: "79F5C9339E8C9A15"
+					item: { Count: 64, id: "tconstruct:seared_bricks" }
+					type: "item"
+				}
+				{
+					id: "59B39C4C432745BC"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7705AC441A5E4A9D"]
+			id: "4CA0ABFA7866C51E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E654343539A7868"
+				table_id: 7143187337780363889L
+				type: "random"
+			}]
+			subtitle: "Ducts and Chutes"
+			tasks: [
+				{
+					id: "06DFCC30157109AD"
+					item: "tconstruct:seared_duct"
+					type: "item"
+				}
+				{
+					id: "7FF53BD69E9C8C25"
+					item: "tconstruct:seared_chute"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7705AC441A5E4A9D"]
+			id: "05A366EC1E93ED62"
+			rewards: [{
+				id: "639F2CDE03058C28"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Seared Cosmetics"
+			tasks: [
+				{
+					id: "1F8910EA385A72C3"
+					item: "tconstruct:seared_ladder"
+					type: "item"
+				}
+				{
+					id: "61B8ADA3C141C642"
+					item: "tconstruct:seared_glass"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7705AC441A5E4A9D"]
+			id: "524787711FAFC38A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59CF750AF8AA6E3B"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "52BC879907E25DD6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 1x of each common alloy"
+			tasks: [
+				{
+					id: "42449525C3A1BB20"
+					item: "alltheores:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "3A30AB3018024133"
+					item: "alltheores:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "3837BF8B64749A1B"
+					item: "tconstruct:amethyst_bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "4EBCF70404E381DD"
+					item: "alltheores:constantan_ingot"
+					type: "item"
+				}
+				{
+					id: "56B9AD2FC279DBCB"
+					item: "alltheores:invar_ingot"
+					type: "item"
+				}
+				{
+					id: "46BDDAC331BA3002"
+					item: "alltheores:electrum_ingot"
+					type: "item"
+				}
+				{
+					id: "44D0878D7CC8B598"
+					item: "tconstruct:rose_gold_ingot"
+					type: "item"
+				}
+			]
+			x: -6.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["524787711FAFC38A"]
+			id: "00F31B55F3458DF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42D746F3616AB526"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "1F3796429530AC31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft 1x of each advanced alloy"
+			tasks: [
+				{
+					id: "1067A6CDD74FFB21"
+					item: "tconstruct:slimesteel_ingot"
+					type: "item"
+				}
+				{
+					id: "4DBFF9B787C8FF99"
+					item: "tconstruct:queens_slime_ingot"
+					type: "item"
+				}
+				{
+					id: "08D2CA6B05641E1D"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "259E8D33C12898B3"
+					item: "tconstruct:hepatizon_ingot"
+					type: "item"
+				}
+				{
+					id: "2713021F7E07D182"
+					item: "alltheores:signalum_ingot"
+					type: "item"
+				}
+				{
+					id: "2D701A624EA2B3F9"
+					item: "alltheores:lumium_ingot"
+					type: "item"
+				}
+				{
+					id: "5FA0A5E418DD0BC0"
+					item: "alltheores:enderium_ingot"
+					type: "item"
+				}
+			]
+			x: -6.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["524787711FAFC38A"]
+			id: "45D70271B25C4665"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CDB5BE6B7951A4C"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "4BB2C29C709918FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Steel Anvil"
+			tasks: [{
+				id: "0488FCD8CF491116"
+				item: {
+					Count: 1
+					id: "tconstruct:scorched_anvil"
+					tag: {
+						texture: "immersiveengineering:storage_steel"
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["45D70271B25C4665"]
+			description: [
+				"Using the Tinker Station or Modifire Wortable you can modify your tools."
+				""
+				"Modifiers add special stats and abilities to your tools based on the modifier type."
+			]
+			id: "04BF209E6E65E26C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "494C9B5EB9862F5B"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "79DCD59B409BB355"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Modifier Table"
+			tasks: [{
+				id: "2DEB5DAF717C8E18"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["04BF209E6E65E26C"]
+			id: "1BBBD7517DE8ED83"
+			rewards: [{
+				id: "1770FD34761EC646"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft Silky Cloth"
+			tasks: [{
+				id: "58D34040ACBDC004"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04BF209E6E65E26C"]
+			id: "243D9E70703B55E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DAF74A0FAEC2E3B"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "437180C3A8C3C1D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 16x of each crystal"
+			tasks: [
+				{
+					count: 16L
+					id: "32673B3E82FA80A6"
+					item: { Count: 16, id: "tconstruct:earth_slime_crystal" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2A07276991035027"
+					item: { Count: 16, id: "tconstruct:sky_slime_crystal" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5E24CEBA97EB40B7"
+					item: { Count: 16, id: "tconstruct:ichor_slime_crystal" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1B000AAFDB50B5F1"
+					item: { Count: 16, id: "tconstruct:ender_slime_crystal" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04BF209E6E65E26C"]
+			id: "45AAFC6A3AECE745"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA0A6B05540A50F"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "7762961A80CF1526"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Got Reinforcements?"
+			tasks: [
+				{
+					id: "768057F4E0B6EA63"
+					item: "tconstruct:emerald_reinforcement"
+					type: "item"
+				}
+				{
+					id: "014D047E254CFF84"
+					item: "tconstruct:obsidian_reinforcement"
+					type: "item"
+				}
+				{
+					id: "176B3FDD56E5D807"
+					item: "tconstruct:cobalt_reinforcement"
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04BF209E6E65E26C"]
+			id: "012B0C294F09E06D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B7614727EB67BD8"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "067BD4F397379F35"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "More Reinforcements?"
+			tasks: [
+				{
+					id: "37E894E75143F586"
+					item: "tconstruct:iron_reinforcement"
+					type: "item"
+				}
+				{
+					id: "3E65A966F1954956"
+					item: "tconstruct:slimesteel_reinforcement"
+					type: "item"
+				}
+				{
+					id: "69FF71FC034C912A"
+					item: "tconstruct:seared_reinforcement"
+					type: "item"
+				}
+				{
+					id: "35C03F984F021181"
+					item: "tconstruct:gold_reinforcement"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04BF209E6E65E26C"]
+			id: "50BC070B422A8B61"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21A947B6EAA85E99"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "76556A8F0B208C9A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 32x Nether Grout"
+			tasks: [{
+				count: 32L
+				id: "70924F658DA1BD1F"
+				item: { Count: 32, id: "tconstruct:nether_grout" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["50BC070B422A8B61"]
+			id: "1D3D47B6E5B35EE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AB29B528710252F"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "5ABCF25F99999437"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 32x Scorched Bricks"
+			tasks: [{
+				count: 32L
+				id: "034CA6AECCA22204"
+				item: { Count: 32, id: "tconstruct:scorched_brick" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1D3D47B6E5B35EE5"]
+			description: ["To make &cFoundry Controller&r, place a Scorched Brick in a Casting Basin, then pour at least 1 block's worth of Obsidian over it."]
+			icon: "minecraft:obsidian"
+			id: "15F670E96DC72C42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24267B99F66C968B"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "335A872B1A9912E4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Foundry Controller"
+			tasks: [
+				{
+					id: "2A4CE8BAEB56759F"
+					item: "tconstruct:scorched_bricks"
+					type: "item"
+				}
+				{
+					id: "7D65952B35FEFC62"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "28EC1724F1C6F009"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["15F670E96DC72C42"]
+			description: [
+				"The &cFoundry&r is just like the Smeltery, but doesn't create alloys."
+				""
+				"The Foundry also creates byproducts from items smelted. For example, &6Copper&r can give &eGold&r as a byproduct."
+				""
+				"To make the &cFoundry&r, you'll need to build it like the Smeltery except you'll need to build the corners too."
+			]
+			icon: "tconstruct:foundry_controller"
+			id: "62C64B141B245353"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AD660E57BD7B365"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "5A8F3D04A7B4E1F8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Cracft a Scorched Foundry"
+			tasks: [
+				{
+					count: 16L
+					id: "7E1D9478BF8EFC2E"
+					item: { Count: 16, id: "tconstruct:scorched_bricks" }
+					type: "item"
+				}
+				{
+					id: "572B89F8BA24F909"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "060A2336BE425786"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "69C7A4699D566FB5"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+				{
+					id: "3526C3CD53B26664"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1B753455D9823F55"
+					item: { Count: 3, id: "tconstruct:scorched_faucet" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62C64B141B245353"]
+			description: ["Insert the molten ingots into each of the Ingot Tanks, and the Alloyer will create the alloy."]
+			id: "5C6D0CC6B6F428FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43CC1F73413B6445"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+				{
+					id: "33CBBD5C725169EC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Scorched Alloyer"
+			tasks: [
+				{
+					id: "409A94AAD777A9BC"
+					item: "tconstruct:scorched_alloyer"
+					type: "item"
+				}
+				{
+					id: "40E69A6FB2F5B17C"
+					item: "tconstruct:scorched_ingot_tank"
+					type: "item"
+				}
+				{
+					id: "5D324FD25A410639"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["62C64B141B245353"]
+			description: ["There are several ways to get this. You can smelt Blaze Heads in the Foundry or smelt the Blazes directly."]
+			id: "6110F0812FA8E7EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AC46D792D57CFF8"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "46D56ADC29EAA78C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a Blaze Head"
+			tasks: [{
+				id: "1F8BD88F8A4FA3FD"
+				item: "tconstruct:blaze_head"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6110F0812FA8E7EC"]
+			id: "07A60AD09E4F79B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0720BE639D434345"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "57AD5E6A55827223"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a Jeweled Apple"
+			tasks: [{
+				id: "37245A69E6EF767F"
+				item: "tconstruct:jeweled_apple"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 1.25d
+		}
+	]
+	title: "&4Tinker's Construct"
+}

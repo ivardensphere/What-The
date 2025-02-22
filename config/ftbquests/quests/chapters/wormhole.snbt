@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wormhole"
+	group: "6CFDE535DE131F6B"
+	id: "1E84056AC5AC0A11"
+	images: [{
+		height: 1.0d
+		image: "tnp:textures/other/wormhole.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.75d
+		y: -3.25d
+	}]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			id: "244511A070D9B7A4"
+			tasks: [{
+				id: "4025CC63D6CC3479"
+				item: "wormhole:coal_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.75d
+		}
+		{
+			id: "2CE80E5786D3CF4A"
+			tasks: [{
+				id: "237FF6CEC3ADB2E5"
+				item: "wormhole:target_device"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CE80E5786D3CF4A"]
+			id: "53D4426CEB10E828"
+			tasks: [{
+				id: "569B14C41ACB3129"
+				item: "wormhole:advanced_target_device"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.75d
+		}
+		{
+			id: "45382B976A19D755"
+			tasks: [{
+				id: "24673C198668C1FB"
+				item: "wormhole:basic_energy_cell"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45382B976A19D755"]
+			id: "5695A7E9BCC38BE3"
+			tasks: [{
+				id: "748236634DA1DCEC"
+				item: "wormhole:advanced_energy_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "428EDAB0BAFECED1"
+			tasks: [{
+				id: "26D7B4222C2DCC6D"
+				item: "wormhole:basic_target_cell"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["428EDAB0BAFECED1"]
+			id: "054133919B56E056"
+			tasks: [{
+				id: "58304846B7288D67"
+				item: "wormhole:advanced_target_cell"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.75d
+		}
+		{
+			id: "20AD9055A050AEDB"
+			tasks: [{
+				id: "79083F65D5A065DA"
+				item: "wormhole:portal_frame"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["20AD9055A050AEDB"]
+			id: "731D159859624D70"
+			tasks: [{
+				id: "040A649FA59E681A"
+				item: "wormhole:portal_stabilizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.75d
+		}
+	]
+	title: "&6Wormhole"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "global_delights"
+	group: "6F1187A4D51268D1"
+	id: "10EB41D71869CC69"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&2Global Delights"
+}

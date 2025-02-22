@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "4E47870FD3F3DAA8", title: "&fThe Basics" }
+		{ id: "2B0E76255596CDF2", title: "&dMagic" }
+		{ id: "6CFDE535DE131F6B", title: "&eTechnology" }
+		{ id: "6F1187A4D51268D1", title: "&aFood and Farming" }
+		{ id: "2AE14BA71BB3164A", title: "&bStorage" }
+		{ id: "04ABE459691915E3", title: "&9Exploration" }
+		{ id: "23EAB276525434AF", title: "&cGear" }
+	]
+}

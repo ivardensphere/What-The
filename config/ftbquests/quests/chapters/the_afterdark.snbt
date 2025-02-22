@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_afterdark"
+	group: "04ABE459691915E3"
+	id: "5BEAF9187881790B"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "&1The Afterdark"
+}

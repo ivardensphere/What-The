@@ -1,0 +1,738 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_eng"
+	group: "6CFDE535DE131F6B"
+	id: "0C6DAAC58B528A43"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2104E43D0BEBE190"
+			rewards: [{
+				id: "138A57B27F5F71EE"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5DDA4DEC1AE553D6"
+				title: "Welcome To Immersive Engineering"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			id: "1CD8E42B3FF9AAF3"
+			tasks: [{
+				id: "4677F2F363AF25C2"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1CD8E42B3FF9AAF3"]
+			id: "0759223F2F7BE6DB"
+			tasks: [{
+				id: "2F198FDC7B5B1688"
+				item: "immersiveengineering:earmuffs"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0759223F2F7BE6DB"]
+			id: "29B4A9850567B71E"
+			tasks: [{
+				id: "723679DA01E6E9B1"
+				item: "immersiveengineering:jerrycan"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CD8E42B3FF9AAF3"]
+			id: "32C403BC808D3CB9"
+			tasks: [{
+				id: "4332C947A2AC008D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32C403BC808D3CB9"]
+			id: "22E2CCF8A18D39FA"
+			tasks: [{
+				id: "6FCA6820E74C1000"
+				item: "immersiveengineering:voltmeter"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22E2CCF8A18D39FA"]
+			id: "2CE0AF7BE64A55A6"
+			tasks: [{
+				id: "038DC1634A3BE7FA"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CE0AF7BE64A55A6"]
+			id: "5DA9981100CDA859"
+			tasks: [{
+				id: "54A21574EBF8F825"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 23
+						}
+					}
+					id: "immersiveengineering:toolbox"
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CD8E42B3FF9AAF3"]
+			id: "63E865BF1EBCD22B"
+			tasks: [{
+				id: "4DD9C139D203AC5D"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["63E865BF1EBCD22B"]
+			id: "6EE2D0179866C527"
+			tasks: [{
+				id: "60AF09F939DC4235"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6EE2D0179866C527"]
+			id: "4A595771A339C880"
+			tasks: [{
+				id: "1614579DEBC50BAD"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1CD8E42B3FF9AAF3"]
+			id: "55922A34058A54DA"
+			tasks: [{
+				id: "7C02D8F37901F4B0"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["55922A34058A54DA"]
+			id: "66D7F5189630B8B8"
+			tasks: [{
+				id: "75DC61BE37F5527D"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["66D7F5189630B8B8"]
+			id: "20D1487EBC90F939"
+			tasks: [{
+				id: "60BDF4C15C3343B9"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["55922A34058A54DA"]
+			id: "2B7C222769EAEC2E"
+			tasks: [{
+				id: "096A4916DA0016F8"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B7C222769EAEC2E"]
+			description: [
+				"It generates energy from lightning."
+				""
+				"After it is fully arranged, the player must right-click the middle block of any side (which should be a &6Light Engineering Block&r) with an &6Engineer's Hammer&r, then the multi-block is complete."
+				""
+				"Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically. One lightning strike will generate 16,000,000 Redstone Flux (RF)."
+				""
+				"All of the energy goes to the center block, but that energy will be dispersed to the blocks surrounding it."
+			]
+			id: "0F0C34BF8C94386D"
+			subtitle: "The Lightning Rod is a 3x3x3 multi-block"
+			tasks: [
+				{
+					count: 4L
+					id: "4E5F115FF4A0D425"
+					item: { Count: 4, id: "immersiveengineering:capacitor_hv" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0B6C48AA00F870D0"
+					item: { Count: 8, id: "immersiveengineering:coil_lv" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "27F0D0511F3C512E"
+					item: { Count: 4, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "765029404B637721"
+					item: { Count: 3, id: "immersiveengineering:coil_hv" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "01C26F560FF6AE21"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "384E698A8B4C2445"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+			]
+			title: "Lightning Rod"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "0F56A1446FEC2C12"
+			tasks: [{
+				count: 4L
+				id: "5EEB4F26BB124056"
+				item: "immersiveengineering:connector_mv"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 6.25d
+		}
+		{
+			id: "1A244F450C00102B"
+			tasks: [{
+				count: 4L
+				id: "191F57C5BB5FE6F0"
+				item: "immersiveengineering:connector_hv"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.25d
+		}
+		{
+			id: "78F50CF1568B885E"
+			tasks: [{
+				count: 4L
+				id: "4738078AB3C6A41D"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["78F50CF1568B885E"]
+			id: "11AF5DA72A61DA4A"
+			tasks: [{
+				count: 4L
+				id: "3A63856F990D509B"
+				item: "immersiveengineering:connector_redstone"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["11AF5DA72A61DA4A"]
+			id: "75AFE33B41A03D99"
+			tasks: [{
+				id: "2EE0D4874EE0A01C"
+				item: "immersiveengineering:connector_bundled"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 7.75d
+		}
+		{
+			id: "06A16E7551F9BD9D"
+			tasks: [{
+				id: "34DFD20AC62650AF"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "119DD74FE2D9BDEB"
+			tasks: [{
+				id: "0A1484810B1920B5"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 7.5d
+		}
+		{
+			id: "36C314E493918B37"
+			tasks: [{
+				id: "7E5FD2FAC7CECD39"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "2A29BE6834A12B67"
+			tasks: [{
+				id: "28B7ADFCEBB195D2"
+				item: "immersiveengineering:wirecoil_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.75d
+		}
+		{
+			id: "6CD3C81A0ACF9A2E"
+			tasks: [{
+				id: "798843346FFAAE94"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 8.75d
+		}
+		{
+			id: "29E355014C9B93C3"
+			tasks: [{
+				id: "489712DDD488FA97"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.75d
+		}
+		{
+			id: "532297385C00E870"
+			tasks: [{
+				id: "015FDB132C2E98B3"
+				item: "immersiveengineering:wirecoil_structure_rope"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0EC311D786D4F82D"]
+			id: "1242F01FCFF207BB"
+			tasks: [{
+				id: "2C892381808A7EB4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				title: "Any #forge:coal_coke"
+				type: "item"
+			}]
+			title: "Coal Coke"
+			x: 3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["1CD8E42B3FF9AAF3"]
+			description: [
+				"The &6Coke Oven&r is a multiblock structure added by Immersive Engineering. "
+				""
+				"It is made with 27 Coke Bricks arranged in a 3x3x3 solid cube and right-clicking on a central block of any face with an Engineer's Hammer."
+				""
+				"The &6Coke Oven&r is easy to use; putting Coal (or a Block of Coal) in the left-most slot in the GUI will start it. After about 50 seconds, that Coal will produce one Coal Coke and 500 mB of Creosote Oil. In the case of the Block of Coal, it will take about 450 seconds and produce one Block of Coal Coke and 5000 mB of Creosote Oil, making it more efficient."
+				""
+				"Wooden logs can be used in a &6Coke Oven&r as well. After about 45 seconds, that Wood will produce one Charcoal and 250 mB of Creosote Oil."
+				""
+				"Items can be inserted into the top or sides or removed from the bottom of the &6Coke Oven&r automatically using a Hopper or similar item transportation block."
+				""
+				"To remove Creosote Oil from the &6Coke Oven&r, placing empty portable fluid containers such as Glass Bottles, Buckets, or Jerrycans in the top-right corner slot will fill it with 1000 mB of Creosote Oil, transferring the filled container to the bottom-right slot of the GUI. To automatically remove Creosote Oil, a pump can be used. Since the &6Coke Oven&r does not explicitly output fluid, the Immersive Engineering pump must be placed directly against the &6Coke Oven&r. The side of the pump facing away from the &6Coke Oven&r can be hammered with an Engineer's Hammer to output and hammered while sneaking to configure the (inaccessible) opposite side to accept input. The pump does need to be powered and requires a Redstone signal."
+			]
+			id: "0EC311D786D4F82D"
+			subtitle: "Coke Oven"
+			tasks: [{
+				count: 27L
+				id: "42A0FD8D69190364"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 4.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0EC311D786D4F82D"]
+			id: "15C9784F0FFA5FF8"
+			tasks: [{
+				id: "0EAEA7CFFA1573AB"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["15C9784F0FFA5FF8"]
+			id: "4A9D8D315AB092B4"
+			tasks: [{
+				count: 16L
+				id: "75598FBABD45C285"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:treated_wood"
+					}
+				}
+				title: "Any #forge:treated_wood"
+				type: "item"
+			}]
+			title: "Treated Wood"
+			x: 7.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["4A9D8D315AB092B4"]
+			id: "462B252E52450B65"
+			tasks: [{
+				id: "4CE6708D06F75A5C"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["462B252E52450B65"]
+			id: "28E62C7CF228A3F2"
+			tasks: [{
+				id: "2172F9A73EA40476"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["28E62C7CF228A3F2"]
+			id: "012CD9F44125B04D"
+			tasks: [{
+				id: "26D90392F5659768"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EC311D786D4F82D"]
+			description: [
+				"The Crude Blast Furnace is a 3x3x3 multiblock furnace added by Immersive Engineering that alloys Iron with Coal Cokes to produce Steel."
+				""
+				""
+				"Construction involves arranging 27 Blast Bricks into a cube and using an Engineer's Hammer on the front face to complete the structure."
+				""
+				"The Crude Blast Furnace produces Steel Ingots and Slag by smelting Iron Ingots with Coal Coke or Charcoal as fuel. This operation takes 60 seconds per ingot. One Coal Coke burns long enough to smelt one ingot, which produces one Slag piece. A Block of Coal Coke smelts 10 ingots (so it's 11.11% more fuel efficient). A Block of Iron smelts in less time than 9 single pieces."
+			]
+			id: "4E23DB5B7A4C5FCC"
+			tasks: [{
+				count: 27L
+				id: "0F905A868BD0374A"
+				item: { Count: 27, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			title: "Crude Blast Furnace"
+			x: 4.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E23DB5B7A4C5FCC"]
+			id: "5EEBED0B3CF3B91D"
+			tasks: [{
+				count: 32L
+				id: "7A76692125D61C4B"
+				item: { Count: 32, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E23DB5B7A4C5FCC"]
+			description: [
+				"The &6Improved Blast Furnace&r is a multiblock furnace added by Immersive Engineering that alloys Iron with Coal Cokes to produce Steel. It is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added."
+				""
+				"The &6Improved Blast Furnace&r has hatches to automatically export Steel and Slag into adjacent inventories. Coal Coke and Iron may be dropped into the top of the furnace. Steel leaves through the front, and Slag leaves through the back. The holes on either side are for adding the Blast Furnace Preheaters."
+				""
+				"As an upgrade of the Crude Blast Furnace, the original Blast Bricks may be upgraded to Reinforced Blast Bricks by adding a Steel Plate."
+				""
+				"The &6Improved Blast Furnace&r is created by assembling 27 Reinforced Blast Bricks in a 3x3 cube and placing a Hopper on the top-center block as illustrated. Using an Engineer's Hammer on the front face completes the structure."
+				""
+				"The &6Improved Blast Furnace&r smelts Steel at the same speed as the Crude Blast Furnace. Adding a Blast Furnace Preheater to either side doubles and triples its speed, so each ingot will take 30 or 20 seconds to cook as opposed to the default 60 second craft time. The Preheaters require power to operate."
+			]
+			id: "16888E509556B253"
+			tasks: [
+				{
+					count: 27L
+					id: "514628F94EA0E76A"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					id: "369B14AEA3AF2CBD"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16888E509556B253"]
+			id: "0C492B3184332052"
+			tasks: [{
+				count: 2L
+				id: "17E0482197DF8715"
+				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: 7.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71F840D20F340C25"]
+			id: "0F10E3E2C0852081"
+			tasks: [
+				{
+					id: "60478042C12CA77B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/brass"
+						}
+					}
+					title: "Any #forge:ingots/brass"
+					type: "item"
+				}
+				{
+					id: "73BFE9936CF093D2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/invar"
+						}
+					}
+					title: "Any #forge:ingots/invar"
+					type: "item"
+				}
+				{
+					id: "34790A5FCD6B8E65"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/constantan"
+						}
+					}
+					title: "Any #forge:ingots/constantan"
+					type: "item"
+				}
+				{
+					id: "4A15F6DAC6A1BFD6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/electrum"
+						}
+					}
+					title: "Any #forge:ingots/electrum"
+					type: "item"
+				}
+				{
+					id: "67E9DEF2040F86AA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/bronze"
+						}
+					}
+					title: "Any #forge:ingots/bronze"
+					type: "item"
+				}
+			]
+			title: "Alloys"
+			x: 3.5d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4E23DB5B7A4C5FCC"]
+			description: [
+				"The &6Alloy Kiln&r is a multi-block made of Kiln Bricks. It must be arranged in a 2x2x2 solid cube to work. After it is arranged in that pattern, the player must right-click one of the blocks with an Engineer's Hammer, then the multi-block is complete."
+				""
+				"The &6Alloy Kiln&r is fairly simple to use; putting solid fuels in the bottom slot in the GUI will power the &6Alloy Kiln&r. The two other left slots are where each Ingot or Grit can be added to form a new ingot. After about 8 seconds, two new ingots will be formed."
+				""
+				"The &6Alloy Kiln&r is used to create Constantan and Electrum."
+			]
+			id: "71F840D20F340C25"
+			tasks: [{
+				count: 8L
+				id: "647D32B9D8CAC2A1"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			title: "Alloy Kiln"
+			x: 4.75d
+			y: 8.75d
+		}
+		{
+			dependencies: ["71F840D20F340C25"]
+			id: "481AC92A2A5F2052"
+			tasks: [{
+				id: "1743B8A167B4CEDB"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.75d
+		}
+		{
+			id: "138736092D207490"
+			tasks: [
+				{
+					count: 27L
+					id: "367776795A956935"
+					item: { Count: 27, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "4C843457E2423EE0"
+					item: { Count: 14, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "16FF557F673360F8"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "54AAE3ADF5D77882"
+					item: { Count: 8, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "552190DF74665D13"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					title: "Any #forge:storage_blocks/steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4F8CFE4A14893857"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "734ACC3A73B631ED"
+					item: { Count: 5, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "54FD4911F908DD18"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "52D5CEDC3646DB6D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Arc Furnace"
+			x: 3.5d
+			y: 10.0d
+		}
+	]
+	title: "&6Immersive Eng"
+}

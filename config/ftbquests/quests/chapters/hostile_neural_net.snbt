@@ -1,0 +1,1283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hostile_neural_net"
+	group: "6CFDE535DE131F6B"
+	id: "57FFAC6AED20510E"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5913FBA42E0D9455"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Welcome To Hostile Neural Network"
+			tasks: [{
+				id: "11243048716E9E1E"
+				type: "checkmark"
+			}]
+			title: "Getting Started with Hostile Neural Network"
+			x: 0.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5913FBA42E0D9455"]
+			hide_dependency_lines: true
+			id: "121CE77609BE217E"
+			subtitle: "Craft a Model Framework"
+			tasks: [{
+				id: "593A9A8D81D79F35"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"121CE77609BE217E"
+				"20C3BA5539DADAAB"
+			]
+			id: "160DC0791DB4D87C"
+			tasks: [{
+				id: "7A7301A1BEF95E79"
+				type: "checkmark"
+			}]
+			title: "Leveling Up Data"
+			x: 0.25d
+			y: 0.25d
+		}
+		{
+			id: "20C3BA5539DADAAB"
+			tasks: [{
+				id: "29DFBAB09E48D7BD"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"121CE77609BE217E"
+				"20C3BA5539DADAAB"
+			]
+			id: "7BB5B7385FEEAFB1"
+			tasks: [{
+				id: "00DD38DFD9362038"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7BB5B7385FEEAFB1"]
+			id: "272B751DCF83365F"
+			tasks: [{
+				id: "48922EF54C813DE4"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["272B751DCF83365F"]
+			id: "733170906C7D42E9"
+			tasks: [{
+				id: "7F3750AA518DA9B1"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7BB5B7385FEEAFB1"]
+			id: "1E28C863859D7CC4"
+			tasks: [{
+				id: "0042CB46D6780550"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1E28C863859D7CC4"]
+			id: "3DE585F9240C45D2"
+			tasks: [{
+				id: "4940248CD270DA4D"
+				item: "hostilenetworks:twilight_prediction"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7BB5B7385FEEAFB1"]
+			id: "582083EB22A90151"
+			tasks: [{
+				id: "0CF35C2A2FE4499D"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.0d
+		}
+		{
+			id: "5ED94B0A412A9789"
+			tasks: [{
+				id: "408AC8B083CB4093"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "1EA46B566675DAE7"
+			tasks: [{
+				id: "64B5CC50A96A5FB9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ars_nouveau/wilden_mobs"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 1.5d
+		}
+		{
+			id: "5664823D9C591CB7"
+			tasks: [{
+				id: "36467527A3859030"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.25d
+		}
+		{
+			id: "1830BD0F1A671527"
+			tasks: [{
+				id: "51B8615A69E22B88"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:chicken"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 11.5d
+		}
+		{
+			id: "481ACD270C84A98F"
+			tasks: [{
+				id: "0E6CB24D5E00C5F7"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cod"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "21AC547624929694"
+			tasks: [{
+				id: "11D43A86C000269C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:cow"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.25d
+		}
+		{
+			id: "499F2735D48E9FBA"
+			tasks: [{
+				id: "32B47EA826F332B2"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 9.0d
+		}
+		{
+			id: "7C6BA94AB9505F28"
+			tasks: [{
+				id: "2635519C72CF7718"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:drowned"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 10.25d
+		}
+		{
+			id: "440A6D3D3A7B44C5"
+			tasks: [{
+				id: "22E39EBDBACD934F"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:elder_guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.25d
+		}
+		{
+			id: "4C7CBE53E88E3792"
+			tasks: [{
+				id: "50AB19290AE6CF73"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 2.0d
+		}
+		{
+			id: "23A5C94467A3F7B7"
+			tasks: [{
+				id: "0459E86EE813E7E6"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:enderman"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 9.0d
+		}
+		{
+			id: "3F3C022619CB6C4B"
+			tasks: [{
+				id: "24B0709FCB5FBB58"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:evoker"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 10.25d
+		}
+		{
+			id: "6563898E83446D24"
+			tasks: [{
+				id: "3F371E217AFFEEE0"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ghast"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "75D7D9D5BBAABAD9"
+			tasks: [{
+				id: "105E3ADEF3895042"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:glow_squid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			id: "45CF13DEACDCAB55"
+			tasks: [{
+				id: "3A083B53176AD585"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:guardian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 11.5d
+		}
+		{
+			id: "2E9F4615C08DFDB3"
+			tasks: [{
+				id: "4AF2068C5A7A18ED"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:hoglin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.25d
+		}
+		{
+			id: "349A25CAE465D189"
+			tasks: [{
+				id: "3C659B922A4E7785"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:iron_golem"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			id: "32D1368DB6B75E29"
+			tasks: [{
+				id: "656FBA00A42594D5"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:magma_cube"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 1.5d
+		}
+		{
+			id: "73DF6C3B464DAF41"
+			tasks: [{
+				id: "04CE5C5F94A27EB1"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:mooshroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 10.25d
+		}
+		{
+			id: "47CF6A68F53C94B9"
+			tasks: [{
+				id: "09786C682867A278"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:phantom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "10E4B4F9AD32E2B8"
+			tasks: [{
+				id: "0B255076ACE8051D"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:pig"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.75d
+		}
+		{
+			id: "1C90CA1E58F52498"
+			tasks: [{
+				id: "0D4652AAE3095683"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:polar_bear"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 7.75d
+		}
+		{
+			id: "03B6501851F29920"
+			tasks: [{
+				id: "2C3127974C777CEA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:rabbit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.75d
+		}
+		{
+			id: "7C14E7C9C8B0822B"
+			tasks: [{
+				id: "15F02C30ECAE338E"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:sheep"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "1D4C6B985C7806E3"
+			tasks: [{
+				id: "42A6E8B3EDFFBCFF"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:shulker"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 7.75d
+		}
+		{
+			id: "675AD97658417ADE"
+			tasks: [{
+				id: "00A89BC10BBEA62B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 11.5d
+		}
+		{
+			id: "0B888BFF3D81A2B8"
+			tasks: [{
+				id: "2A0DC02223429C48"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:slime"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.75d
+		}
+		{
+			id: "79B8A20C4E5BFA04"
+			tasks: [{
+				id: "11C84DA6EA9DB280"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:snow_golem"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.75d
+			y: 0.25d
+		}
+		{
+			id: "1670DF41AE7FA153"
+			tasks: [{
+				id: "2FDDABC24510D65A"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 12.75d
+		}
+		{
+			id: "58916D9ABDB5AB81"
+			tasks: [{
+				id: "4917B1E24C8B9EE7"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:squid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 9.0d
+		}
+		{
+			id: "7C4F3F41CC3250B3"
+			tasks: [{
+				id: "6B482E708F659D50"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/basalz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.75d
+		}
+		{
+			id: "350BC08D4F2EE848"
+			tasks: [{
+				id: "0532B9B5A917BF9E"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/blitz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.25d
+			y: 2.75d
+		}
+		{
+			id: "4B9BCD1B9E5E3B63"
+			tasks: [{
+				id: "4E7F18DD895679C9"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:thermal/blizz"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.25d
+		}
+		{
+			id: "6310C0D5931B2831"
+			tasks: [{
+				id: "5CB6F615E19DA424"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/alpha_yeti"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.75d
+		}
+		{
+			id: "494FE35831D55205"
+			tasks: [{
+				id: "646EF6D196616B3C"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/carminite_golem"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.25d
+			y: 4.0d
+		}
+		{
+			id: "51D73AFD02272DEA"
+			tasks: [{
+				id: "47A016A8EC5996F8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/death_tome"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			id: "109BB00457449363"
+			tasks: [{
+				id: "54C8FCFD406D9D65"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/deer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.75d
+			y: 1.5d
+		}
+		{
+			id: "4AEA4E7AB6CF5F93"
+			tasks: [{
+				id: "24AF3B828E8A36EA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/fire_beetle"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.25d
+			y: 0.25d
+		}
+		{
+			id: "7C1BDD1757C46785"
+			tasks: [{
+				id: "318D060D04C565E8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/giant"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.25d
+		}
+		{
+			id: "386CA06B6029C87E"
+			tasks: [{
+				id: "244857CF35C75303"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/goblin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "2E36198671B03AB2"
+			tasks: [{
+				id: "0C5CD15339418847"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/helmet_crab"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.25d
+			y: 1.5d
+		}
+		{
+			id: "1E7A4F542C5881D1"
+			tasks: [{
+				id: "4A0ABEF5181C53AF"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/hydra"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "784D6C7A43A53EDE"
+			tasks: [{
+				id: "5F6EB704D4AB57C3"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/kobold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.75d
+			y: 4.0d
+		}
+		{
+			id: "0895DBBE3A2F465D"
+			tasks: [{
+				id: "51DB0F9079131059"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/lich"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			id: "41EB1D12CEEB8181"
+			tasks: [{
+				id: "15737DC36F49CABE"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/minoshroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.75d
+			y: 2.25d
+		}
+		{
+			id: "294F80EC64E45FCE"
+			tasks: [{
+				id: "443D42E229AD135E"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/minotaur"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.25d
+		}
+		{
+			id: "5D0A606D60732F70"
+			tasks: [{
+				id: "74B12486FB86FCA8"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/naga"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 0.25d
+		}
+		{
+			id: "79195F9C31AC82A4"
+			tasks: [{
+				id: "78753FB8F6B42B07"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/raven"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			id: "2E4D24962340D604"
+			tasks: [{
+				id: "6B158240110A1BBB"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/redcap"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 4.0d
+		}
+		{
+			id: "4F7C62BD8C65F60E"
+			tasks: [{
+				id: "0A87BC56F1B2CF63"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/skeleton_druid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 2.75d
+		}
+		{
+			id: "2677A1D494C1D245"
+			tasks: [{
+				id: "6E45AD009E5D02CB"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/snow_queen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.75d
+		}
+		{
+			id: "12EB966C973F552C"
+			tasks: [{
+				id: "71BF10175196E40B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/stable_ice_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			id: "030F19CB6589624F"
+			tasks: [{
+				id: "55BA7F864BF05A23"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/towerwood_borer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.75d
+		}
+		{
+			id: "3E79BB7F023393AA"
+			tasks: [{
+				id: "212ECFBE58B6FA25"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/troll"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.25d
+		}
+		{
+			id: "48364A058BC668B6"
+			tasks: [{
+				id: "161E57890BE576F7"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/ur_ghast"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "5B9C52580DE74292"
+			tasks: [{
+				id: "6FA54700C5D8CBFA"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/winter_wolf"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "3098F45AB7BB853B"
+			tasks: [{
+				id: "5E9E5EE015D32749"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/wraith"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 7.75d
+		}
+		{
+			id: "5BB9D62D936465AC"
+			tasks: [{
+				id: "6BFBEFCD224DA226"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:twilightforest/yeti"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.75d
+		}
+		{
+			id: "29889075730D5EE8"
+			tasks: [{
+				id: "12DE8146E590437B"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:vindicator"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 12.75d
+		}
+		{
+			id: "36003D432DCA2C2F"
+			tasks: [{
+				id: "06C0AF45059A9074"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 2.75d
+		}
+		{
+			id: "39654DB14946D099"
+			tasks: [{
+				id: "21830BA0970DF70E"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:witch"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.75d
+		}
+		{
+			id: "3C3C47FFEDD2AFAC"
+			tasks: [{
+				id: "786873AC244DF1CB"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 4.0d
+		}
+		{
+			id: "160D22D381FB9701"
+			tasks: [{
+				id: "38A8D6AB70B1A6DE"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.75d
+		}
+		{
+			id: "7FE9B728DE7AFFE0"
+			tasks: [{
+				id: "296FA5662F117A67"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombified_piglin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+	title: "&6Hostile Neural Net"
+}

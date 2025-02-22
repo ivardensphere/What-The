@@ -1,0 +1,118 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "common_loot"
+		}
+	}
+	id: "191189798EAEEEDA"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "scguns:prush_gun"
+				tag: {
+					AmmoCount: 21
+					Damage: 0
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "mob_grinding_utils:spikes", weight: 3.0f }
+		{ count: 2, item: "pipez:advanced_upgrade", weight: 3.0f }
+		{ count: 8, item: "pipez:universal_pipe", random_bonus: 16, weight: 10.0f }
+		{ item: "productivebees:upgrade_time" }
+		{ item: "mekanism:advanced_tier_installer" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:basic_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "mekanismgenerators:wind_generator", weight: 5.0f }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "mekanism:jetpack" }
+		{ item: "hostilenetworks:sim_chamber" }
+		{ item: "hostilenetworks:loot_fabricator" }
+		{ item: "ironchest:iron_to_gold_chest_upgrade", weight: 2.0f }
+		{ item: "storagedrawers:void_upgrade", weight: 2.0f }
+		{ item: "ars_nouveau:glyph_accelerate" }
+		{ item: "ars_nouveau:glyph_aoe" }
+		{ item: "forbidden_arcanus:deorum_lantern" }
+		{ item: "ironchest:iron_chest", weight: 10.0f }
+		{ item: "ars_nouveau:glyph_explosion" }
+		{ item: "productivebees:upgrade_simulator" }
+		{ item: "ars_nouveau:glyph_extend_time" }
+		{ count: 3, item: "minecraft:diamond", random_bonus: 3, weight: 10.0f }
+		{ count: 8, item: "minecraft:iron_ingot", random_bonus: 8, weight: 20.0f }
+		{ count: 4, item: "minecraft:gold_ingot", random_bonus: 4, weight: 15.0f }
+		{ count: 16, item: "minecraft:lapis_lazuli", random_bonus: 8, weight: 20.0f }
+		{ item: "minecraft:iron_block", weight: 15.0f }
+		{ item: "minecraft:diamond_block", weight: 10.0f }
+		{ item: "minecraft:gold_block", weight: 12.0f }
+		{ item: "minecraft:redstone_block", weight: 20.0f }
+		{ item: "minecraft:emerald_block", weight: 10.0f }
+		{ count: 2, item: "minecraft:netherite_scrap", random_bonus: 2, weight: 5.0f }
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 4, item: "croptopia:toast", weight: 20.0f }
+		{ count: 4, item: "croptopia:buttered_toast", weight: 7.0f }
+		{ count: 4, item: "croptopia:toast_with_jam", weight: 5.0f }
+		{ item: "farmersdelight:hamburger", weight: 15.0f }
+		{ count: 8, item: "minecraft:redstone", random_bonus: 16, weight: 15.0f }
+		{ item: "minecraft:lava_bucket", weight: 5.0f }
+		{ item: "mekanismgenerators:wind_generator", weight: 10.0f }
+		{ item: "powah:solar_panel_basic", weight: 10.0f }
+		{ item: "powah:thermo_generator_basic", weight: 10.0f }
+		{ item: "mekanismgenerators:gas_burning_generator", weight: 5.0f }
+		{ item: "storagedrawers:compacting_drawers_2", weight: 10.0f }
+		{ item: "storagedrawers:controller", weight: 3.0f }
+		{ count: 4, item: "minecraft:ender_pearl", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "minecraft:ender_eye", random_bonus: 1, weight: 5.0f }
+		{ count: 4, item: "minecraft:quartz", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "ae2:silicon", random_bonus: 4, weight: 15.0f }
+		{ item: "botania:mana_pool" }
+		{ count: 2, item: "botania:manasteel_ingot", random_bonus: 2, weight: 10.0f }
+		{ count: 2, item: "botania:mana_diamond", random_bonus: 1, weight: 5.0f }
+		{ count: 2, item: "botania:mana_pearl", random_bonus: 1, weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:giant_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquaculture:neptunium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "storagedrawers:oak_full_drawers_1", random_bonus: 4, weight: 10.0f }
+		{ count: 2, item: "botanypots:terracotta_hopper_botany_pot", random_bonus: 2, weight: 10.0f }
+		{ item: "mysticalagriculture:imperium_essence", weight: 8.0f }
+		{ count: 2, item: "mysticalagriculture:tertium_essence" }
+		{ count: 2, item: "mysticalagriculture:prudentium_essence", random_bonus: 2, weight: 20.0f }
+		{ item: "minecraft:saddle", weight: 5.0f }
+		{ item: "minecraft:name_tag", weight: 5.0f }
+		{ item: "ironfurnaces:gold_furnace", weight: 3.0f }
+		{ item: "minecraft:wither_skeleton_skull", weight: 9.0f }
+	]
+	title: "&aUncommon Loot"
+}
