@@ -4,6 +4,8 @@ There are slated roughly 3000+ questlines to optionally do.
 
 MINIMUM requirements: 12g memory, Some sort of launcher like MultiMC or Prism, and patience.
 
+The pack is currently using Minecraft 1.20.1 with Java 17.0.8 x64bit and Forge 47.3.25.
+
 There is no ETA, no set modlist, and nothing tested serverwise. Things are being done in stages
 currently, we are at the "Adding, subtracting, setting up everything" phase. The pack runs 
 surprisingly well SSP but has not been tested SMP yet.
