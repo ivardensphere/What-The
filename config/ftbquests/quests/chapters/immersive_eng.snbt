@@ -4,6 +4,158 @@
 	filename: "immersive_eng"
 	group: "6CFDE535DE131F6B"
 	id: "0C6DAAC58B528A43"
+	images: [
+		{
+			click: "https://ftb.fandom.com/wiki/Diesel_Generator_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.03125d
+			y: 9.625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Refinery_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.78125d
+			y: 9.625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Fermenter_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.46875d
+			y: 9.625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Crusher_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.21875d
+			y: 9.625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Arc_Furnace_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 3.96875d
+			y: 9.625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Improved_Blast_Furnace"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 7.15625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Tank_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 19.03125d
+			y: 7.125d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Silo"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 19.03125d
+			y: 4.59375d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Bottling_Machine"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 9.0625d
+			y: 10.90625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Excavator_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5d
+			y: 12.125d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Industrial_Squeezer"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 6.5625d
+			y: 10.90625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Mixer_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.28125d
+			y: 10.875d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Metal_Press"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.0d
+			y: 10.90625d
+		}
+		{
+			click: "https://ftb.fandom.com/wiki/Lightning_Rod_(Immersive_Engineering)"
+			height: 0.5d
+			hover: ["More Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.59375d
+			y: 4.53125d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=BFJF9U7nHmE"
+			height: 0.5d
+			hover: ["Introduction"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 5.25d
+			y: -1.21875d
+		}
+	]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -50,7 +202,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0759223F2F7BE6DB"]
@@ -61,7 +213,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CD8E42B3FF9AAF3"]
@@ -78,7 +230,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["32C403BC808D3CB9"]
@@ -89,7 +241,7 @@
 				type: "item"
 			}]
 			x: 7.25d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["22E2CCF8A18D39FA"]
@@ -100,7 +252,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2CE0AF7BE64A55A6"]
@@ -120,7 +272,7 @@
 				type: "item"
 			}]
 			x: 9.75d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CD8E42B3FF9AAF3"]
@@ -141,8 +293,8 @@
 				item: "immersiveengineering:light_engineering"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 3.75d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6EE2D0179866C527"]
@@ -152,8 +304,8 @@
 				item: "immersiveengineering:heavy_engineering"
 				type: "item"
 			}]
-			x: 12.25d
-			y: 3.75d
+			x: 7.25d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1CD8E42B3FF9AAF3"]
@@ -667,6 +819,12 @@
 			y: 8.75d
 		}
 		{
+			dependencies: ["21E5EEE2C57DBAB3"]
+			description: [
+				"The Arc Furnace is a 5×5×5 multiblock machine used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor."
+				""
+				"For it to operate, the Arc Furnace needs power and three working Graphite Electrodes. Alloy recipes need additional additives. Most recipes create Slag as a byproduct."
+			]
 			id: "138736092D207490"
 			tasks: [
 				{
@@ -732,6 +890,1064 @@
 			title: "Arc Furnace"
 			x: 3.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["71F840D20F340C25"]
+			description: [
+				"The Crusher is a 3×5×3 multiblock used for crushing ores into grit, which is more efficient than normal smelting."
+				""
+				"The Crusher does not have a GUI. The machine accepts any form of Forge Energy (FE) or Redstone Flux (RF) through the top of the multiblock, through the interface."
+				""
+				"When an entity falls into the center pit, the machine adds it to its internal inventory (composed of 2048 stacks) and crushes it. Products drop out the front-bottom-center hatch, marked with an orange dot. If there is an inventory there (like a Chest), outputs land in that inventory."
+				""
+				"When a mob falls into the Crusher's hopper, it gets crushed, and the machine outputs its drops. If an ore falls in, it's crushed into two grits. If an ingot or gem falls in, it's crushed into a single grit. If an item that cannot be processed falls in, it stays loose in the machine's hopper."
+			]
+			id: "21E5EEE2C57DBAB3"
+			subtitle: "Craft the multiblock Crusher"
+			tasks: [
+				{
+					count: 10L
+					id: "0777F9107D26B113"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "43274842843CE5AD"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "70455685C01CFB64"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "15490D13D0A751E5"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					id: "0A20B589FDBDFCA0"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "The Crusher"
+			x: 4.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21E5EEE2C57DBAB3"]
+			description: [
+				"The Fermenter is a 3x3x3 multiblock structure used to make Ethanol."
+				""
+				"Putting a reactant in one of the left-hand slots will start the process. 6400 Redstone Flux (RF) is consumed per use. After about four seconds, the substance will be converted into Ethanol."
+				""
+				"Reactant         Ethanol Produced"
+				"----------     ---------------"
+				"Apple              80mb"
+				"Sugar Cane      80mb"
+				"Melon              80mb"
+				"Potato             80mb"
+				""
+				"RF can be received from the top and bottom central blocks, and Ethanol can output from the bottom-central block of each side. Since the Fermenter has 8 slots, it can perform up to 8 operations simultaneously."
+			]
+			id: "656A7E13562E252E"
+			subtitle: "Craft a multiblock Fermenter"
+			tasks: [
+				{
+					count: 6L
+					id: "295D97D7772A0FA8"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5604A3AA65B4E9DA"
+					item: { Count: 4, id: "minecraft:cauldron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "73C14C583CAC2F14"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6C57C931A1C205B1"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03EF552F93395CC9"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "6B3EB35060985C08"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Fermenter"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"656A7E13562E252E"
+				"4CD8CF47721EA707"
+			]
+			description: [
+				"The Refinery is a 3x5x3 multi-block used to make Biodiesel."
+				""
+				"The front-bottom-center block is used to output Biodiesel. The two side-bottom-center blocks are used to input Plant Oil and Ethanol. Redstone Flux (RF) is input from the back-center block, and the multi-block's processes can be halted via Redstone through the \"control panel\", the block with the red dot."
+				""
+				"Every tick, the Refinery consumes up to 8 mB of Plant Oil, 8 mB of Ethanol, and 80 Redstone Flux, while generating 16 mB of Biodiesel. It takes 3.125 seconds to make one bucket of Biodiesel. Put another way, the Refinery is able to produce two buckets of Biodiesel every 6.25 seconds. Since a bucket of Biodiesel burns for 6.25 seconds in a Diesel Generator, a Refinery operating at full capacity is able to sustain two Diesel Generators at once."
+			]
+			id: "2B41253602CCB362"
+			subtitle: "Craft a multiblock Refinery"
+			tasks: [
+				{
+					count: 16L
+					id: "1050BAA86E0629BB"
+					item: { Count: 16, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "717105AC6C7545EF"
+					item: { Count: 8, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "510AE478CA77809D"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "264A06E9260D97E8"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4942D40A05AD7788"
+					item: { Count: 2, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					id: "43296F58F10F0B40"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Refinery"
+			x: 7.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2B41253602CCB362"]
+			description: [
+				"The Diesel Generator is a 3×5×3 multiblock added by Immersive Engineering. It generates Immersive Flux (IF) or Redstone Flux (RF) by burning Biodiesel or other modded fuels."
+				""
+				""
+				"A running Diesel Generator makes a fair amount of noise. The Ear Defenders can selectively muffle its sound."
+				""
+				"The Diesel Generator does not have a GUI. Fuel needs to be piped in through the side ports near the front of the machine (indicated by blue dots). Power is exported through the three plugs on top, near the front of the machine (each with a small copper-colored dot). The generator can be halted by applying a Redstone signal to the \"control panel\" on the side of the machine (indicated by a red dot)."
+			]
+			id: "3214EA2B8654C46A"
+			subtitle: "Craft a multiblock Diesel Generator"
+			tasks: [
+				{
+					count: 13L
+					id: "7753EE1C536B4B9E"
+					item: { Count: 13, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "48F43633E759257D"
+					item: { Count: 9, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "272CE0E1387A0E14"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5677D98FFF112940"
+					item: { Count: 5, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "44A55D351C09442D"
+					item: { Count: 4, id: "immersiveengineering:generator" }
+					type: "item"
+				}
+				{
+					id: "1D125F6D06109EA9"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Diesel Generator"
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7B188051028C145C"]
+			description: [
+				"The Metal Press is a 3×1×3 multiblock machine added by Immersive Engineering. It stamps Plates, Rods, and Wires out of metal ingots."
+				""
+				"The piston's and the Conveyor Belts' direction matters. The piston should face downwards. The Conveyor Belts should both travel down the length or up the machine."
+				""
+				"The Metal Press has no GUI. Redstone Flux (RF) is inputted through the top block of the multiblock (where the Heavy Engineering Block was). Items are inputted and outputted through the built-in Conveyor Belt. An extra Conveyor Belt or Hopper should be built leading into the Metal Press for dropped items to properly go through the Press."
+				""
+				"The Metal Press requires a Mold in order to function. Right-clicking a Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer."
+			]
+			id: "18347292CD6BA060"
+			subtitle: "Crat a multiblock Metal Press"
+			tasks: [
+				{
+					count: 2L
+					id: "4D0A43E8E7D3D581"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "673CAF560EB03BA7"
+					item: { Count: 2, id: "immersiveengineering:rs_engineering" }
+					type: "item"
+				}
+				{
+					id: "1E2B77ADD7112DF8"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "7DEF7E8B4A3F763A"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5307AFE58ADD0C5E"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			title: "Metal Press"
+			x: 3.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["21E5EEE2C57DBAB3"]
+			description: [
+				"The Mixer is a multiblock structure. It accepts items, liquid, and energy, and produces new liquids from the result. For example, liquid concrete can be mixed from water, sand, gravel, and clay."
+				""
+				"The input and output locations on the finished multiblock are as follows:"
+				""
+				"-The fluid input/output blocks are the two Fluid Pipes exposed to the outside. The fluid output is to the right of the fluid input (when viewed head-on)."
+				""
+				"-The energy input block is the Light Engineering Block on the middle level that is directly above the Light Engineering Block on the lower level."
+				""
+				"-The item input block is the Iron Sheetmetal block on the middle level that is diametrically opposite an empty space."
+			]
+			id: "7B188051028C145C"
+			subtitle: "Craft a multiblock Mixer"
+			tasks: [
+				{
+					count: 3L
+					id: "0F83863B35034685"
+					item: { Count: 3, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A4448CE1CDDB67F"
+					item: { Count: 4, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D76B59AB8152877"
+					item: { Count: 4, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "72A157EFD5136B08"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "349D03F4B7A7EAEB"
+					item: { Count: 5, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "3DE5E39DF3E6114C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Mixer"
+			x: 4.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7B188051028C145C"]
+			description: [
+				"The Industrial Squeezer is a 3x3x3 multiblock used to make Plant Oil or HOP Graphite Dust."
+				""
+				"Putting a seed in one of the left-hand slots will start the process. 800 Redstone Flux (RF) is consumed per use. After 4 seconds, the seed will be converted to Plant Oil."
+				""
+				"Melon Seeds - 20 mB"
+				""
+				"Pumpkin Seeds - 40 mB"
+				""
+				"Beetroot Seeds - 60 mb"
+				""
+				"Seeds - 80 mB"
+				""
+				"Industrial Hemp Seeds - 120 mB"
+			]
+			id: "4CD8CF47721EA707"
+			subtitle: "Craft a multiblock Industrial Squeezer"
+			tasks: [
+				{
+					count: 6L
+					id: "5BC7C63A1497EBF2"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0BB149B9639E6F73"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4A72AFB58C67C846"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2494FBB5457B3CE6"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "68E6B2AAF8D27424"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "734DD0CEAC2C1A77"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "36E7CDA68C924253"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Industrial Squeezer"
+			x: 6.0d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7B188051028C145C"]
+			description: [
+				"The Core Sample Drill is a machine used to detect and analyze Mineral Deposits that can be extracted by an Excavator."
+				""
+				"The Core Sample Drill is placed as a single block but stands three blocks tall. The bottom block accepts Redstone Flux (RF) energy. The Core Sample Drill has no GUI. The Core Sample Drill takes 10 seconds by default to do its work (200 ticks, 8000 RF per use), which can be changed via the configuration file. When complete, it can be right-clicked to receive a Core Sample. The sample shows that how much water, lava or oil does this chunk have in mB, and what type of deposit the chunk has. It is possible that the chunk does not have any of the liquids or minerals."
+				""
+				"The Core Sample Drill only finds liquid reserviours if the modpack has Immersive Petroleum."
+				""
+				"Hovering over the Core Sample Drill will show the chunk boundaries that it scans, in orange."
+			]
+			id: "4EC8BC42EA7751F7"
+			subtitle: "Craft a Core Sample Drill"
+			tasks: [{
+				id: "32A0B8871D41A582"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4EC8BC42EA7751F7"]
+			description: [
+				"The Excavator is a 8×3×7 multiblock machine that mines into Mineral Deposits below bedrock."
+				""
+				"The first step is to locate an acceptable Mineral Deposit in the first place, using Mineral Survey Tools or a Core Sample Drill. There are a number of possible deposit types (detailed in the Mineral Deposit article)."
+				""
+				"The machine needs to be assembled in two parts: the Bucket Wheel and the Engine. The Bucket Wheel needs to be completely inside the chunk where the Mineral Deposit is."
+				""
+				"The machine accepts up to 4096 Flux/tick. While a single HV Connector is all that's needed for full power, having multiple power plugs means the machine can accept up to 3072 Flux/tick from a medium-voltage energy-net, if needed."
+				""
+				"Once any of the machine's plugs has power, the Bucket Wheel will begin to turn and mine. The Excavator may break a few blocks underneath it when it starts up, but once it has some space will not break anything else. All blocks are broken as if they were mined with Silk Touch."
+				""
+				"The Excavator has no GUI. Instead, it interfaces with the world directly."
+				""
+				"The machine accepts power through the three black plugs opposite the Bucket Wheel. Power can be in the form of Immersive Flux or Redstone Flux."
+				""
+				"Mining halts when the control panel receives a Redstone signal. The control panel is the block on the left-middle spot of the right side."
+				""
+				"Mined items fall out of the hatch opposite the Bucket Wheel. They can land directly inside an adjacent inventory, like a Storage Crate or a Conveyor Belt."
+			]
+			id: "092748B4E7BBAF82"
+			subtitle: "Craft a multiblock Excavator"
+			tasks: [
+				{
+					count: 26L
+					id: "25BE3BABC24D0FE1"
+					item: { Count: 26, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "460B6FC2387114FF"
+					item: { Count: 15, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2346C727C30CDB9B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					title: "Any #forge:storage_blocks/steel"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4BC16EBEE48EA7FF"
+					item: { Count: 9, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5DE4888C42A4BF68"
+					item: { Count: 5, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6048ED33230C9A74"
+					item: { Count: 3, id: "immersiveengineering:radiator" }
+					type: "item"
+				}
+				{
+					id: "781608CF204C7471"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "Excavator"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["28E62C7CF228A3F2"]
+			id: "5BF2D616D977F79B"
+			tasks: [{
+				id: "273A91EC435F5A8D"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["5BF2D616D977F79B"]
+			id: "713A1BF4388D6351"
+			tasks: [
+				{
+					id: "7CF7444B14359F3B"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+				{
+					id: "442709E0B0A361CD"
+					item: "immersiveengineering:mold_gear"
+					type: "item"
+				}
+				{
+					id: "2C7096EDEF57585B"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3214EA2B8654C46A"]
+			description: [
+				"The Bottling Machine is a 3x2x3 multi-block. It is used to fill liquid containers."
+				""
+				"The Bottling Machine has no GUI. Redstone Flux (RF) is supplied through the top-back-central block of the multi-block (where the Light Engineering Block was)."
+				""
+				"Fluids are added through the bottom-middle block of the backside. Items are added by dropping them on the Bottling Machine's Conveyor Belts. When a liquid storing item (such as a Bucket or Jerrycan) is introduced to the Bottling Machine, the Bottling Machine will fill and output it, consuming some RF."
+				""
+				"The Bottling Machine with fill each container with up to 32 buckets (32,000 mB) of fluid with each pass. If the container can hold more then 32,000 mB, or if the machine runs out of the liquid, it will be sent down partially full and may need to be sent back around by conveyor belts to be filled more."
+			]
+			id: "25E77C5422B84715"
+			subtitle: "Craft a multiblock Bottling Machine"
+			tasks: [
+				{
+					count: 3L
+					id: "0AC3D1A040E2F150"
+					item: { Count: 3, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6767D675A8EBBD8A"
+					item: { Count: 2, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+				{
+					id: "20C1B65D340CF416"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3845539F481A99A6"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "24002A42507BC183"
+					item: { Count: 3, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					id: "6AE0E1789EB33642"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+			]
+			title: "Bottling Machine"
+			x: 8.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["5BF2D616D977F79B"]
+			description: [
+				"The Charging Station is a block used to charge Redstone Flux (RF) and containers and tools."
+				""
+				"Energy (RF only) can be input through the bottom and back side of the block. Right-clicking the Charging Station with an energy container in hand will put the container inside the Charging Station, and right-clicking it again will remove that container. While inside, the Charging Station will transfer it's energy to the stored item, at a rate of 4000 RF/t. EU-using tools and batteries can be charged at a conversion rate of 4 RF to 1 EU (making the charging rate 1000 EU/t)."
+				""
+				"The Charging Station has Redstone Comparator support. When the item in the Charging Station is at least 1/15 full, the Redstone Comparator will output a Redstone strength of 1. When it is at least 2/15 full, a Redstone strength of 2, 3/15 fully, a strength of 3, and so on."
+			]
+			id: "3A17B832ABEBF8BF"
+			subtitle: "Craft a Charging Station"
+			tasks: [{
+				id: "5AC9DD747E6E1F83"
+				item: "immersiveengineering:charging_station"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A17B832ABEBF8BF"]
+			id: "524F2B0DF61605E3"
+			tasks: [{
+				id: "3948B5853025A8C8"
+				item: "immersiveengineering:electric_lantern"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A17B832ABEBF8BF"]
+			id: "36B178EDEBD0836D"
+			tasks: [{
+				id: "40C46DBA207364AD"
+				item: "immersiveengineering:lantern"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["3A17B832ABEBF8BF"]
+			id: "57B7454EECAF6CFB"
+			tasks: [{
+				id: "495C6FF33AEC9200"
+				item: "immersiveengineering:breaker_switch"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BF2D616D977F79B"]
+			id: "2D22A63375CE7376"
+			tasks: [
+				{
+					id: "15034204CB4FD4FB"
+					item: "immersiveengineering:component_iron"
+					type: "item"
+				}
+				{
+					id: "25EAF07C1CF9AE71"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D22A63375CE7376"]
+			id: "17E412E1E839A26A"
+			tasks: [{
+				id: "4CEB8CDE37B4C7DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:drill"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17E412E1E839A26A"]
+			id: "4872FC8BE13AEAE5"
+			tasks: [{
+				id: "79260789E8D38418"
+				item: "immersiveengineering:drillhead_steel"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D22A63375CE7376"]
+			id: "18C35B60C2F0BBE7"
+			tasks: [
+				{
+					id: "02972BEF3975EB73"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "immersiveengineering:buzzsaw"
+					}
+					type: "item"
+				}
+				{
+					id: "6809E2557E133B63"
+					item: {
+						Count: 1
+						id: "immersiveengineering:sawblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["18C35B60C2F0BBE7"]
+			id: "7C98E0F3208BBB80"
+			tasks: [
+				{
+					id: "6FC9DC248193F20E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:rockcutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF32B5467134D82"
+					item: {
+						Count: 1
+						id: "immersiveengineering:grindingdisk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D22A63375CE7376"]
+			id: "30FDD843D4F784B5"
+			tasks: [{
+				id: "47A06D79D525E853"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30FDD843D4F784B5"]
+			id: "028A7B853601B2E7"
+			tasks: [{
+				id: "6D03518D371848F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:chemthrower"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["028A7B853601B2E7"]
+			id: "447776D93DE88ECE"
+			tasks: [{
+				id: "2FDFCA1BF19AA408"
+				item: "immersiveengineering:turret_chem"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30FDD843D4F784B5"]
+			id: "556122E751CE9665"
+			tasks: [{
+				id: "3CBBD0C745BA98E3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["556122E751CE9665"]
+			id: "06CB91DF8DC6D933"
+			tasks: [{
+				id: "3AFCC4DDC9AD3C02"
+				item: "immersiveengineering:turret_gun"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BF2D616D977F79B"]
+			id: "60FA68614DF7270A"
+			tasks: [{
+				count: 3L
+				id: "17CA905A0897A43A"
+				item: { Count: 3, id: "immersiveengineering:electron_tube" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["60FA68614DF7270A"]
+			id: "68CC98E5A37EAE4A"
+			tasks: [{
+				id: "3D6CC2E516655080"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["60FA68614DF7270A"]
+			id: "597ED70E103771F0"
+			tasks: [{
+				id: "23B02649F57FB914"
+				item: "immersiveengineering:toolupgrade_revolver_electro"
+				type: "item"
+			}]
+			x: 14.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["597ED70E103771F0"]
+			id: "61B6AE3AEEEFE4F2"
+			tasks: [{
+				id: "01F9BA1C7289FF83"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61B6AE3AEEEFE4F2"]
+			id: "2F0143ACA8924EE1"
+			tasks: [{
+				count: 8L
+				id: "796E80C7D61D3847"
+				item: { Count: 8, id: "immersiveengineering:fluid_pipe" }
+				type: "item"
+			}]
+			x: 17.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["2F0143ACA8924EE1"]
+			id: "51FE521303F95133"
+			tasks: [{
+				id: "6A3E92B0E286B57F"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["51FE521303F95133"]
+			description: [
+				"The Silo is fairly simple to make. The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next five layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the seventh and final layer, a 3x3 solid layer of Iron Sheetmetal."
+				""
+				"This uses 4 Treated Wood Fences and 50 Iron Sheetmetal total."
+				""
+				"The Sheetmetal Silo will store 41,472 items (the size of 24 Chests). They, however, all must be the same item."
+				""
+				"Items can be piped into the top block, and removed through the bottom block. Removal of items requires a Redstone signal."
+				""
+				"The Silo will visually show the item being stored and it's amount on each side of the Silo."
+			]
+			id: "7FD7ABBEE5CE0970"
+			subtitle: "Craft a multiblock Silo"
+			tasks: [
+				{
+					count: 4L
+					id: "022CC050D1FA4F16"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "4AA4C6F3A17CD109"
+					item: { Count: 50, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+			]
+			title: "Silo"
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51FE521303F95133"]
+			description: [
+				"The Tank, previously called the Sheetmetal Tank, is a 3x3x5 multi-block used for storing liquids."
+				""
+				"The Sheetmetal Tank is fairly simple to make. The first layer contains one Iron Sheetmetal, with a Treated Wood Fence in each diagonal. The next three layers contain a 3x3 doughnut shaped Iron Sheetmetal platform, topped by the fifth and final layer, a 3x3 solid layer of Iron Sheetmetal."
+				""
+				"The Tank will store 512,000 mB (512 Buckets). Liquids can be piped into the top or bottom blocks. For liquid to be removed a redstone signal is required, additionally, a Fluid Pump (Immersive Engineering) can be used to speed up the output."
+				""
+				"The Tank will visually show the liquid being stored and its amount on each side of it."
+			]
+			id: "0C908E903E552F09"
+			subtitle: "Craft a multiblock Tank"
+			tasks: [
+				{
+					count: 4L
+					id: "2849055AC575D176"
+					item: { Count: 4, id: "immersiveengineering:treated_fence" }
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "1FDC41F5837D1432"
+					item: { Count: 34, id: "immersiveengineering:sheetmetal_iron" }
+					type: "item"
+				}
+			]
+			title: "Tank"
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "581EA568D375DF04"
+			tasks: [{
+				id: "6F6FE0ACB253C61B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Crafting Components"
+			x: -0.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "2F77675FC1F093E6"
+			tasks: [{
+				id: "584F347540DE1901"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bannerpatterns"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Banner Patterns"
+			x: -1.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "36E5B64787CA0AEC"
+			tasks: [{
+				id: "37EEC3A3AD7CA0AF"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Metal Press Molds"
+			x: -2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "5AC53F44126B0FE5"
+			tasks: [{
+				id: "03981612EDD5C146"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Arc Furnace"
+			x: -0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "5E1556E080C0398B"
+			tasks: [{
+				id: "59BC86FB2A07D53C"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bullet"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Common Projectiles"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "6FAC3394746D0A92"
+			tasks: [{
+				id: "72B94330353C95A8"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "specialBullet"
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint: Specialized Projectiles"
+			x: -2.75d
+			y: 0.0d
 		}
 	]
 	title: "&6Immersive Eng"
