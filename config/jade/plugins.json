@@ -144,6 +144,9 @@
     "ench": true,
     "spawner": true
   },
+  "lootr": {
+    "info": true
+  },
   "balm": {
     "jade": true
   },
