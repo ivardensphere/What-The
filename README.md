@@ -2,6 +2,9 @@ This is the github for the latest Ominous Dark pack, "What The?!" by Combi.
 This is an extremely LARGE pack with over 700 mods.
 There are slated roughly 3000+ questlines to optionally do.
 
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTdGdT3VAFor4tZokj31KwivBKLvPmB6mEBf7DwQnqTpPhIvahEeIw1gh153oh5Wf5mkj3jh3HDQQqd/pubhtml
+Current Modlist.
+
 MINIMUM requirements: 12g memory, Some sort of launcher like MultiMC or Prism, and patience.
 
 MultiMC: https://multimc.org/
