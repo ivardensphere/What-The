@@ -1949,6 +1949,81 @@
 			x: -2.75d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "3F5724E1B51D2522"
+			tasks: [{
+				count: 8L
+				id: "14E2C0A453727E35"
+				item: { Count: 8, id: "immersiveengineering:conveyor_basic" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "449DC7BBEC8C8D6F"
+			tasks: [{
+				id: "54A4B998775446E5"
+				item: "immersiveengineering:conveyor_dropper"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "243635151CF0BC2C"
+			tasks: [{
+				count: 3L
+				id: "2B98D1825BFB4277"
+				item: { Count: 3, id: "immersiveengineering:conveyor_splitter" }
+				type: "item"
+			}]
+			x: 14.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "7665ED40ADF638F7"
+			tasks: [{
+				count: 3L
+				id: "070A1AB016AD3AFC"
+				item: "immersiveengineering:conveyor_vertical"
+				type: "item"
+			}]
+			x: 12.25d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "2F0DD4F012F31FD6"
+			tasks: [{
+				id: "7C47B82D0F3B4FDE"
+				item: "immersiveengineering:conveyor_redstone"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2104E43D0BEBE190"]
+			hide_dependency_lines: true
+			id: "1CA8CEE01E730414"
+			tasks: [{
+				id: "5DEC6C0943E906A4"
+				item: "immersiveengineering:conveyor_extract"
+				type: "item"
+			}]
+			x: 14.75d
+			y: 12.5d
+		}
 	]
 	title: "&6Immersive Eng"
 }
