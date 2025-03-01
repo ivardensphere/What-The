@@ -1,5 +1,6 @@
 3/1/25
 -----------------------------
+Removed FunctionalStorage.
 Removed Hexerei and Hexerei Delight becasue of stability issues.
 Finalized the pack on Curseforge.
 Removed the chance a second seed would drop from Mystical Agriculture.
@@ -8,6 +9,8 @@ Added letsdocompat-forge-2.1.0.jar
 Added jadensnetherexpansiondelight-1.0.2-1.20.1.jar
 Added lootintegrations_integrated-1.3.jar
 Added pedestals-1.20.1-0.8.jar
+Added crescentlib-1.0.0.jar
+Added entangled-1.3.20-forge-mc1.20.4.jar
 Updated to adastradelight-1.1.2-1.20.1.jar
 Updated to Delightful-1.20.1-3.7.1.jar
 Updated to botaniadelight-1.0.3.6-1.20.1.jar
