@@ -56,10 +56,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "avaritia": {
-    "extreme_smithing": true,
-    "crafting_table": true,
-    "compressor": true
+  "entangled": {
+    "entangled_block_component": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -118,6 +116,7 @@
     "fridge": true,
     "oven": true,
     "sink": true,
+    "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
   },
