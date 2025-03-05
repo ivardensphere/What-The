@@ -84,5 +84,18 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": { }
+	"swapper": {
+       "galosphere:deepslate_silver_ore": "alltheores:deepslate_silver_ore",
+	   "galosphere:silver_ore": "alltheores:silver_ore",
+	   "create:zinc_ore": "alltheores:zinc_ore",
+	   "create:deepslate_zinc_ore": "alltheores:deepslate_zinc_ore",
+	   "occultism:silver_ore": "alltheores:silver_ore",
+	   "eidolon:lead_ore": "alltheores:lead_ore",
+	   "eidolon:deep_lead_ore": "alltheores:deepslate_lead_ore",
+	   "eidolon:silver_ore": "alltheores:silver_ore",
+	   "eidolon:deep_silver_ore": "alltheores:deepslate_silver_ore",
+	   "silentgems:silver_ore": "alltheores:silver_ore",
+	   "silentgems:deepslate_silver_ore": "alltheores:deepslate_silver_ore",
+	   "tfmg:lead_ore": "alltheores:lead_ore"
+	   }
 }
