@@ -25,7 +25,7 @@
 		#
 		# Spawn Pokecube's bee-like pokemon in The Bumblezone and from Honey Brood Blocks.
 		#
-		spawnPokecubeBeePokemon = true
+		spawnPokecubeBeePokemon = false
 		# 
 		#-----------------------------------------------------
 		#
@@ -33,7 +33,7 @@
 		# Protection of the Hive effect. Attacking these pokemon in bumblezone will
 		# give you Wrath of the Hive effect and swarmed of angry bees.
 		#
-		beePokemonGetsProtectionEffect = true
+		beePokemonGetsProtectionEffect = false
 		# 
 		#-----------------------------------------------------
 		#
@@ -41,7 +41,7 @@
 		# 0 is no PC's mobs and 1 is max PC's mobs.
 		#
 		#Range: 0.0 ~ 1.0
-		spawnrateOfPokecubeBeePokemon = 0.05
+		spawnrateOfPokecubeBeePokemon = 0.00
 
 	["Mod Compatibility Options"."Tropicraft Options"]
 		# 
@@ -50,7 +50,7 @@
 		# Spawn Tropicraft's Tropibee in The Bumblezone and from Honey Brood Blocks alongside
 		# regular bees at a spawnrateOfTropicraftBeesMobs chance when spawning regular bees.
 		#
-		spawnTropicraftBeesMob = true
+		spawnTropicraftBeesMob = false
 		# 
 		#-----------------------------------------------------
 		#
@@ -76,7 +76,7 @@
 		# and/or datapack the_bumblezone:resourcefulbees/spawnable_from_chunk_creation entity tag
 		# for more control of what kinds of bees spawns.
 		#
-		spawnResourcefulBeesBeesMob = true
+		spawnResourcefulBeesBeesMob = false
 		# 
 		#-----------------------------------------------------
 		#
@@ -223,7 +223,7 @@
 		#
 		# Allow Bee Bottle to turn Empty Honeycomb Brood blocks into a regular Honeycomb Brood Block with a larva inside! 
 		#
-		allowBeeBottleRevivingEmptyBroodBlock = true
+		allowBeeBottleRevivingEmptyBroodBlock = false
 
 	["Mod Compatibility Options"."Forbidden Arcanus Options"]
 		# 
@@ -257,7 +257,7 @@
 		#
 		# Adds Bumblezone items to Beekeeper mod's Beekeeper trades!
 		#
-		allowBeekeeperTradesCompat = true
+		allowBeekeeperTradesCompat = false
 
 	["Mod Compatibility Options"."Lootr Options"]
 		# 
