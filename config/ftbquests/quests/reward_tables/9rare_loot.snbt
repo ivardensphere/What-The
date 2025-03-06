@@ -1,0 +1,92 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:lootcrate"
+		tag: {
+			type: "common_loot"
+		}
+	}
+	id: "6C1F70B6D37D4745"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "productivebees:upgrade_productivity_2", weight: 2.0f }
+		{ item: "minecraft:dragon_egg" }
+		{ item: "minecraft:dragon_head" }
+		{
+			item: {
+				Count: 1
+				id: "aether:diamond_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:aqua_walker"
+				tag: {
+					abilities: {
+						walking: {
+							points: 0
+							stats: {
+								time: 59.54698d
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:forbidden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "enigmaticaddons:ichor_spear", weight: 2.0f }
+		{ item: "ironfurnaces:diamond_furnace", weight: 3.0f }
+		{ item: "ironfurnaces:emerald_furnace" }
+		{ item: "alltheores:enderium_ingot", random_bonus: 3, weight: 5.0f }
+		{ count: 8, item: "fluxnetworks:flux_dust", random_bonus: 16, weight: 10.0f }
+		{ item: "fluxnetworks:flux_block", weight: 3.0f }
+		{ count: 2, item: "fluxnetworks:flux_point", weight: 5.0f }
+		{ count: 2, item: "fluxnetworks:flux_plug", weight: 3.0f }
+		{ item: "fluxnetworks:herculean_flux_storage" }
+		{ count: 8, item: "mekanism:ultimate_universal_cable", random_bonus: 8, weight: 5.0f }
+		{ count: 4, item: "mekanism:ingot_refined_obsidian", random_bonus: 4, weight: 5.0f }
+		{ item: "minecraft:beacon", weight: 2.0f }
+		{ count: 2, item: "minecraft:nether_star" }
+		{ count: 2, item: "ars_nouveau:source_gem_block", random_bonus: 1, weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "mininggadgets:mininggadget_simple"
+				tag: {
+					battery_tier: 0
+					energy: 1000000
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mininggadgets:mininggadget_fancy"
+				tag: {
+					battery_tier: 0
+					energy: 1000000
+				}
+			}
+		}
+		{ item: "backpacked:backpack" }
+		{ item: "minecraft:netherite_block" }
+		{ item: "pipez:ultimate_upgrade" }
+		{ item: "mekanism:basic_fluid_tank", weight: 3.0f }
+	]
+	title: "&9Rare Loot"
+}

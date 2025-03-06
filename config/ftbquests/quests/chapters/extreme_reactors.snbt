@@ -1,0 +1,438 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "6CFDE535DE131F6B"
+	id: "049537637294BB00"
+	images: [{
+		height: 5.0d
+		image: "tnp:textures/other/reactors.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.25d
+		y: 8.75d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "75C134449C064831"
+			rewards: [{
+				id: "25F3FF21AC7517DE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 16L
+				id: "46B334E25DEC4073"
+				item: { Count: 16, id: "bigreactors:graphite_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75C134449C064831"]
+			hide_dependency_lines: true
+			id: "1F89F5B6B6B0E158"
+			tasks: [{
+				id: "092396EC92E4DFB9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/cyanite"
+					}
+				}
+				title: "Any #forge:ingots/cyanite"
+				type: "item"
+			}]
+			title: "Craft Cyanite"
+			x: -4.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F89F5B6B6B0E158"]
+			id: "20DC5386F806E2E9"
+			tasks: [{
+				id: "1AF39BD279563C54"
+				item: "bigreactors:basic_reactorfuelrod"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["20DC5386F806E2E9"]
+			id: "40E7F040E409277E"
+			tasks: [{
+				id: "5319EAB95B8AFEA1"
+				item: "bigreactors:reinforced_reactorfuelrod"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75C134449C064831"]
+			id: "4D2CA20E3E7520ED"
+			tasks: [{
+				id: "09867C0CC56CAF6E"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "1647F7396AA834E1"
+			tasks: [{
+				id: "1ED8DBC1DD5A13C9"
+				item: "bigreactors:energizercomputerport"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "10FEB6D972812F9B"
+			tasks: [{
+				id: "766F05E9163B1889"
+				item: "bigreactors:basic_reactorglass"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "3B6C09F9B6A5A87E"
+			tasks: [{
+				id: "155254D0C0771837"
+				item: "bigreactors:basic_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "28D8AE90E146733D"
+			tasks: [{
+				id: "1419C34D79851717"
+				item: "bigreactors:basic_reactorredstoneport"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "1FC82DFEC3415960"
+			tasks: [{
+				id: "4BEC571BD21A832D"
+				item: "bigreactors:basic_reactorpowertapfe_passive"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "660EE144E062A9E1"
+			tasks: [{
+				id: "3F4FF2794D396289"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4D2CA20E3E7520ED"]
+			id: "5D638FAED69CF88C"
+			tasks: [{
+				id: "5AD8AC91B57C66BC"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75C134449C064831"]
+			id: "7EA7E095F2FB5CE0"
+			tasks: [{
+				id: "5B56445E626E4CDA"
+				item: "bigreactors:reinforced_reactorcasing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "5A5BFD9F84DE3146"
+			tasks: [{
+				id: "490992E8C1F7114B"
+				item: "bigreactors:reinforced_reactorcomputerport"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "5F80166D4523F849"
+			tasks: [{
+				id: "7DDCAB00DAB494CF"
+				item: "bigreactors:reinforced_reactorglass"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "423B3278C3DF2754"
+			tasks: [{
+				id: "3B4D99700CAA4FDB"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "5303C99AFB176050"
+			tasks: [{
+				id: "49DBE67B3A01E284"
+				item: "bigreactors:reinforced_reactorredstoneport"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "2F89145F8F37FC3A"
+			tasks: [{
+				id: "7A3D80197FDE9760"
+				item: "bigreactors:reinforced_reactorpowertapfe_passive"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "37C5BB8885742385"
+			tasks: [{
+				id: "4E8BA33D47E98787"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7EA7E095F2FB5CE0"]
+			id: "518D2107815B50CE"
+			tasks: [{
+				id: "39A9B15C3C63902E"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75C134449C064831"]
+			id: "7CB3C1150274C05C"
+			tasks: [{
+				id: "533E102DC2D6B117"
+				item: "bigreactors:basic_turbinecasing"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "0AB0A4C21990E654"
+			tasks: [{
+				id: "37F2C1B61BDA5E4A"
+				item: "bigreactors:basic_turbinecontroller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "0AB9F5F8B3B1EB15"
+			tasks: [{
+				id: "1D27077FEFA146FB"
+				item: "bigreactors:basic_turbinepowertapfe_active"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "149771F87958BFF8"
+			tasks: [{
+				id: "28BB2C2893BDE3F0"
+				item: "bigreactors:basic_turbinefluidport_forge_active"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "234F9E0462D0EE72"
+			tasks: [{
+				id: "40DD72239A11E694"
+				item: "bigreactors:basic_turbineglass"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "7937F74D487F0BAA"
+			tasks: [{
+				id: "679BE145C8BF2BF2"
+				item: "bigreactors:basic_turbineredstoneport"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "42E4906582C20313"
+			tasks: [{
+				id: "7A94F251841828FF"
+				item: "bigreactors:basic_turbinerotorbearing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7CB3C1150274C05C"]
+			id: "58612E15EA942EF4"
+			tasks: [{
+				id: "2F58A90E71146B3A"
+				item: "bigreactors:basic_turbinechargingportfe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["75C134449C064831"]
+			id: "5086F9AAA58C9140"
+			tasks: [{
+				id: "141C720503BAA1F1"
+				item: "bigreactors:reinforced_turbinecasing"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "471AF3E35B06E1C4"
+			tasks: [{
+				id: "3EE00E5E3023F1F0"
+				item: "bigreactors:reinforced_turbinecontroller"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "79B3080A9B1C69BF"
+			tasks: [{
+				id: "08FFA27C78A4000B"
+				item: "bigreactors:reinforced_turbinepowertapfe_active"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "286ED00D4BB6D95B"
+			tasks: [{
+				id: "632B08F0A5F7606B"
+				item: "bigreactors:reinforced_turbineredstoneport"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "5569C0762C1CAB4E"
+			tasks: [{
+				id: "5C5631BB3AE1A961"
+				item: "bigreactors:reinforced_turbinerotorbearing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "649563C08AA350E1"
+			tasks: [{
+				id: "5AEAB7E51FB5738B"
+				item: "bigreactors:reinforced_turbinechargingportfe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "5CB33B543F6D2B01"
+			tasks: [{
+				id: "40951F0786EFB5FD"
+				item: "bigreactors:reinforced_turbineglass"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5086F9AAA58C9140"]
+			id: "12F9EC21DD7CD151"
+			tasks: [{
+				id: "09E0429F7B48460C"
+				item: "bigreactors:reinforced_turbinefluidport_forge_active"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.25d
+		}
+	]
+	title: "&6Extreme Reactors"
+}

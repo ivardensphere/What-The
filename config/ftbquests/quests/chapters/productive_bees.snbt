@@ -1,0 +1,2248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "6F1187A4D51268D1"
+	id: "52BECA0BF67A65A6"
+	images: [
+		{
+			click: "https://www.youtube.com/watch?v=2CdILcAxPxE"
+			height: 1.0d
+			hover: ["Youtube Help"]
+			image: "the_bumblezone:item/variant_bee_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.75d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "tnp:textures/other/bees.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.0d
+			y: 4.75d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &9Productive Bees&r!"
+				""
+				"To &o&bget started&r with the mod, you'll first need to find some &6Honeycombs&r and &eHoney Bottles&r! Find yourself a &2Beehive&r, and let the &o&bbees do their work&r for a little. Shearing it when it is full will give you &o&bhoneycombs&r, and &o&bglass bottles&r will give you &eHoney Bottles&r!"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+			id: "0C291644EE71F42E"
+			rewards: [{
+				id: "11010AC04BBA98FC"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Bee-Lieve It!"
+			tasks: [{
+				id: "2F2EC5095A2C16E4"
+				title: "Welcome To Productive Bees"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0C291644EE71F42E"]
+			description: [
+				"To get our &o&bown bee farm&r going, we'll have to find us some bees... and &o&bcapture them&r."
+				""
+				"&eRight-clicking&r a bee with this will capture it!"
+				""
+				"Adventuring can also net you some &6Sturdy Bee Cages&r, so keep an eye out! "
+			]
+			id: "1AFF30149DB3AFC3"
+			rewards: [{
+				id: "3E018A4C445E1779"
+				item: "productivebees:sturdy_bee_cage"
+				type: "item"
+			}]
+			subtitle: "Craft 4x Bee Cages"
+			tasks: [{
+				count: 4L
+				id: "7F6C0CE954F05067"
+				item: { Count: 4, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AFF30149DB3AFC3"]
+			id: "3246CF388D7B128E"
+			subtitle: "Craft a Nest Locator"
+			tasks: [{
+				id: "6D420C5344181EA6"
+				item: "productivebees:nest_locator"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AFF30149DB3AFC3"]
+			description: [
+				"With the vanilla &aBeehive&r, we'll use this to craft an &eAdvanced Beehive&r. It can be Oak or &o&bany kind of wood&r."
+				""
+				"&eBees&r will fly in and out of these, and drop off &6Honeycombs&r in the inventory. You can also insert glass bottles to get &9Honey Bottles&r."
+				""
+				"We'll need plenty of &6Honeycombs&r for treats!"
+			]
+			id: "58D18BAA5B43984C"
+			rewards: [{
+				id: "07C8746526B809AC"
+				item: "minecraft:honeycomb"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "526193B528CA75E8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hives"
+					}
+				}
+				title: "Any #forge:hives"
+				type: "item"
+			}]
+			title: "Capturing Bees"
+			x: -1.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["58D18BAA5B43984C"]
+			icon: "productivebees:advanced_oak_beehive"
+			id: "02C36AFC44D0F69A"
+			rewards: [{
+				id: "5178DB25381A8ED5"
+				item: "minecraft:honeycomb"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DC27A239B898478"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+				title: "Any #productivebees:advanced_beehives"
+				type: "item"
+			}]
+			title: "Craft an Advanced Beehive"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02C36AFC44D0F69A"]
+			description: [
+				"While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must."
+				""
+				"The &o&bCentrifuge&r is used to process &o&bHoneycombs&r into useful items, &nhoney&r, and &nwax&r."
+			]
+			id: "6DAF1876C178BF23"
+			rewards: [{
+				count: 2
+				id: "790DBAE098FFD273"
+				item: "minecraft:honeycomb"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Craft a Powered Centrifuge"
+			tasks: [{
+				id: "32E3D60D51E25187"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02C36AFC44D0F69A"]
+			description: ["&2Expansion Boxes&r are placed on top of your &dAdvanced Beehives&r to increase the amount of bees that can be in the hive to a total of &o&b5&r slots."]
+			icon: "productivebees:expansion_box_oak"
+			id: "7AE6A891767DBE1E"
+			rewards: [{
+				count: 2
+				id: "43F5E94E7984CA63"
+				item: "minecraft:honeycomb"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "More Beeeees!"
+			tasks: [{
+				id: "26FD92686259B361"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+				title: "Any #productivebees:expansion_boxes"
+				type: "item"
+			}]
+			title: "Expansion Box"
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02C36AFC44D0F69A"]
+			id: "626F3EEE217AC939"
+			rewards: [{
+				id: "58AFF5EA8D62356E"
+				item: "minecraft:honeycomb"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Craft a Honey Treat"
+			tasks: [{
+				id: "3EBF79D3502470E5"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["626F3EEE217AC939"]
+			description: [
+				"Aside from &o&bluring bees&r in with nests, most bees require either &2Breeding&r or &9Conversion&r to bee created."
+				""
+				"&eBee Breeding&r requires &o&b2&r &eBees&r and specific items &o&bfed&r to them to cause them to &o&bmate&r. "
+				""
+				"&9Bee Conversion&r requires you to &o&bfeed a bee&r a specific item to &o&bconvert&r it into &na new bee&r."
+			]
+			id: "4DF38FA045F037DD"
+			shape: "rsquare"
+			tasks: [{
+				id: "4FA9B16FCE8C771A"
+				title: "Breeding And More!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			description: [
+				"If you want to turn your &2Bee Farm&r into a &o&bfactory for resources&r, you'll need to start by spawning in &6Bees&r with &dNests&r."
+				""
+				"The nests must be placed in &nspecific biomes&r, which you can find in the &o&bJEI&r for it (look for the &o&bI&r icon at the top)."
+				""
+				"To &o&blure in&r a bee to the nest, &eRight-click&r on it with a &dHoney Treat&r. Nests &nwill not&r work &nwithout the treats&r!!!"
+				""
+				"&o&bCertain bees&r will only live in &2Nests&r and will not go into &aAdvanced Hives&r. If they don't produce a &o&bhoneycomb&r, they need &o&bto live in a nest instead&r."
+			]
+			id: "64462A0B4863D582"
+			shape: "rsquare"
+			tasks: [{
+				id: "7E52EA7D2F65526D"
+				title: "Nest Spawning"
+				type: "checkmark"
+			}]
+			x: -4.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			description: [
+				"The &o&bfollowing part of the questline outlines&r which &6Bees&r you'll need to move forward."
+				""
+				"Make sure to check &o&bJEI&r and the &2Big Book of Bees&r for more info!"
+			]
+			id: "78964D3EECD67078"
+			shape: "rsquare"
+			tasks: [{
+				id: "4467E49C70E5B424"
+				title: "Starting the Line"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: [
+				"The &eDirt Nest&r can be placed in any &nOverworld biome&r to lure in bees."
+				""
+				"It can lure the &7Ashy Mining Bee&r, &8Chocolate Mining Bee&r, and the &aLeafcutter Bee&r."
+			]
+			id: "7A98C200ABAA079D"
+			subtitle: "Any Overworld Biome"
+			tasks: [{
+				id: "1E6035BD621BE4D7"
+				item: "productivebees:coarse_dirt_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2Wood Nests&r are used to lure &aCarpenter Bees&r and the &9Blue Banded Bee&r."
+				""
+				"&3Dark Oak Nests&r lures &o&b3&r different bees."
+				""
+				"These can be placed in any &nOverworld biome&r."
+			]
+			icon: "productivebees:oak_wood_nest"
+			id: "72D52F27DFC87392"
+			subtitle: "Can be used in any Overworld biome"
+			tasks: [
+				{
+					id: "07ADCE8EAD243A4E"
+					item: "productivebees:oak_wood_nest"
+					type: "item"
+				}
+				{
+					id: "30D9A1D5C23F9110"
+					item: "productivebees:spruce_wood_nest"
+					type: "item"
+				}
+				{
+					id: "1915180C3CC4848F"
+					item: "productivebees:dark_oak_wood_nest"
+					type: "item"
+				}
+				{
+					id: "77092A58C0E2FF7D"
+					item: "productivebees:birch_wood_nest"
+					type: "item"
+				}
+				{
+					id: "0F2FC88DFAABDB0A"
+					item: "productivebees:jungle_wood_nest"
+					type: "item"
+				}
+				{
+					id: "5BBE9EB1719B4FD4"
+					item: "productivebees:acacia_wood_nest"
+					type: "item"
+				}
+				{
+					id: "409E5289E3EE26C3"
+					item: "productivebees:cherry_wood_nest"
+					type: "item"
+				}
+				{
+					id: "5E657517E274C65C"
+					item: "productivebees:mangrove_wood_nest"
+					type: "item"
+				}
+			]
+			title: "Wood Nest"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["The &3Stone Nest&r can be placed in any &nOverworld biome&r to lure in a &7Mason Bee&r or &eDigger Bee&r."]
+			id: "040B71594A3047B4"
+			subtitle: "Lures Bees in any Overworld Biome"
+			tasks: [{
+				id: "48C48F25DFE70A00"
+				item: "productivebees:stone_nest"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["When placed in a &nSwamp biome&r, the &2Slimy Nest&r will lure in &aSlimy Bees&r."]
+			hide_dependency_lines: true
+			id: "569E06648B92334E"
+			subtitle: "Lures in a Slimy Bee in a Swamp Biome"
+			tasks: [{
+				id: "0FF42F9F6C9E0649"
+				item: "productivebees:slimy_nest"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["When placed in a &nDesert biome&r, the &eSand Nest&r will attract either the &8Chocolate&r or &7Ashy Mining Bee&r."]
+			hide_dependency_lines: true
+			id: "7322A128241C705F"
+			subtitle: "Lures bees in Desert Biomes"
+			tasks: [{
+				id: "0B7399D6DB12972C"
+				item: "productivebees:sand_nest"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["Placing a &bSnow Nest&r in a &nSnowy biome&r will lure in a &cSweat Bee&r."]
+			hide_dependency_lines: true
+			id: "2156FC8C39FAF019"
+			subtitle: "Lures the Sweat Bee in Cold Biomes"
+			tasks: [{
+				id: "71EB3E5D79AACF98"
+				item: "productivebees:snow_nest"
+				type: "item"
+			}]
+			x: -7.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: [
+				"The &3Gravel Nest&r will lure bees in either a &nRiver biome&r or &nBeach biome&r."
+				""
+				"It lures in the &7Ashy Mining Bee&r, &8Chocolate Mining Bee&r, and the &eDigger Bee&r"
+			]
+			hide_dependency_lines: true
+			id: "23381DAB92EC363A"
+			subtitle: "Lures in bees in River and Beach Biomes"
+			tasks: [{
+				id: "454E9FE15627364F"
+				item: "productivebees:gravel_nest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["A &eReed Nest&r will work in any &nOverworld biome&r, and will lure in a &3Mason Bee&r or a &2Reed Bee&r."]
+			hide_dependency_lines: true
+			id: "22F97E2085CA4DA1"
+			tasks: [{
+				id: "017DB0A071BA0971"
+				item: "productivebees:sugar_cane_nest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["When placed in the &cNether&r, the &eGlowstone Nest&r will lure in a &eGlowing Bee&r."]
+			hide_dependency_lines: true
+			id: "72C3ADB4C54CCDF0"
+			subtitle: "Lures a Glowing Bee in the Nether"
+			tasks: [{
+				id: "4BBB9F0EC9586DCD"
+				item: "productivebees:glowstone_nest"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["Placing the &4Nether Brick Nest&r in the &cNether&r will lure in a &6Magmatic Bee&r."]
+			hide_dependency_lines: true
+			id: "066AB62C32936A44"
+			subtitle: "Lures in a Magmatic Bee when placed in the Nether"
+			tasks: [{
+				id: "6415BFF4403AD21F"
+				item: "productivebees:nether_brick_nest"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: [
+				"This nest attracts &bCrystalline Bees&r."
+				""
+				"The easiest way to get a quartz block is by mining it with a &dSilk Touch&r pick."
+				""
+				"&6Brass&r has the &dSilk Touch&r trait when making a &n&bSilent Gear Tool&r."
+			]
+			hide_dependency_lines: true
+			id: "25AC1AA0492D0A69"
+			subtitle: "Lures in Crystalline Bees in the Nether"
+			tasks: [{
+				id: "69B40ADEFDD254A0"
+				item: "productivebees:nether_quartz_nest"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			hide_dependency_lines: true
+			id: "38F86C1190C659E9"
+			subtitle: "Lures in Ghostly Bees when placed in the Nether"
+			tasks: [{
+				id: "66851AB4FDDBB792"
+				item: "productivebees:soul_sand_nest"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			hide_dependency_lines: true
+			id: "18FE448E7532FD25"
+			subtitle: "Lures a Gold Bee when placed in the Nether"
+			tasks: [{
+				id: "796B1FA01DBD7742"
+				item: "productivebees:nether_gold_nest"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "6FFB612F9E07D1F8"
+			subtitle: "Lures in Ender Bees when placed in the End"
+			tasks: [{
+				id: "28E01436D64549C0"
+				item: "productivebees:end_stone_nest"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64462A0B4863D582"]
+			description: ["The &5Obsidian Nest&r will lure in &0Draconic Bees&r when placed in the &dEnd&r."]
+			hide_dependency_lines: true
+			id: "754C3F80B30948F8"
+			subtitle: "Lures a Draconic Bee in the End"
+			tasks: [{
+				id: "427AFD0198F2641B"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78964D3EECD67078"]
+			id: "2C298FE613DBC48F"
+			tasks: [{
+				id: "721399537D5A07A2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["78964D3EECD67078"]
+			id: "6B3DA090136B3D2F"
+			tasks: [{
+				id: "6100A02A165D5E8D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:glowing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B3DA090136B3D2F"]
+			id: "2C47B6AB69F8E96A"
+			tasks: [{
+				id: "11B4B1F961D3DA22"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C298FE613DBC48F"]
+			id: "4A3BB6921226D5F5"
+			tasks: [{
+				id: "3035F1E6EA5070B8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C47B6AB69F8E96A"]
+			id: "78ED9E1D1481640C"
+			tasks: [{
+				id: "696DD2D1C1102014"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"78ED9E1D1481640C"
+				"4A3BB6921226D5F5"
+				"78AE7EBF4654390E"
+			]
+			id: "308BAB776FA6EBB6"
+			tasks: [{
+				id: "3D9E02718B3E75B5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78964D3EECD67078"]
+			hide_dependency_lines: true
+			id: "78AE7EBF4654390E"
+			tasks: [{
+				id: "63DCBE5F5760D38F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3212FABEF9D90BFA"]
+			id: "3515FBEDE3BBF88E"
+			tasks: [{
+				id: "37BDF50E0FF242E3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["308BAB776FA6EBB6"]
+			id: "3212FABEF9D90BFA"
+			tasks: [{
+				id: "6409148C281CD193"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["78964D3EECD67078"]
+			hide_dependency_lines: true
+			id: "03B1523293C53320"
+			tasks: [{
+				id: "3D02E106D234617E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["03B1523293C53320"]
+			id: "38185353EA9734D1"
+			tasks: [{
+				id: "1D243BB6F5D65ECF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0C291644EE71F42E"]
+			description: [
+				"Wanna put a &eBee&r into a &3Jar&r to show it off?"
+				""
+				"Place a &dBee Jar&r down and use a &npipe&r or &nhopper&r to insert the &o&bcaged bee&r into the jar."
+			]
+			hide_dependency_lines: true
+			id: "5CE6842854B8B345"
+			shape: "rsquare"
+			subtitle: "Showing Off Bees"
+			tasks: [{
+				id: "4AFC8E0625EEFCF3"
+				item: "productivebees:jar_oak"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CE6842854B8B345"]
+			description: [
+				"This can be used to &o&bspeed up&r the growth rate of &o&bbaby bees&r, or to create new &o&bspawn eggs&r."
+				""
+				"Place a caged baby bee with &o&b20&r &dHoney Treats&r to turn it &o&binto an adult&r."
+				""
+				"To &o&bcreate spawn eggs&r, you'll need to combine the &o&bgene of the bee&r you want with a &ehoney treat&r, then use that honey treat in this machine with an egg to create &o&bthe new spawn egg&r."
+				""
+				"&6Genes&r can be &o&bcombined&r for a &nmaximum&r of &o&b100%&r purity, which will give you a &o&b100%&r chance to &o&bconvert&r an egg to a &o&bbee spawn egg&r."
+			]
+			id: "2329FDE75ED8FDBB"
+			subtitle: "Baby Bee Daycare"
+			tasks: [{
+				id: "6175FDDAF69BB468"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CE6842854B8B345"]
+			description: [
+				"Used to &o&bcatch bees&r that are flying around it."
+				""
+				"You can use a &aFilter Upgrade&r to &o&bfilter out which bees&r you want to catch, as well as a &9BaBee Upgrade&r to only catch &nbaby bees&r."
+			]
+			id: "0AB9A38F4EE9C1DC"
+			subtitle: "Catches Bees"
+			tasks: [{
+				id: "425AF501CE17BA7A"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5CE6842854B8B345"]
+			description: [
+				"The &9Bottler&r has two uses: &o&bBottling honey&r and &o&bsqushing bees&r for &ngenes&r."
+				""
+				"To get &o&bgenes&r from bees, place a &o&bpiston&r above the &9Bottler&r with a block of space between them."
+				""
+				"Place the &o&bbee&r on top of the &9Bottler&r, and &o&bactivate the piston&r to squish the bee into genes. The &o&bresulting squished bottle&r can be then placed in a &eCentrifuge&r."
+			]
+			id: "77278968105DBC7F"
+			subtitle: "Honey I Squished The Bees"
+			tasks: [{
+				id: "3140598DE60E68ED"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CE6842854B8B345"]
+			description: [
+				"When &o&bcollecting genes&r, you'll get a percentage of a &ntrait&r."
+				""
+				"You can &o&bcombine&r them in a crafting table to &o&badd them together&r, or place them in a &6Gene Indexer&r to &o&bauto-combine&r."
+			]
+			id: "3C46ADEB9EDE6736"
+			subtitle: "The Gene Combiner and Chest"
+			tasks: [{
+				id: "6A84003A7606E461"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			description: ["The &aUpgrade Base&r is used to craft the various &bUpgrades&r in &2Productive Bees&r."]
+			hide_dependency_lines: true
+			id: "63A7E2B92FAAA612"
+			shape: "rsquare"
+			tasks: [{
+				id: "299434EBB2CF6345"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "277308EAD5333FE7"
+			tasks: [{
+				id: "5F71256DC822E51C"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "37DF7CAEE7C2B702"
+			tasks: [{
+				id: "577544AF834C3331"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "2F24C7C7E7794A10"
+			tasks: [{
+				id: "315D5394EFEEAC49"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "7F8AF79A5D2023FE"
+			tasks: [{
+				id: "07DA5FACF30CE341"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "55D49D1164CCBFC5"
+			tasks: [{
+				id: "3FB25395F1C70F39"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "04024F830AE4E36A"
+			tasks: [{
+				id: "32B008D48AC61CDC"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "489FF697B9608645"
+			tasks: [{
+				id: "4DC2E46A10F6A629"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["63A7E2B92FAAA612"]
+			id: "64C5EE2E1D4558C1"
+			tasks: [{
+				id: "17CEF16336FAF32D"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "3DE0D4A44DAB0824"
+			tasks: [{
+				id: "3F5FD42EB7703CA7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "10951D572ACDBBEA"
+			tasks: [{
+				id: "475A49BFD79FBFD6"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "4CB07958D075AD30"
+			tasks: [{
+				id: "297D7C9DD25D5F7A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6577112393B39387"
+			tasks: [{
+				id: "0BF38A7BA8E4CDFF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "1C84174719119710"
+			tasks: [{
+				id: "6E78E07593B5FCFD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:platinum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "424EA3F744755D00"
+			tasks: [{
+				id: "7C2A208439B269CF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "55B395E36538974D"
+			tasks: [{
+				id: "52096A0F21F403D0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6F055BC7EC900A35"
+			tasks: [{
+				id: "42AC1F65FA395125"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "1FD06D563F82BE5E"
+			tasks: [{
+				id: "4E0CFAFA4B3E8C27"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "1D26CA4714D0D73E"
+			tasks: [{
+				id: "40BCA5E37AFA3523"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nickel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "25714D2D520E6FBC"
+			tasks: [{
+				id: "4761A34FFDF33F39"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6020BD5E05197717"
+			tasks: [{
+				id: "5B329B71EB0EB5B3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "0FF673D45AEA07F9"
+			tasks: [{
+				id: "22DD40F87922507F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "67A1B158F7C52E21"
+			tasks: [{
+				id: "16A2450CEF5502C8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "45DB5AC8C66E0D7F"
+			tasks: [{
+				id: "74A92EF6C758CCA2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "46CE6378B7D4209F"
+			tasks: [{
+				id: "628FD5D74FAB6B1C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lumium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "7FF23A517ADC1F75"
+			tasks: [{
+				id: "21FCB58E7868A1F3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:invar"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "3B5A838CEB7614C6"
+			tasks: [{
+				id: "4CB0296866714EEB"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "2B90883D2F9CBC36"
+			tasks: [{
+				id: "674A07585B17D858"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "443E0AEED416CB7E"
+			tasks: [{
+				id: "6E1EADE505C21CFA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "32B7AF04ECD936AD"
+			tasks: [{
+				id: "23F57CB9830D2AA7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_glowstone"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "489531F599F2A7A6"
+			tasks: [{
+				id: "5CD8DAC0A6B4650D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "1F46F5B284420E3E"
+			tasks: [{
+				id: "79EC70FABA3C3F5F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6A73B02AD359355C"
+			tasks: [{
+				id: "4CC5161980A8F10E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "4B7570915D83EB6C"
+			tasks: [{
+				id: "02AF97F6CF8D2D05"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "7F9BCFD35217D593"
+			tasks: [{
+				id: "68F1244989760DB6"
+				item: "productivebees:honeycomb_milky"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:astral"
+					}
+				}
+			}
+			id: "1337D0FF32B25E45"
+			subtitle: "Lapis + Skeletal"
+			tasks: [{
+				id: "1BB121F0C4F2FDF2"
+				title: "Dye Bee"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6E4702813A87F0BD"
+			tasks: [{
+				id: "4DC75697B386103E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "0CABEA0723BBCDF6"
+			tasks: [{
+				id: "78D93FF3A67E38B7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:neon"
+					}
+				}
+			}
+			id: "61C482C428FDE935"
+			subtitle: "Farmer + Rancher"
+			tasks: [{
+				id: "5DBD434950769628"
+				title: "CuBee"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:chlorine"
+					}
+				}
+			}
+			id: "51CFD796C4DAFC1F"
+			subtitle: "Lumber + Rancher"
+			tasks: [{
+				id: "3E78FECFDEB71483"
+				title: "Farmer Bee"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "51D15E83319138CC"
+			tasks: [{
+				id: "1617F9BB2FF854CE"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "288121DE6FDE6FF8"
+			tasks: [{
+				id: "287BCD62E672E65B"
+				item: "productivebees:honeycomb_powdery"
+				type: "item"
+			}]
+			x: -11.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "2C770F1035F64FD0"
+			tasks: [{
+				id: "4169144B71BD77F9"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:amethyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "1D3D749A50C01FF1"
+			tasks: [{
+				id: "301588EB3688FBB5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brown_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "07B1734A8DEC5B11"
+			tasks: [{
+				id: "3166C53E848A95AF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:warped"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "59CD74CDB07C12D8"
+			tasks: [{
+				id: "38EE7CE13B3A9807"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:peridot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "70DBEBD22EEBF3C9"
+			tasks: [{
+				id: "24E7CDF8103619A0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluorite"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "4DBC56319F637763"
+			tasks: [{
+				id: "18181EF1BF45B901"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crimson"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "33583ED418988062"
+			tasks: [{
+				id: "2826478FD502223E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:soulium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "10DB4D7441EF5C98"
+			tasks: [{
+				id: "5AB169E5B0DD181B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "17A6F8D223E4777A"
+			tasks: [{
+				id: "19901C4DC1257CEC"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ruby"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "4E528BC79F3390BD"
+			tasks: [{
+				id: "300202A5EC4B85E4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sapphire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "5FE75BC4DA742CF7"
+			tasks: [{
+				id: "0441DD8A11C01295"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:red_shroom"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:fermium"
+					}
+				}
+			}
+			id: "2C5F0CD5DBEB8F0C"
+			subtitle: "Feed a Collector Bee a Shulker Shell!"
+			tasks: [{
+				id: "437714A09F840AB5"
+				title: "Hoarder Bee"
+				type: "checkmark"
+			}]
+			x: -11.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:moldavite"
+					}
+				}
+			}
+			id: "1479C50E6E4EAF15"
+			subtitle: "Feed a Vanilla Bee a Hopper!"
+			tasks: [{
+				id: "3E7AEDCC11D6ABDC"
+				title: "Collector Bee"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "0B431C1BD0209745"
+			tasks: [{
+				id: "2DC3BC0023215AD3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "309B9D77BC8A97A3"
+			tasks: [{
+				id: "1559D54C50EFB70B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pewter"
+					}
+				}
+			}
+			id: "07713A0AD8A3E16C"
+			subtitle: "Spawned using a Gravel or Stone Nest"
+			tasks: [{
+				id: "3000763C4AB79CAF"
+				title: "Digger Bee"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "6E18403F0B9931E7"
+			tasks: [{
+				id: "3E25C4673D9B41C0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:soulsteel"
+					}
+				}
+			}
+			id: "2F4C7B0094EAA1BD"
+			subtitle: "Chocolate Mining Bee"
+			tasks: [{
+				id: "45EAD7587281AA1D"
+				title: "Chocolate Mining Bee"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			description: ["The &3Ashy Mining Bee&r is spawned from a &o&bDirt&r, &o&bGravel&r, or &o&bSand Nest&r."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:germanium"
+					}
+				}
+			}
+			id: "7F1823B74610C41A"
+			subtitle: "Spawns from a Dirt Nest"
+			tasks: [{
+				id: "18E23E315285283C"
+				title: "Ashy Mining Bee"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:shellite"
+					}
+				}
+			}
+			id: "483832F24E299D3F"
+			subtitle: "Spawned using a Stone Nest"
+			tasks: [{
+				id: "5A4DE91A9FE5C8CD"
+				title: "Mason Bee"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:terrasteel"
+					}
+				}
+			}
+			id: "633923B61F1DAAD7"
+			subtitle: "Spawns from a Dirt Nest"
+			tasks: [{
+				id: "0C63F0E49E56787A"
+				title: "Leafcutter Bee"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:cheese"
+					}
+				}
+			}
+			id: "2A8E82592D1233E1"
+			subtitle: "Spawns from a Snow Nest"
+			tasks: [{
+				id: "2B97316AE9579D4F"
+				title: "Sweat Bee"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:kyanite"
+					}
+				}
+			}
+			id: "4DC50D0E492A5D62"
+			subtitle: "Spawned using a Wood Nest"
+			tasks: [{
+				id: "186A4728BF002902"
+				title: "Blue Banded Bee"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:hassium"
+					}
+				}
+			}
+			id: "37BC2485C9681E93"
+			subtitle: "Spawns from most Wood Nests"
+			tasks: [{
+				id: "1F791BF8BEB12056"
+				title: "Yellow Carpenter Bee"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			description: [
+				"Want to fly on a bee?"
+				""
+				"&6Bumble Bees&r naturally spawn in the world, and they &o&bcan be used as mounts&r!"
+				""
+				"Make yourself a &6Treat on a Stick&r, slap a saddle on a &6Bumble Bee&r, and take to the skies!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blazing_crystal"
+					}
+				}
+			}
+			id: "738C0A8557493934"
+			subtitle: "Spawns in the Overworld from Bumble Bee Nests"
+			tasks: [
+				{
+					id: "403F311537C3B4B5"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "4085101871B2A2F8"
+					item: {
+						Count: 1
+						id: "productivebees:treat_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:beryllium"
+					}
+				}
+			}
+			id: "40AD53A93A089B06"
+			subtitle: "Spawns from a Reed Nest"
+			tasks: [{
+				id: "3BBEDED1C52286AA"
+				title: "Reed Bee"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "798BFFB02DA73845"
+			tasks: [{
+				id: "0CA66F22B5897183"
+				item: "productivebees:sugarbag_honeycomb"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			id: "49E2210BD9034294"
+			tasks: [{
+				id: "7550D1979C156F32"
+				item: "productivebees:honeycomb_ghostly"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:rutherfordium"
+					}
+				}
+			}
+			id: "6F947B4757F3F553"
+			subtitle: "Spawns in a nest that has an Ashy Mining Bee"
+			tasks: [{
+				id: "32D21D9874879164"
+				title: "Nomad Bee"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4DF38FA045F037DD"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "productivebees:configurable_honeycomb"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blizz"
+					}
+				}
+			}
+			id: "5039E3E726B93622"
+			subtitle: "Spawns in a nest that has a Blue Banded Bee"
+			tasks: [{
+				id: "51D2F199A9AC1B92"
+				title: "Neon Cuckoo Bee"
+				type: "checkmark"
+			}]
+			x: 7.75d
+			y: 10.5d
+		}
+	]
+	title: "&2Productive Bees"
+}

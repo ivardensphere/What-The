@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "solar_flux"
+	group: "6CFDE535DE131F6B"
+	id: "1A5724D817E4F30E"
+	images: [{
+		height: 1.0d
+		image: "tnp:textures/other/solar.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -0.75d
+	}]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			id: "084978D13E544885"
+			rewards: [{
+				id: "352B5B042738A8BD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Craft a Mirror"
+			tasks: [{
+				id: "6A808F5ABACF29A4"
+				item: "solarflux:mirror"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["084978D13E544885"]
+			id: "1A09B728EFF5A4BF"
+			rewards: [{
+				id: "58C48F715C6F683A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft A Solar Panel I"
+			tasks: [{
+				id: "7250307B61447B2B"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["1A09B728EFF5A4BF"]
+			id: "7BD0E2A29AB13846"
+			rewards: [{
+				id: "6FB6DAF334D6C541"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel II"
+			tasks: [{
+				id: "4D92EAAFBAC703B0"
+				item: "solarflux:sp_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7BD0E2A29AB13846"]
+			id: "137ABBD4900ED982"
+			rewards: [{
+				id: "5A655AF9086CEAEA"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell I"
+			tasks: [{
+				id: "28C5035870B6CA60"
+				item: "solarflux:photovoltaic_cell_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["137ABBD4900ED982"]
+			id: "7FC6E2ABBAF89BB2"
+			rewards: [{
+				id: "3A9D6C805D4C9D7A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel III"
+			tasks: [{
+				id: "4DD30976C18148B1"
+				item: "solarflux:sp_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FC6E2ABBAF89BB2"]
+			id: "2907EBC4ACF1F608"
+			rewards: [{
+				id: "1637CEA211A98C17"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell II"
+			tasks: [{
+				id: "494CE31A4E2CEA1D"
+				item: "solarflux:photovoltaic_cell_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2907EBC4ACF1F608"]
+			id: "230E23401B93FC60"
+			rewards: [{
+				id: "67FBBAC883074AAC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel IV"
+			tasks: [{
+				id: "1372844B0F7511D0"
+				item: "solarflux:sp_4"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["230E23401B93FC60"]
+			id: "29732B3DF13D27AA"
+			rewards: [{
+				id: "5026ECF6D7AB4B35"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell III"
+			tasks: [{
+				id: "4475357A59EC56F5"
+				item: "solarflux:photovoltaic_cell_3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["29732B3DF13D27AA"]
+			id: "03D6140137AE7223"
+			rewards: [{
+				id: "652A21811BE19EE8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel V"
+			tasks: [{
+				id: "321518EC1026B6E7"
+				item: "solarflux:sp_5"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["03D6140137AE7223"]
+			id: "7244B9D377344F2A"
+			rewards: [{
+				id: "5ADFE3ACE094B36B"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell IV"
+			tasks: [{
+				id: "1BF80F0C2A882D8C"
+				item: "solarflux:photovoltaic_cell_4"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7244B9D377344F2A"]
+			id: "1547351F636D378B"
+			rewards: [{
+				id: "6F8C709986E6C287"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel VI"
+			tasks: [{
+				id: "4BC76572EDD6C0CB"
+				item: "solarflux:sp_6"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1547351F636D378B"]
+			id: "1E1F3B2C7C6C1001"
+			rewards: [{
+				id: "74BF6A91E46101E3"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell V"
+			tasks: [{
+				id: "30FA65E3E1E30FE4"
+				item: "solarflux:photovoltaic_cell_5"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1E1F3B2C7C6C1001"]
+			id: "6E3D66FC7B4460B8"
+			rewards: [{
+				id: "37EFACF3248190F9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Solar Panel VII"
+			tasks: [{
+				id: "300FCD6B204E101A"
+				item: "solarflux:sp_7"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6E3D66FC7B4460B8"]
+			id: "56F09D5E6634223D"
+			rewards: [{
+				id: "673BC6BC60746AAD"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a Photovoltaic Cell VI"
+			tasks: [{
+				id: "0FE463DB5B84DAA1"
+				item: "solarflux:photovoltaic_cell_6"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56F09D5E6634223D"]
+			id: "798EEA9DA2E742BE"
+			rewards: [
+				{
+					id: "6DB95F57FB987EFA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "551AB80A89B2B5BF"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+			]
+			subtitle: "Craft a Solar Panel VIII"
+			tasks: [{
+				id: "2209C761C10D0176"
+				item: "solarflux:sp_8"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "75E8A78B505292D4"
+			rewards: [{
+				id: "6E0CFE25C9200DCE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Blank Upgrade"
+			tasks: [{
+				id: "70E63813A2832074"
+				item: "solarflux:blank_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "3873DA191FC32EEB"
+			rewards: [{
+				id: "16D6A5A6F25CDBA1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft an Efficiency Upgrade"
+			tasks: [{
+				id: "361F12BC1E9D3882"
+				item: "solarflux:efficiency_upgrade"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "348A9F9263385781"
+			rewards: [{
+				id: "1B7F97CE1A11BB48"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Transfer Rate Upgrade"
+			tasks: [{
+				id: "585A4C740E8019EF"
+				item: "solarflux:transfer_rate_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "1CBFD503BA48C780"
+			rewards: [{
+				id: "76CFF14CBCC6E43F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Capacity Upgrade"
+			tasks: [{
+				id: "0A0899D176397D11"
+				item: "solarflux:capacity_upgrade"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "31AA07495FE02088"
+			rewards: [{
+				id: "3A87FD920EE35B8F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Machine Travesal Upgrade"
+			tasks: [{
+				id: "706B4DC3E96D561F"
+				item: "solarflux:traversal_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "2FB45025C29D8FD8"
+			rewards: [{
+				id: "6A28F0CD31099E17"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Dispersive Upgrade"
+			tasks: [{
+				id: "3F10B3D15F8BD6CE"
+				item: "solarflux:dispersive_upgrade"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31AA07495FE02088"]
+			id: "62E2DC5FDA014070"
+			rewards: [{
+				id: "49A6DEBD7A6C9C11"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Block Charging Upgrade"
+			tasks: [{
+				id: "405C85F9739FABFB"
+				item: "solarflux:block_charging_upgrade"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "0833D598C2BF70CE"
+			rewards: [{
+				id: "77C748E46D65543C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft a Furnace Upgrade"
+			tasks: [{
+				id: "0314833F639A582B"
+				item: "solarflux:furnace_upgrade"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["75E8A78B505292D4"]
+			id: "1F329E8BA61C8CF0"
+			rewards: [{
+				id: "315A371C3286AE4C"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Craft a AEU Energy Upgrade"
+			tasks: [{
+				id: "57FF36497879B116"
+				item: "solarflux:ae2/energy_upgrade"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.25d
+		}
+	]
+	title: "&eSolar &6Flux"
+}

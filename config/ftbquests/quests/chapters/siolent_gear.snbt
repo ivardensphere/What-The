@@ -1,0 +1,802 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "siolent_gear"
+	group: "23EAB276525434AF"
+	id: "5D981AF0084FA922"
+	images: [{
+		height: 1.0d
+		image: "tnp:textures/other/silentgear.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -1.25d
+		y: -2.25d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Silent Gear is a tool and armor mod that makes crafting gear easy."
+				""
+				"Each gear piece is customizable, allowing you to upgrade it with special traits or repair it on the go!"
+				""
+				"You can also convert vanilla tools like an iron pickaxe to a Silent Gear pickaxe by putting it into a crafting table!"
+			]
+			id: "4B836A39242A8730"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "61F86CDE51B18C52"
+				title: "Silent Gear"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B836A39242A8730"]
+			icon: "silentgear:template_board"
+			id: "7A125F470985D3D1"
+			rewards: [
+				{
+					count: 8
+					id: "71913BA4658750F5"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+				{
+					id: "1C6AC5A9EEFB841F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Silent Gear's First Steps"
+			tasks: [
+				{
+					count: 4L
+					id: "2665CA97E93955F8"
+					item: { Count: 4, id: "silentgear:template_board" }
+					type: "item"
+				}
+				{
+					id: "607A94D5439BE095"
+					item: "silentgear:pickaxe_template"
+					type: "item"
+				}
+				{
+					id: "6F84C8978D895872"
+					item: {
+						Count: 1
+						id: "silentgear:pickaxe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A125F470985D3D1"]
+			id: "54417A304D8E6D78"
+			rewards: [
+				{
+					id: "337D247E6F232878"
+					item: "silentgear:blueprint_package"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E6579C6E8B60FBF"
+					table_id: 7143187337780363889L
+					type: "random"
+				}
+			]
+			subtitle: "Craft 8x Blueprint Paper"
+			tasks: [{
+				count: 8L
+				id: "2E78116D6A0918D9"
+				item: { Count: 8, id: "silentgear:blueprint_paper" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["54417A304D8E6D78"]
+			id: "4FF4D9C741134284"
+			rewards: [
+				{
+					count: 8
+					id: "3B82E330B14DA0CB"
+					item: "silentgear:blueprint_paper"
+					type: "item"
+				}
+				{
+					id: "63D4CE3A989F38ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Craft a Blueprint Book"
+			tasks: [{
+				id: "18480E0122F94157"
+				item: {
+					Count: 1
+					id: "silentgear:blueprint_book"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF4D9C741134284"]
+			id: "37B861D4CDFC206C"
+			subtitle: "Craft Tool Rod Blueprint"
+			tasks: [{
+				id: "3E9B060A770A80C9"
+				item: "silentgear:rod_blueprint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4FF4D9C741134284"]
+			id: "76A582E31DAFD813"
+			subtitle: "Craft Tip Upgrade Blueprint"
+			tasks: [{
+				id: "529A26094D6AA9E5"
+				item: "silentgear:tip_blueprint"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4FF4D9C741134284"]
+			id: "427B2C442A704D6A"
+			subtitle: "Craft Coating Upgrade Blueprint"
+			tasks: [{
+				id: "0808575853704336"
+				item: "silentgear:coating_blueprint"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4FF4D9C741134284"]
+			id: "12F77EB220000476"
+			subtitle: "Craft the Grip Blueprint"
+			tasks: [{
+				id: "34B568CC392B226B"
+				item: "silentgear:grip_blueprint"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FF4D9C741134284"]
+			id: "622148B84740CDE7"
+			subtitle: "Craft Binding Blueprint"
+			tasks: [{
+				id: "145E48EFE7E35619"
+				item: "silentgear:binding_blueprint"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54417A304D8E6D78"]
+			id: "1D28F3187A93C0DB"
+			rewards: [{
+				count: 2
+				id: "3840B309645E1A98"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "Craft Sword Blueprint"
+			tasks: [{
+				id: "389738BA399EFDE1"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1D28F3187A93C0DB"]
+			id: "47DA6DC1D8264E35"
+			subtitle: "Craft Dagger Blueprint"
+			tasks: [{
+				id: "09437655F15B234C"
+				item: "silentgear:dagger_blueprint"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D28F3187A93C0DB"]
+			id: "52B228341BFF54A5"
+			subtitle: "Craft Machete Blueprint"
+			tasks: [{
+				id: "7F8F251566F02E35"
+				item: "silentgear:machete_blueprint"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D28F3187A93C0DB"]
+			id: "04FCAC915A0E34E9"
+			subtitle: "Craft Katana Blueprint"
+			tasks: [{
+				id: "4BF9DA8E8A5399ED"
+				item: "silentgear:katana_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1D28F3187A93C0DB"]
+			id: "756C9D2893F0AAAE"
+			subtitle: "Craft Spear Blueprint"
+			tasks: [{
+				id: "2CE43D6891E341DD"
+				item: "silentgear:spear_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D28F3187A93C0DB"]
+			id: "6C6C10A6B9B3A3DF"
+			subtitle: "Craft Knife Blueprint"
+			tasks: [{
+				id: "3009B9B3C034A68D"
+				item: "silentgear:knife_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54417A304D8E6D78"]
+			id: "6E10877B8F4BB6C4"
+			rewards: [
+				{
+					count: 2
+					id: "66B3312E4ABD9C2D"
+					item: "silentgear:crimson_iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F5D2306AACBE458"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "7ABC0654D8B8E3A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft the Salvager"
+			tasks: [{
+				id: "3307F8A2788B63F1"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["6E10877B8F4BB6C4"]
+			id: "3F5332D4B04A8924"
+			rewards: [
+				{
+					count: 4
+					id: "692EF766331F2DE9"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "65056DFEB0913F96"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "294A9E7E64C7954D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft the Material Grader"
+			tasks: [{
+				id: "75E5D20DCEBE907D"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["3F5332D4B04A8924"]
+			id: "17C5C568AE6A8BC0"
+			rewards: [{
+				count: 4
+				id: "1388A866514ABF89"
+				item: "silentgear:glowing_dust"
+				type: "item"
+			}]
+			subtitle: "Craft a &eGlowing Dust"
+			tasks: [{
+				id: "432D13BA17C33058"
+				item: "silentgear:glowing_dust"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["3F5332D4B04A8924"]
+			id: "43DEAD3A426521A9"
+			rewards: [{
+				count: 4
+				id: "046B974D71871F16"
+				item: "silentgear:blazing_dust"
+				type: "item"
+			}]
+			subtitle: "Craft a &cBlazing Dust"
+			tasks: [{
+				id: "03B69F24092643A7"
+				item: "silentgear:blazing_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F5332D4B04A8924"]
+			id: "744B4CB45DBFFF2B"
+			rewards: [{
+				count: 4
+				id: "36447E344B1699A2"
+				item: "silentgear:glittery_dust"
+				type: "item"
+			}]
+			subtitle: "Craft a &dGlittery Dust"
+			tasks: [{
+				id: "59710877E4F424C4"
+				item: "silentgear:glittery_dust"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E10877B8F4BB6C4"]
+			id: "0D0D58A7DC8EE0C9"
+			rewards: [
+				{
+					count: 2
+					id: "4692D12624B518E8"
+					item: "silentgear:crimson_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "66674C4685BCFC98"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18F75F861DAF3BF3"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+			]
+			subtitle: "Craft the Metal Alloyer"
+			tasks: [{
+				id: "092324BE7F2BA273"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0D58A7DC8EE0C9"]
+			id: "352B906329D07F39"
+			rewards: [
+				{
+					count: 3
+					id: "00B2BECBE84091EB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24821F705DF014D7"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+				{
+					id: "2F7F0BE5E9BDCC84"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft the Starlight Charger"
+			tasks: [{
+				id: "0E2D25A25F2C8E8E"
+				item: "silentgear:starlight_charger"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["352B906329D07F39"]
+			id: "0AFE4C376E25FA60"
+			rewards: [{
+				count: 3
+				id: "3198976E7C8261C1"
+				item: "silentgear:blaze_gold_dust"
+				type: "item"
+			}]
+			subtitle: "Craft &4Blaze Gold Dust"
+			tasks: [{
+				id: "6F2B42714894D720"
+				item: "silentgear:blaze_gold_dust"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0AFE4C376E25FA60"]
+			id: "015AC49565969F10"
+			rewards: [
+				{
+					count: 4
+					id: "54300368808371EE"
+					item: "silentgear:blaze_gold_dust"
+					type: "item"
+				}
+				{
+					id: "000F3F51F59733DB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 4x &4Crimson Steel Blocks"
+			tasks: [{
+				count: 4L
+				id: "12BCFCA08204199F"
+				item: "silentgear:crimson_steel_block"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["352B906329D07F39"]
+			id: "09EB6BB78E3E9F49"
+			rewards: [{
+				count: 3
+				id: "58B4FD85DE7E2734"
+				item: "silentgear:azure_silver_dust"
+				type: "item"
+			}]
+			subtitle: "Craft a &dAzure Silver Dust"
+			tasks: [{
+				id: "0D13BC0FD84E91AD"
+				item: "silentgear:azure_silver_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["09EB6BB78E3E9F49"]
+			id: "5AED2DC1AB5B61AE"
+			rewards: [
+				{
+					count: 4
+					id: "5AC004AA98FF4B3D"
+					item: "silentgear:azure_silver_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E4B275578022DC2"
+					table_id: 1806376080730156762L
+					type: "random"
+				}
+				{
+					id: "42113C0C2EA78DA6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft 4x &9Azure Electrum Blocks"
+			tasks: [{
+				count: 4L
+				id: "0B92BF6DE2E6AE16"
+				item: { Count: 4, id: "silentgear:azure_electrum_block" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["352B906329D07F39"]
+			id: "1346AC1EE72B2A88"
+			rewards: [{
+				count: 3
+				id: "7C9CF0F820607FE5"
+				item: "silentgear:starmetal_dust"
+				type: "item"
+			}]
+			subtitle: "Craft a &1Starmetal Dust"
+			tasks: [{
+				id: "1881989996053794"
+				item: "silentgear:starmetal_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["1346AC1EE72B2A88"]
+			id: "21E8E8066F9736E2"
+			rewards: [
+				{
+					count: 4
+					id: "0B7F3621561A63F8"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "4B146A16FB08E8B9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E02AC6DE0A5525C"
+					table_id: 7791069810908809029L
+					type: "random"
+				}
+			]
+			subtitle: "Craft 4 &5Tyrian Steel Blocks"
+			tasks: [{
+				count: 4L
+				id: "63E7BB5EC2BECFC3"
+				item: { Count: 4, id: "silentgear:tyrian_steel_block" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.25d
+		}
+		{
+			id: "18B4B544C1B98B6A"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Boots Blueprint"
+			tasks: [{
+				id: "4C8F797C3A826F4A"
+				item: "silentgear:boots_blueprint"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -1.75d
+		}
+		{
+			id: "4C3A39BCA0DA8C89"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Ring Blueprint"
+			tasks: [{
+				id: "44B7D717395B39EF"
+				item: "silentgear:ring_blueprint"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -0.5d
+		}
+		{
+			id: "60E9443B5358BAAB"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Shield Blueprint"
+			tasks: [{
+				id: "06385AA173A128BB"
+				item: "silentgear:shield_blueprint"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.75d
+		}
+		{
+			id: "0AC100863C48BA95"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Leggings Blueprint"
+			tasks: [{
+				id: "6F0286FA43A2FF22"
+				item: "silentgear:leggings_blueprint"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			id: "6233888E3AE1AA3B"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Chest Blueprint"
+			tasks: [{
+				id: "1EAD6FD25536DC35"
+				item: "silentgear:chestplate_blueprint"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -1.75d
+		}
+		{
+			id: "548B018ED0C6CCB3"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Helm Blueprint"
+			tasks: [{
+				id: "57F32BFD6F09B0CC"
+				item: "silentgear:helmet_blueprint"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -0.5d
+		}
+		{
+			id: "13A2084B5E13841C"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Elytra Blueprint"
+			tasks: [{
+				id: "0BCB05C5A3B15E98"
+				item: "silentgear:elytra_blueprint"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 0.75d
+		}
+		{
+			id: "1E39607B21214A55"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Bracelet Blueprint"
+			tasks: [{
+				id: "6CCD33DD226B692F"
+				item: "silentgear:bracelet_blueprint"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.75d
+		}
+		{
+			id: "5558C1DDA2756839"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Lining Blueprint"
+			tasks: [{
+				id: "1AB2D5D7F43145A8"
+				item: "silentgear:lining_blueprint"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 0.75d
+		}
+		{
+			id: "5862B6A5EAE0380F"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Bow Blueprint"
+			tasks: [{
+				id: "2A20A666FC347850"
+				item: "silentgear:bow_blueprint"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 2.75d
+		}
+		{
+			id: "7DDC1735B7D7B253"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Crossbow Blueprint"
+			tasks: [{
+				id: "01655F8E114C09DD"
+				item: "silentgear:crossbow_blueprint"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.75d
+		}
+		{
+			id: "5FE6E97E5AEB3571"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Slingshot Blueprint"
+			tasks: [{
+				id: "573F01D4EB68C097"
+				item: "silentgear:slingshot_blueprint"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.75d
+		}
+		{
+			id: "5E95D1D8EBAD1959"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Fletching Blueprint"
+			tasks: [{
+				id: "4DB1057F049A25DF"
+				item: "silentgear:fletching_blueprint"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 4.0d
+		}
+		{
+			id: "1BA8FA93BD6C72B0"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft Arrow Blueprint"
+			tasks: [{
+				id: "3450C7142F37D260"
+				item: "silentgear:arrow_blueprint"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 4.0d
+		}
+		{
+			id: "743281711526050C"
+			optional: true
+			shape: "rsquare"
+			subtitle: "Craft a Repair Kit"
+			tasks: [{
+				id: "47C7BBBBEC63F326"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "silentgear:repair_kits"
+					}
+				}
+				title: "Any #silentgear:repair_kits"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+	]
+	title: "&4Silent Gear"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_resonance"
+	group: "6CFDE535DE131F6B"
+	id: "554B42AD0E8CEC69"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "&6Deep Resonance"
+}

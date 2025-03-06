@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wizards"
+	group: "2B0E76255596CDF2"
+	id: "2D4C8762942BB1D6"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "&5Wizards"
+}
