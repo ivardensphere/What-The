@@ -6,7 +6,7 @@
 	id: "5D981AF0084FA922"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/silentgear.png"
+		image: "combi:textures/other/silentgear.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -1.25d

@@ -6,7 +6,7 @@
 	id: "477E597F809643FC"
 	images: [{
 		height: 4.0d
-		image: "tnp:textures/other/enderio.png"
+		image: "combi:textures/other/enderio.png"
 		rotation: 0.0d
 		width: 15.0d
 		x: -1.25d

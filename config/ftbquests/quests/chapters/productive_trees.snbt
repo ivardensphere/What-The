@@ -6,7 +6,7 @@
 	id: "6BE07C7A724B1E50"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/trees.png"
+		image: "combi:textures/other/trees.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -0.25d

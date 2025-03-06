@@ -6,7 +6,7 @@
 	id: "72492BAE90CA58FE"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/gadgets.png"
+		image: "combi:textures/other/gadgets.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.0d

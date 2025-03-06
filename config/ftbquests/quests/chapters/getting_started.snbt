@@ -6,7 +6,7 @@
 	id: "19C6F12DF42A172D"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/gettingstarted.png"
+		image: "combi:textures/other/gettingstarted.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -2.0d
@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "minecraft:oak_log"
 			id: "5CE78677F7703DC9"
 			rewards: [{
 				id: "2EF08DC6D33A9334"

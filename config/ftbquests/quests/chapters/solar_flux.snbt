@@ -6,7 +6,7 @@
 	id: "1A5724D817E4F30E"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/solar.png"
+		image: "combi:textures/other/solar.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.0d

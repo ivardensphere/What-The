@@ -6,7 +6,7 @@
 	id: "11B949F4809DD5F4"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/gens.png"
+		image: "combi:textures/other/gens.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -6.5d

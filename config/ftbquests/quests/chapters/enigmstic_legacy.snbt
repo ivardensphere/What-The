@@ -6,7 +6,7 @@
 	id: "4B26092D1BFF0425"
 	images: [{
 		height: 4.0d
-		image: "tnp:textures/other/enigmatic.png"
+		image: "combi:textures/other/enigmatic.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 10.5d

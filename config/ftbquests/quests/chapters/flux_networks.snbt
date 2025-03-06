@@ -6,7 +6,7 @@
 	id: "5ECEB18A242E9476"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/flux.png"
+		image: "combi:textures/other/flux.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: -0.5d

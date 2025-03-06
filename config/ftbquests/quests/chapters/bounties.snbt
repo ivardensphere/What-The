@@ -6,7 +6,7 @@
 	id: "3E4DC137749A4EBF"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/bounties.png"
+		image: "combi:textures/other/bounties.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.0d

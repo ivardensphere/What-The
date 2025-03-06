@@ -6,7 +6,7 @@
 	id: "049537637294BB00"
 	images: [{
 		height: 5.0d
-		image: "tnp:textures/other/reactors.png"
+		image: "combi:textures/other/reactors.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.25d

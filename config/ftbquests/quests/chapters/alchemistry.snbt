@@ -6,7 +6,7 @@
 	id: "4C35CC8B43CBA938"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/alchemistry.png"
+		image: "combi:textures/other/alchemistry.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 1.25d

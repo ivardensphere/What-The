@@ -6,7 +6,7 @@
 	id: "1E84056AC5AC0A11"
 	images: [{
 		height: 1.0d
-		image: "tnp:textures/other/wormhole.png"
+		image: "combi:textures/other/wormhole.png"
 		rotation: 0.0d
 		width: 10.0d
 		x: 0.75d
