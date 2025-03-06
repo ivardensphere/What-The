@@ -1,7 +1,7 @@
 
 [Main]
 	#If enabled, you will receive guide books during the game
-	"Grant Guide Books" = true
+	"Grant Guide Books" = false
 
 [Teleportation]
 	#If enabled, teleporting to mod dimensions can only be done from a certain other dimension
