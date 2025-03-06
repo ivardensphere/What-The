@@ -41,7 +41,7 @@
 		# 0 is no PC's mobs and 1 is max PC's mobs.
 		#
 		#Range: 0.0 ~ 1.0
-		spawnrateOfPokecubeBeePokemon = 0.00
+		spawnrateOfPokecubeBeePokemon = 0.0
 
 	["Mod Compatibility Options"."Tropicraft Options"]
 		# 
