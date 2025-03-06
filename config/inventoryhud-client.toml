@@ -219,5 +219,5 @@
 	#Last notified mod version
 	lastNotifiedVersion = "0.9.9.89.9.1"
 	#Notify more than once
-	keepNotifying = true
+	keepNotifying = false
 
