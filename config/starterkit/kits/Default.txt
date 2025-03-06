@@ -3,7 +3,7 @@
 'legs' : '',
 'feet' : '',
 'offhand' : '',
-0 : '',
+0 : '{Count:1b,id:"ftbquests:book"}',
 1 : '{Count:9b,id:"minecraft:bread"}',
 2 : '',
 3 : '',
