@@ -1,7 +1,7 @@
 
 ["General settings"]
 	#If set to true player joining the world for the first time will be given the Wizard Elementary - a questline guidebook throughout the mod's mechanics (if not given at start it still can be crafted by the player). (default: true)
-	"Give Wizard Elementary at start" = true
+	"Give Wizard Elementary at start" = false
 	#If set to true players will be displayed a custom toast congratulating them on completing a quest. (default: true)
 	"Announce Wizard Elementary's quest completion" = true
 
