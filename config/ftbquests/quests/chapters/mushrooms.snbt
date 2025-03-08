@@ -1,0 +1,1412 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mushrooms"
+	group: "6F1187A4D51268D1"
+	id: "403EA601C60343F6"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69FFB1C2A968208F"
+			tasks: [{
+				id: "519EEC4E4BFEFC4A"
+				item: "mushroomquest:mossy_maze_polypore_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4CD30C691A16AFF5"
+			tasks: [{
+				id: "5F5A5490543C1F31"
+				item: "mushroomquest:lantern_shroom_block"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -13.5d
+		}
+		{
+			id: "5E309C6FE17F99BB"
+			tasks: [{
+				id: "30ADB8256E1DF550"
+				item: "mushroomquest:artist_conk_block"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -15.5d
+		}
+		{
+			id: "2A139CE05F073A93"
+			tasks: [{
+				id: "171E3C3BF49FFF6A"
+				item: "mushroomquest:shaggy_mane_block"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -13.5d
+		}
+		{
+			id: "42CD3599E3850FE8"
+			tasks: [{
+				id: "5D821C92C2343DC0"
+				item: "mushroomquest:common_puffball"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -13.5d
+		}
+		{
+			id: "11CA791F99B89E96"
+			tasks: [{
+				id: "6B51BDD27425D48C"
+				item: "mushroomquest:chickenofthe_woods"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -16.5d
+		}
+		{
+			id: "58EF692C98A9C01F"
+			tasks: [{
+				id: "6594FA87CAE658E2"
+				item: "mushroomquest:mica_caps"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -13.5d
+		}
+		{
+			id: "48E099234510DC89"
+			tasks: [{
+				id: "25312020A8313B8B"
+				item: "mushroomquest:indigo_milkcap"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -17.5d
+		}
+		{
+			id: "1DC7ACB642CB6A41"
+			tasks: [{
+				id: "724DC705B45AC2B9"
+				item: "mushroomquest:wood_blewit"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -16.5d
+		}
+		{
+			id: "07CD581D059FF7F8"
+			tasks: [{
+				id: "709660FBCD56D0B6"
+				item: "mushroomquest:the_sickener"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -15.5d
+		}
+		{
+			id: "10D14F2139D2E991"
+			tasks: [{
+				id: "30772AEEC4E04A0B"
+				item: "mushroomquest:swamp_russula"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			id: "3A9584C342C5ED10"
+			tasks: [{
+				id: "220B90A8C3A1766E"
+				item: "mushroomquest:wooly_chanterelle"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -13.5d
+		}
+		{
+			id: "3DF1F50BB9CB586E"
+			tasks: [{
+				id: "3AF5FCFDC0C4503D"
+				item: "mushroomquest:beefsteak_fungus"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -18.5d
+		}
+		{
+			id: "5D5B335315BA465A"
+			tasks: [{
+				id: "020436DE44B404BA"
+				item: "mushroomquest:penny_bun"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -14.5d
+		}
+		{
+			id: "019B0B2948069F11"
+			tasks: [{
+				id: "2DDDB6CCC1AE2412"
+				item: "mushroomquest:destroying_angels"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -16.5d
+		}
+		{
+			id: "77CAB4D0867D58DA"
+			tasks: [{
+				id: "40B6E7E925B8386E"
+				item: "mushroomquest:henofthe_woods"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -12.5d
+		}
+		{
+			id: "05FD51DCC54B0FB0"
+			tasks: [{
+				id: "6F0A0726B5B01E3E"
+				item: "mushroomquest:lions_mane"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -11.5d
+		}
+		{
+			id: "512991A409B07F42"
+			tasks: [{
+				id: "18460C73798CB6CE"
+				item: "mushroomquest:golden_chanterelle"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -12.5d
+		}
+		{
+			id: "34EDC190D3DB3BD3"
+			tasks: [{
+				id: "7AC018B9F5ABFE8A"
+				item: "mushroomquest:hornof_plenty"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -12.5d
+		}
+		{
+			id: "53DD12E0D624A57E"
+			tasks: [{
+				id: "468EB12988B93279"
+				item: "mushroomquest:beech_mushrooms"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -15.5d
+		}
+		{
+			id: "43C2A60690992C84"
+			tasks: [{
+				id: "715B4186E78362B4"
+				item: "mushroomquest:column_stinkhorn"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.5d
+		}
+		{
+			id: "56E92BC7F7ACB436"
+			tasks: [{
+				id: "30F869E73FF5FA49"
+				item: "mushroomquest:pheasant_back"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -14.5d
+		}
+		{
+			id: "01B3902D6D6F3856"
+			tasks: [{
+				id: "2236002847EFA421"
+				item: "mushroomquest:fly_agaric"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -17.5d
+		}
+		{
+			id: "562CECB9897E13AF"
+			tasks: [{
+				id: "44E3E0778B822F40"
+				item: "mushroomquest:wood_ears"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -16.5d
+		}
+		{
+			id: "232A7923286453F4"
+			tasks: [{
+				id: "1BFA20C1A26439B3"
+				item: "mushroomquest:autumn_skullcap"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -16.5d
+		}
+		{
+			id: "09AD8D737988326F"
+			tasks: [{
+				id: "7750769B1F98E01A"
+				item: "mushroomquest:birch_polypore"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -16.5d
+		}
+		{
+			id: "603153372CD4332F"
+			tasks: [{
+				id: "18ABA69C064D2ECB"
+				item: "mushroomquest:true_morel"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -11.5d
+		}
+		{
+			id: "072B1AED7A7FB593"
+			tasks: [{
+				id: "07D77D6348BAFCD0"
+				item: "mushroomquest:elfin_saddle"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -11.5d
+		}
+		{
+			id: "205EAB46108D21D9"
+			tasks: [{
+				id: "08F73AF9CED54CE2"
+				item: "mushroomquest:velvet_foot"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -14.5d
+		}
+		{
+			id: "5DA09516EEF602E3"
+			tasks: [{
+				id: "36412B2A933BB20B"
+				item: "mushroomquest:apricot_jelly"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			id: "61D95B40219A4823"
+			tasks: [{
+				id: "26863E6E7476537B"
+				item: "mushroomquest:pigs_ear"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			id: "4F10A21B407850A6"
+			tasks: [{
+				id: "09676D26279D7C79"
+				item: "mushroomquest:rosy_spikecap"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -17.5d
+		}
+		{
+			id: "0B103CCDAC5A3265"
+			tasks: [{
+				id: "6D9E0E737C390EED"
+				item: "mushroomquest:wood_hedgehog"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -12.5d
+		}
+		{
+			id: "6EC35C184596A5B8"
+			tasks: [{
+				id: "209E9F808697F718"
+				item: "mushroomquest:honey_mushroom"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -14.5d
+		}
+		{
+			id: "02C516AF24729054"
+			tasks: [{
+				id: "4E5596E9452C70EE"
+				item: "mushroomquest:sulfur_tuft"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -14.5d
+		}
+		{
+			id: "760A7EF12D747396"
+			tasks: [{
+				id: "5D07EE5C2403530A"
+				item: "mushroomquest:turkey_tail"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -15.5d
+		}
+		{
+			id: "75053C23620417B3"
+			tasks: [{
+				id: "3F2C51AC837E248E"
+				item: "mushroomquest:tinder_polypore"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			id: "5E8D3227BB87F6E9"
+			tasks: [{
+				id: "3900C643DDBB37C3"
+				item: "mushroomquest:blue_chanterelle"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -18.5d
+		}
+		{
+			id: "287C8274F58F554E"
+			tasks: [{
+				id: "401B63980FEC141F"
+				item: "mushroomquest:saffron_milkcap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -18.5d
+		}
+		{
+			id: "6CA70518218E846F"
+			tasks: [{
+				id: "59DD7D4AB9981892"
+				item: "mushroomquest:chaga"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -16.5d
+		}
+		{
+			id: "12FD6BC48F79DB26"
+			tasks: [{
+				id: "6279F812D2BA0FD9"
+				item: "mushroomquest:angels_wing"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -17.5d
+		}
+		{
+			id: "2C42F665A347147A"
+			tasks: [{
+				id: "7866338FE3D85313"
+				item: "mushroomquest:old_manofthe_woods"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -14.5d
+		}
+		{
+			id: "6C1CE6D1DD7501DC"
+			tasks: [{
+				id: "6CCE0807653FD6D4"
+				item: "mushroomquest:death_cap"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -18.5d
+		}
+		{
+			id: "30CD1012C59AF4B1"
+			tasks: [{
+				id: "2C7C9641DBAED780"
+				item: "mushroomquest:king_bolete"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			id: "090612A4A54ACFA0"
+			tasks: [{
+				id: "3B257045DEBCD1A8"
+				item: "mushroomquest:oyster_mushroom"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -10.5d
+		}
+		{
+			id: "56E39F5DB0E1A675"
+			tasks: [{
+				id: "0782F9742DCAEAD6"
+				item: "mushroomquest:giant_polypore"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -15.5d
+		}
+		{
+			id: "3CA18D35C2350A70"
+			tasks: [{
+				id: "1CF6F0613EC71DF9"
+				item: "mushroomquest:shiitake"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -15.5d
+		}
+		{
+			id: "54F38683D774C08D"
+			tasks: [{
+				id: "1031F2D632450602"
+				item: "mushroomquest:dead_mans_fingers"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -10.5d
+		}
+		{
+			id: "4D031F22C4CC96DF"
+			tasks: [{
+				id: "71407E2483F66A14"
+				item: "mushroomquest:king_trumpet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.5d
+		}
+		{
+			id: "0815E22B6F90120A"
+			tasks: [{
+				id: "5BFDEA332F5FB489"
+				item: "mushroomquest:plantpot_dapperling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			id: "657374104859DD75"
+			tasks: [{
+				id: "473109E55257D9F7"
+				item: "mushroomquest:scarlet_cup"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -19.5d
+		}
+		{
+			id: "08E1657895C27B67"
+			tasks: [{
+				id: "0611C9B87CD9E7B9"
+				item: "mushroomquest:clustered_coral"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -15.5d
+		}
+		{
+			id: "532B040E476C42F7"
+			tasks: [{
+				id: "32756A067E205FA2"
+				item: "mushroomquest:witchs_hat"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -14.5d
+		}
+		{
+			id: "724A3CE9B9C8550B"
+			tasks: [{
+				id: "333F59E9826ECEE5"
+				item: "mushroomquest:green_brittlegill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			id: "32BDCCC919182809"
+			tasks: [{
+				id: "4D0C5EA55C2AD4BE"
+				item: "mushroomquest:nameko"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.5d
+		}
+		{
+			id: "319E86BDDA7D96B4"
+			tasks: [{
+				id: "7F40AA54059F9087"
+				item: "mushroomquest:earth_star"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			id: "57577118FDF8C90C"
+			tasks: [{
+				id: "402FDA9970A21563"
+				item: "mushroomquest:lattice_mushroom"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -17.5d
+		}
+		{
+			id: "5DC04C704111B434"
+			tasks: [{
+				id: "286E57EDD8306A31"
+				item: "mushroomquest:bristled_sawgill"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -15.5d
+		}
+		{
+			id: "7F5DCD7F664E8664"
+			tasks: [{
+				id: "3D4DDF34F3E375E3"
+				item: "mushroomquest:octopus_stinkhorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -16.5d
+		}
+		{
+			id: "19E5F26A2115B802"
+			tasks: [{
+				id: "746CC5806BFFCB9C"
+				item: "mushroomquest:devils_bolete"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -14.5d
+		}
+		{
+			id: "2DFC654C05F52FED"
+			tasks: [{
+				id: "5C24D108D23DACA4"
+				item: "mushroomquest:wrinkled_peach"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -18.5d
+		}
+		{
+			id: "668D1D792A7536E7"
+			tasks: [{
+				id: "362EF6DEDF68D88D"
+				item: "mushroomquest:caesars_mushroom"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -17.5d
+		}
+		{
+			id: "5E34D50D6939C106"
+			tasks: [{
+				id: "2C504FF5A99F9EC9"
+				item: "mushroomquest:laughing_gym"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -14.5d
+		}
+		{
+			id: "0E518BFC690ECB77"
+			tasks: [{
+				id: "50E5BD9026C773BE"
+				item: "mushroomquest:veiled_lady"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.5d
+		}
+		{
+			id: "34FCB8142C9EAAC5"
+			tasks: [{
+				id: "393810BEF9B3C78A"
+				item: "mushroomquest:lingzhi_mushroom"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -15.5d
+		}
+		{
+			id: "28AE1CBBEF8A50CC"
+			tasks: [{
+				id: "4C2572B1535658D2"
+				item: "mushroomquest:chingulungulu"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -16.5d
+		}
+		{
+			id: "6C6E810212F5AF23"
+			tasks: [{
+				id: "6C3E0325AFDB2F35"
+				item: "mushroomquest:caterpillar_fungus"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -16.5d
+		}
+		{
+			id: "14A4BACA461AE15D"
+			tasks: [{
+				id: "4DE0BA7618DB874A"
+				item: "mushroomquest:meadow_mushroom"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -19.5d
+		}
+		{
+			id: "22E8332AD956C797"
+			tasks: [{
+				id: "433527ED3B5DADA8"
+				item: "mushroomquest:portobello"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -17.5d
+		}
+		{
+			id: "65833133A14BCA34"
+			tasks: [{
+				id: "1B2488E46FF6C355"
+				item: "mushroomquest:fairy_ring_mushroom"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -14.5d
+		}
+		{
+			id: "11F7C5A79FE24F79"
+			tasks: [{
+				id: "4C84B7687B555B10"
+				item: "mushroomquest:horse_mushroom"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -9.5d
+		}
+		{
+			id: "2BE3996C0A472342"
+			tasks: [{
+				id: "24536FB21F5937AE"
+				item: "mushroomquest:panther_cap"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -12.5d
+		}
+		{
+			id: "54B5D8AD1F3A20C2"
+			tasks: [{
+				id: "5719918A0E4B2D38"
+				item: "mushroomquest:brown_roll_rim"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -17.5d
+		}
+		{
+			id: "0766DB2EDC6BC409"
+			tasks: [{
+				id: "483B0A81439DEC85"
+				item: "mushroomquest:parasol_mushroom"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -15.5d
+		}
+		{
+			id: "6353391F2A0326F0"
+			tasks: [{
+				id: "0A7CBD7B6E587438"
+				item: "mushroomquest:parrot_toadstool"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -19.5d
+		}
+		{
+			id: "62CAAE2D43208EBE"
+			tasks: [{
+				id: "54044B71B5FE80BA"
+				item: "mushroomquest:crimson_waxcap"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -16.5d
+		}
+		{
+			id: "7FFE080CEDEEAC3B"
+			tasks: [{
+				id: "0E356709D89F3025"
+				item: "mushroomquest:giant_puffball"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -15.5d
+		}
+		{
+			id: "593DFB360E23A47E"
+			tasks: [{
+				id: "46DA364B974FC47E"
+				item: "mushroomquest:magic_shrooms"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -18.5d
+		}
+		{
+			id: "33D06BCB86B70AE7"
+			tasks: [{
+				id: "64F5830977E4648E"
+				item: "mushroomquest:pink_waxcap"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -16.5d
+		}
+		{
+			id: "5239AE0F7D4BE819"
+			tasks: [{
+				id: "24DB481E3EC1F7A1"
+				item: "mushroomquest:wine_cap"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -11.5d
+		}
+		{
+			id: "514BE37C7E6FCBBB"
+			tasks: [{
+				id: "56A9169171A8FFCE"
+				item: "mushroomquest:yellow_stainer"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -18.5d
+		}
+		{
+			id: "3423E6C64F6269EE"
+			tasks: [{
+				id: "352C7C562C6320BF"
+				item: "mushroomquest:common_bonnet"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -16.5d
+		}
+		{
+			id: "6CE713852FC10474"
+			tasks: [{
+				id: "7648103DAE59B24F"
+				item: "mushroomquest:bluing_bolete"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -15.5d
+		}
+		{
+			id: "503C6B29B7AC6CA8"
+			tasks: [{
+				id: "0A70674C313C79E5"
+				item: "mushroomquest:bleeding_tooth_fungus"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -13.5d
+		}
+		{
+			id: "4D537FEF2640BCB7"
+			tasks: [{
+				id: "4FF06D485752E26D"
+				item: "mushroomquest:red_cracked_bolete"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			id: "4435875AD5B535D1"
+			tasks: [{
+				id: "19090D4116D6D30E"
+				item: "mushroomquest:short_stemmed_russula"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -16.5d
+		}
+		{
+			id: "5F981DB97CCFF060"
+			tasks: [{
+				id: "6737EA30E0AE5BBB"
+				item: "mushroomquest:chestnut_mushroom"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -11.5d
+		}
+		{
+			id: "0FF22AFAE1B0FBBC"
+			tasks: [{
+				id: "6038BEB7E2324A25"
+				item: "mushroomquest:birch_bolete"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -19.5d
+		}
+		{
+			id: "2C1415191C1B0867"
+			tasks: [{
+				id: "4963B1E94FC0F702"
+				item: "mushroomquest:dyers_polypore"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -15.5d
+		}
+		{
+			id: "5A6C2F4BBE71B519"
+			tasks: [{
+				id: "65DCE0F42C554867"
+				item: "mushroomquest:slippery_jack"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			id: "6979D0A9DA330A6B"
+			tasks: [{
+				id: "7C41D654E6A3AEBF"
+				item: "mushroomquest:agarikon"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -13.5d
+		}
+		{
+			id: "00A47821BBB9D19D"
+			tasks: [{
+				id: "41D648DD300990C2"
+				item: "mushroomquest:scaly_pholiota"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.5d
+		}
+		{
+			id: "00E62D6B8518F3C3"
+			tasks: [{
+				id: "4E7EBB4F2DFC7B6B"
+				item: "mushroomquest:blushing_bracket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -18.5d
+		}
+		{
+			id: "5685CD9876F7297E"
+			tasks: [{
+				id: "11EBB016E0E0F5F2"
+				item: "mushroomquest:purple_fairy_club"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.5d
+		}
+		{
+			id: "25AB0286B0CCC73C"
+			tasks: [{
+				id: "6447B03887867D10"
+				item: "mushroomquest:the_blusher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			id: "0CBB629AB5AF0B04"
+			tasks: [{
+				id: "68E56B0AB5F0B427"
+				item: "mushroomquest:rufous_milkcap"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -14.5d
+		}
+		{
+			id: "4275D61AE15BEF80"
+			tasks: [{
+				id: "0C69E929EFE1F424"
+				item: "mushroomquest:mushroom_of_the_sun"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -16.5d
+		}
+		{
+			id: "4F4736B9E10B34BD"
+			tasks: [{
+				id: "16C727DBD9D54CE9"
+				item: "mushroomquest:poison_fire_coral"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -12.5d
+		}
+		{
+			id: "58990C5C92729B17"
+			tasks: [{
+				id: "19EA89056D27C0B7"
+				item: "mushroomquest:candy_cap"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			id: "7A5730E650D0F7E9"
+			tasks: [{
+				id: "1B84FD280A0A6B24"
+				item: "mushroomquest:lobster_mushroom"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			id: "42690A2800CA2CA5"
+			tasks: [{
+				id: "1BCC8B930132577B"
+				item: "mushroomquest:the_prince"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -20.5d
+		}
+		{
+			id: "7B99DF63E415463F"
+			tasks: [{
+				id: "2142DB88AC505EFC"
+				item: "mushroomquest:man_on_horseback"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -10.5d
+		}
+		{
+			id: "7F8FFDB7FACECC87"
+			tasks: [{
+				id: "79D0485463421B4E"
+				item: "mushroomquest:dark_scaled_knight"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -14.5d
+		}
+		{
+			id: "7E70BB1ADBA555BD"
+			tasks: [{
+				id: "1C1DD85027D7522D"
+				item: "mushroomquest:blue_knight"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -18.5d
+		}
+		{
+			id: "5FCB70D995F952C2"
+			tasks: [{
+				id: "2BEBEC863B955618"
+				item: "mushroomquest:coral_tooth_fungus"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -17.5d
+		}
+		{
+			id: "320A65E4B307F1CE"
+			tasks: [{
+				id: "0C1D0F00D73141B8"
+				item: "mushroomquest:violet_cort"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			id: "109CEC962516EF55"
+			tasks: [{
+				id: "70AE3B800088A48D"
+				item: "mushroomquest:verdigris_agaric"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -16.5d
+		}
+		{
+			id: "6676B06DA84B9396"
+			tasks: [{
+				id: "21E1809A0F9A2A37"
+				item: "mushroomquest:weeping_widow"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -18.5d
+		}
+		{
+			id: "606F2A6D473EB9DB"
+			tasks: [{
+				id: "7D9C24F4EA7C117B"
+				item: "mushroomquest:matsutake"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -17.5d
+		}
+		{
+			id: "148E2D9DEE0E49C7"
+			tasks: [{
+				id: "700322451DDA3C10"
+				item: "mushroomquest:devils_cigar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			id: "2E0A953ADF23CB0D"
+			tasks: [{
+				id: "5FE9A04B7A31A756"
+				item: "mushroomquest:scaber_stalk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -19.5d
+		}
+		{
+			id: "422284B0E8CACBD6"
+			tasks: [{
+				id: "64FE2D3073B197A1"
+				item: "mushroomquest:wooly_milkcap"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -19.5d
+		}
+		{
+			id: "729D60BDC93639EC"
+			tasks: [{
+				id: "6ED890E1CE77BF4F"
+				item: "mushroomquest:oak_mazegill"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -17.5d
+		}
+		{
+			id: "4BDAE21FC82C6DC2"
+			tasks: [{
+				id: "2E8B2A6AB2A10AB4"
+				item: "mushroomquest:strawberry_bracket"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -14.5d
+		}
+		{
+			id: "1926FA1E60FDC259"
+			tasks: [{
+				id: "56095042F2701737"
+				item: "mushroomquest:hemlock_varnish_shelf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			id: "59893A94F41DB08A"
+			tasks: [{
+				id: "7B798602B40CEDE5"
+				item: "mushroomquest:witchs_butter"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -15.5d
+		}
+		{
+			id: "0304E9818CE8CCA9"
+			tasks: [{
+				id: "6053C057A2663406"
+				item: "mushroomquest:weeping_conk"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -10.5d
+		}
+		{
+			id: "780439BF2E199116"
+			tasks: [{
+				id: "408D10FA63225EAB"
+				item: "mushroomquest:snow_fungus"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -13.5d
+		}
+		{
+			id: "5DCC560A6C86955E"
+			tasks: [{
+				id: "12F211E85ADA47B9"
+				item: "mushroomquest:cauliflower_fungus"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -9.5d
+		}
+		{
+			id: "71B2E08C7DF1617E"
+			tasks: [{
+				id: "6B42ED745B401D07"
+				item: "mushroomquest:candlesnuff"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -12.5d
+		}
+		{
+			id: "6149E60367F68549"
+			tasks: [{
+				id: "21937E7750CF2DD6"
+				item: "mushroomquest:golden_oyster"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -9.5d
+		}
+		{
+			id: "2314258D8C2C6AD9"
+			tasks: [{
+				id: "7E158CC0F9838964"
+				item: "mushroomquest:cookeina"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.5d
+		}
+		{
+			id: "7381766EBF0920A9"
+			tasks: [{
+				id: "6A2A851CD764008E"
+				item: "mushroomquest:cinnamon_bracket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			id: "69988CC22278640F"
+			tasks: [{
+				id: "4EF0D65778E167B8"
+				item: "mushroomquest:red_banded_polypore"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -15.5d
+		}
+		{
+			id: "1E3DA2745BCB7753"
+			tasks: [{
+				id: "6F13D6AF944E8308"
+				item: "mushroomquest:bay_bolete"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.5d
+		}
+		{
+			id: "35F0FE9F57BC5A1E"
+			tasks: [{
+				id: "2CF31C10B0F24AB2"
+				item: "mushroomquest:werewere_kokako"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -19.5d
+		}
+		{
+			id: "5F57010E8366BE42"
+			tasks: [{
+				id: "51019F1D0762ADD6"
+				item: "mushroomquest:bleeding_fairy_helmet"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -13.5d
+		}
+		{
+			id: "1C235C02D9D02985"
+			tasks: [{
+				id: "03DFED3E392EE118"
+				item: "mushroomquest:black_truffle"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -16.5d
+		}
+		{
+			id: "1590B0CB7FF49367"
+			tasks: [{
+				id: "37D6F949518D6571"
+				item: "mushroomquest:deadly_webcap"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -20.5d
+		}
+		{
+			id: "109C3C377955AF37"
+			tasks: [{
+				id: "23C6BCAC6D2F0351"
+				item: "mushroomquest:red_tear_mushroom"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.5d
+		}
+		{
+			id: "6BD5F6DA1CBA92DF"
+			tasks: [{
+				id: "12D5E61C5794FE91"
+				item: "mushroomquest:scarletina_bolete"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -13.5d
+		}
+		{
+			id: "225EC7A36C96F895"
+			tasks: [{
+				id: "0535DBF6BB264E37"
+				item: "mushroomquest:yellow_amanita"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -14.5d
+		}
+		{
+			id: "0264719924091FFB"
+			tasks: [{
+				id: "7700CFCD61A3FA53"
+				item: "mushroomquest:bacon_agaric"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -13.5d
+		}
+		{
+			id: "69C82E1A10F84DE4"
+			tasks: [{
+				id: "5D56E58663767790"
+				item: "mushroomquest:dewdrop_bonnet"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -20.5d
+		}
+		{
+			id: "721914CF5963237F"
+			tasks: [{
+				id: "63CADBD2C0521D07"
+				item: "mushroomquest:black_velvet_bolete"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			id: "606D56E3E2783877"
+			tasks: [{
+				id: "3ECF8AC33C73BDCB"
+				item: "mushroomquest:birds_nest_fungus"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -18.5d
+		}
+		{
+			id: "70382F10E7712BC4"
+			tasks: [{
+				id: "702DD7F96219D81D"
+				item: "mushroomquest:silver_leaf_fungus"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -19.5d
+		}
+		{
+			id: "1D7F03990A113CB5"
+			tasks: [{
+				id: "26064B2C198CDDFE"
+				item: "mushroomquest:blue_glowshroom"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -20.5d
+		}
+		{
+			id: "64EE1CEE4882FBD9"
+			tasks: [{
+				id: "70E6EE8E6B8EA02D"
+				item: "mushroomquest:magenta_glowshroom"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -20.5d
+		}
+		{
+			id: "1C735D31CFB4C818"
+			tasks: [{
+				id: "6749E93D0251E160"
+				item: "mushroomquest:green_glowshroom"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -20.5d
+		}
+	]
+	title: "&2Mushrooms"
+}
