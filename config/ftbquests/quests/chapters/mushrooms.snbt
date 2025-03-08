@@ -4,6 +4,14 @@
 	filename: "mushrooms"
 	group: "6F1187A4D51268D1"
 	id: "403EA601C60343F6"
+	images: [{
+		height: 1.0d
+		image: "combi:textures/other/shrooms.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -8.25d
+		y: -22.75d
+	}]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -14,8 +22,8 @@
 				item: "mushroomquest:mossy_maze_polypore_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -11.5d
+			y: -16.5d
 		}
 		{
 			id: "4CD30C691A16AFF5"
@@ -1075,7 +1083,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: -16.5d
+			y: -15.5d
 		}
 		{
 			id: "6676B06DA84B9396"
