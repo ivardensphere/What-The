@@ -4,8 +4,905 @@
 	filename: "aquaculture"
 	group: "6F1187A4D51268D1"
 	id: "0C044B27F6A61131"
+	images: [{
+		height: 2.0d
+		image: "combi:textures/other/aqua.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -6.75d
+		y: 3.5d
+	}]
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			id: "03F235E9A5CF7123"
+			tasks: [{
+				id: "6DB7EB3970009695"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "506FB38E62B4CFF6"
+			tasks: [{
+				id: "195FED8DB900488B"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "29555CB98CA874DD"
+			tasks: [{
+				id: "6F37A117B99DD026"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "7D53F67ED7A24DB1"
+			tasks: [{
+				id: "53FF3C42C30EBC34"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "6D109BF6645FF763"
+			tasks: [{
+				id: "2F19EC478B38AB52"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "30E1D4A10E801068"
+			tasks: [{
+				id: "7BC7AFDA19061B6E"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			id: "2612555D103C8183"
+			tasks: [{
+				id: "42C7E4F27B801E8C"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -6.25d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "415942A54DD4E3D1"
+			tasks: [{
+				id: "6CD30740F800E17D"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["03F235E9A5CF7123"]
+			hide_dependency_lines: true
+			id: "2F072A91EE29CAC6"
+			tasks: [{
+				id: "3F127D4DC0CBFEE0"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "0057C8347D5D90EE"
+			tasks: [{
+				id: "25A01BC89E2E154C"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "2C1030489D958086"
+			tasks: [{
+				id: "3072FD4FDA1FEBBE"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "78BE9C8A5AE54474"
+			tasks: [{
+				id: "63CC4FDBD145142A"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "5ABA11EB85B9F786"
+			tasks: [{
+				id: "2B851AF6AC98F4E9"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			id: "17925C8D6E2CEFC4"
+			tasks: [{
+				id: "19ECB75FAE7DD943"
+				item: {
+					Count: 1
+					id: "aquaculture:wooden_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "197BD77ECAE7D5AE"
+			tasks: [{
+				id: "42DEEE630C4A15AC"
+				item: {
+					Count: 1
+					id: "aquaculture:stone_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "69480918DF14DF7C"
+			tasks: [{
+				id: "33E07B9B33493598"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "7C3C451BB59088CC"
+			tasks: [{
+				id: "00961597C634C245"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "66B1804D1652301B"
+			tasks: [{
+				id: "2817697AF70D0E45"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17925C8D6E2CEFC4"]
+			hide_dependency_lines: true
+			id: "74352BD453F28437"
+			tasks: [{
+				id: "06C6BDDA1B0865EB"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "79A13B7395F836FC"
+			tasks: [{
+				id: "5EDCC7C2E0D0EF87"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "096951AC6EA3F4E9"
+			tasks: [{
+				id: "387E11E585B304B1"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "4C8CAF6DA18A890B"
+			tasks: [{
+				id: "0ADD8EBC6046FE06"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "503A070AF62255CA"
+			tasks: [{
+				id: "6475675C8EA7A91C"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "743ECA2F503E3627"
+			tasks: [{
+				id: "27562BBDD7830846"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "529B10AB9AE73931"
+			tasks: [{
+				id: "2EF52572FB8130EB"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			id: "57946942E76ED7B2"
+			tasks: [{
+				id: "3F18E9804918C4F8"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "140A4B2F622A75E0"
+			tasks: [{
+				id: "53EA57F34CB486C7"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "532E434F1E1E7228"
+			tasks: [{
+				id: "69EE406D4457D388"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "0881DD05DFE2E95A"
+			tasks: [{
+				id: "3C6813F20C089B11"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "30FB5E9B630EA607"
+			tasks: [{
+				id: "2581D77566D3D3C0"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "6C7895963FF8798D"
+			tasks: [{
+				id: "33FDFF09376D7577"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "3CCF1912EFC00749"
+			tasks: [{
+				id: "31BE8728C76A754C"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "756B87432DB98642"
+			tasks: [{
+				id: "69D3796A2A604BFF"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "4C17A924F6A38FDE"
+			tasks: [{
+				id: "69859F14630A02C3"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "729C16510C52A1D5"
+			tasks: [{
+				id: "1A4BB625AB04565A"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "5BB20489DA3216D2"
+			tasks: [{
+				id: "7AA4045FFE1ED1EA"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "00D71E75365965B5"
+			tasks: [{
+				id: "7E1B1490C071AEDE"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "1FAD1FC7D98C0135"
+			tasks: [{
+				id: "67816FA401852478"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "59149820AB7BE0DC"
+			tasks: [{
+				id: "0BA9F3D7D12A8196"
+				item: "aquaculture:boulti"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "68A359FD673514CC"
+			tasks: [{
+				id: "7278A87A46AA9830"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "6785DC7F5847656D"
+			tasks: [{
+				id: "705E4AE0A1F89811"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "53844C8C34222167"
+			tasks: [{
+				id: "5811B74DF821607A"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "71DC93D768A0B0C4"
+			tasks: [{
+				id: "20B72E0E3E539EF4"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "5B755176C859FB73"
+			tasks: [{
+				id: "30F4B8D52764B6A6"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "495590EFB0A4E731"
+			tasks: [{
+				id: "715084708E3CE612"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "061215EE92CA4A9A"
+			tasks: [{
+				id: "2E4CDDD542DDF6B8"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "3DE7378E93267EC1"
+			tasks: [{
+				id: "1B9A2D289E0FDD77"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "494CB4E15941762C"
+			tasks: [{
+				id: "63FA9DEBE4E7963A"
+				item: {
+					Count: 1
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "48B2158ABD654D26"
+			tasks: [{
+				id: "4BD4F30623DE5E9C"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "0BC79145AAAA1FB5"
+			tasks: [{
+				id: "496AF174671292DD"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "11EF0BE20096361A"
+			tasks: [{
+				id: "053AEEF4CA2C4751"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "1DFB57728F70F3DD"
+			tasks: [{
+				id: "568BF3D6EFAB3F1D"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "4275A45B71885D45"
+			tasks: [{
+				id: "4C60576902B75342"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "2E072E79D8687462"
+			tasks: [{
+				id: "2FFE67EA1BD5CF68"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "2F8A21A42DB36443"
+			tasks: [{
+				id: "60BD187D3F962766"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "6FC04B2DED000253"
+			tasks: [{
+				id: "0CAF1801449ABE89"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "27FD04A8F1E687A4"
+			tasks: [{
+				id: "17D90550A0FB39B8"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "43FC912BD42288F7"
+			tasks: [{
+				id: "517CFA8E5C0B7655"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "03CCEEDFA0427693"
+			tasks: [{
+				id: "1A4E2B5BC0C5218C"
+				item: {
+					Count: 1
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "2F5864B93B7DC6C6"
+			tasks: [{
+				id: "1DDD0D518475371E"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "57869E010C279469"
+			tasks: [{
+				id: "0A42D401B38359AB"
+				item: "aquaculture:box_turtle"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "563B68C62E95F7FD"
+			tasks: [{
+				id: "013160A00D13F451"
+				item: "aquaculture:arrau_turtle"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["3A71ECF83FFB27D7"]
+			hide_dependency_lines: true
+			id: "06E872002BA00571"
+			tasks: [{
+				id: "39CADD423141CB46"
+				item: "aquaculture:starshell_turtle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.75d
+		}
+		{
+			id: "3A71ECF83FFB27D7"
+			tasks: [{
+				id: "22DA1244CD0A4AAA"
+				title: "Welcome to Aquaculture"
+				type: "checkmark"
+			}]
+			x: -6.75d
+			y: 0.0d
+		}
+	]
 	title: "&2Aquaculture"
 }

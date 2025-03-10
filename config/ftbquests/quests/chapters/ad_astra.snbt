@@ -6,6 +6,131 @@
 	id: "29362E6EB303B74D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "27E16CC3B5A4502A"
+			tasks: [{
+				id: "19A93CC4C115CB66"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "64E3A8964FF35D67"
+			tasks: [{
+				id: "1191940C334F10C2"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			id: "68A6473438E6B969"
+			tasks: [{
+				id: "4D08D3099F75919F"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "1C3C3150576F151D"
+			tasks: [{
+				id: "31044F28D942B5E0"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			id: "587A2B084F211144"
+			tasks: [{
+				id: "1E079462D7589D5E"
+				item: "ad_astra:tier_1_rocket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.75d
+		}
+		{
+			id: "1BE1B252072EBD30"
+			tasks: [{
+				id: "102B958D93B6B37A"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "453CAD8B82AA5EFB"
+			tasks: [{
+				id: "2674F0F74867C3DD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			id: "63C8110455895929"
+			tasks: [{
+				id: "774F782087DFF24B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/steel"
+					}
+				}
+				title: "Any #forge:plates/steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0FBD27E93475C3A2"
+			tasks: [{
+				id: "3F8ED5CCD73317F4"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.25d
+		}
+		{
+			id: "5F23A5AB4113B54D"
+			tasks: [{
+				id: "1F98B0BDECDD0146"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 1.5d
+		}
+		{
+			id: "7E9505DFC367138A"
+			tasks: [{
+				id: "17C603647CE56944"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.25d
+		}
+	]
 	title: "&1Ad Astra"
 }
