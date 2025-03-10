@@ -1,3 +1,28 @@
+3/10/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added mangomultiblock-1.20.1-1.3.0.jar
+Added VoidMiners-1.20.1-1.4.1.jar
+Updated hexereidelight-1.0.1-1.20.1.jar
+Updated legendarysurvivaloverhaul-1.20.1-2.2.28.jar
+Updated mna-forge-1.20.1-3.1.0.5-all.jar
+Updated PhilipsRuins1.20.1-5.0.jar
+Updated SubtleEffects-forge-1.20.1-1.9.1.jar
+Updated suppsquared-1.20-1.1.21.jar
+Updated the_bumblezone-7.6.1+1.20.1-forge.jar
+Updated ThermalExtra-3.2.4-1.20.1.jar
+Updated tinted_dyes-2.0.1-forge-1.20.1.jar
+Updated XaeroPlus-2.26.4+forge-1.20.1-WM1.39.4-MM25.1.0.jar
+Updated butcher-3.2-forge-1.20.1.jar
+Updated Cognition-v2.3.1-1.20.1-beta.jar
+Updated easy_mob_farm-forge-1.20.1-9.6.0.jar
+Updated friendsandfoes-forge-mc1.20.1-3.0.8.jar
+Updated fzzy_config-0.6.5-fix1+1.20.1+forge.jar
+Questline for AquaCulture done
+Questline for Tide done
+Questline for Legendary Survival done
+Updated the menus to be more coheriant
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 3/7/25:
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Updated ExtraBounties-universal.jar
@@ -25,4 +50,110 @@ Removed Celestial Relics Items at first join
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Removed Even More Magic because of a crash
 Initial Config uploads
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/1/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Removed FunctionalStorage.
+Removed Hexerei and Hexerei Delight becasue of stability issues.
+Finalized the pack on Curseforge.
+Removed the chance a second seed would drop from Mystical Agriculture.
+Changed max level from 5 to 10 in Tinkers Tool Leveling.
+Added letsdocompat-forge-2.1.0.jar
+Added jadensnetherexpansiondelight-1.0.2-1.20.1.jar
+Added lootintegrations_integrated-1.3.jar
+Added pedestals-1.20.1-0.8.jar
+Added crescentlib-1.0.0.jar
+Added entangled-1.3.20-forge-mc1.20.4.jar
+Updated to adastradelight-1.1.2-1.20.1.jar
+Updated to Delightful-1.20.1-3.7.1.jar
+Updated to botaniadelight-1.0.3.6-1.20.1.jar
+Updated to YungsCaveBiomes-1.20.1-Forge-2.0.2.jar
+Updated to lootintegrations_yungs-1.3.rar
+Updated to caveoverhaul-forge-1.20.1-1.3.4.jar
+Updated to v_slab_compat-1.20-2.5.jar
+Updated to immersivelanterns-forge-1.0.6-1.20.1.jar
+Updated to the_bumblezone-7.5.16+1.20.1-forge.jar
+Updated to SubtleEffects-forge-1.20.1-1.9.0.jar
+Updated to structureessentials-1.20.1-4.3.jar
+Updated to StardewValleyFood_1.20.1_0.3.0-bata.jar
+Updated to starterkit-1.20.1-7.3.jar
+Updated to sophisticatedbackpacks-1.20.1-3.23.6.1208.jar
+Updated to rftoolsbase-1.20-5.0.6.jar
+Updated to resourcefulconfig-forge-1.20.1-2.1.3.jar
+Updated to packetfixer-forge-2.0.0-1.19-to-1.20.1.jar
+Updated to Oh-The-Biomes-Weve-Gone-Forge-1.5.7.jar
+Updated to oceanic_delight-1.0.3-forge-1.20.1.jar
+Updated to occultism-1.20.1-1.141.3.jar
+Updated to no-telemetry-1.9.0.jar
+Updated to mowziesmobs-1.7.1.jar
+Updated to modonomicon-1.20.1-forge-1.77.6.jar
+Updated to lootintegration_wda-1.6.jar
+Updated to lootintegration_townsandtowers-1.1.jar
+Updated to lootintegrations_vanilla-1.3.jar
+Updated to lithostitched-forge-1.20.1-1.4.4.jar
+Updated to kleeslabs-forge-1.20.1-15.0.6.jar
+Updated to Kiwi-1.20.1-Forge-11.8.30.jar
+Updated to integrated_villages-1.2.0+1.20.1-forge.jar
+Updated to inventoryessentials-forge-1.20.1-8.2.7.jar
+Updated to IntegratedTunnels-1.20.1-1.8.35.jar
+Updated to IntegratedDynamics-1.20.1-1.25.3.jar
+Updated to integrated_api-1.5.2+1.20.1-forge.jar
+Updated to IntegratedCrafting-1.20.1-1.1.11.jar
+Updated to immersive_aircraft-1.2.1+1.20.1-forge.jar
+Updated to ImmediatelyFast-Forge-1.3.5+1.20.4.jar
+Updated to IllagerInvasion-v8.0.7-1.20.1-Forge.jar
+Updated to fzzy_config-0.6.4+1.20.1+forge.jar
+Updated to fusion-1.2.4-forge-mc1.20.1.jar
+Updated to fruitsdelight-1.0.19.jar
+Updated to friendsandfoes-forge-mc1.20.1-3.0.7.jar
+Updated to fancymenu_forge_3.4.6_MC_1.20.1.jar
+Updated to fallingleaves-1.20.1-2.1.2.jar
+Updated to entityculling-forge-1.7.3-mc1.20.1.jar
+Updated to Eldritch_End-FORGE-MC1.20.1-0.3.3.jar
+Updated to easy_mob_farm-forge-1.20.1-9.4.0.jar
+Updated to distraction_free_recipes-forge-1.2.1-1.20.1.jar
+Updated to deep_aether-1.20.1-1.1.5.jar
+Updated to CyclopsCore-1.20.1-1.19.7.jar
+Updated to curios-forge-5.12.1+1.20.1.jar
+Updated to corpse-forge-1.20.1-1.0.20.jar
+Updated to cookingforblockheads-forge-1.20.1-16.0.12.jar
+Updated to collective-1.20.1-7.93.jar
+Updated to celestial_artifacts-1.5.3.jar
+Updated to caupona-1.20.1-0.4.11.jar
+Updated to butcher-3.1-forge-1.20.1.jar
+Updated to BrewinAndChewin-1.20.1-3.2.1.jar
+Updated to Aquaculture-1.20.1-2.5.4.jar
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+2/25/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Updated Butchery config to remove first login msg and book as well as turn on mod integration.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+2/24/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added Better Tags-1.20.1-1.4.jar, mahoutsukai-1.20.1-v1.34.78.jar, xnetgases-1.20.1-5.1.4.jar
+Updated Mystical Agriculture toMysticalAgriculture-1.20.1-7.0.17.jar
+Updated Waystones to waystones-forge-1.20.1-14.1.10.jar
+Updated SophisticatedCore to sophisticatedcore-1.20.1-1.2.20.894.jar
+Added whatthe-alpha1.1.zip as the test pack v1.1 to the group Dropbox for testing.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+2/23/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Removed Avaratia as it was causing issues with Hexerei
+Updated Fancymenu to fancymenu_forge_3.4.5_MC_1.20.1.jar
+Updated PhilipsRuins to PhilipsRuins1.20.1-4.9.jar
+Updated SophisticatedCore to sophisticatedcore-1.20.1-1.2.18.890.jar
+Updated SophisticatedBackpacks to sophisticatedbackpacks-1.20.1-3.23.5.1203.jar
+Updated SophisticatedStorage to sophisticatedstorage-1.20.1-1.3.9.1075.jar
+Added: Polylib, Smallships, Connectivity, New Death Messages, FtbBackups, boatload, Upgrade Aquatic, CodeChickenLib, EnderStorage,
+       Butchery, Chunk Loaders, Lootr, Diabolic Hoard, Iron's Spells Delight
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+2/22/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Uploaded all standard configs.
+Uploaded all standard default configs.
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
