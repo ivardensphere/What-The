@@ -1,0 +1,1359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tide"
+	group: "6F1187A4D51268D1"
+	id: "442E23DBB95ED84C"
+	images: [{
+		height: 3.0d
+		image: "combi:textures/other/tide.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 17.25d
+		y: 11.5d
+	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "698CCEC6A8B85084"
+			tasks: [{
+				id: "29660BAC675C2B93"
+				item: {
+					Count: 1
+					id: "tide:stone_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "63F6A3A24BA83B49"
+			tasks: [{
+				id: "16CD882CE9C933DD"
+				item: {
+					Count: 1
+					id: "tide:iron_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			id: "6AF4AD9E474120D7"
+			tasks: [{
+				id: "29D85A47234B4750"
+				item: {
+					Count: 1
+					id: "tide:golden_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "00C1609C93C1D6A3"
+			tasks: [{
+				id: "16F6E8DE33F35630"
+				item: {
+					Count: 1
+					id: "tide:crystal_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "6A8C7B4504795CCD"
+			tasks: [{
+				id: "1014B5780DDDF9DF"
+				item: {
+					Count: 1
+					id: "tide:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "39F12F565405926A"
+			tasks: [{
+				id: "53254430F13CD734"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "2B37D59F1E8BB541"
+			tasks: [
+				{
+					id: "7A897B44228C8189"
+					item: "tide:red_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "4CD45CEC68C284C7"
+					item: "tide:orange_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "3126CB421541FF00"
+					item: "tide:yellow_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "5DD14235FFB13201"
+					item: "tide:lime_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "6B4645FEB9D5F3B9"
+					item: "tide:green_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "37541E44F35299DF"
+					item: "tide:cyan_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "5DBFBEB0D6806BEF"
+					item: "tide:light_blue_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "4B32C7CCEC6F1DB8"
+					item: "tide:blue_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "183AFC6CF6CAEC98"
+					item: "tide:purple_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "08767801C5A0F60A"
+					item: "tide:magenta_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "385AAAF2E7365C68"
+					item: "tide:pink_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "7BEBC8258DC721C5"
+					item: "tide:white_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "21581561F7102F6E"
+					item: "tide:light_gray_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "3966E4ECFF46E7E5"
+					item: "tide:gray_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "100A1D568A1847A2"
+					item: "tide:black_fishing_bobber"
+					type: "item"
+				}
+				{
+					id: "49C7ADF4B65A0792"
+					item: "tide:brown_fishing_bobber"
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "6692BB238F94B56F"
+			tasks: [{
+				id: "29B61803DBFB3CC9"
+				item: "tide:apple_fishing_bobber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "0163454CB6C7D32E"
+			tasks: [{
+				id: "42FBE03F18FFE0A1"
+				item: "tide:golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "41FDFBF2F5B0A33A"
+			tasks: [{
+				id: "68F7CDDED6C1CF45"
+				item: "tide:enchanted_golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "191D2F30423C834D"
+			tasks: [{
+				id: "5ADED66C008E9109"
+				item: "tide:iron_fishing_bobber"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "47B7459B501F9E89"
+			tasks: [{
+				id: "0A75DE8591DFE816"
+				item: "tide:golden_fishing_bobber"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "2318F109006AD897"
+			tasks: [{
+				id: "6E53BF38AF3DF20E"
+				item: "tide:diamond_fishing_bobber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "44FC95B18C809530"
+			tasks: [{
+				id: "0AE371206EA3B833"
+				item: "tide:netherite_fishing_bobber"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "60AAE8E1D7BC23B9"
+			tasks: [{
+				id: "3B8A3EFE948213E6"
+				item: "tide:amethyst_fishing_bobber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "70FA9C8785937216"
+			tasks: [{
+				id: "6B3D777E5F7DAD61"
+				item: "tide:echo_fishing_bobber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "07ADFE748872A218"
+			tasks: [{
+				id: "284232AE8E423E53"
+				item: "tide:chorus_fishing_bobber"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "13F34AB5CC44636A"
+			tasks: [{
+				id: "761EA5172628A31E"
+				item: "tide:feather_fishing_bobber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "47148EF704DE3469"
+			tasks: [{
+				id: "6E627C38E3123BFE"
+				item: "tide:lichen_fishing_bobber"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "7B89FF649D959CC3"
+			tasks: [{
+				id: "422086FBCCF9EADC"
+				item: "tide:nautilus_fishing_bobber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "5BEB045BBB8CBC75"
+			tasks: [{
+				id: "2FE4E2D8E7D8985E"
+				item: "tide:pearl_fishing_bobber"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "38D11A024D5AB22F"
+			tasks: [{
+				id: "77E919C4387637E7"
+				item: "tide:heart_fishing_bobber"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "584318B77EF6FDB8"
+			tasks: [{
+				id: "138CDB0DAF090D3F"
+				item: "tide:grassy_fishing_bobber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "78A826F19D5064BE"
+			tasks: [{
+				id: "44338C85A5764153"
+				item: "tide:fishing_hook"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			id: "1B12FB4658534CD4"
+			tasks: [{
+				id: "790F6A5E8B1A4F04"
+				item: "tide:iron_fishing_hook"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "70A54DCE7E67D881"
+			tasks: [{
+				id: "17503795FB849DED"
+				item: "tide:lavaproof_fishing_hook"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "526E980C34C975DC"
+			tasks: [{
+				id: "0B5639674544D58D"
+				item: "tide:fishing_line"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "4D0ACD58AECF1EAA"
+			tasks: [{
+				id: "27ADD17ED863B689"
+				item: "tide:braided_line"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "242F13B053694927"
+			tasks: [{
+				id: "43406FCE496D42BD"
+				item: "tide:reinforced_line"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6F8B6B1DBBC68A48"]
+			hide_dependency_lines: true
+			id: "6DCA0E4855D73FB1"
+			tasks: [{
+				id: "7E37913837DEAD2F"
+				item: "tide:fortune_line"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "6F8B6B1DBBC68A48"
+			tasks: [{
+				id: "12BE285C1BE6EC16"
+				item: "tide:angler_workshop"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0FF28E3BE3B5BE66"
+			tasks: [{
+				id: "1D2732627ED2E97C"
+				item: "tide:mint_carp"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "657EB146B8CD6B24"
+			tasks: [{
+				id: "58E7BCE13663E08D"
+				item: "tide:clayfish"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "59F5CC5660796FB3"
+			tasks: [{
+				id: "11343B2B9772876F"
+				item: "tide:hardened_clayfish"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "299CB760CE4ABE07"
+			tasks: [{
+				id: "4F89FA005E2E3A55"
+				item: "tide:trout"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "3E204A2C0445236C"
+			tasks: [{
+				id: "14882F42BC69C72C"
+				item: "tide:angelfish"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "5E284B1A77A57E81"
+			tasks: [{
+				id: "7AC264F3C24556F3"
+				item: "tide:barracuda"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "1CDE9DA095580DEE"
+			tasks: [{
+				id: "2FBA09B64365C2FE"
+				item: "tide:sailfish"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "04746FCB7454032A"
+			tasks: [{
+				id: "1D7C7B0341E797B4"
+				item: "tide:catfish"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "581E17B0DBE32E1C"
+			tasks: [{
+				id: "4DF1832D41E860D3"
+				item: "tide:pike"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "61A6B0819356635A"
+			tasks: [{
+				id: "4FEDD47D31A9B90E"
+				item: "tide:bass"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "51A31333821BF252"
+			tasks: [{
+				id: "30E327717B95F00C"
+				item: "tide:tuna"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "66BEFCC88CCCAE2A"
+			tasks: [{
+				id: "1E84360EF0ED30D6"
+				item: "tide:yellow_perch"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "3FAA0059F55BE640"
+			tasks: [{
+				id: "320108B0F22EA94A"
+				item: "tide:ocean_perch"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "06C6BB3E5E9E2E44"
+			tasks: [{
+				id: "7237257837DEA691"
+				item: "tide:guppy"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "5D4F8B91FF550C37"
+			tasks: [{
+				id: "0E6261698BF2E490"
+				item: "tide:bluegill"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "58A3D9D26A0678A8"
+			tasks: [{
+				id: "709842D6F08E95D2"
+				item: "tide:mackerel"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "24111C392908E931"
+			tasks: [{
+				id: "32EBE158A44B11AC"
+				item: "tide:cave_eel"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "68E60BADE2988B31"
+			tasks: [{
+				id: "71B278CD3CC1DD5A"
+				item: "tide:crystal_shrimp"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0C8A2E20647BF723"
+			tasks: [{
+				id: "3D78AF333F8136CC"
+				item: "tide:iron_tetra"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "691F40BB686585BF"
+			tasks: [{
+				id: "7651BD46E6A4305C"
+				item: "tide:glowfish"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "37A5644E89F7DE9E"
+			tasks: [{
+				id: "50A844E1D0F5B881"
+				item: "tide:anglerfish"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "08501C8F74CE39EE"
+			tasks: [{
+				id: "03857417883A31E7"
+				item: "tide:cave_crawler"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "07D60F55330FAB8A"
+			tasks: [{
+				id: "4884D338F192D4AB"
+				item: "tide:gilded_minnow"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0D9AC957AD632060"
+			tasks: [{
+				id: "252C82DBA9A83098"
+				item: "tide:abyss_angler"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "1CAF8F417DF100EB"
+			tasks: [{
+				id: "6504CF6A32791123"
+				item: "tide:crystalline_carp"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "1D35AB4AD56E4E28"
+			tasks: [{
+				id: "2CBA4D35E10B7386"
+				item: "tide:lapis_lanternfish"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0C612D69E4DA12C2"
+			tasks: [{
+				id: "25F393F456A0AF99"
+				item: "tide:luminescent_jellyfish"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "65629000A32D0931"
+			tasks: [{
+				id: "0DD6083585B7F884"
+				item: "tide:shadow_snapper"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "412247F1945B50AE"
+			tasks: [{
+				id: "548D75EF16FB93E9"
+				item: "tide:deep_grouper"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "04169A25FF31F7B6"
+			tasks: [{
+				id: "58BCCB9B392A3765"
+				item: "tide:bedrock_tetra"
+				type: "item"
+			}]
+			x: 18.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "080A96F8C8A4B39E"
+			tasks: [{
+				id: "1E94869B46573B7E"
+				item: "tide:endstone_perch"
+				type: "item"
+			}]
+			x: 18.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "247DA45F150AC7FE"
+			tasks: [{
+				id: "45220ABF570F69BD"
+				item: "tide:enderfin"
+				type: "item"
+			}]
+			x: 18.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "291C60C17D95F3DD"
+			tasks: [{
+				id: "2E56F8DAA7B71680"
+				item: "tide:endergazer"
+				type: "item"
+			}]
+			x: 18.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "4DE92D640B9FAED8"
+			tasks: [{
+				id: "35D2CB246F7F3C3B"
+				item: "tide:purpur_pike"
+				type: "item"
+			}]
+			x: 18.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "3806424AABEFD0AD"
+			tasks: [{
+				id: "6979243760F3AFB7"
+				item: "tide:chorus_cod"
+				type: "item"
+			}]
+			x: 18.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0002642FFC45C836"
+			tasks: [{
+				id: "3F3C89772A81E486"
+				item: "tide:elytrout"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "79C6723C9098B938"
+			tasks: [{
+				id: "229CE3F07B0290B8"
+				item: "tide:prarie_pike"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "367EACE779373303"
+			tasks: [{
+				id: "0F82593EE36535F0"
+				item: "tide:sandskipper"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 8.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "627C83907C07A26D"
+			tasks: [{
+				id: "54801CC8F290E9DB"
+				item: "tide:blossom_bass"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "094E4741837D184C"
+			tasks: [{
+				id: "503896191DD5DA99"
+				item: "tide:oakfish"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "53E8B5B18041E54B"
+			tasks: [{
+				id: "546E20BA2B491A5C"
+				item: "tide:frostbite_flounder"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "7484C49084AEEDF6"
+			tasks: [{
+				id: "5F7032D6CDD7393A"
+				item: "tide:mirage_catfish"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "4F7637F88FA2F8CA"
+			tasks: [{
+				id: "4BD371539D675C00"
+				item: "tide:echofin_snapper"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 9.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "2DD6E6B91EBC4839"
+			tasks: [{
+				id: "2F653F175A6FCBA1"
+				item: "tide:sunspike_goby"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "3C903EEA91D10BE6"
+			tasks: [{
+				id: "08CC68C48BD5F828"
+				item: "tide:birch_trout"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 9.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "1B8816E4DD4ACE89"
+			tasks: [{
+				id: "10C9BEB3D20B585B"
+				item: "tide:stonefish"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "122539AD5F3C874A"
+			tasks: [{
+				id: "109223F80BE19021"
+				item: "tide:dripstone_darter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "3AB7547895A4A6CE"
+			tasks: [{
+				id: "3A2C68B67A24CEB7"
+				item: "tide:slimefin_snapper"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 10.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0D45C1CC8F01A2AF"
+			tasks: [{
+				id: "50903FD254F3155E"
+				item: "tide:sporestalker"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "5A42E04C1F3ECA19"
+			tasks: [{
+				id: "096AD8AF89AD5A36"
+				item: "tide:leafback"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 10.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "4A124204BA9D2ED3"
+			tasks: [{
+				id: "2A92855C3B151D89"
+				item: "tide:fluttergill"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "71D553EB90EBE6C0"
+			tasks: [{
+				id: "79D69032C7E40CEC"
+				item: "tide:pine_perch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "163477ED2AE25EF6"
+			tasks: [{
+				id: "0F02173E47E81171"
+				item: "tide:ember_koi"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "7921742EC090D3B2"
+			tasks: [{
+				id: "4D43C15127B2948F"
+				item: "tide:inferno_guppy"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "1944ED6542B42C76"
+			tasks: [{
+				id: "141628E8165FA7D2"
+				item: "tide:obsidian_pike"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "30B34B615F0FBE18"
+			tasks: [{
+				id: "1FD9674382E784BE"
+				item: "tide:volcano_tuna"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 13.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "253320D275BF734A"
+			tasks: [{
+				id: "768A89D798C0B16B"
+				item: "tide:magma_mackerel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "16EA030AE4F30956"
+			tasks: [{
+				id: "093A8AC0DC9636EC"
+				item: "tide:warped_guppy"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 13.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "341AFAB94CEB532B"
+			tasks: [{
+				id: "452472A8AB31644D"
+				item: "tide:crimson_fangjaw"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "7592B3F81C1D6CA1"
+			tasks: [{
+				id: "195570BED6CFAA83"
+				item: "tide:ashen_perch"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 13.25d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "0DAA538B05700AF4"
+			tasks: [{
+				id: "24C6168FF403DE44"
+				item: "tide:witherfin"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "44DB0F6B3196155B"
+			tasks: [{
+				id: "3AD310483155C8E6"
+				item: "tide:soulscaler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "5BD9FB2FB7E364E8"
+			tasks: [{
+				id: "02D99A7247FC4E20"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "4BCB213A9FBE83F4"
+			tasks: [{
+				id: "07A7F3B574BD0299"
+				item: "tide:midas_fish"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "66ECD01607ADE156"
+			tasks: [{
+				id: "78E5C004EFD40C16"
+				item: "tide:aquathorn"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 15.75d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "6B8311860BD85AF6"
+			tasks: [{
+				id: "17AA7275C801501B"
+				item: "tide:voidseeker"
+				type: "item"
+			}]
+			x: 9.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["582D14B7D27CBD3B"]
+			hide_dependency_lines: true
+			id: "14763A1F1F13FFB6"
+			tasks: [{
+				id: "1D8DEABBEE3ABE6D"
+				item: "tide:shooting_starfish"
+				type: "item"
+			}]
+			x: 11.75d
+			y: 15.75d
+		}
+		{
+			id: "582D14B7D27CBD3B"
+			rewards: [{
+				id: "02A6C01734BFE61C"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6949FD5521C9BBA0"
+				title: "Welcome to Tide"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+	]
+	title: "&2Tide"
+}

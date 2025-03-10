@@ -1,0 +1,630 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: "4E47870FD3F3DAA8"
+	id: "001A2974C3F3C47D"
+	images: [
+		{
+			height: 1.0d
+			image: "combi:textures/other/survival.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.25d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "combi:textures/other/tactics.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.25d
+			y: 5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The world is a scary place. Having to not just keep track of that growling stomach, one needs to also watch their thirst, temperature, and make sure all their limbs stay in tact."
+				"The lands can be such a cruel place to traverse."
+			]
+			id: "4E1FEF7BE869EC6D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "How To Survive: Combi Edition"
+			tasks: [{
+				id: "434DE17A47E72580"
+				title: "Survival"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Weather can both make you too &4hot&r or too &3cold&r. Being in a rainstorm or hot sunlight will need to be monitored."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-w.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "5978C9FCD5A310C1"
+			shape: "square"
+			tasks: [{
+				id: "6A3E37492551BB42"
+				title: "Weather"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Be mindful of your surroundings. Some places can heat you up or chill you to the bone."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-bi.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "0BA31732452F0701"
+			shape: "square"
+			tasks: [{
+				id: "3DB140CA042D93E1"
+				title: "Biomes"
+				type: "checkmark"
+			}]
+			x: -1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Altitude can be dangerous. Go too low and you will lose body temperature. Go too high, and you will overheat. "]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-a.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "7B7919D0B2B15D7A"
+			shape: "square"
+			tasks: [{
+				id: "17F2B10613CE05AC"
+				title: "Altitude"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Some armor out there can be fitted with special linings to help with adapting to various temperature changes."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-ar.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "28D1D9C3690EBEB1"
+			shape: "square"
+			tasks: [{
+				id: "65ED04F2EA0B7373"
+				title: "Armor"
+				type: "checkmark"
+			}]
+			x: 1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Time can be a factor on adjusting body temperature. With nights being cooler, be conscious of the time of day."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-t.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "26E3B5E347C436E0"
+			shape: "square"
+			tasks: [{
+				id: "5484AE9EF9F6CC33"
+				title: "Time"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Nothing beats jumping in a cool body of water to cool down. But be careful, staying in the water for too long can cause the chills."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-wt.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "732E85B2272220CF"
+			shape: "square"
+			tasks: [{
+				id: "5FAC38AF21D4E387"
+				title: "Wetness"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Getting under the shade or in a cool place can help beat that bright sun and help cool things down."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-s.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "038695E2D825245E"
+			shape: "square"
+			tasks: [{
+				id: "78A330B6AEA7B625"
+				title: "Shade"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Sometimes being next to someone else can help get the chill out of those weary bones."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-p.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "557FA2C385F3464C"
+			shape: "square"
+			tasks: [{
+				id: "16FEC4723908CBE1"
+				title: "Proximity"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Some blocks can both heat things up or cool things down."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-b.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "6CF360082A9E8DD9"
+			shape: "square"
+			tasks: [{
+				id: "1791D3428F562344"
+				title: "Blocks"
+				type: "checkmark"
+			}]
+			x: -5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["A good meal can really hit the spot, but it can also adjust your body temperture."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-f.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "5EF1CF4FD2770465"
+			shape: "square"
+			tasks: [{
+				id: "0B2B400E223EB3C7"
+				title: "food"
+				type: "checkmark"
+			}]
+			x: 5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: ["Getting some exercise never hurt, might even heat you up a little."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "combi:textures/other/ls-ac.png"
+				}
+			}
+			icon_scale: 1.5d
+			id: "65BEB6492C5F148C"
+			shape: "square"
+			tasks: [{
+				id: "00326557279FDEAD"
+				title: "Activity"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			id: "6CD91C1A25C6C1EF"
+			subtitle: "Craft a Sewing table"
+			tasks: [{
+				id: "6F0B5B5A8D03C2A3"
+				item: "legendarysurvivaloverhaul:sewing_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			hide_dependency_lines: true
+			id: "3FB6785124166A07"
+			tasks: [{
+				id: "11994166399285C3"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:snow_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FB6785124166A07"]
+			id: "47C644ED0D6F249F"
+			tasks: [{
+				id: "5C2A2439DADE7DA4"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:snow_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47C644ED0D6F249F"]
+			id: "3B28D82115F96432"
+			tasks: [{
+				id: "777C5E973D9098BF"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:snow_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B28D82115F96432"]
+			id: "6BDA9EC89200DE8C"
+			tasks: [{
+				id: "38D433A26A8FC747"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:snow_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09184F55CC1D5DAE"]
+			id: "25B149C7C58BAF4A"
+			tasks: [{
+				id: "4C171000B6547CCA"
+				item: "legendarysurvivaloverhaul:cooling_coat_1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6CD91C1A25C6C1EF"]
+			id: "09184F55CC1D5DAE"
+			tasks: [{
+				id: "1C39B0CE4F2720DA"
+				item: "legendarysurvivaloverhaul:ice_fern_leaf"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6CD91C1A25C6C1EF"]
+			id: "7C469193386095FE"
+			tasks: [{
+				id: "441F6CE0DD87CDB0"
+				item: "legendarysurvivaloverhaul:sun_fern_leaf"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7C469193386095FE"]
+			id: "70B11E7E00233D71"
+			tasks: [{
+				id: "7A7AA35C3FD4563D"
+				item: "legendarysurvivaloverhaul:heating_coat_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			hide_dependency_lines: true
+			id: "767972E3B9683D18"
+			tasks: [{
+				id: "419504F521E3822D"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:desert_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["767972E3B9683D18"]
+			id: "15281B7AE66C1873"
+			tasks: [{
+				id: "0D8B097B014EF5E7"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:desert_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15281B7AE66C1873"]
+			id: "3E4CB51A905481F3"
+			tasks: [{
+				id: "55D6FC5BEDF28845"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:desert_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E4CB51A905481F3"]
+			id: "08044975A6E84ACA"
+			tasks: [{
+				id: "5D232E8BFACB9D64"
+				item: {
+					Count: 1
+					id: "legendarysurvivaloverhaul:desert_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CD91C1A25C6C1EF"]
+			id: "002812DF825F9EF2"
+			tasks: [{
+				id: "39E67000A1C47DF4"
+				item: "legendarysurvivaloverhaul:heater"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CD91C1A25C6C1EF"]
+			id: "0B7A7013E6ECADCD"
+			tasks: [{
+				id: "15769168405F7AAA"
+				item: "legendarysurvivaloverhaul:cooler"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			id: "36551A0768E8C74B"
+			tasks: [{
+				id: "086FDAC005B6FB3A"
+				item: "legendarysurvivaloverhaul:seasonal_calendar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36551A0768E8C74B"]
+			id: "67DA9D1B7024B965"
+			tasks: [{
+				id: "56905E4C972FC9B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							temperature: 3.8f
+						}
+					}
+					id: "legendarysurvivaloverhaul:thermometer"
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			id: "002A092D2EB97170"
+			tasks: [{
+				id: "546A2181DDB1D6A1"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["002A092D2EB97170"]
+			id: "6EA01DC0E0461B30"
+			tasks: [{
+				id: "52638F29E94D74FB"
+				item: "legendarysurvivaloverhaul:large_canteen"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EDADE315FEDB0D3"]
+			id: "35BB548347B17951"
+			tasks: [{
+				id: "3D94BE462CFE0FED"
+				item: "legendarysurvivaloverhaul:healing_herbs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35BB548347B17951"]
+			id: "73B35B3838EFD319"
+			tasks: [{
+				id: "594F3730D29D2240"
+				item: "legendarysurvivaloverhaul:bandage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["73B35B3838EFD319"]
+			id: "6949DA8669BD9688"
+			tasks: [{
+				id: "6BBF98EEDE692909"
+				item: "legendarysurvivaloverhaul:medikit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["012328D4D8815F4D"]
+			id: "6EDADE315FEDB0D3"
+			tasks: [{
+				id: "2559B54C8285F6F8"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6949DA8669BD9688"]
+			id: "53CF0B2FDE2A2470"
+			tasks: [{
+				id: "505834BA58219713"
+				item: "legendarysurvivaloverhaul:morphine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4E1FEF7BE869EC6D"]
+			description: [
+				"The localized body damage is inspired by the mechanic Fallout games that splits the limbs health and the players health.  "
+				""
+				"Each damage will be attributed as accurately as possible to a specific limb."
+				""
+				"Press \"H\" to see the body layout (May need to adjust what the hotkey is)."
+				""
+				""
+				""
+				""
+				""
+				"{image:combi:textures/other/health.png width:100 height:100 align:center}"
+				""
+				""
+				""
+				"Some items can heal you and even heal up your limb damage."
+			]
+			hide_dependency_lines: true
+			id: "012328D4D8815F4D"
+			tasks: [{
+				id: "0114CFF000F2A05B"
+				title: "Health"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "&fSurvival"
+}
