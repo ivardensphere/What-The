@@ -103,6 +103,7 @@
 	Piglin = true
 	"Zombified Piglin" = true
 	Slime = true
+	Horse = true
 
 [Seasonal]
 	#Enable/Disable the Halloween update

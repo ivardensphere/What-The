@@ -33,6 +33,7 @@
 [XP] Switch to End:false
 [XP] OldBiomes Opacity:100.0
 [XP] Spawn Chunks Outer Chunks:false
+[XP] Minimap Render Z:0.0
 [XP] Portal Highlights:false
 [XP] PortalSkip Color:6
 [XP] Spawn Chunks Entity Processing Color:1

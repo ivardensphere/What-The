@@ -18,3 +18,9 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 net.zepalesque.redux.client.gui.screen.menu.ReduxTitleScreen {
 }
 
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
