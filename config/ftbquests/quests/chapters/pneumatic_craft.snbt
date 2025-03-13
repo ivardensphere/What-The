@@ -6,6 +6,940 @@
 	id: "38D43E2E031A2F34"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["030007F07B089C52"]
+			id: "7AB5B7F87258D2F0"
+			tasks: [{
+				count: 10L
+				id: "3C459F1B4B92CA3F"
+				item: { Count: 10, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7AB5B7F87258D2F0"]
+			id: "680F374B50D7B9DB"
+			tasks: [{
+				count: 10L
+				id: "127A2A7E4F70CED7"
+				item: { Count: 10, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42EC33D1DC5F4C45"]
+			id: "672F4606AE696CBE"
+			tasks: [{
+				id: "13AFA8E9F18BECD4"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0127BAC4379214CB"]
+			id: "778C2D94633882C2"
+			tasks: [{
+				id: "53C9091ABA5B60FD"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61B7A0DD4F07A3C6"]
+			id: "188C1EC93DE74342"
+			tasks: [{
+				id: "0C4ACD47FE708CED"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7AB5B7F87258D2F0"]
+			id: "628F1BA9CD035943"
+			tasks: [{
+				id: "29A9682865B176C1"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42EC33D1DC5F4C45"]
+			id: "61B7A0DD4F07A3C6"
+			tasks: [{
+				id: "6B71C22C61350A5C"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7CC81914F9B14238"]
+			id: "430092E5154AD5E4"
+			tasks: [{
+				id: "698D5B9E2150AE19"
+				item: "pneumaticcraft:universal_sensor"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			id: "2AE55BEBD8BED147"
+			tasks: [{
+				id: "232589E180F68EF1"
+				item: "pneumaticcraft:logistics_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2AE55BEBD8BED147"]
+			id: "1623C8632FA5EA9B"
+			tasks: [{
+				id: "73AEDF083D31430D"
+				item: "pneumaticcraft:logistics_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1623C8632FA5EA9B"]
+			id: "7315EBF5FE4D982C"
+			tasks: [{
+				id: "763574A5F66E3056"
+				item: "pneumaticcraft:redstone_module"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41686A3DA272F855"]
+			id: "6F7CBC323EB06BAB"
+			tasks: [{
+				id: "4360ADE9BCCFE2E4"
+				item: "pneumaticcraft:module_expansion_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73480BB3ACE66483"]
+			id: "41686A3DA272F855"
+			tasks: [{
+				id: "77BBB205B31AC342"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1623C8632FA5EA9B"]
+			id: "5F3479C1B0037BD3"
+			tasks: [{
+				id: "48A2C81E90FABF3E"
+				item: "pneumaticcraft:reinforced_chest"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F3479C1B0037BD3"]
+			id: "6F2B515A5176AC0F"
+			tasks: [{
+				id: "13BD0078468EFB91"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["746C14D1CECB749B"]
+			id: "73841A5C71B17EB9"
+			tasks: [{
+				id: "616B47904AEC0D0B"
+				item: "pneumaticcraft:large_tank"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -7.75d
+		}
+		{
+			dependencies: ["73841A5C71B17EB9"]
+			id: "4BB2091384243AA8"
+			tasks: [{
+				id: "275EEDD1CED6E1AE"
+				item: "pneumaticcraft:huge_tank"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -9.0d
+		}
+		{
+			dependencies: ["314479B485B0F42D"]
+			id: "746C14D1CECB749B"
+			tasks: [{
+				id: "52212DCA75343359"
+				item: "pneumaticcraft:medium_tank"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1623C8632FA5EA9B"]
+			id: "314479B485B0F42D"
+			tasks: [{
+				id: "6731A5ABED4291BC"
+				item: "pneumaticcraft:small_tank"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["5F3479C1B0037BD3"]
+			id: "170A1CFC46FA8E2B"
+			tasks: [{
+				id: "6A253B9057C8BE49"
+				item: "pneumaticcraft:omnidirectional_hopper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["170A1CFC46FA8E2B"]
+			id: "5A94830297628D44"
+			tasks: [{
+				id: "394F7ACF280E87E2"
+				item: "pneumaticcraft:liquid_hopper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1623C8632FA5EA9B"]
+			id: "75F4D75E32A28660"
+			tasks: [{
+				id: "1710F448EEA00344"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["1623C8632FA5EA9B"]
+			id: "34FC22567026154F"
+			tasks: [{
+				id: "0E2987171C08057F"
+				item: "pneumaticcraft:programmer"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["34FC22567026154F"]
+			id: "3276B558D8F0D628"
+			tasks: [{
+				id: "33686AAF017B9F44"
+				item: "pneumaticcraft:remote"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.25d
+		}
+		{
+			id: "030007F07B089C52"
+			tasks: [{
+				id: "5B0AFB1D42C930DF"
+				title: "Welcome to PneumaticCraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AB5B7F87258D2F0"]
+			id: "42EC33D1DC5F4C45"
+			tasks: [{
+				id: "7602A7483AB95252"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["42EC33D1DC5F4C45"]
+			id: "0127BAC4379214CB"
+			tasks: [{
+				id: "39278A95E55A4940"
+				item: "pneumaticcraft:safety_tube_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AB5B7F87258D2F0"]
+			id: "4AFB22C105F898EA"
+			tasks: [{
+				id: "5060E09FE76851F0"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AFB22C105F898EA"]
+			id: "0099A5D4589ACB5F"
+			tasks: [{
+				id: "5BD18A770026417F"
+				item: "pneumaticcraft:refinery_output"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0099A5D4589ACB5F"]
+			id: "4C17CFE897F9D7E3"
+			tasks: [{
+				id: "72488465FD782993"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4AFB22C105F898EA"]
+			id: "4483369F7257E8AA"
+			tasks: [{
+				id: "60B03FAAD2F997F1"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4AFB22C105F898EA"]
+			id: "39E66D6EC4F0133F"
+			tasks: [{
+				id: "308D6135D95B919C"
+				item: "pneumaticcraft:gas_lift"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7AB5B7F87258D2F0"]
+			id: "7CC81914F9B14238"
+			tasks: [{
+				count: 10L
+				id: "25CA4327D7AACF15"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7CC81914F9B14238"]
+			id: "254528C762C41FED"
+			tasks: [{
+				id: "542F139581BA74B4"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["254528C762C41FED"]
+			id: "12F2ED30EE7C4F42"
+			tasks: [{
+				id: "37F45243697B4946"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["12F2ED30EE7C4F42"]
+			id: "4E03211A84B20ED4"
+			tasks: [{
+				id: "07944CBB74E1D501"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["4E03211A84B20ED4"]
+			id: "58F7E27D9A59394B"
+			tasks: [{
+				id: "6F1FAC7BE9698556"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7315EBF5FE4D982C"]
+			id: "73480BB3ACE66483"
+			tasks: [{
+				id: "67F8BCC8BEFDE031"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["254528C762C41FED"]
+			id: "0E89616A5CA35C96"
+			tasks: [{
+				id: "32CA7CA268E330EF"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41686A3DA272F855"]
+			id: "26B34B99C6AAE2C6"
+			tasks: [{
+				id: "17771982EF9375FC"
+				item: "pneumaticcraft:assembly_controller"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "4612BB3CA7AB8471"
+			tasks: [{
+				id: "2DF641FF45A5A02B"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4612BB3CA7AB8471"]
+			id: "611F0EC4CE93CE8C"
+			tasks: [{
+				id: "61C5815EA5681591"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["611F0EC4CE93CE8C"]
+			id: "3A27D5406EEBCE7B"
+			tasks: [{
+				id: "31C6A5EABE004997"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4612BB3CA7AB8471"]
+			id: "61A616B29E7B5A99"
+			tasks: [{
+				id: "17A6EB780308D601"
+				item: "pneumaticcraft:vacuum_pump"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61A616B29E7B5A99"]
+			id: "1BEFC1A047E14EEC"
+			tasks: [{
+				id: "340A44BB35F65FD4"
+				item: "pneumaticcraft:spawner_extractor"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["1BEFC1A047E14EEC"]
+			id: "4767BDF573067067"
+			tasks: [{
+				id: "3EB8EAF82709716A"
+				item: "pneumaticcraft:empty_spawner"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61A616B29E7B5A99"]
+			id: "51CA5CC17F4004E4"
+			tasks: [{
+				id: "71EAF54370A592A3"
+				item: "pneumaticcraft:vacuum_trap"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.25d
+		}
+		{
+			id: "0E12D129D695698D"
+			tasks: [{
+				id: "3A844CDA95F50A9E"
+				item: "pneumaticcraft:air_conditioning_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "664656B8C2DBB94E"
+			tasks: [{
+				id: "3D5F5DE9E067BFFD"
+				item: "pneumaticcraft:armor_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.75d
+		}
+		{
+			id: "26FF73B192E04144"
+			tasks: [{
+				id: "081091D3658C05E8"
+				item: "pneumaticcraft:block_tracker_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["4612BB3CA7AB8471"]
+			id: "0C89F5AD4C5D5FCE"
+			tasks: [{
+				id: "641DE368C6284404"
+				item: "pneumaticcraft:advanced_air_compressor"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.75d
+		}
+		{
+			id: "5E4DA83475B2AA3D"
+			tasks: [{
+				id: "34D7FE99C604C6B5"
+				item: "pneumaticcraft:charging_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "34C4250E555BDC39"
+			tasks: [{
+				id: "2EF74C796F4963A7"
+				item: "pneumaticcraft:chunkloader_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "4B6AD85A7F7DE4C5"
+			tasks: [{
+				id: "0CC969E2090C88E0"
+				item: "pneumaticcraft:coordinate_tracker_upgrade"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -0.25d
+		}
+		{
+			id: "0EEC21DF5F0CEE48"
+			tasks: [{
+				id: "61F8C9E87559283D"
+				item: "pneumaticcraft:dispenser_upgrade"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 4.75d
+		}
+		{
+			id: "021A8263778E3A8D"
+			tasks: [{
+				id: "714C99413992FC8D"
+				item: "pneumaticcraft:elytra_upgrade"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 1.0d
+		}
+		{
+			id: "1F9C5D11425FB5D6"
+			tasks: [{
+				id: "505611862301F615"
+				item: "pneumaticcraft:gilded_upgrade"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "6ADDFC015008B01D"
+			tasks: [{
+				id: "4C06CAD956E0038A"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "7358471F6947ED41"
+			tasks: [{
+				id: "2E1FAED32ADFC403"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "153FBFBDB3B9D16C"
+			tasks: [{
+				id: "035AE6367CCC4415"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "785E68E6120A9CBE"
+			tasks: [{
+				id: "014B14E7FD4D3EE2"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:pneumatic_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.5d
+		}
+		{
+			id: "3D88462243982287"
+			tasks: [{
+				id: "04B88B8291EF4F55"
+				item: "pneumaticcraft:ender_visor_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.25d
+		}
+		{
+			id: "5F91FF2CD92D5AF4"
+			tasks: [{
+				id: "1A843DDCA9DAD3CD"
+				item: "pneumaticcraft:entity_tracker_upgrade"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -0.25d
+		}
+		{
+			id: "0A5B869D392CD7CA"
+			tasks: [{
+				id: "7608D019546D222A"
+				item: "pneumaticcraft:flippers_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "762F46B795A8CC64"
+			tasks: [{
+				id: "64C45D9FBA59BA21"
+				item: "pneumaticcraft:inventory_upgrade"
+				type: "item"
+			}]
+			x: 10.75d
+			y: -1.5d
+		}
+		{
+			id: "3A48EDF9D4718076"
+			tasks: [{
+				id: "00BF2E49D8BA9123"
+				item: "pneumaticcraft:jet_boots_upgrade_1"
+				type: "item"
+			}]
+			x: 10.75d
+			y: 3.5d
+		}
+		{
+			id: "68A31927B40C9F74"
+			tasks: [{
+				id: "72FFA0A1A8897E3E"
+				item: "pneumaticcraft:jumping_upgrade_1"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			id: "2CDD015D0C0C3F78"
+			tasks: [{
+				id: "1DF67D4C6A57C7A6"
+				item: "pneumaticcraft:magnet_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "5D34A47D2D2E49EC"
+			tasks: [{
+				id: "605BABE76D61158D"
+				item: "pneumaticcraft:minigun_upgrade"
+				type: "item"
+			}]
+			x: 13.25d
+			y: -1.5d
+		}
+		{
+			id: "7EDF35BC36DEC318"
+			tasks: [{
+				id: "7C618E1CCB9CA54A"
+				item: "pneumaticcraft:night_vision_upgrade"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.25d
+		}
+		{
+			id: "243E2AE173B34650"
+			tasks: [{
+				id: "3E9A9F36F6E5F994"
+				item: "pneumaticcraft:radiation_shielding_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.75d
+		}
+		{
+			id: "085202E904AEFEEB"
+			tasks: [{
+				id: "7F5A05B628D726F2"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 4.75d
+		}
+		{
+			id: "5EAAA5C1A69F0592"
+			tasks: [{
+				id: "5675FE6C42BF0332"
+				item: "pneumaticcraft:scuba_upgrade"
+				type: "item"
+			}]
+			x: 15.75d
+			y: -0.25d
+		}
+		{
+			id: "0E788E284492F8EA"
+			tasks: [{
+				id: "57480DE6D27866B5"
+				item: "pneumaticcraft:search_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.25d
+		}
+		{
+			id: "79105C7D7795A05E"
+			tasks: [{
+				id: "035A326836C7C3E9"
+				item: "pneumaticcraft:security_upgrade"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.75d
+		}
+		{
+			id: "356B64B24ED331F0"
+			tasks: [{
+				id: "10D6CF354A237732"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			x: 15.75d
+			y: 4.75d
+		}
+		{
+			id: "4F31EAD29E273468"
+			tasks: [{
+				id: "3E5CDFB789E86ABA"
+				item: "pneumaticcraft:standby_upgrade"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			id: "789A0633E4819E3D"
+			tasks: [{
+				id: "6A465A3FD09DBA14"
+				item: "pneumaticcraft:stomp_upgrade"
+				type: "item"
+			}]
+			x: 13.25d
+			y: 3.5d
+		}
+		{
+			id: "1CF03A044051FCE3"
+			tasks: [{
+				id: "7B178B337B678781"
+				item: "pneumaticcraft:volume_upgrade"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "2D033F4D30C72DF6"
+			tasks: [{
+				id: "1F2D1CD4D8E0E896"
+				item: "pneumaticcraft:drone"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "26FEBCDF112A6CA6"
+			tasks: [{
+				id: "09839DBF0C81CEC5"
+				item: "pneumaticcraft:collector_drone"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "20D1ABECA9D61A5E"
+			tasks: [{
+				id: "68DC24AA1C58BC4B"
+				item: "pneumaticcraft:guard_drone"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "348FB2E91E8C48B5"
+			tasks: [{
+				id: "47AB0B7BBE6615CB"
+				item: "pneumaticcraft:harvesting_drone"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["030007F07B089C52"]
+			hide_dependency_lines: true
+			id: "562EFA8F384D86AE"
+			tasks: [{
+				id: "3DAFE177FCF0C8B0"
+				item: "pneumaticcraft:logistics_drone"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -6.5d
+		}
+	]
 	title: "&6Pneumatic Craft"
 }

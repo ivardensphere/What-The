@@ -6,6 +6,263 @@
 	id: "1EFAFD1CA954D90E"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1BACACB36C6D6AFC"
+			rewards: [{
+				id: "243E253C00F0C7EA"
+				item: "rftoolsbase:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B337A5AEF156E79"
+				title: "Welcome to RFTools"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "50C0DBDCADD45AEB"
+			tasks: [{
+				count: 10L
+				id: "3BDBFDF5640F57F8"
+				item: { Count: 10, id: "rftoolsbase:dimensionalshard" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			id: "456B44A448148CAB"
+			tasks: [{
+				id: "0B4E6273CAD6E1F5"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -3.0d
+		}
+		{
+			id: "758CC5151FEA1344"
+			tasks: [{
+				id: "4B585EBB8693A968"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			id: "46CFBE71E7591CDE"
+			tasks: [{
+				id: "365C6E630E1F1427"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -7.25d
+		}
+		{
+			id: "22DB371A2C95F397"
+			tasks: [{
+				id: "3A7D79CFAE8BC632"
+				item: "rftoolsutility:destination_analyzer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "20D6E05F414B9269"
+			tasks: [{
+				id: "275DE165D132CBC4"
+				item: "rftoolsutility:dialing_device"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			id: "63D96CD12CA58A39"
+			tasks: [{
+				id: "3E9C4C12DABE42C8"
+				item: "rftoolsstorage:modular_storage"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -6.0d
+		}
+		{
+			id: "59DCF38DC5AE857F"
+			tasks: [{
+				id: "375A7E234555F869"
+				item: "rftoolsutility:matter_booster"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			id: "7C2257DBDA297A38"
+			tasks: [{
+				id: "7BBA4CB299CE884E"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -6.75d
+		}
+		{
+			id: "0A3B0C8DF25C3736"
+			tasks: [{
+				id: "73CA0AC8B3531A5D"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -5.5d
+		}
+		{
+			id: "00B9C16FA0559C01"
+			tasks: [{
+				id: "44397FBEACB8B600"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -4.25d
+		}
+		{
+			id: "441ABE7BBA9A082A"
+			tasks: [{
+				id: "3F5ABD7ED2730B0C"
+				item: "rftoolsutility:screen_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			id: "4007C35FDC3AA1CC"
+			tasks: [{
+				id: "42E1DF844B35EAE1"
+				item: "rftoolsutility:matter_transmitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			id: "3F1869117FB7245E"
+			tasks: [{
+				id: "516A774D5F1838BB"
+				item: "rftoolsutility:tank"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -8.5d
+		}
+		{
+			id: "57C0CE5046BAB133"
+			tasks: [{
+				id: "1D78659F6D0F68FF"
+				item: "rftoolsutility:matter_receiver"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			id: "10CB1BE86CED62E0"
+			tasks: [{
+				id: "6E227B1ED39EA039"
+				item: "xnet:router"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -2.25d
+		}
+		{
+			id: "0698BE48366BAB91"
+			tasks: [{
+				id: "42D3F5C6265C388C"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -3.5d
+		}
+		{
+			id: "6B52ED576C8560A3"
+			tasks: [{
+				id: "643B7D475C5BEAEF"
+				item: "xnet:wireless_router"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -1.0d
+		}
+		{
+			id: "76D9A0FD9CE5911A"
+			tasks: [{
+				id: "4175612EC3E39F4A"
+				item: "xnet:antenna_base"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.25d
+		}
+		{
+			id: "1B2996953971DCA6"
+			tasks: [{
+				id: "5856C1043D32E031"
+				item: "xnet:redstone_proxy"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			id: "024A3EF0514941A8"
+			tasks: [{
+				id: "796543DC85A3E7E2"
+				item: "rftoolsstorage:storage_module0"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -6.0d
+		}
+		{
+			id: "0D77F016B2DBB8DF"
+			tasks: [{
+				id: "416054DDEEEF6A1B"
+				item: "rftoolsstorage:storage_module1"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -7.25d
+		}
+		{
+			id: "37D038CD009A840E"
+			tasks: [{
+				id: "4054CBB65315748A"
+				item: "rftoolsstorage:storage_module2"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -8.5d
+		}
+		{
+			id: "04C5F00610FC8C45"
+			tasks: [{
+				id: "7A9485D430E8A76F"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -9.75d
+		}
+	]
 	title: "&6RFTools"
 }
