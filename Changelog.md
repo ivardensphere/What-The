@@ -1,3 +1,26 @@
+3/12/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added biofactory-forge-1.20.1-0.4.1.jar
+Added biomancy-forge-1.20.1-2.8.19.0.jar
+Added mobscaler-1.0.0.jar
+Updated alexsmobsinteraction-5.0.1-all.jar
+Updated Aquaculture-1.20.1-2.5.5.jar
+Updated Cognition-v2.3.2-1.20.1.jar
+Updated CyclopsCore-1.20.1-1.19.8.jar
+Updated EvilCraft-1.20.1-1.2.52.jar
+Updated IntegratedTerminals-1.20.1-1.6.6.jar
+Updated Jade-1.20.1-Forge-11.13.1.jar
+Updated Oh-The-Trees-Youll-Grow-forge-1.20.1-1.3.6.jar
+Updated smoothchunk-1.20.1-4.1.jar
+Updated sons-of-sins-1.20.1-2.1.8.jar
+Updated SubtleEffects-forge-1.20.1-1.9.2.jar
+Updated the_bumblezone-7.6.2+1.20.1-forge.jar
+Updated YungsCaveBiomes-1.20.1-Forge-2.0.3.jar
+Questline for Thermal Mods done
+Questline for MysticalAgriculture done
+Questline for Occultism done
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 3/10/25:
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Added mangomultiblock-1.20.1-1.3.0.jar
@@ -20,7 +43,7 @@ Updated fzzy_config-0.6.5-fix1+1.20.1+forge.jar
 Questline for AquaCulture done
 Questline for Tide done
 Questline for Legendary Survival done
-Updated the menus to be more coheriant
+Updated the menus to be more coherant
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 3/7/25:
