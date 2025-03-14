@@ -24,3 +24,6 @@ net.minecraft.client.gui.screens.ConnectScreen {
 net.minecraft.client.gui.screens.ProgressScreen {
 }
 
+net.minecraftforge.client.gui.ModListScreen {
+}
+
