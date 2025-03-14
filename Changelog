@@ -1,5 +1,91 @@
-3/1/25
------------------------------
+3/14/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Updated fastasyncworldsave-1.20.1-2.4.jar
+Updated frightsdelight-forge-1.20.1-1.3.0.jar
+Updated lushscentedparadise-1.20.1-forge-1.2.0.jar
+Updated naturalist-5.0pre1+forge-1.20.1
+Updated Menus and artwork
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/12/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added biofactory-forge-1.20.1-0.4.1.jar
+Added biomancy-forge-1.20.1-2.8.19.0.jar
+Added mobscaler-1.0.0.jar
+Updated alexsmobsinteraction-5.0.1-all.jar
+Updated Aquaculture-1.20.1-2.5.5.jar
+Updated Cognition-v2.3.2-1.20.1.jar
+Updated CyclopsCore-1.20.1-1.19.8.jar
+Updated EvilCraft-1.20.1-1.2.52.jar
+Updated IntegratedTerminals-1.20.1-1.6.6.jar
+Updated Jade-1.20.1-Forge-11.13.1.jar
+Updated Oh-The-Trees-Youll-Grow-forge-1.20.1-1.3.6.jar
+Updated smoothchunk-1.20.1-4.1.jar
+Updated sons-of-sins-1.20.1-2.1.8.jar
+Updated SubtleEffects-forge-1.20.1-1.9.2.jar
+Updated the_bumblezone-7.6.2+1.20.1-forge.jar
+Updated YungsCaveBiomes-1.20.1-Forge-2.0.3.jar
+Questline for Thermal Mods done
+Questline for MysticalAgriculture done
+Questline for Occultism done (0ver 2000+ quests done!)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/10/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added mangomultiblock-1.20.1-1.3.0.jar
+Added VoidMiners-1.20.1-1.4.1.jar
+Updated hexereidelight-1.0.1-1.20.1.jar
+Updated legendarysurvivaloverhaul-1.20.1-2.2.28.jar
+Updated mna-forge-1.20.1-3.1.0.5-all.jar
+Updated PhilipsRuins1.20.1-5.0.jar
+Updated SubtleEffects-forge-1.20.1-1.9.1.jar
+Updated suppsquared-1.20-1.1.21.jar
+Updated the_bumblezone-7.6.1+1.20.1-forge.jar
+Updated ThermalExtra-3.2.4-1.20.1.jar
+Updated tinted_dyes-2.0.1-forge-1.20.1.jar
+Updated XaeroPlus-2.26.4+forge-1.20.1-WM1.39.4-MM25.1.0.jar
+Updated butcher-3.2-forge-1.20.1.jar
+Updated Cognition-v2.3.1-1.20.1-beta.jar
+Updated easy_mob_farm-forge-1.20.1-9.6.0.jar
+Updated friendsandfoes-forge-mc1.20.1-3.0.8.jar
+Updated fzzy_config-0.6.5-fix1+1.20.1+forge.jar
+Questline for AquaCulture done
+Questline for Tide done
+Questline for Legendary Survival done
+Updated the menus to be more coherant
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/7/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Updated ExtraBounties-universal.jar
+Updated TinkersLevellingAddon-1.20.1-1.4.2.jar
+Added infernalmobs-1.20.1.6.jar
+Added spawnbalanceutility-1.20-46.13.6.jar
+Added MushroomQuest-1.20.1-v4.1.2.jar
+Added alexsmobsinteraction-5.0-all.jar
+Added MyServerIsCompatible-1.20-1.0.jar
+Added ServerTabInfo-1.20-1.3.8.jar
+Removed Champions Mod
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/6/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Added item-filters-forge-2001.1.0-build.59.jar
+Added accessories_cclayer-7.4.0-beta.18+1.20.1.jar (Replaced Curios)
+Updated the Immersive Engineering Questline
+Updated All the Image issues with all questlines in FTBQuests
+Updated Starter Kits so that first join only has the FTB Quest Book
+Removed Celestial Relics Items at first join
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/5/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Removed Even More Magic because of a crash
+Initial Config uploads
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+3/1/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Removed FunctionalStorage.
 Removed Hexerei and Hexerei Delight becasue of stability issues.
 Finalized the pack on Curseforge.
@@ -70,22 +156,24 @@ Updated to caupona-1.20.1-0.4.11.jar
 Updated to butcher-3.1-forge-1.20.1.jar
 Updated to BrewinAndChewin-1.20.1-3.2.1.jar
 Updated to Aquaculture-1.20.1-2.5.4.jar
--
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-2/25/25
+2/25/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Updated Butchery config to remove first login msg and book as well as turn on mod integration.
--
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-2/24/25
------------------------------
+2/24/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Added Better Tags-1.20.1-1.4.jar, mahoutsukai-1.20.1-v1.34.78.jar, xnetgases-1.20.1-5.1.4.jar
 Updated Mystical Agriculture toMysticalAgriculture-1.20.1-7.0.17.jar
 Updated Waystones to waystones-forge-1.20.1-14.1.10.jar
 Updated SophisticatedCore to sophisticatedcore-1.20.1-1.2.20.894.jar
 Added whatthe-alpha1.1.zip as the test pack v1.1 to the group Dropbox for testing.
--
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-2/23/25
+2/23/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Removed Avaratia as it was causing issues with Hexerei
 Updated Fancymenu to fancymenu_forge_3.4.5_MC_1.20.1.jar
 Updated PhilipsRuins to PhilipsRuins1.20.1-4.9.jar
@@ -94,10 +182,10 @@ Updated SophisticatedBackpacks to sophisticatedbackpacks-1.20.1-3.23.5.1203.jar
 Updated SophisticatedStorage to sophisticatedstorage-1.20.1-1.3.9.1075.jar
 Added: Polylib, Smallships, Connectivity, New Death Messages, FtbBackups, boatload, Upgrade Aquatic, CodeChickenLib, EnderStorage,
        Butchery, Chunk Loaders, Lootr, Diabolic Hoard, Iron's Spells Delight
--
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-2/22/25
-------------------------------
+2/22/25:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Uploaded all standard configs.
 Uploaded all standard default configs.
--
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
