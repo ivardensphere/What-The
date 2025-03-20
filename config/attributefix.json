@@ -748,6 +748,17 @@
         "value": 1000
       }
     },
+    "tinkersjewelry:fortune": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -999,6 +1010,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tinkersjewelry:silk": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "legendarysurvivaloverhaul:heating_temperature": {
@@ -1351,6 +1373,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tinkersjewelry:trade": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "legendarysurvivaloverhaul:broken_heart": {

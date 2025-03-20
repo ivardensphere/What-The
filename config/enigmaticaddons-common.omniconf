@@ -245,6 +245,9 @@
         twilightforest:glass_sword
      >
 
+    # The extra repair cost after unbreakable forging when equipped the Forger's Gem. [range: 2 ~ 32768, default: 10, synchronized: yes]
+    I:ForgerGemUnbreakableRepairCost=10
+
     # Active ability cooldown for Forgotten Ice Crystal. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 300, synchronized: yes]
     I:ForgottenIceCrystalCooldown=300
 
@@ -378,11 +381,11 @@
     # Damage Amplification Limit of Scroll of Ignorance Curse. Defined as percentage. [range: 0.0 ~ 1000.0, default: 100.0, synchronized: yes]
     D:ScrollofIgnoranceCurseDamageBoostLimit=100.0
 
+    # Heal Amplification Limit of Scroll of Ignorance Curse. Defined as percentage. [range: 0.0 ~ 1000.0, default: 50.0, synchronized: yes]
+    D:ScrollofIgnoranceCurseHealBoostLimit=50.0
+
     # Knockback Resistance Limit Modifier of Scroll of Ignorance Curse. Defined as percentage. [range: 0.0 ~ 1000.0, default: 160.0, synchronized: yes]
     D:ScrollofIgnoranceCurseKnockbackResistanceBoostLimit=160.0
-
-    # Speed Amplification Limit of Scroll of Ignorance Curse. Defined as percentage. [range: 0.0 ~ 1000.0, default: 50.0, synchronized: yes]
-    D:ScrollofIgnoranceCurseSpeedBoostLimit=50.0
 
     # The Max Level of stored experience of Scroll of Ignorance Curse, which provides attribute amplification. [range: 0 ~ 1000, default: 1000, synchronized: yes]
     I:ScrollofIgnoranceCurseXPLevelUpperLimit=1000

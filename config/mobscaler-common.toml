@@ -1,21 +1,31 @@
 
 [difficulty]
-	#Health multiplier for Peaceful difficulty
-	#Range: 0.1 ~ 10.0
-	health_peaceful = 0.8
-	#Range: 0.1 ~ 10.0
-	health_easy = 1.0
-	#Range: 0.1 ~ 10.0
-	health_normal = 1.2
-	#Range: 0.1 ~ 10.0
-	health_hard = 1.5
-	#Damage multiplier for Peaceful difficulty
-	#Range: 0.1 ~ 10.0
-	damage_peaceful = 0.7
-	#Range: 0.1 ~ 10.0
-	damage_easy = 1.0
-	#Range: 0.1 ~ 10.0
-	damage_normal = 1.2
-	#Range: 0.1 ~ 10.0
-	damage_hard = 1.5
+
+	[difficulty.health]
+		#Health multiplier for peaceful difficulty
+		#Range: 0.0 ~ 100.0
+		peaceful = 0.7
+		#Health multiplier for easy difficulty
+		#Range: 0.0 ~ 100.0
+		easy = 1.0
+		#Health multiplier for normal difficulty
+		#Range: 0.0 ~ 100.0
+		normal = 1.2
+		#Health multiplier for hard difficulty
+		#Range: 0.0 ~ 100.0
+		hard = 1.5
+
+	[difficulty.damage]
+		#Damage multiplier for peaceful difficulty
+		#Range: 0.0 ~ 100.0
+		peaceful = 0.5
+		#Damage multiplier for easy difficulty
+		#Range: 0.0 ~ 100.0
+		easy = 1.2
+		#Damage multiplier for normal difficulty
+		#Range: 0.0 ~ 100.0
+		normal = 1.4
+		#Damage multiplier for hard difficulty
+		#Range: 0.0 ~ 100.0
+		hard = 1.7
 
