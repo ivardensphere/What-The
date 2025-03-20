@@ -4,16 +4,34 @@
 	filename: "immersive_aircraft"
 	group: "6CFDE535DE131F6B"
 	id: "628C815BDE93A066"
-	images: [{
-		click: "https://www.youtube.com/watch?v=7PNlK1k3mL8"
-		height: 0.4d
-		hover: ["Click for a video"]
-		image: "ftblibrary:icons/info_gray"
-		rotation: 0.0d
-		width: 0.4d
-		x: -0.75d
-		y: -1.75d
-	}]
+	images: [
+		{
+			click: "https://www.youtube.com/watch?v=7PNlK1k3mL8"
+			height: 0.4d
+			hover: ["Click for a video"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.75d
+			y: -1.75d
+		}
+		{
+			height: 1.0d
+			image: "combi:textures/other/immersive.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.25d
+			y: 0.25d
+		}
+		{
+			height: 1.0d
+			image: "combi:textures/other/machinery.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.25d
+			y: 1.25d
+		}
+	]
 	order_index: 19
 	quest_links: [ ]
 	quests: [

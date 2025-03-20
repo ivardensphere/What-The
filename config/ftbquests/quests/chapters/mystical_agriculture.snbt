@@ -4,7 +4,25 @@
 	filename: "mystical_agriculture"
 	group: "6F1187A4D51268D1"
 	id: "4551A5B8816A9D56"
-	order_index: 5
+	images: [
+		{
+			height: 1.0d
+			image: "combi:textures/other/mystical.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "combi:textures/other/agri.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -5.5d
+			y: -10.75d
+		}
+	]
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

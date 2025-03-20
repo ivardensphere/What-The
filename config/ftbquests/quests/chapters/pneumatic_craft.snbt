@@ -4,6 +4,14 @@
 	filename: "pneumatic_craft"
 	group: "6CFDE535DE131F6B"
 	id: "38D43E2E031A2F34"
+	images: [{
+		height: 1.0d
+		image: "combi:textures/other/pneu.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -4.0d
+		y: -6.5d
+	}]
 	order_index: 8
 	quest_links: [ ]
 	quests: [

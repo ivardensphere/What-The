@@ -1,0 +1,1020 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2pams_trees"
+	group: "6F1187A4D51268D1"
+	id: "0548A107BA18F70F"
+	images: [{
+		height: 1.0d
+		image: "combi:textures/other/ptrees.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -0.5d
+		y: -2.25d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59A59CE2B4264A2B"
+			tasks: [{
+				id: "2E9A19B1BA942054"
+				item: "pamhc2trees:apple_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "6509793DA28282CC"
+			tasks: [{
+				id: "69A123308B09EE7E"
+				item: "pamhc2trees:avocado_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "43B3BD4520936B34"
+			tasks: [{
+				id: "651A9747CA1C93E0"
+				item: "pamhc2trees:candlenut_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "572930292524F779"
+			tasks: [{
+				id: "598DF16C4F6C8929"
+				item: "pamhc2trees:cherry_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "71A93DDEB481C539"
+			tasks: [{
+				id: "3A469C2E0FF45A4D"
+				item: "pamhc2trees:chestnut_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "7602085F79B077C3"
+			tasks: [{
+				id: "181BA3306D7EB0F2"
+				item: "pamhc2trees:gooseberry_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "2EFFA50F6BA214CD"
+			tasks: [{
+				id: "3B527EC949F474D5"
+				item: "pamhc2trees:lemon_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "6C5C6B5ADE03226A"
+			tasks: [{
+				id: "35B94DDC38BA4091"
+				item: "pamhc2trees:nutmeg_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "6BEFF7CD39B97122"
+			tasks: [{
+				id: "7F296201A53EA526"
+				item: "pamhc2trees:orange_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "4282E3D679A05E11"
+			tasks: [{
+				id: "47BF1C7FA5E51F58"
+				item: "pamhc2trees:peach_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0E13C6639345BC29"
+			tasks: [{
+				id: "0AC0E4B3829383BA"
+				item: "pamhc2trees:pear_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "1C8F86770605F535"
+			tasks: [{
+				id: "2B0BCECAFF98AFFC"
+				item: "pamhc2trees:plum_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "1DDC3D0CAB2548E6"
+			tasks: [{
+				id: "10239E2636BD5651"
+				item: "pamhc2trees:walnut_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "4DAF63B83310B160"
+			tasks: [{
+				id: "04227263962655F4"
+				item: "pamhc2trees:spiderweb_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "6582A7EEDC5D26F0"
+			tasks: [{
+				id: "11A1C7FF5A716CE0"
+				item: "pamhc2trees:hazelnut_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "77E145A61914581F"
+			tasks: [{
+				id: "6BB4B81B095E44B7"
+				item: "pamhc2trees:pawpaw_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			id: "293191613431F716"
+			tasks: [{
+				id: "3EE093203BD7E276"
+				item: "pamhc2trees:soursop_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "66D3CE6516D5A783"
+			tasks: [{
+				id: "538081C200E42049"
+				item: "pamhc2trees:acorn_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "160E2A608E6828F4"
+			tasks: [{
+				id: "03CD312346026D28"
+				item: "pamhc2trees:almond_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "23F8E6A7B11762A1"
+			tasks: [{
+				id: "72D255483925A422"
+				item: "pamhc2trees:apricot_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "17287C394D0C6E13"
+			tasks: [{
+				id: "38492ABD2B3E2C16"
+				item: "pamhc2trees:banana_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "586C9076B740FC76"
+			tasks: [{
+				id: "1368C68BFD09895C"
+				item: "pamhc2trees:cashew_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "760A69045EC5C389"
+			tasks: [{
+				id: "5246749C7D596C45"
+				item: "pamhc2trees:cinnamon_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "6F2F692CB7333516"
+			tasks: [{
+				id: "5E975F4602F0E6A2"
+				item: "pamhc2trees:coconut_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "4E213F5E313A1C25"
+			tasks: [{
+				id: "0195FB94AB8AF13D"
+				item: "pamhc2trees:date_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "16B1DCADDB1F926B"
+			tasks: [{
+				id: "5B7F4F1E16AA4ABD"
+				item: "pamhc2trees:dragonfruit_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "62BEEB7A146DA8FB"
+			tasks: [{
+				id: "54DE74F6E9598A17"
+				item: "pamhc2trees:durian_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "6FCF16F1870053E0"
+			tasks: [{
+				id: "3B02BA5FEA8D8A60"
+				item: "pamhc2trees:fig_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "3399FD880C0C7234"
+			tasks: [{
+				id: "4A6D6C3BDA8BB6E9"
+				item: "pamhc2trees:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "4E8C08B4E27AEE38"
+			tasks: [{
+				id: "3251EE0741D3DE77"
+				item: "pamhc2trees:lime_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "4836EBB578E5F0F0"
+			tasks: [{
+				id: "2A8BCADB99F36F92"
+				item: "pamhc2trees:mango_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "7F6550F7E40647F2"
+			tasks: [{
+				id: "24A24192C851339E"
+				item: "pamhc2trees:olive_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "2E0053F625C55044"
+			tasks: [{
+				id: "1664A8066831A902"
+				item: "pamhc2trees:papaya_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "7AD9FCA321D7C928"
+			tasks: [{
+				id: "0F7A3C733034A157"
+				item: "pamhc2trees:paperbark_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "1CB6582AFB5A7461"
+			tasks: [{
+				id: "1FC8171750D54A0D"
+				item: "pamhc2trees:pecan_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "614A661E6ED9DD4E"
+			tasks: [{
+				id: "2E23BC8815441427"
+				item: "pamhc2trees:peppercorn_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "55D8211146A973E5"
+			tasks: [{
+				id: "6CFD245C59F5EFAC"
+				item: "pamhc2trees:persimmon_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "18CA00B84DCCEFD3"
+			tasks: [{
+				id: "1EC0109BD96B8FFF"
+				item: "pamhc2trees:pistachio_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "1B75A20C1D8B3804"
+			tasks: [{
+				id: "018C86B9D244CC06"
+				item: "pamhc2trees:starfruit_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "27BA9CECB1ABE2B7"
+			tasks: [{
+				id: "65989F8BCE3943EE"
+				item: "pamhc2trees:pomegranate_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "052F1809FD377A19"
+			tasks: [{
+				id: "486F50552C0A771E"
+				item: "pamhc2trees:vanillabean_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "57CCE1B274FDE332"
+			tasks: [{
+				id: "01E09ED2AD1C8255"
+				item: "pamhc2trees:breadfruit_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "29C7ED4D142EDC4F"
+			tasks: [{
+				id: "2062C0B784278D25"
+				item: "pamhc2trees:guava_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "63B53CAE46B1089B"
+			tasks: [{
+				id: "4158E3D41DCD1077"
+				item: "pamhc2trees:jackfruit_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "7225FE5E5582D600"
+			tasks: [{
+				id: "418400F293DE044F"
+				item: "pamhc2trees:lychee_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "5FA359188B2B491E"
+			tasks: [{
+				id: "2C14288566403A0F"
+				item: "pamhc2trees:passionfruit_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "6DD2BF5EFB2EF285"
+			tasks: [{
+				id: "6A30827B822155FB"
+				item: "pamhc2trees:rambutan_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "11C60596F7DFBD52"
+			tasks: [{
+				id: "1A54D27B92E0DC3F"
+				item: "pamhc2trees:tamarind_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "53B02C3A556FD87C"
+			tasks: [{
+				id: "3B90F7FEB1080D61"
+				item: "pamhc2trees:maple_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "179EAD37950A9B6A"
+			tasks: [{
+				id: "61A9CAD87113CE35"
+				item: "pamhc2trees:pinenut_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "7BF5E48FA669742C"
+			tasks: [{
+				id: "59A2CEA28700587A"
+				item: "pamhc2trees:avocadoitem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "7814D9A42FCAE2CD"
+			tasks: [{
+				id: "00A4FD59189A0949"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "01D670F12FB77C2F"
+			tasks: [{
+				id: "638DFF256F45C440"
+				item: "pamhc2trees:candlenutitem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "570D57F4A7FC5DF2"
+			tasks: [{
+				id: "6DC9C93BFB36A63A"
+				item: "pamhc2trees:cherryitem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "73428A9ACC6CAC47"
+			tasks: [{
+				id: "783BF313D101004C"
+				item: "pamhc2trees:chestnutitem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "1D457C591567D7BB"
+			tasks: [{
+				id: "00D4B24DC76A06F4"
+				item: "pamhc2trees:gooseberryitem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "1460E8D786E38C4A"
+			tasks: [{
+				id: "774A00A387D4A910"
+				item: "pamhc2trees:lemonitem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "174118B87091775C"
+			tasks: [{
+				id: "35BB57DDE9772E99"
+				item: "pamhc2trees:nutmegitem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "07683E3E16E3AE93"
+			tasks: [{
+				id: "7758E6FA7847F24E"
+				item: "pamhc2trees:orangeitem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "3673377D7B42B094"
+			tasks: [{
+				id: "109BA0E7003BAF13"
+				item: "pamhc2trees:peachitem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "1FEB51ED9B9B50F1"
+			tasks: [{
+				id: "638BF4C81290551B"
+				item: "pamhc2trees:pearitem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "250EE4E324ADE275"
+			tasks: [{
+				id: "27EE42168588E122"
+				item: "pamhc2trees:plumitem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "0461303977ACEA5E"
+			tasks: [{
+				id: "49EA692C5D9DF70D"
+				item: "pamhc2trees:walnutitem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "5EC5DFEBC9374F5C"
+			tasks: [{
+				id: "3898140FB2A5CBED"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "2F9CAB78CA5BE699"
+			tasks: [{
+				id: "1C1A38CAD623B583"
+				item: "pamhc2trees:hazelnutitem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "0997E54EE373267A"
+			tasks: [{
+				id: "7DA105ED8527641B"
+				item: "pamhc2trees:pawpawitem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "4E61992F942AEF11"
+			tasks: [{
+				id: "6CB2128362A9E5C7"
+				item: "pamhc2trees:soursopitem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "198EFD9807B3699D"
+			tasks: [{
+				id: "5871FEF3DC8E4224"
+				item: "pamhc2trees:acornitem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "437EA8F582DF425F"
+			tasks: [{
+				id: "31691371DF41EA28"
+				item: "pamhc2trees:almonditem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "41FAD03F91588898"
+			tasks: [{
+				id: "4634C1BC77C9F744"
+				item: "pamhc2trees:apricotitem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "08F92086CA2EF3D1"
+			tasks: [{
+				id: "7345689C4902E37B"
+				item: "pamhc2trees:bananaitem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "29C5F57573F2B8E9"
+			tasks: [{
+				id: "10E03E3C846FEF35"
+				item: "pamhc2trees:cashewitem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "09F8A00341D6DF1F"
+			tasks: [{
+				id: "2AD006C29F99CD2B"
+				item: "pamhc2trees:cinnamonitem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "0E7E3E2950AE13B8"
+			tasks: [{
+				id: "5C6B0D285E54AA32"
+				item: "pamhc2trees:coconutitem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "53CC0C5F2BF24786"
+			tasks: [{
+				id: "541D72303620AD18"
+				item: "pamhc2trees:dateitem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6EEB625A10BCA831"
+			tasks: [{
+				id: "6636B6D78214AAF4"
+				item: "pamhc2trees:dragonfruititem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "1C36BEE046B6A64E"
+			tasks: [{
+				id: "2130DFFE76C6FD12"
+				item: "pamhc2trees:durianitem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "7DE712C49EDD3A61"
+			tasks: [{
+				id: "4BF4EA2B02A096D7"
+				item: "pamhc2trees:figitem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "67F8719D2D4BC0D6"
+			tasks: [{
+				id: "21D0F13BB75FC48D"
+				item: "pamhc2trees:grapefruititem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "27C45BCD128F02A4"
+			tasks: [{
+				id: "4012CE8DBE192ED2"
+				item: "pamhc2trees:limeitem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "1A6CFAA19166515B"
+			tasks: [{
+				id: "58B7B84B772CF5EF"
+				item: "pamhc2trees:mangoitem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "4DC8539428EBACEA"
+			tasks: [{
+				id: "0EBCF689797B5907"
+				item: "pamhc2trees:oliveitem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "66D89C1D36DED1D7"
+			tasks: [{
+				id: "46B20146398A1956"
+				item: "pamhc2trees:papayaitem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "0BD10FD3417F356A"
+			tasks: [{
+				id: "17CD0C14D7F89204"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "797F518527349C23"
+			tasks: [{
+				id: "56AC919FDFEC4B75"
+				item: "pamhc2trees:pecanitem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "0A2C5213E145122E"
+			tasks: [{
+				id: "63A0FFF7CF9E64A8"
+				item: "pamhc2trees:peppercornitem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "7D4A2594A614C5A6"
+			tasks: [{
+				id: "1FFA311A9F988AC4"
+				item: "pamhc2trees:persimmonitem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "27E6DF4B2EA601BA"
+			tasks: [{
+				id: "3435B1C588E77A9D"
+				item: "pamhc2trees:pistachioitem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "42A4518CC1E26E0F"
+			tasks: [{
+				id: "131D8CC81FE92A3C"
+				item: "pamhc2trees:pomegranateitem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "33B316B049AAA34B"
+			tasks: [{
+				id: "411A8CA86B32044E"
+				item: "pamhc2trees:starfruititem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "3E0357D3816E9534"
+			tasks: [{
+				id: "0D17D7169AED2A04"
+				item: "pamhc2trees:vanillabeanitem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "6F5D85781256F315"
+			tasks: [{
+				id: "06DF927AA0AD544C"
+				item: "pamhc2trees:breadfruititem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "230982C3FC40F518"
+			tasks: [{
+				id: "7C829373470113C6"
+				item: "pamhc2trees:guavaitem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "6E8B2E6AB081CCB9"
+			tasks: [{
+				id: "0CA835FD80DDD65A"
+				item: "pamhc2trees:jackfruititem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "2943D57B18BE0D86"
+			tasks: [{
+				id: "0BA7996D35EDAC7F"
+				item: "pamhc2trees:lycheeitem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "3F36B362ADB1FFED"
+			tasks: [{
+				id: "047CFA990A03215F"
+				item: "pamhc2trees:pinenutitem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "116E0228E861C9CC"
+			tasks: [{
+				id: "3D6DE4D9BFEA704B"
+				item: "pamhc2trees:maplesyrupitem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "5E0E8F8F1D137F11"
+			tasks: [{
+				id: "1A61DB211DA02DD3"
+				item: "pamhc2trees:passionfruititem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "3D9A73B701311522"
+			tasks: [{
+				id: "3506AB3EC22B7E12"
+				item: "pamhc2trees:rambutanitem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "13EDAB5CEB82F809"
+			tasks: [{
+				id: "40A099009F6BDF6D"
+				item: "pamhc2trees:tamarinditem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+	]
+	title: "&2Pam's Trees"
+}

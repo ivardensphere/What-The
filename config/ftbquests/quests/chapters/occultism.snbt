@@ -4,6 +4,14 @@
 	filename: "occultism"
 	group: "2B0E76255596CDF2"
 	id: "15444E3751C82492"
+	images: [{
+		height: 1.0d
+		image: "combi:textures/other/occult.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: -3.25d
+		y: 4.75d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

@@ -4,6 +4,14 @@
 	filename: "thermal"
 	group: "6CFDE535DE131F6B"
 	id: "0E6BA45CD0CF2E92"
+	images: [{
+		height: 1.0d
+		image: "combi:textures/other/thermal.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.75d
+		y: -3.5d
+	}]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
