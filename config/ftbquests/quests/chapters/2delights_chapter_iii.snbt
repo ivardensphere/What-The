@@ -1,0 +1,2952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2delights_chapter_iii"
+	group: "6F1187A4D51268D1"
+	id: "5DF9E916093A8D94"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BC299BBCB302AEC"
+			tasks: [{
+				id: "0B38CDDE61990BF9"
+				item: "festive_delight:festive_chicken_block"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -8.25d
+		}
+		{
+			id: "64B3DA7F7986466C"
+			tasks: [{
+				id: "0F1349270EF6EC5A"
+				item: "festive_delight:festive_chiken"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -7.25d
+		}
+		{
+			id: "3884E6E37AEA9D0D"
+			tasks: [{
+				id: "4F8FF3E31E8985FF"
+				item: "festive_delight:salmon_verrines"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -6.25d
+		}
+		{
+			id: "2C76F8C1A75432A3"
+			tasks: [{
+				id: "574555E4F0DC5FB1"
+				item: "festive_delight:sugar_cane"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -5.25d
+		}
+		{
+			id: "7A42CC217CFA26D2"
+			tasks: [{
+				id: "54456815EBFFF852"
+				item: "festive_delight:christmas_tea"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -4.25d
+		}
+		{
+			id: "7C7D449EA1BEAEE7"
+			tasks: [{
+				id: "78EA139DD07B2408"
+				item: "festive_delight:gingerbread_man"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -3.25d
+		}
+		{
+			id: "4611AE8879C8F10B"
+			tasks: [{
+				id: "534E5019B726257F"
+				item: "festive_delight:gingerbread_man_creeper"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -2.25d
+		}
+		{
+			id: "7FE10679F73FAF6A"
+			tasks: [{
+				id: "53EE1FCC387FF172"
+				item: "festive_delight:gingerbread_cookie_flake"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -1.25d
+		}
+		{
+			id: "0C9514AF1160ACAE"
+			tasks: [{
+				id: "3706CB5088D1B6F5"
+				item: "festive_delight:gingerbread_cookie_sword"
+				type: "item"
+			}]
+			x: -19.75d
+			y: -0.25d
+		}
+		{
+			id: "35B09A73F848776C"
+			tasks: [{
+				id: "1A6BA96AA3921084"
+				item: {
+					Count: 1
+					id: "crabbersdelight:bucket_of_crab_chum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.25d
+			y: -8.25d
+		}
+		{
+			id: "24CDC85C32347814"
+			tasks: [{
+				id: "0AB3CC3C202C6D69"
+				item: {
+					Count: 1
+					id: "crabbersdelight:bucket_of_clawster_chum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.25d
+			y: -7.25d
+		}
+		{
+			id: "25DEABE970FFEEB8"
+			tasks: [{
+				id: "09967A95C815DA3F"
+				item: {
+					Count: 1
+					id: "crabbersdelight:bucket_of_clam_chum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.25d
+			y: -6.25d
+		}
+		{
+			id: "06B46FB22E37DFE7"
+			tasks: [{
+				id: "52B570CF4EC18292"
+				item: {
+					Count: 1
+					id: "crabbersdelight:bucket_of_shrimp_chum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.25d
+			y: -5.25d
+		}
+		{
+			id: "0D1AFF9E93EA508B"
+			tasks: [{
+				id: "67971421B7B7531A"
+				item: "crabbersdelight:cooked_crab"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -4.25d
+		}
+		{
+			id: "702975E5DD531219"
+			tasks: [{
+				id: "75111B582EAF7546"
+				item: "crabbersdelight:cooked_clawster"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -3.25d
+		}
+		{
+			id: "1D5A97D0E27DBDED"
+			tasks: [{
+				id: "2B988A6A512D0175"
+				item: "crabbersdelight:cooked_shrimp"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -2.25d
+		}
+		{
+			id: "7111B72C197999FF"
+			tasks: [{
+				id: "6C980809AB529E9E"
+				item: "crabbersdelight:cooked_clam_meat"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -1.25d
+		}
+		{
+			id: "19C6ABA07232A683"
+			tasks: [{
+				id: "3B1034323600079A"
+				item: "crabbersdelight:cooked_squid_tentacles"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -0.25d
+		}
+		{
+			id: "0363D50903BEB3D8"
+			tasks: [{
+				id: "1B9D71F2FA2339A6"
+				item: "crabbersdelight:cooked_glow_squid_tentacles"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 0.75d
+		}
+		{
+			id: "61ED812E1544E72D"
+			tasks: [{
+				id: "06DC7AA12C923A58"
+				item: "crabbersdelight:cooked_frog_leg"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 1.75d
+		}
+		{
+			id: "06219E8F388DACA7"
+			tasks: [{
+				id: "05B0D3037BA1F94B"
+				item: "crabbersdelight:crab_cakes"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 2.75d
+		}
+		{
+			id: "28CF788E4EFC022F"
+			tasks: [{
+				id: "09046B4CA29E6494"
+				item: "crabbersdelight:crab_legs"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 3.75d
+		}
+		{
+			id: "69E672575DA06900"
+			tasks: [{
+				id: "22BEEFDAC3E7AB7B"
+				item: "crabbersdelight:fish_stick"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 4.75d
+		}
+		{
+			id: "4E5AF28BFB52280F"
+			tasks: [{
+				id: "242C1B4C7DDCB1DD"
+				item: "crabbersdelight:surf_and_turf"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 5.75d
+		}
+		{
+			id: "28D1BA5907EBF483"
+			tasks: [{
+				id: "4EEDF58B6CE1508E"
+				item: "crabbersdelight:shrimp_skewer"
+				type: "item"
+			}]
+			x: -17.25d
+			y: 6.75d
+		}
+		{
+			id: "4A7B54F101575756"
+			tasks: [{
+				id: "722AE42406FD74A1"
+				item: "crabbersdelight:clam_bake"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -8.25d
+		}
+		{
+			id: "30BC27DBB905575C"
+			tasks: [{
+				id: "15A4895438735065"
+				item: "crabbersdelight:cooked_tropical_fish"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -7.25d
+		}
+		{
+			id: "68356075E8C53E26"
+			tasks: [{
+				id: "4D8A546F66134478"
+				item: "crabbersdelight:cooked_pufferfish_slice"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -6.25d
+		}
+		{
+			id: "7A858FD62681983F"
+			tasks: [{
+				id: "053D349CC99F7D78"
+				item: "crabbersdelight:cooked_tropical_fish_slice"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -5.25d
+		}
+		{
+			id: "693BFF8BA2F25BCF"
+			tasks: [{
+				id: "733B913C08495BF2"
+				item: "crabbersdelight:stuffed_nautilus_shell"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -4.25d
+		}
+		{
+			id: "259B5F78929A1976"
+			tasks: [{
+				id: "4068E94713E94A15"
+				item: "crabbersdelight:squid_kebob"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -3.25d
+		}
+		{
+			id: "5C5279B60EEBA722"
+			tasks: [{
+				id: "78662B4C0BD51ADB"
+				item: "crabbersdelight:frog_leg_kebob"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -2.25d
+		}
+		{
+			id: "12DF8045A0C2EEB5"
+			tasks: [{
+				id: "7D42198A226E0BC2"
+				item: "crabbersdelight:jar_of_pickles"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -1.25d
+		}
+		{
+			id: "1320E5D5C93CF5C7"
+			tasks: [{
+				id: "5659F16E4D0DEABC"
+				item: "crabbersdelight:kelp_shake"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -0.25d
+		}
+		{
+			id: "48266BE84829C566"
+			tasks: [{
+				id: "42690B38A9199937"
+				item: "crabbersdelight:sea_pickle_juice"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 0.75d
+		}
+		{
+			id: "2B0E01FFAF7E713B"
+			tasks: [{
+				id: "1E28EAA334D88536"
+				item: "crabbersdelight:bisque"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 1.75d
+		}
+		{
+			id: "059BFB82344B7334"
+			tasks: [{
+				id: "41815CF68C951E8F"
+				item: "crabbersdelight:seafood_gumbo"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 2.75d
+		}
+		{
+			id: "074B09307E6680BC"
+			tasks: [{
+				id: "06641B4E3DC2BE98"
+				item: "crabbersdelight:clam_chowder"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 3.75d
+		}
+		{
+			id: "285C390FB64000D3"
+			tasks: [{
+				id: "740F08DC49848203"
+				item: "crabbersdelight:shrimp_fried_rice"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 4.75d
+		}
+		{
+			id: "4558E1D2C336CB82"
+			tasks: [{
+				id: "51025A636D522906"
+				item: "crabbersdelight:coral_crunch"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 5.75d
+		}
+		{
+			id: "420EE5ADB74BB6AF"
+			tasks: [{
+				id: "136ACCAB2782946A"
+				item: "delightful:matcha_ice_cream"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -8.25d
+		}
+		{
+			id: "5698A6D89285ECF7"
+			tasks: [{
+				id: "2F1BA58B3A7E2EE5"
+				item: "delightful:salmonberry_ice_cream"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -7.25d
+		}
+		{
+			id: "6047BA889988B514"
+			tasks: [{
+				id: "6016B1EED242406E"
+				item: "delightful:source_berry_ice_cream"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -6.25d
+		}
+		{
+			id: "2FFBCBC631F1B8C7"
+			tasks: [{
+				id: "2D74AF43EAF1B9FB"
+				item: "delightful:matcha_milkshake"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -5.25d
+		}
+		{
+			id: "7BE0B9BE5DAAA3E0"
+			tasks: [{
+				id: "0EBF6C40B73106B0"
+				item: "delightful:salmonberry_milkshake"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -4.25d
+		}
+		{
+			id: "1EBBC36B8594A59C"
+			tasks: [{
+				id: "666B10B8232D175F"
+				item: "delightful:source_berry_milkshake"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -3.25d
+		}
+		{
+			id: "2C1AA4241CCD406F"
+			tasks: [{
+				id: "6BCF6CFA5946081A"
+				item: "delightful:salmonberry_pie"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -2.25d
+		}
+		{
+			id: "1F0568114FEF50DB"
+			tasks: [{
+				id: "5A5C5B7826460B08"
+				item: "delightful:baklava"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -1.25d
+		}
+		{
+			id: "0BB20B11211214F7"
+			tasks: [{
+				id: "088018ACEA9BAC7C"
+				item: "delightful:roasted_acorn"
+				type: "item"
+			}]
+			x: -13.75d
+			y: -0.25d
+		}
+		{
+			id: "3CBB443ECA7ED6F1"
+			tasks: [{
+				id: "7EC0B53B3DEBC443"
+				item: "delightful:cactus_steak"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 0.75d
+		}
+		{
+			id: "35D35C5110D7FE57"
+			tasks: [{
+				id: "3407F9AB853F57C3"
+				item: "delightful:cactus_chili"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 1.75d
+		}
+		{
+			id: "29DFCBEA2516094A"
+			tasks: [{
+				id: "28B3B85A8661742E"
+				item: "delightful:cactus_soup"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 2.75d
+		}
+		{
+			id: "7110DC2D6DA52215"
+			tasks: [{
+				id: "67B167C9DE357AD6"
+				item: "delightful:venison_stew"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 3.75d
+		}
+		{
+			id: "1EE8D4F1FE9A58F7"
+			tasks: [{
+				id: "41771BAAE23ACBC2"
+				item: "delightful:sinigang"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 4.75d
+		}
+		{
+			id: "2FF4666DFB3257A3"
+			tasks: [{
+				id: "71EAFDAFC054C2AC"
+				item: "delightful:coconut_curry"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 5.75d
+		}
+		{
+			id: "0A66C099D6B81913"
+			tasks: [{
+				id: "104D9E4D15DD3CBA"
+				item: "delightful:field_salad"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 6.75d
+		}
+		{
+			id: "4019723317F3C0B0"
+			tasks: [{
+				id: "58B448F6CC223F26"
+				item: "delightful:ender_nectar"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -8.25d
+		}
+		{
+			id: "2C7333A8F29135C8"
+			tasks: [{
+				id: "115AC18874E56B3D"
+				item: "delightful:matcha_latte"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -7.25d
+		}
+		{
+			id: "2F4EAD86A8289BD7"
+			tasks: [{
+				id: "7E889B7CAA22FD1D"
+				item: "delightful:berry_matcha_latte"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -6.25d
+		}
+		{
+			id: "26E55E2636654B6C"
+			tasks: [{
+				id: "70A8401118E8E6C8"
+				item: "delightful:lavender_tea"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -5.25d
+		}
+		{
+			id: "58B0D7082C82C8FC"
+			tasks: [{
+				id: "57B25DE582F6311A"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -4.25d
+		}
+		{
+			id: "0DEC9876D8DFEB0A"
+			tasks: [{
+				id: "12AEAD6D801ABD93"
+				item: "delightful:rock_candy"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -3.25d
+		}
+		{
+			id: "50B481A61D0A51C5"
+			tasks: [{
+				id: "306CD2ADB7A20694"
+				item: "delightful:cooked_marshmallow_stick"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -2.25d
+		}
+		{
+			id: "70767300453B0A04"
+			tasks: [{
+				id: "5BC5BA230F26FB75"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -1.25d
+		}
+		{
+			id: "7945DE34391D55FC"
+			tasks: [{
+				id: "74C812EDDD47C697"
+				item: "delightful:honey_glazed_walnut"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -0.25d
+		}
+		{
+			id: "72F004616D2A2498"
+			tasks: [{
+				id: "7F377088E455C7C4"
+				item: "delightful:cooked_goat"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 0.75d
+		}
+		{
+			id: "6035318CACDA03C4"
+			tasks: [{
+				id: "0FEE810D5CF3CE0A"
+				item: "delightful:cantaloupe_bread"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 1.75d
+		}
+		{
+			id: "3ECD6D2F5B1105BF"
+			tasks: [{
+				id: "05A0240889E8E27F"
+				item: "delightful:wrapped_cantaloupe"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 2.75d
+		}
+		{
+			id: "6C304B5B9AC1FF44"
+			tasks: [{
+				id: "1E0E51B793156ACA"
+				item: "delightful:cantaloupe_popsicle"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 3.75d
+		}
+		{
+			id: "387D28F7E19E87C1"
+			tasks: [{
+				id: "097E727752DA4055"
+				item: "delightful:stuffed_cantaloupe"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 4.75d
+		}
+		{
+			id: "4BDECC7BD72F39D1"
+			tasks: [{
+				id: "6EE1A262FC701F3F"
+				item: "delightful:salmonberry_gummy"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 5.75d
+		}
+		{
+			id: "1AE0D1852D6B6390"
+			tasks: [{
+				id: "0B379F03741AAAA3"
+				item: "delightful:matcha_gummy"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 6.75d
+		}
+		{
+			id: "2DB18A57FCEF2ABA"
+			tasks: [{
+				id: "38F5EB195BF51064"
+				item: "delightful:cantaloupe_gummy"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -8.25d
+		}
+		{
+			id: "6BE8EC584F2C3FA9"
+			tasks: [{
+				id: "761808136FE393A6"
+				item: "delightful:source_berry_gummy"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -7.25d
+		}
+		{
+			id: "6C16A35D4160022E"
+			tasks: [{
+				id: "4959223CA55ACDB1"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -8.25d
+		}
+		{
+			id: "71048069AE62C08A"
+			tasks: [{
+				id: "5FC4194EB7722292"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -7.25d
+		}
+		{
+			id: "0AD81E0F29D8EB2D"
+			tasks: [{
+				id: "2BB3912D2959CA69"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -6.25d
+		}
+		{
+			id: "7905B4F77A776C80"
+			tasks: [{
+				id: "4CF580F51F677FA3"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -5.25d
+		}
+		{
+			id: "3349F5C03717D838"
+			tasks: [{
+				id: "090F86A53922DCC3"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -4.25d
+		}
+		{
+			id: "5905FDBD09E6F2BA"
+			tasks: [{
+				id: "57491F0BF2927E55"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -3.25d
+		}
+		{
+			id: "3D9CCEB7D7AF8B1C"
+			tasks: [{
+				id: "36AD8979F99F81CF"
+				item: "farmersrespite:gamblers_tea"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -2.25d
+		}
+		{
+			id: "37E62DF46C7B599F"
+			tasks: [{
+				id: "43E83861785F39E5"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -1.25d
+		}
+		{
+			id: "30F0D48D0D950454"
+			tasks: [{
+				id: "02255AE43782EB34"
+				item: "farmersrespite:long_apple_cider"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -0.25d
+		}
+		{
+			id: "300EB30D4AAE62A2"
+			tasks: [{
+				id: "5714521261681496"
+				item: "farmersrespite:strong_melon_juice"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 0.75d
+		}
+		{
+			id: "2639C83587E188E9"
+			tasks: [{
+				id: "76055EFFAD0C7DAC"
+				item: "farmersrespite:strong_hot_cocoa"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 1.75d
+		}
+		{
+			id: "568383830C754E5A"
+			tasks: [{
+				id: "0A11D756DDF5A8ED"
+				item: "farmersrespite:coffee_cake"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 2.75d
+		}
+		{
+			id: "43D57E123CBE3739"
+			tasks: [{
+				id: "4EC6954C952B9F82"
+				item: "farmersrespite:rose_hip_pie"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 3.75d
+		}
+		{
+			id: "463B618F164D9557"
+			tasks: [{
+				id: "54E648017DF3740A"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 4.75d
+		}
+		{
+			id: "75893A3477CF88D0"
+			tasks: [{
+				id: "7FE8DED0C72128E5"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 5.75d
+		}
+		{
+			id: "658F0B0E37C9E096"
+			tasks: [{
+				id: "59CB516C31C93B61"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: -9.25d
+			y: 6.75d
+		}
+		{
+			id: "6A39CE4B59FBCD57"
+			tasks: [{
+				id: "17429D8FDB17C696"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -8.25d
+		}
+		{
+			id: "1A89E3AED7C3E120"
+			tasks: [{
+				id: "5C23C3C7F36DC1DD"
+				item: "farmersdelight:beef_patty"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -7.25d
+		}
+		{
+			id: "1F63EB45F25C2B5A"
+			tasks: [{
+				id: "666A624660CED787"
+				item: "farmersdelight:cooked_chicken_cuts"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -6.25d
+		}
+		{
+			id: "24C80C2E1C4A0278"
+			tasks: [{
+				id: "414B019DC61D4B93"
+				item: "farmersdelight:cooked_bacon"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -5.25d
+		}
+		{
+			id: "5FB041CE37DAE178"
+			tasks: [{
+				id: "626C351DC47761E7"
+				item: "farmersdelight:cooked_cod_slice"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -4.25d
+		}
+		{
+			id: "2881A198D7CCCD79"
+			tasks: [{
+				id: "1FE4FFD4EC695715"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -3.25d
+		}
+		{
+			id: "594CA3ED1CCD2A81"
+			tasks: [{
+				id: "2DB67090701D5D65"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -2.25d
+		}
+		{
+			id: "6C5D19446954869A"
+			tasks: [{
+				id: "10A8A839A065FC80"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -1.25d
+		}
+		{
+			id: "1B25C0DF598D9BDF"
+			tasks: [{
+				id: "126BD667B137FB38"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -0.25d
+		}
+		{
+			id: "3878CF6D895E741D"
+			tasks: [{
+				id: "1FAE16486944EA2E"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.75d
+		}
+		{
+			id: "55924738D23E9C4F"
+			tasks: [{
+				id: "167DEC1DE6CC7D46"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 1.75d
+		}
+		{
+			id: "45BFA2D26E642E03"
+			tasks: [{
+				id: "460564CAEE5A0EBA"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 2.75d
+		}
+		{
+			id: "2F77E3D79166557F"
+			tasks: [{
+				id: "5D328A615E560F27"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.75d
+		}
+		{
+			id: "09E9EC68CF99657A"
+			tasks: [{
+				id: "7083C67EE029740E"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.75d
+		}
+		{
+			id: "7179079EE3FF16D1"
+			tasks: [{
+				id: "74B80FDDBFBB6969"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 5.75d
+		}
+		{
+			id: "022480C87EF97C35"
+			tasks: [{
+				id: "501EB5D446CC35AC"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.75d
+		}
+		{
+			id: "776EA090C6502294"
+			tasks: [{
+				id: "3500B85380C30788"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -8.25d
+		}
+		{
+			id: "43B6DB9C29882D2F"
+			tasks: [{
+				id: "4DB3C88A4EE43E3B"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -7.25d
+		}
+		{
+			id: "4C38165C68CB6A4D"
+			tasks: [{
+				id: "48C993FF597EA7A9"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -6.25d
+		}
+		{
+			id: "19C376C8EC3C7CDF"
+			tasks: [{
+				id: "204E8728B5EAFE21"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -5.25d
+		}
+		{
+			id: "5571A743A275D08C"
+			tasks: [{
+				id: "74A235A717E852BF"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -4.25d
+		}
+		{
+			id: "68E4FB3D7849D2AB"
+			tasks: [{
+				id: "28D877F718C3438D"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -3.25d
+		}
+		{
+			id: "634B541F34A5E66E"
+			tasks: [{
+				id: "6216FC7050ED1898"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -2.25d
+		}
+		{
+			id: "7A65E30804DB8AD5"
+			tasks: [{
+				id: "731AE8BF7E610CB4"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -1.25d
+		}
+		{
+			id: "0D8625A8C49F881E"
+			tasks: [{
+				id: "16AC92434A2836BF"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -0.25d
+		}
+		{
+			id: "39E04C12AF6260F0"
+			tasks: [{
+				id: "2BA6A2A69C4C85F6"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 0.75d
+		}
+		{
+			id: "553020992428BE54"
+			tasks: [{
+				id: "5CD1CB610CDB76C9"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.75d
+		}
+		{
+			id: "40827ADAE9CC1806"
+			tasks: [{
+				id: "695286514DCEDCA1"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 2.75d
+		}
+		{
+			id: "7D5D3D6A4B42743F"
+			tasks: [{
+				id: "64C6F52CA46073FA"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 3.75d
+		}
+		{
+			id: "5FB9BE52DAB802BE"
+			tasks: [{
+				id: "3FAE4C35E7A66A29"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.75d
+		}
+		{
+			id: "0A5F632487112E03"
+			tasks: [{
+				id: "01C02A01268772B0"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 5.75d
+		}
+		{
+			id: "431F831669DE2472"
+			tasks: [{
+				id: "5FD17276B7B86A37"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.75d
+		}
+		{
+			id: "0E38338FCC8798DC"
+			tasks: [{
+				id: "56C4C02AC31C3F4C"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -8.25d
+		}
+		{
+			id: "069CD7F51E1D8DC8"
+			tasks: [{
+				id: "16939E05A075E79A"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -7.25d
+		}
+		{
+			id: "50F5E511D67BDAC4"
+			tasks: [{
+				id: "76B6E042CF5D0942"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -6.25d
+		}
+		{
+			id: "04401F9C09888948"
+			tasks: [{
+				id: "59E2D6AB7075CBF3"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -5.25d
+		}
+		{
+			id: "7B1DFCE314782A43"
+			tasks: [{
+				id: "1ADA8D6A1A7AE9F0"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -4.25d
+		}
+		{
+			id: "14AF7A7E9DA01C67"
+			tasks: [{
+				id: "7263D7345FA8B87B"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -3.25d
+		}
+		{
+			id: "12197EE57BFEA4D9"
+			tasks: [{
+				id: "030E5EA640D44D58"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -2.25d
+		}
+		{
+			id: "22880118253C81CF"
+			tasks: [{
+				id: "07F5024A2D502E76"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -1.25d
+		}
+		{
+			id: "6AAAD52BE9C1CE4F"
+			tasks: [{
+				id: "383F22DA8D180371"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -0.25d
+		}
+		{
+			id: "0F1972BC20600FDD"
+			tasks: [{
+				id: "12F9C360ABD47641"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 0.75d
+		}
+		{
+			id: "15F62613AC8DF9ED"
+			tasks: [{
+				id: "06B1C575083AE060"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 1.75d
+		}
+		{
+			id: "342E9744788F827F"
+			tasks: [{
+				id: "752A5F13891691C3"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 2.75d
+		}
+		{
+			id: "421BC7F500FEFB3F"
+			tasks: [{
+				id: "376A5ED5D9B597B9"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 3.75d
+		}
+		{
+			id: "26A09B833D2EE4BE"
+			tasks: [{
+				id: "3DC908E7BF8C2B1A"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 4.75d
+		}
+		{
+			id: "618C1BD79491086C"
+			tasks: [{
+				id: "63B06706C8485A87"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 5.75d
+		}
+		{
+			id: "6CDF9FC7F7F95571"
+			tasks: [{
+				id: "5F368F335C045109"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 6.75d
+		}
+		{
+			id: "620BBBD89F68BFB9"
+			tasks: [{
+				id: "58BEA9CC5C61D80C"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -8.25d
+		}
+		{
+			id: "5808D4A36254CB48"
+			tasks: [{
+				id: "43F5A39560784101"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -7.25d
+		}
+		{
+			id: "675A5D2771136F7F"
+			tasks: [{
+				id: "60A9E1416AC7D586"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.25d
+		}
+		{
+			id: "2DA26FF4A64B7E7E"
+			tasks: [{
+				id: "2E11BFE43B7F4A19"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.25d
+		}
+		{
+			id: "1BFABB16C4079C23"
+			tasks: [{
+				id: "53AA9A15FC8A3394"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -4.25d
+		}
+		{
+			id: "08FC3D919BC96706"
+			tasks: [{
+				id: "6202D2B6687B1560"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.25d
+		}
+		{
+			id: "778512B818C2EF14"
+			tasks: [{
+				id: "7F68EC719BD8952B"
+				item: "oceanic_delight:sea_pickle_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -8.25d
+		}
+		{
+			id: "329F053292E6FA4B"
+			tasks: [{
+				id: "58A5EC2685BC7587"
+				item: "oceanic_delight:sea_grape_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -7.25d
+		}
+		{
+			id: "41171E58B56D4C4C"
+			tasks: [{
+				id: "674F20E039077C63"
+				item: "mynethersdelight:bullet_pepper_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -6.25d
+		}
+		{
+			id: "0E47B2D821DDD85E"
+			tasks: [{
+				id: "328A3761ECFA05F0"
+				item: "arsdelight:mendosteen_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -5.25d
+		}
+		{
+			id: "467801027FB917D3"
+			tasks: [{
+				id: "78F30AA59AD31776"
+				item: "arsdelight:bastion_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.25d
+		}
+		{
+			id: "63D7CBD84FA92FD7"
+			tasks: [{
+				id: "3FDDCCBC52BC16A6"
+				item: "arsdelight:bombegrante_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -3.25d
+		}
+		{
+			id: "507E21F7E976AB3D"
+			tasks: [{
+				id: "31CA3B1D7F2E4322"
+				item: "arsdelight:frostaya_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.25d
+		}
+		{
+			id: "7C74A4E5F08D1748"
+			tasks: [{
+				id: "154CEC5329BF4BA3"
+				item: "unusual_delight:magma_cream_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			id: "2104F83B8110FB29"
+			tasks: [{
+				id: "139977778852DD7B"
+				item: "unusual_delight:rotten_flesh_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.25d
+		}
+		{
+			id: "5FA0599105AAE035"
+			tasks: [{
+				id: "54B037DFA34E1477"
+				item: "unusual_delight:soggy_flesh_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			id: "3D7F39F59816933E"
+			tasks: [{
+				id: "2F7B69503D53B73E"
+				item: "frightsdelight:flesh_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.75d
+		}
+		{
+			id: "6A8ECF53F8C77B72"
+			tasks: [{
+				id: "1BAC637AB74D092B"
+				item: "frightsdelight:bone_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.75d
+		}
+		{
+			id: "24FE445CF948DB40"
+			tasks: [{
+				id: "4A4E744B3DD814C1"
+				item: "frightsdelight:phantom_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			id: "61A329D56E37844C"
+			tasks: [{
+				id: "797B1D6C6D26A2FD"
+				item: "frightsdelight:web_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.75d
+		}
+		{
+			id: "701C3E674D5BCD66"
+			tasks: [{
+				id: "124512E8098522F3"
+				item: "frightsdelight:spider_eye_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			id: "0AF7F9495DD911A4"
+			tasks: [{
+				id: "7A1049F985E5CEBB"
+				item: "frightsdelight:fermented_spider_eye_crate"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 6.75d
+		}
+		{
+			id: "6AB2E2E5039024FD"
+			tasks: [{
+				id: "40C6474D229FC060"
+				item: "frightsdelight:poisonous_potato_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -8.25d
+		}
+		{
+			id: "43CE411A1A574307"
+			tasks: [{
+				id: "3DDBAE15C9B5AEA7"
+				item: "frightsdelight:rotten_tomato_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -7.25d
+		}
+		{
+			id: "76919D5A6897BD8C"
+			tasks: [{
+				id: "3A8F752C572E6FFB"
+				item: "fruitsdelight:pear_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -6.25d
+		}
+		{
+			id: "602F5AE7E4A7F100"
+			tasks: [{
+				id: "6031D2AD92AC9F47"
+				item: "fruitsdelight:hawberry_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.25d
+		}
+		{
+			id: "208415EEB31FAE1E"
+			tasks: [{
+				id: "68568872658AFDBA"
+				item: "fruitsdelight:lychee_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -4.25d
+		}
+		{
+			id: "53F56CB7DBB0803D"
+			tasks: [{
+				id: "25F8C59B4441D138"
+				item: "fruitsdelight:mango_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.25d
+		}
+		{
+			id: "2DD9E1E2DAD2D60A"
+			tasks: [{
+				id: "3272423E3186010A"
+				item: "fruitsdelight:persimmon_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -2.25d
+		}
+		{
+			id: "36CF943CC129311A"
+			tasks: [{
+				id: "0B88A636DFA72082"
+				item: "fruitsdelight:peach_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -1.25d
+		}
+		{
+			id: "4F1271F0D6BDB705"
+			tasks: [{
+				id: "3476E46C5FB7CA94"
+				item: "fruitsdelight:orange_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -0.25d
+		}
+		{
+			id: "4EEE23FA183ED566"
+			tasks: [{
+				id: "46D5FAFFB2899987"
+				item: "fruitsdelight:mangosteen_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 0.75d
+		}
+		{
+			id: "6510201D68E78548"
+			tasks: [{
+				id: "2DB2DDDD24A368F6"
+				item: "fruitsdelight:bayberry_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 1.75d
+		}
+		{
+			id: "245A42522E9EF2DC"
+			tasks: [{
+				id: "0ED3D2F430ABCADE"
+				item: "fruitsdelight:kiwi_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 2.75d
+		}
+		{
+			id: "1D16207219A390C5"
+			tasks: [{
+				id: "2404CB651222BAD1"
+				item: "fruitsdelight:fig_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 3.75d
+		}
+		{
+			id: "33300EBAD6A57067"
+			tasks: [{
+				id: "7B7316DA380DB674"
+				item: "fruitsdelight:blueberry_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 4.75d
+		}
+		{
+			id: "5121F52F87008BBB"
+			tasks: [{
+				id: "12B5A8240E8BD644"
+				item: "fruitsdelight:lemon_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 5.75d
+		}
+		{
+			id: "34D2854FBF5E8FA6"
+			tasks: [{
+				id: "4DBEBD02A03C198E"
+				item: "fruitsdelight:cranberry_crate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 6.75d
+		}
+		{
+			id: "302CEC317EB0F498"
+			tasks: [{
+				id: "1AEC70D60A057287"
+				item: "fruitsdelight:pineapple_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -8.25d
+		}
+		{
+			id: "57BF3972B929953B"
+			tasks: [{
+				id: "3E0DF0298339996A"
+				item: "fruitsdelight:apple_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -7.25d
+		}
+		{
+			id: "2BCD6579E1824EE8"
+			tasks: [{
+				id: "12B6A9B4CA11C167"
+				item: "twilightdelight:torchberries_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -6.25d
+		}
+		{
+			id: "41B6044B8E55ECB7"
+			tasks: [{
+				id: "145DF1BC20B5457B"
+				item: "braziliandelight:bean_pod_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.25d
+		}
+		{
+			id: "3EC4CA9B85B98F8E"
+			tasks: [{
+				id: "6B00FCE9217E5D95"
+				item: "braziliandelight:garlic_bulb_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -4.25d
+		}
+		{
+			id: "5E17499B8CDC2FF2"
+			tasks: [{
+				id: "1F83DFCF066416E9"
+				item: "braziliandelight:acai_berries_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -3.25d
+		}
+		{
+			id: "033A75C68E441454"
+			tasks: [{
+				id: "6EEA257AB120EC0B"
+				item: "braziliandelight:guarana_fruit_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -2.25d
+		}
+		{
+			id: "5B051CB7CE51770B"
+			tasks: [{
+				id: "2C60A655B2EDBE78"
+				item: "braziliandelight:green_coconut_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.25d
+		}
+		{
+			id: "39AACCEE07490B5E"
+			tasks: [{
+				id: "79245865CAD63E66"
+				item: "braziliandelight:coconut_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.25d
+		}
+		{
+			id: "150B18E6AAF3A35F"
+			tasks: [{
+				id: "595FED9117E1AE97"
+				item: "braziliandelight:corn_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			id: "6D555724603D845B"
+			tasks: [{
+				id: "6B46C7FCED198FCE"
+				item: "braziliandelight:collard_greens_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.75d
+		}
+		{
+			id: "25289FD405598F71"
+			tasks: [{
+				id: "06608A9702FCC8D7"
+				item: "braziliandelight:cassava_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 1.75d
+		}
+		{
+			id: "42323726853BC2CF"
+			tasks: [{
+				id: "5D963DEFE9BFB78F"
+				item: "braziliandelight:coffee_berries_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			id: "297B207D6B6EE492"
+			tasks: [{
+				id: "57BDEB588F2EAC74"
+				item: "braziliandelight:lemon_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.75d
+		}
+		{
+			id: "0CEB5E0FFA565B81"
+			tasks: [{
+				id: "204CF95D94638F20"
+				item: "galospheric_delight:lichen_cordyceps_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.75d
+		}
+		{
+			id: "73B5F33C8216A3C2"
+			tasks: [{
+				id: "1B6029D97364C029"
+				item: "galospheric_delight:golden_lichen_cordyceps_crate"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 6.75d
+		}
+		{
+			id: "79442C914FEAE301"
+			tasks: [{
+				id: "6E65046889BA808C"
+				item: "vintagedelight:ghost_pepper_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -8.25d
+		}
+		{
+			id: "18E9674BDD3A4042"
+			tasks: [{
+				id: "1B4D66D7C34C15EC"
+				item: "vintagedelight:cucumber_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -7.25d
+		}
+		{
+			id: "26D5AB6939589397"
+			tasks: [{
+				id: "24BA807BB2B18F7D"
+				item: "vintagedelight:peanut_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -6.25d
+		}
+		{
+			id: "0FBBB48383D4A786"
+			tasks: [{
+				id: "281A561BF4518396"
+				item: "undergardendelight:underbean_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -5.25d
+		}
+		{
+			id: "342044C8966F4EE2"
+			tasks: [{
+				id: "66F281294568AB36"
+				item: "undergardendelight:blisterberry_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -4.25d
+		}
+		{
+			id: "640D5F3BF1BABFCB"
+			tasks: [{
+				id: "188EB4BB935FCBC8"
+				item: "undergardendelight:droopfruit_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -3.25d
+		}
+		{
+			id: "6639840D34031B1E"
+			tasks: [{
+				id: "40C2BAD9D6057522"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.25d
+		}
+		{
+			id: "25AFCBC6BDDD3599"
+			tasks: [{
+				id: "360F1C6E6E3FFA44"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.25d
+		}
+		{
+			id: "6B0902FB675E3F23"
+			tasks: [{
+				id: "690450362275DEBA"
+				item: "farmersdelight:beetroot_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -0.25d
+		}
+		{
+			id: "650AC1F41AE67946"
+			tasks: [{
+				id: "5BD9E994341E70A4"
+				item: "farmersdelight:cabbage_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			id: "7C11398C7F98E46B"
+			tasks: [{
+				id: "6751314F5A1E048C"
+				item: "farmersdelight:tomato_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 1.75d
+		}
+		{
+			id: "129EE08CAF8AEC73"
+			tasks: [{
+				id: "66782A2364CB87D7"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 2.75d
+		}
+		{
+			id: "07FE8E3AD67A641E"
+			tasks: [{
+				id: "20E76C0AA8067CA2"
+				item: "delightful:green_apple_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			id: "061300DA58A13F8F"
+			tasks: [{
+				id: "62163F10F8421D85"
+				item: "delightful:yucca_fruit_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.75d
+		}
+		{
+			id: "5FC335E93D6D0DDA"
+			tasks: [{
+				id: "15F565AA8E6349B9"
+				item: "delightful:baobab_fruit_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.75d
+		}
+		{
+			id: "193A8A1E53D8FF52"
+			tasks: [{
+				id: "5A80A52462797657"
+				item: "endersdelight:chorus_crate"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.75d
+		}
+		{
+			id: "1CA6A2DB92317B71"
+			tasks: [{
+				id: "54B9B645E45229AF"
+				item: {
+					Count: 1
+					id: "twilightdelight:ironwood_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -8.25d
+		}
+		{
+			id: "2342B51616A55241"
+			tasks: [{
+				id: "1F1491CC5A3E45E0"
+				item: {
+					Count: 1
+					id: "twilightdelight:steeleaf_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:looting"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -7.25d
+		}
+		{
+			id: "4040E24551E3AA48"
+			tasks: [{
+				id: "7FD6EFFEBAFC49E5"
+				item: {
+					Count: 1
+					id: "twilightdelight:knightmetal_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -6.25d
+		}
+		{
+			id: "480B40814E4E19D1"
+			tasks: [{
+				id: "0ED2DAB31FBB364A"
+				item: {
+					Count: 1
+					id: "twilightdelight:fiery_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -5.25d
+		}
+		{
+			id: "728795C9DD25C125"
+			tasks: [{
+				id: "4F1EC00F4F525BEB"
+				item: {
+					Count: 1
+					id: "aquaculturedelight:neptunium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -4.25d
+		}
+		{
+			id: "2144F070EA07F249"
+			tasks: [{
+				id: "127F8F15D571F5DA"
+				item: {
+					Count: 1
+					id: "undergardendelight:brute_tusk_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.25d
+		}
+		{
+			id: "05ED16A633145CF2"
+			tasks: [{
+				id: "38E78E9BBF7FD38D"
+				item: {
+					Count: 1
+					id: "undergardendelight:cloggrum_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.25d
+		}
+		{
+			id: "7CD74778DD4A0DC5"
+			tasks: [{
+				id: "44E3F840760D68A7"
+				item: {
+					Count: 1
+					id: "undergardendelight:frosteel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			id: "3F063E58A169CF92"
+			tasks: [{
+				id: "045DF79B4B32CC51"
+				item: {
+					Count: 1
+					id: "undergardendelight:utherium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -0.25d
+		}
+		{
+			id: "1208B713A31564F3"
+			tasks: [{
+				id: "0C71DF385E4DE6A1"
+				item: {
+					Count: 1
+					id: "undergardendelight:forgotten_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.75d
+		}
+		{
+			id: "33A754DBC123B5A7"
+			tasks: [{
+				id: "51B93612FF794E6F"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.75d
+		}
+		{
+			id: "3E172891C5868790"
+			tasks: [{
+				id: "5DB9EEA5E369B362"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 2.75d
+		}
+		{
+			id: "4502EB702DD92772"
+			tasks: [{
+				id: "66A7A553BC689AD8"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 3.75d
+		}
+		{
+			id: "58A1EE6D17595FE4"
+			tasks: [{
+				id: "36E001A6645A0860"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.75d
+		}
+		{
+			id: "777850181DB8D610"
+			tasks: [{
+				id: "54F82135B9C18B87"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.75d
+		}
+		{
+			id: "5E641911E86FB9CA"
+			tasks: [{
+				id: "58DC064654904E32"
+				item: {
+					Count: 1
+					id: "delightful:invar_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.75d
+		}
+		{
+			id: "31175B460C45D2D2"
+			tasks: [{
+				id: "19E27AADE2D0ED2E"
+				item: {
+					Count: 1
+					id: "delightful:lead_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -8.25d
+		}
+		{
+			id: "570F01AC9B46EF81"
+			tasks: [{
+				id: "5902FE7ECE1FB945"
+				item: {
+					Count: 1
+					id: "delightful:bone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -7.25d
+		}
+		{
+			id: "2B369158E5C17A6E"
+			tasks: [{
+				id: "28771EEBD8546AED"
+				item: {
+					Count: 1
+					id: "delightful:tin_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -6.25d
+		}
+		{
+			id: "7C0C1102364FF090"
+			tasks: [{
+				id: "37713FBE9A32B8D8"
+				item: {
+					Count: 1
+					id: "delightful:steel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -5.25d
+		}
+		{
+			id: "6C951F5DF9FB8DC7"
+			tasks: [{
+				id: "3CA8355A8318A072"
+				item: {
+					Count: 1
+					id: "delightful:silver_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -4.25d
+		}
+		{
+			id: "21EC091DA17C3895"
+			tasks: [{
+				id: "657073E5FC49B13E"
+				item: {
+					Count: 1
+					id: "delightful:aluminum_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.25d
+		}
+		{
+			id: "335657DCB0272E3A"
+			tasks: [{
+				id: "73B592FFFEFA8171"
+				item: {
+					Count: 1
+					id: "delightful:brass_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -2.25d
+		}
+		{
+			id: "16B5EFE139E157C6"
+			tasks: [{
+				id: "3F04E98C29485E61"
+				item: {
+					Count: 1
+					id: "delightful:bronze_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.25d
+		}
+		{
+			id: "10B016B97B488613"
+			tasks: [{
+				id: "04EA3A565197E7EB"
+				item: {
+					Count: 1
+					id: "delightful:constantan_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: -0.25d
+		}
+		{
+			id: "7DDEDF904ABDB774"
+			tasks: [{
+				id: "25BF85115FC32A76"
+				item: {
+					Count: 1
+					id: "delightful:electrum_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			id: "547F36D3474FD2D1"
+			tasks: [{
+				id: "0C7C328A41ED34B8"
+				item: {
+					Count: 1
+					id: "delightful:nickel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.75d
+		}
+		{
+			id: "2EBAE1FA9F5608A5"
+			tasks: [{
+				id: "17BB5FF9918E1BEC"
+				item: {
+					Count: 1
+					id: "delightful:zinc_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.75d
+		}
+		{
+			id: "2B9D2B7C6F5D8076"
+			tasks: [{
+				id: "33B46592D87701E0"
+				item: {
+					Count: 1
+					id: "delightful:electrum_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.75d
+		}
+		{
+			id: "065A74680F05E4FA"
+			tasks: [{
+				id: "27D1FAC0ABF8051C"
+				item: {
+					Count: 1
+					id: "delightful:draco_arcanus_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.75d
+		}
+		{
+			id: "38712A605CD7BEE2"
+			tasks: [{
+				id: "3A37DA7CB086B275"
+				item: {
+					Count: 1
+					id: "delightful:osmium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 5.75d
+		}
+		{
+			id: "53AB39D9DA56C9EC"
+			tasks: [{
+				id: "15FD9C54DC065905"
+				item: {
+					Count: 1
+					id: "delightful:refined_glowstone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 6.75d
+		}
+		{
+			id: "17716347E8E28F77"
+			tasks: [{
+				id: "0B7A7A20381375B5"
+				item: {
+					Count: 1
+					id: "delightful:refined_obsidian_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -8.25d
+		}
+		{
+			id: "34185ECF3D1B26C1"
+			tasks: [{
+				id: "72FEB009448F7965"
+				item: {
+					Count: 1
+					id: "delightful:warden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -7.25d
+		}
+		{
+			id: "3E8BCCC0CC364A09"
+			tasks: [{
+				id: "6FC67A7E561A5981"
+				item: {
+					Count: 1
+					id: "delightful:experience_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -6.25d
+		}
+		{
+			id: "33EEF23188D74444"
+			tasks: [{
+				id: "55F31CCBDC17698C"
+				item: {
+					Count: 1
+					id: "delightful:gilded_quartz_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -5.25d
+		}
+		{
+			id: "3F124DA88C647F23"
+			tasks: [{
+				id: "63903E0B8F4AD65E"
+				item: {
+					Count: 1
+					id: "delightful:blazing_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -4.25d
+		}
+		{
+			id: "163C2D593AF02762"
+			tasks: [{
+				id: "242362460D752D65"
+				item: {
+					Count: 1
+					id: "delightful:gravitite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -3.25d
+		}
+		{
+			id: "056F60871026A448"
+			tasks: [{
+				id: "002D60110225F032"
+				item: {
+					Count: 1
+					id: "delightful:holystone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.25d
+		}
+		{
+			id: "21A7AE0516B23B73"
+			tasks: [{
+				id: "0593C426D6DED248"
+				item: {
+					Count: 1
+					id: "delightful:skyroot_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -1.25d
+		}
+		{
+			id: "31B7779F8D4A3D3D"
+			tasks: [{
+				id: "34429FC7283991E3"
+				item: {
+					Count: 1
+					id: "delightful:zanite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -0.25d
+		}
+		{
+			id: "6DDB89782045098D"
+			tasks: [{
+				id: "54B10A3C63A94580"
+				item: {
+					Count: 1
+					id: "delightful:manasteel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.75d
+		}
+		{
+			id: "086270C7F84E60D9"
+			tasks: [{
+				id: "121757815F775C74"
+				item: {
+					Count: 1
+					id: "delightful:elementium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 1.75d
+		}
+		{
+			id: "0BA1F4E74CDD5317"
+			tasks: [{
+				id: "60DEE3792AD756C7"
+				item: {
+					Count: 1
+					id: "delightful:terra_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 2.75d
+		}
+		{
+			id: "2D1846360EBEE676"
+			tasks: [{
+				id: "760A32B53C35CA9F"
+				item: {
+					Count: 1
+					id: "delightful:veridium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 3.75d
+		}
+		{
+			id: "449B57398362C075"
+			tasks: [{
+				id: "01C8B3E47CB3FFBB"
+				item: {
+					Count: 1
+					id: "delightful:infused_veridium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 4.75d
+		}
+		{
+			id: "280F61C38D55393E"
+			tasks: [{
+				id: "01E5DADDEF83D563"
+				item: {
+					Count: 1
+					id: "delightful:skyjade_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 5.75d
+		}
+		{
+			id: "3CC81ED4B9FC63EE"
+			tasks: [{
+				id: "43A578F60DEABABE"
+				item: {
+					Count: 1
+					id: "delightful:stratus_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 6.75d
+		}
+		{
+			id: "26715D77E4EF8344"
+			tasks: [{
+				id: "0B09EC3BB32EDA7F"
+				item: {
+					Count: 1
+					id: "delightful:certus_quartz_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -8.25d
+		}
+		{
+			id: "3CC017798872AE23"
+			tasks: [{
+				id: "4665722389E967F8"
+				item: {
+					Count: 1
+					id: "delightful:fluix_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -7.25d
+		}
+		{
+			id: "192861104FF51FDE"
+			tasks: [{
+				id: "07B47E7EFF289DB8"
+				item: {
+					Count: 1
+					id: "scguns:anthralite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -6.25d
+		}
+	]
+	title: "&2Delights Chapter IV"
+}

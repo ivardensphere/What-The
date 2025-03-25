@@ -4,8 +4,2119 @@
 	filename: "global_delights"
 	group: "6F1187A4D51268D1"
 	id: "10EB41D71869CC69"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
-	title: "&2Global Delights"
+	quests: [
+		{
+			id: "6DD8CF4CA911CD92"
+			tasks: [{
+				id: "348E25039988753C"
+				item: "croptopia:cooking_pot"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -9.25d
+		}
+		{
+			id: "7105A7B45BA9CE9E"
+			tasks: [{
+				id: "4E4A196B200ABEA1"
+				item: "croptopia:food_press"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.25d
+		}
+		{
+			id: "74559D520D837505"
+			tasks: [{
+				id: "4E9CAEF354CCE0A2"
+				item: "croptopia:frying_pan"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -9.25d
+		}
+		{
+			id: "71A4BA2C0BC771A5"
+			tasks: [{
+				id: "7E0E1DEFBD485EA5"
+				item: "croptopia:apple_juice"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.25d
+		}
+		{
+			id: "15E14DE6D2459F04"
+			tasks: [{
+				id: "53DEC32643832C5E"
+				item: "croptopia:cranberry_juice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.25d
+		}
+		{
+			id: "331D1ED3371DBFB6"
+			tasks: [{
+				id: "47889F18D6DDE54B"
+				item: "croptopia:grape_juice"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.25d
+		}
+		{
+			id: "1292D53F63619753"
+			tasks: [{
+				id: "00F3DC5E83195C32"
+				item: "croptopia:melon_juice"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.25d
+		}
+		{
+			id: "6F045865B9FEDB7E"
+			tasks: [{
+				id: "44C0E714A1103B4C"
+				item: "croptopia:orange_juice"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.25d
+		}
+		{
+			id: "5BEA22C952DB929C"
+			tasks: [{
+				id: "51C1424D53FAA3F7"
+				item: "croptopia:pineapple_juice"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.25d
+		}
+		{
+			id: "5443F2BAA507631A"
+			tasks: [{
+				id: "3806AB52F636CD7F"
+				item: "croptopia:saguaro_juice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.25d
+		}
+		{
+			id: "780F83CE49A2D4C2"
+			tasks: [{
+				id: "6F5409DDEDF52462"
+				item: "croptopia:tomato_juice"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.25d
+		}
+		{
+			id: "12E3D775EC032B3C"
+			tasks: [{
+				id: "7E1D9604597881C1"
+				item: "croptopia:apricot_jam"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -8.25d
+		}
+		{
+			id: "135E659D9F49877E"
+			tasks: [{
+				id: "631EE0889EEBF454"
+				item: "croptopia:blackberry_jam"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -8.25d
+		}
+		{
+			id: "1CEFCB2DCE10796C"
+			tasks: [{
+				id: "201BBFEB21F62FB6"
+				item: "croptopia:blueberry_jam"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -8.25d
+		}
+		{
+			id: "1AA1465E36A29337"
+			tasks: [{
+				id: "7BA6F4C9131C6BBC"
+				item: "croptopia:cherry_jam"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -8.25d
+		}
+		{
+			id: "05299F5B5DE710AC"
+			tasks: [{
+				id: "6EB233F68B0DB0FA"
+				item: "croptopia:elderberry_jam"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -8.25d
+		}
+		{
+			id: "627AE1B257772704"
+			tasks: [{
+				id: "30855F7FAABB83A3"
+				item: "croptopia:grape_jam"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.25d
+		}
+		{
+			id: "575256C6A797725E"
+			tasks: [{
+				id: "2A7DD539C9785358"
+				item: "croptopia:peach_jam"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -7.25d
+		}
+		{
+			id: "131E6214C172E83E"
+			tasks: [{
+				id: "7C0C1082BBD21009"
+				item: "croptopia:raspberry_jam"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -7.25d
+		}
+		{
+			id: "2388189C2D32024E"
+			tasks: [{
+				id: "1E054F5D7AF83A9D"
+				item: "croptopia:strawberry_jam"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -7.25d
+		}
+		{
+			id: "47E31FA0CB38BC45"
+			tasks: [{
+				id: "1472F270A50F93BA"
+				item: "croptopia:banana_smoothie"
+				type: "item"
+			}]
+			x: -23.75d
+			y: 4.5d
+		}
+		{
+			id: "220F276A23D13CD7"
+			tasks: [{
+				id: "70F79736E4AD8040"
+				item: "croptopia:strawberry_smoothie"
+				type: "item"
+			}]
+			x: -22.75d
+			y: 4.5d
+		}
+		{
+			id: "79B98636BD448271"
+			tasks: [{
+				id: "0869CF5530FF36F6"
+				item: "croptopia:mango_ice_cream"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.25d
+		}
+		{
+			id: "549E794D8FD82BDC"
+			tasks: [{
+				id: "3ACDB8865300876E"
+				item: "croptopia:pecan_ice_cream"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.25d
+		}
+		{
+			id: "42B70D9250D80D7F"
+			tasks: [{
+				id: "73354924CAA152D2"
+				item: "croptopia:strawberry_ice_cream"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.25d
+		}
+		{
+			id: "524910379E4CF8ED"
+			tasks: [{
+				id: "518E0DC42BE1D7A2"
+				item: "croptopia:vanilla_ice_cream"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.25d
+		}
+		{
+			id: "1F9D06881AD21E79"
+			tasks: [{
+				id: "50BF7A75449025E6"
+				item: "croptopia:apple_pie"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -1.25d
+		}
+		{
+			id: "2F2550DAC612F30D"
+			tasks: [{
+				id: "06E608601E873416"
+				item: "croptopia:cherry_pie"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -1.25d
+		}
+		{
+			id: "093119BD25AC8FAC"
+			tasks: [{
+				id: "268AB09F8EDECFF0"
+				item: "croptopia:pecan_pie"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -1.25d
+		}
+		{
+			id: "3965172DD3964937"
+			tasks: [{
+				id: "297116E804E08828"
+				item: "croptopia:rhubarb_pie"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -1.25d
+		}
+		{
+			id: "4644A43B6E019BCB"
+			tasks: [{
+				id: "53AC1123E777F184"
+				item: "croptopia:paprika"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 7.5d
+		}
+		{
+			id: "09E8E8542F859C80"
+			tasks: [{
+				id: "0B45995D3861DEB6"
+				item: "croptopia:salt"
+				type: "item"
+			}]
+			x: -24.75d
+			y: 4.5d
+		}
+		{
+			id: "58AB1BEB9A63CBB5"
+			tasks: [{
+				id: "10BD2FA4A37A1672"
+				item: "croptopia:olive_oil"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.25d
+		}
+		{
+			id: "79C73568B6236740"
+			tasks: [{
+				id: "00FF1B1C9403CC42"
+				item: "croptopia:cheese"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -2.25d
+		}
+		{
+			id: "121C0F466FFE3988"
+			tasks: [{
+				id: "55442F8E15EC3110"
+				item: "croptopia:molasses"
+				type: "item"
+			}]
+			x: -25.75d
+			y: 4.5d
+		}
+		{
+			id: "4D285D0DD45F7003"
+			tasks: [{
+				id: "550C3E5328167724"
+				item: "croptopia:popcorn"
+				type: "item"
+			}]
+			x: -21.75d
+			y: 4.5d
+		}
+		{
+			id: "50800F62C5177DF5"
+			tasks: [{
+				id: "5A05568D1F9F243E"
+				item: "croptopia:raisins"
+				type: "item"
+			}]
+			x: -26.75d
+			y: 4.5d
+		}
+		{
+			id: "4AC04D8505108FC0"
+			tasks: [{
+				id: "65BED629EFDBDF21"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			x: -20.75d
+			y: 4.5d
+		}
+		{
+			id: "6CCB753637320FD1"
+			tasks: [{
+				id: "436FB502E8DB272D"
+				item: "croptopia:flour"
+				type: "item"
+			}]
+			x: -27.75d
+			y: 4.5d
+		}
+		{
+			id: "0B1C6BECEA75AE9D"
+			tasks: [{
+				id: "3D07FB0F46A3C8FE"
+				item: "croptopia:butter"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.25d
+		}
+		{
+			id: "6D3031AE8235FD90"
+			tasks: [{
+				id: "48217B2C53D80204"
+				item: "croptopia:noodle"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -3.25d
+		}
+		{
+			id: "052F1B73A67BD7F4"
+			tasks: [{
+				id: "3CFF20267A04A9BB"
+				item: "croptopia:tofu"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -3.25d
+		}
+		{
+			id: "2349D7CF5E287F84"
+			tasks: [{
+				id: "26E67C2209A058AE"
+				item: "croptopia:chocolate"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.25d
+		}
+		{
+			id: "4E6C64013794232E"
+			tasks: [{
+				id: "5C1F0FA1182899C2"
+				item: "croptopia:tortilla"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -1.25d
+		}
+		{
+			id: "29FBFCB9171C0E76"
+			tasks: [{
+				id: "6804E0B6C31A5BE8"
+				item: "croptopia:soy_sauce"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.25d
+		}
+		{
+			id: "7C84B244C19356C3"
+			tasks: [{
+				id: "33D53398BF41BC17"
+				item: "croptopia:dough"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.25d
+		}
+		{
+			id: "38920A4CF042D14C"
+			tasks: [{
+				id: "57B1944C635477E1"
+				item: "croptopia:ravioli"
+				type: "item"
+			}]
+			x: -19.75d
+			y: 4.5d
+		}
+		{
+			id: "5798D37DA93D55DE"
+			tasks: [{
+				id: "6763E62F2B591B39"
+				item: "croptopia:salsa"
+				type: "item"
+			}]
+			x: -18.75d
+			y: 4.5d
+		}
+		{
+			id: "569B71EDDC1AA35F"
+			tasks: [{
+				id: "47F24CAF305862FB"
+				item: "croptopia:artichoke_dip"
+				type: "item"
+			}]
+			x: -17.75d
+			y: 4.5d
+		}
+		{
+			id: "165EDB71FB43E266"
+			tasks: [{
+				id: "4CAF5D62099558CA"
+				item: "croptopia:pepperoni"
+				type: "item"
+			}]
+			x: -16.75d
+			y: 4.5d
+		}
+		{
+			id: "34A2FE359C8125A5"
+			tasks: [{
+				id: "65CF58DD7C7A9BAD"
+				item: "croptopia:coffee"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.25d
+		}
+		{
+			id: "00CFE864B53510A2"
+			tasks: [{
+				id: "6DBF8B4BF68AE6C4"
+				item: "croptopia:lemonade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.25d
+		}
+		{
+			id: "4A06EA54EE9A5336"
+			tasks: [{
+				id: "560B1DAEA3F14CEF"
+				item: "croptopia:limeade"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.25d
+		}
+		{
+			id: "476BAF6F7953AAFA"
+			tasks: [{
+				id: "1817256402DD111A"
+				item: "croptopia:soy_milk"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.25d
+		}
+		{
+			id: "51B8EB2F56174E37"
+			tasks: [{
+				id: "390AF7795D240530"
+				item: "croptopia:kale_smoothie"
+				type: "item"
+			}]
+			x: -27.75d
+			y: 5.5d
+		}
+		{
+			id: "2E6466618C28C49B"
+			tasks: [{
+				id: "3F5AF017DADF4700"
+				item: "croptopia:fruit_smoothie"
+				type: "item"
+			}]
+			x: -26.75d
+			y: 5.5d
+		}
+		{
+			id: "3EE191A643078F67"
+			tasks: [{
+				id: "7E4CED62254B7D43"
+				item: "croptopia:chocolate_milkshake"
+				type: "item"
+			}]
+			x: -25.75d
+			y: 5.5d
+		}
+		{
+			id: "31F0184A18C32343"
+			tasks: [{
+				id: "48F8DDD8B4082687"
+				item: "croptopia:beer"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.25d
+		}
+		{
+			id: "37CF8F2569F26FB4"
+			tasks: [{
+				id: "5F80C69A62D5E566"
+				item: "croptopia:wine"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.25d
+		}
+		{
+			id: "7DDF90EFCD8E84B8"
+			tasks: [{
+				id: "01A1A33557C9AFC9"
+				item: "croptopia:mead"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.25d
+		}
+		{
+			id: "0434A0C51B22698F"
+			tasks: [{
+				id: "332273ABD8682CAE"
+				item: "croptopia:rum"
+				type: "item"
+			}]
+			x: -24.75d
+			y: 5.5d
+		}
+		{
+			id: "6228C7A6AC41EBB3"
+			tasks: [{
+				id: "7EA1B85204243500"
+				item: "croptopia:pumpkin_spice_latte"
+				type: "item"
+			}]
+			x: -23.75d
+			y: 5.5d
+		}
+		{
+			id: "4E7402061BFA31DF"
+			tasks: [{
+				id: "10E9B9BBAD936B61"
+				item: "croptopia:beef_jerky"
+				type: "item"
+			}]
+			x: -22.75d
+			y: 5.5d
+		}
+		{
+			id: "418821B9B17FEF9E"
+			tasks: [{
+				id: "1220A2A3215C1A3E"
+				item: "croptopia:pork_jerky"
+				type: "item"
+			}]
+			x: -21.75d
+			y: 5.5d
+		}
+		{
+			id: "1F1D7A4F0E2759A1"
+			tasks: [{
+				id: "253A2BF1E725A0E3"
+				item: "croptopia:kale_chips"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -2.25d
+		}
+		{
+			id: "538575B3BFF09FE3"
+			tasks: [{
+				id: "531228505F63C8C7"
+				item: "croptopia:potato_chips"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -2.25d
+		}
+		{
+			id: "17024E2AEB009F76"
+			tasks: [{
+				id: "6560948E64B9414F"
+				item: "croptopia:steamed_rice"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -4.25d
+		}
+		{
+			id: "2AD9C05C3A81D7C6"
+			tasks: [{
+				id: "43AC561BCFFBB746"
+				item: "croptopia:french_fries"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.25d
+		}
+		{
+			id: "201D7ACF14F9ADB0"
+			tasks: [{
+				id: "54B51448F461EDBD"
+				item: "croptopia:sweet_potato_fries"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -4.25d
+		}
+		{
+			id: "204F15CDD9B10F70"
+			tasks: [{
+				id: "6E677EEE848F00E1"
+				item: "croptopia:onion_rings"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -4.25d
+		}
+		{
+			id: "2BC72AFEDDC38F2B"
+			tasks: [{
+				id: "259BF3F1CC6658FD"
+				item: "croptopia:doughnut"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 4.5d
+		}
+		{
+			id: "459E14E69A90ABCF"
+			tasks: [{
+				id: "59C15D16A038A325"
+				item: "croptopia:cucumber_salad"
+				type: "item"
+			}]
+			x: -19.75d
+			y: 5.5d
+		}
+		{
+			id: "54C72246143A941F"
+			tasks: [{
+				id: "576F2C5DB0CB56FB"
+				item: "croptopia:caesar_salad"
+				type: "item"
+			}]
+			x: -18.75d
+			y: 5.5d
+		}
+		{
+			id: "41CA2C9823D71662"
+			tasks: [{
+				id: "7FBB747980229B0E"
+				item: "croptopia:leafy_salad"
+				type: "item"
+			}]
+			x: -17.75d
+			y: 5.5d
+		}
+		{
+			id: "3557897F7BDD46FE"
+			tasks: [{
+				id: "2B276F07DF3DB177"
+				item: "croptopia:fruit_salad"
+				type: "item"
+			}]
+			x: -16.75d
+			y: 5.5d
+		}
+		{
+			id: "7FC36AA0850491DA"
+			tasks: [{
+				id: "5FE7D5E2B35A197E"
+				item: "croptopia:veggie_salad"
+				type: "item"
+			}]
+			x: -20.75d
+			y: 5.5d
+		}
+		{
+			id: "58E60A00B30534FB"
+			tasks: [{
+				id: "086AE972369C717B"
+				item: "croptopia:pork_and_beans"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 5.5d
+		}
+		{
+			id: "5D18FD4FB77628E6"
+			tasks: [{
+				id: "31534BA046D935D4"
+				item: "croptopia:oatmeal"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 4.5d
+		}
+		{
+			id: "61AE02E5D8D75642"
+			tasks: [{
+				id: "5B6958CE077BD8F5"
+				item: "croptopia:leek_soup"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 5.5d
+		}
+		{
+			id: "437A46FAFB08C138"
+			tasks: [{
+				id: "625406BD8FB44D41"
+				item: "croptopia:yoghurt"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 4.5d
+		}
+		{
+			id: "607148614F6B2F81"
+			tasks: [{
+				id: "796EDF5970FFCD46"
+				item: "croptopia:chicken_and_rice"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 5.5d
+		}
+		{
+			id: "575A4D1E40E41DCD"
+			tasks: [{
+				id: "209650D064AE1674"
+				item: "croptopia:saucy_chips"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 4.5d
+		}
+		{
+			id: "4B4ECAA6D0764218"
+			tasks: [{
+				id: "0C9C580E81524345"
+				item: "croptopia:roasted_nuts"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 5.5d
+		}
+		{
+			id: "4FAC154DAE9747D1"
+			tasks: [{
+				id: "1049BE49247B6203"
+				item: "croptopia:trail_mix"
+				type: "item"
+			}]
+			x: -11.75d
+			y: 4.5d
+		}
+		{
+			id: "35FDE08D803ADF67"
+			tasks: [{
+				id: "322B4A7E1A669E94"
+				item: "croptopia:protein_bar"
+				type: "item"
+			}]
+			x: -11.75d
+			y: 5.5d
+		}
+		{
+			id: "64B0FB8BA808EB43"
+			tasks: [{
+				id: "55A3CA38DD5458F1"
+				item: "croptopia:nougat"
+				type: "item"
+			}]
+			x: -10.75d
+			y: 4.5d
+		}
+		{
+			id: "63A6D181B5AF1EB5"
+			tasks: [{
+				id: "550567828DDA0CF3"
+				item: "croptopia:scrambled_eggs"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -2.25d
+		}
+		{
+			id: "30646D3A907286F7"
+			tasks: [{
+				id: "78638DCAACE69E2D"
+				item: "croptopia:buttered_toast"
+				type: "item"
+			}]
+			x: -10.75d
+			y: 5.5d
+		}
+		{
+			id: "5402EE0C86A060A9"
+			tasks: [{
+				id: "5B7BFA08227D7E65"
+				item: "croptopia:toast_with_jam"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 4.5d
+		}
+		{
+			id: "7FA3C57185941A3A"
+			tasks: [{
+				id: "73BB18372725DFF0"
+				item: "croptopia:ham_sandwich"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 5.5d
+		}
+		{
+			id: "6DC92F64261F53E0"
+			tasks: [{
+				id: "0697F5AB97C0D822"
+				item: "croptopia:peanut_butter_and_jam"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 4.5d
+		}
+		{
+			id: "5338A8F24AD1CDC7"
+			tasks: [{
+				id: "22E114153D8E99E1"
+				item: "croptopia:blt"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 5.5d
+		}
+		{
+			id: "797884B3ADAAD4AC"
+			tasks: [{
+				id: "0A57AFD241EEF323"
+				item: "croptopia:grilled_cheese"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -2.25d
+		}
+		{
+			id: "1F8F016EFBDA3AE5"
+			tasks: [{
+				id: "56D66CEDC28D161E"
+				item: "croptopia:cheeseburger"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -2.25d
+		}
+		{
+			id: "02773C604C2A3F62"
+			tasks: [{
+				id: "430CBE49ADC1C3FE"
+				item: "croptopia:hamburger"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -3.25d
+		}
+		{
+			id: "5288797A017A1080"
+			tasks: [{
+				id: "2140AD7300287AC0"
+				item: "croptopia:tofuburger"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -3.25d
+		}
+		{
+			id: "107CD08FCE6E891D"
+			tasks: [{
+				id: "16E7FFDE278B08FB"
+				item: "croptopia:pizza"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -3.25d
+		}
+		{
+			id: "641A728066B2447E"
+			tasks: [{
+				id: "74A691E757282574"
+				item: "croptopia:supreme_pizza"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -3.25d
+		}
+		{
+			id: "0B282D28B71D649D"
+			tasks: [{
+				id: "42B448FBAE23EA33"
+				item: "croptopia:cheese_pizza"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -3.25d
+		}
+		{
+			id: "0D82A8A90BED60AE"
+			tasks: [{
+				id: "094869997DF38B3D"
+				item: "croptopia:pineapple_pepperoni_pizza"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -4.25d
+		}
+		{
+			id: "6BDF5EC26C0F1A2E"
+			tasks: [{
+				id: "2BA8A5004741BDF3"
+				item: "croptopia:lemon_chicken"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.25d
+		}
+		{
+			id: "21AF1DE87C3368D9"
+			tasks: [{
+				id: "73236C859C8BDE0E"
+				item: "croptopia:fried_chicken"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -4.25d
+		}
+		{
+			id: "519E251FDE5438D3"
+			tasks: [{
+				id: "56FB8DF66AAEB8D7"
+				item: "croptopia:chicken_and_noodles"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -5.25d
+		}
+		{
+			id: "0FB84D952C80002F"
+			tasks: [{
+				id: "3C43B15F3782D940"
+				item: "croptopia:chicken_and_dumplings"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -5.25d
+		}
+		{
+			id: "07C2FB7BA263927B"
+			tasks: [{
+				id: "219CFB85E75B8E4C"
+				item: "croptopia:spaghetti_squash"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -4.25d
+		}
+		{
+			id: "72422E3D6FD905DB"
+			tasks: [{
+				id: "47AA1AC6AAF5B4A5"
+				item: "croptopia:tofu_and_dumplings"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -5.25d
+		}
+		{
+			id: "487F7BBBD8EAE3B1"
+			tasks: [{
+				id: "07F2698CC7E864EE"
+				item: "croptopia:chicken_and_rice"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 4.5d
+		}
+		{
+			id: "5433715A5DD2FABC"
+			tasks: [{
+				id: "382C57340540D50A"
+				item: "croptopia:taco"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 5.5d
+		}
+		{
+			id: "109E927D3B1B3117"
+			tasks: [{
+				id: "3C94B21DAACC023B"
+				item: "croptopia:sushi"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.5d
+		}
+		{
+			id: "62DDC4B68CDE1854"
+			tasks: [{
+				id: "400EA4CFAA6E1C26"
+				item: "croptopia:egg_roll"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 5.5d
+		}
+		{
+			id: "655CABCC292D325F"
+			tasks: [{
+				id: "7FD805FD6D696D3A"
+				item: "croptopia:cashew_chicken"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.5d
+		}
+		{
+			id: "0CDFFCFFEC201522"
+			tasks: [{
+				id: "495AA965CBB5C534"
+				item: "croptopia:yam_jam"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 5.5d
+		}
+		{
+			id: "2F89AA69A5E485E6"
+			tasks: [{
+				id: "3F0426C6EDBD26E4"
+				item: "croptopia:banana_cream_pie"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -4.25d
+		}
+		{
+			id: "1409ECF493B044F2"
+			tasks: [{
+				id: "357C2255095FE31D"
+				item: "croptopia:candy_corn"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 4.5d
+		}
+		{
+			id: "1423F280A85BB031"
+			tasks: [{
+				id: "5F16AE0B90BC1F6B"
+				item: "croptopia:rum_raisin_ice_cream"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -5.25d
+		}
+		{
+			id: "4DF7A6F910611501"
+			tasks: [{
+				id: "4EE745045A94A4F3"
+				item: "croptopia:brownies"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -4.25d
+		}
+		{
+			id: "23FFF6822C31EF43"
+			tasks: [{
+				id: "04E917E8A3711CC5"
+				item: "croptopia:snicker_doodle"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 5.5d
+		}
+		{
+			id: "213DB254793C6425"
+			tasks: [{
+				id: "376AD6AA5C5ACC1C"
+				item: "croptopia:banana_nut_bread"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			id: "708CEA90E88E3BB5"
+			tasks: [{
+				id: "19349D98AD953CB4"
+				item: "croptopia:candied_nuts"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.5d
+		}
+		{
+			id: "59727C0E313FD583"
+			tasks: [{
+				id: "7A95336FE83A7E83"
+				item: "croptopia:almond_brittle"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 4.5d
+		}
+		{
+			id: "7371D3DDDDB88511"
+			tasks: [{
+				id: "618FDE97CC5FE242"
+				item: "croptopia:raisin_oatmeal_cookie"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.5d
+		}
+		{
+			id: "07E06929E926554E"
+			tasks: [{
+				id: "2033ECF70AE6DAD6"
+				item: "croptopia:nutty_cookie"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.5d
+		}
+		{
+			id: "3DF5EA6E50076474"
+			tasks: [{
+				id: "1EF0E8A79111AC11"
+				item: "croptopia:burrito"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.5d
+		}
+		{
+			id: "0AB2F67EDAABE694"
+			tasks: [{
+				id: "149B3C298881354F"
+				item: "croptopia:tostada"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			id: "7888C0B3704C98CC"
+			tasks: [{
+				id: "5F65FDC859CC8481"
+				item: "croptopia:horchata"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.5d
+		}
+		{
+			id: "0EE11BC83C2E914B"
+			tasks: [{
+				id: "118EDB662BC0F24C"
+				item: "croptopia:carnitas"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -5.25d
+		}
+		{
+			id: "028D33F0B14B4D24"
+			tasks: [{
+				id: "6E86CCEFB77FDF57"
+				item: "croptopia:fajitas"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -5.25d
+		}
+		{
+			id: "5A9B0BCC1901E596"
+			tasks: [{
+				id: "668FBF5DE31B8067"
+				item: "croptopia:enchilada"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.5d
+		}
+		{
+			id: "2F2080B9DC3DA856"
+			tasks: [{
+				id: "016BD66770544882"
+				item: "croptopia:churros"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.5d
+		}
+		{
+			id: "64AF2E8A936D537A"
+			tasks: [{
+				id: "0407F4F2E20895EB"
+				item: "croptopia:tamales"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -5.25d
+		}
+		{
+			id: "35D1A6F292068CEE"
+			tasks: [{
+				id: "3C30EB614549CE42"
+				item: "croptopia:tres_leche_cake"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.5d
+		}
+		{
+			id: "628460A96793C588"
+			tasks: [{
+				id: "57525C0693962A64"
+				item: "croptopia:stuffed_poblanos"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -6.25d
+		}
+		{
+			id: "727E688007A9DDC7"
+			tasks: [{
+				id: "47CBEA65651E23F3"
+				item: "croptopia:chili_relleno"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -6.25d
+		}
+		{
+			id: "7E014A9829726BAB"
+			tasks: [{
+				id: "40B21453B112EFEC"
+				item: "croptopia:crema"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.5d
+		}
+		{
+			id: "67130CBF4897BB86"
+			tasks: [{
+				id: "74D6AD9BF8AC074A"
+				item: "croptopia:refried_beans"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -5.25d
+		}
+		{
+			id: "3B6301AEACCAA88B"
+			tasks: [{
+				id: "66772CB82FCEB68B"
+				item: "croptopia:chimichanga"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -6.25d
+		}
+		{
+			id: "2ED0EBF51EEE0DE5"
+			tasks: [{
+				id: "6915815F13B03C38"
+				item: "croptopia:quesadilla"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -5.25d
+		}
+		{
+			id: "50A145180DC619CF"
+			tasks: [{
+				id: "5D13EC9FED1EF614"
+				item: "croptopia:corn_husk"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			id: "315CDB3B27C19645"
+			tasks: [{
+				id: "7183E7FE28BE6C94"
+				item: "croptopia:whipping_cream"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.5d
+		}
+		{
+			id: "166E7C35847DE6AB"
+			tasks: [{
+				id: "17FDFAEC186698B3"
+				item: "croptopia:shepherds_pie"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -5.25d
+		}
+		{
+			id: "16B5D0DE15AD2CF3"
+			tasks: [{
+				id: "09D2CDB88CEFF7B3"
+				item: "croptopia:beef_wellington"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -6.25d
+		}
+		{
+			id: "62B6022C7E95E55E"
+			tasks: [{
+				id: "5E49AE616BD044AB"
+				item: "croptopia:fish_and_chips"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -6.25d
+		}
+		{
+			id: "162FD00EA5ACE747"
+			tasks: [{
+				id: "26B524EBF3B58069"
+				item: "croptopia:eton_mess"
+				type: "item"
+			}]
+			x: -27.75d
+			y: 6.5d
+		}
+		{
+			id: "72B79EAACBF90F4D"
+			tasks: [{
+				id: "2A4D59D8D205B530"
+				item: "croptopia:tea"
+				type: "item"
+			}]
+			x: -26.75d
+			y: 6.5d
+		}
+		{
+			id: "7BAA1AB350E3ACE9"
+			tasks: [{
+				id: "3B2007F3258B1DD9"
+				item: "croptopia:cornish_pasty"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -6.25d
+		}
+		{
+			id: "1C837ECB5BCE6D82"
+			tasks: [{
+				id: "4FEEF2492AC1E50D"
+				item: "croptopia:scones"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -6.25d
+		}
+		{
+			id: "779C9F5E377ACA98"
+			tasks: [{
+				id: "5DADC992CE87EDF7"
+				item: "croptopia:figgy_pudding"
+				type: "item"
+			}]
+			x: -25.75d
+			y: 6.5d
+		}
+		{
+			id: "4384B5E245F9002E"
+			tasks: [{
+				id: "3CF133C776383B20"
+				item: "croptopia:treacle_tart"
+				type: "item"
+			}]
+			x: -24.75d
+			y: 6.5d
+		}
+		{
+			id: "32E651D08673D974"
+			tasks: [{
+				id: "0481F3BAEE3E2858"
+				item: "croptopia:sticky_toffee_pudding"
+				type: "item"
+			}]
+			x: -23.75d
+			y: 6.5d
+		}
+		{
+			id: "40CD1C5566C18DDA"
+			tasks: [{
+				id: "141520B71D780E27"
+				item: "croptopia:trifle"
+				type: "item"
+			}]
+			x: -22.75d
+			y: 6.5d
+		}
+		{
+			id: "32432A19B3A17441"
+			tasks: [{
+				id: "0C2217801C541A08"
+				item: "croptopia:ajvar"
+				type: "item"
+			}]
+			x: -21.75d
+			y: 6.5d
+		}
+		{
+			id: "44D19D8BBCDB389A"
+			tasks: [{
+				id: "481CDECDB0E107E1"
+				item: "croptopia:ajvar_toast"
+				type: "item"
+			}]
+			x: -20.75d
+			y: 6.5d
+		}
+		{
+			id: "3107104885BCEDE0"
+			tasks: [{
+				id: "271E7CA2F3FB2238"
+				item: "croptopia:avocado_toast"
+				type: "item"
+			}]
+			x: -19.75d
+			y: 6.5d
+		}
+		{
+			id: "3B74F544D26083F5"
+			tasks: [{
+				id: "39703A90881666EA"
+				item: "croptopia:beef_stew"
+				type: "item"
+			}]
+			x: -18.75d
+			y: 6.5d
+		}
+		{
+			id: "42179EA16FC74BD1"
+			tasks: [{
+				id: "672C80E4E0A2DBB7"
+				item: "croptopia:beef_stir_fry"
+				type: "item"
+			}]
+			x: -17.75d
+			y: 6.5d
+		}
+		{
+			id: "1347A36373E82167"
+			tasks: [{
+				id: "19497F6544D29F0A"
+				item: "croptopia:buttered_green_beans"
+				type: "item"
+			}]
+			x: -16.75d
+			y: 6.5d
+		}
+		{
+			id: "0C0C09C5EFF29DD6"
+			tasks: [{
+				id: "4EF1FB9BA402F585"
+				item: "croptopia:cheesy_asparagus"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 6.5d
+		}
+		{
+			id: "4A5F7C30DC0F4BA5"
+			tasks: [{
+				id: "2C217793357BF15E"
+				item: "croptopia:chocolate_ice_cream"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -6.25d
+		}
+		{
+			id: "26CF4317CCA2D24B"
+			tasks: [{
+				id: "219B26E6EACEEAD6"
+				item: "croptopia:eggplant_parmesan"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 6.5d
+		}
+		{
+			id: "274678C654C9C1FC"
+			tasks: [{
+				id: "133AF761EC7D0D5E"
+				item: "croptopia:fruit_cake"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 6.5d
+		}
+		{
+			id: "040DD57C92EF3DF0"
+			tasks: [{
+				id: "09B4A25C06752E93"
+				item: "croptopia:grilled_eggplant"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 6.5d
+		}
+		{
+			id: "0E4CDB40564E4582"
+			tasks: [{
+				id: "6BA73801090F406D"
+				item: "croptopia:kiwi_sorbet"
+				type: "item"
+			}]
+			x: -11.75d
+			y: 6.5d
+		}
+		{
+			id: "5BA883AC6D252872"
+			tasks: [{
+				id: "51F1245CDE132F34"
+				item: "croptopia:lemon_coconut_bar"
+				type: "item"
+			}]
+			x: -10.75d
+			y: 6.5d
+		}
+		{
+			id: "468D16732960E5B0"
+			tasks: [{
+				id: "5C362005CB66FFE7"
+				item: "croptopia:nether_wart_stew"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 6.5d
+		}
+		{
+			id: "2F618C369304190A"
+			tasks: [{
+				id: "70B703AB7A9F1EB4"
+				item: "croptopia:peanut_butter"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.25d
+		}
+		{
+			id: "7997CCB0DC56A5AA"
+			tasks: [{
+				id: "0E6BD437C6C6AEDD"
+				item: "croptopia:peanut_butter_with_celery"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 6.5d
+		}
+		{
+			id: "489940BF16B4C2C2"
+			tasks: [{
+				id: "7BF30B50D31A9298"
+				item: "croptopia:potato_soup"
+				type: "item"
+			}]
+			x: -7.75d
+			y: 6.5d
+		}
+		{
+			id: "7ADE5400D88901CE"
+			tasks: [{
+				id: "28FFE63F226E6D77"
+				item: "croptopia:ratatouille"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -6.25d
+		}
+		{
+			id: "55CA1F7324FCA680"
+			tasks: [{
+				id: "07FA7EE429A2B912"
+				item: "croptopia:rhubarb_crisp"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 6.5d
+		}
+		{
+			id: "677816402F348BF7"
+			tasks: [{
+				id: "048859CE51781E18"
+				item: "croptopia:roasted_asparagus"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -7.25d
+		}
+		{
+			id: "14CE1CC7FCE17460"
+			tasks: [{
+				id: "62601D8010D354F6"
+				item: "croptopia:roasted_radishes"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -7.25d
+		}
+		{
+			id: "1BA80A5CE9C28FE8"
+			tasks: [{
+				id: "5E59AE77E964EE66"
+				item: "croptopia:roasted_squash"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -7.25d
+		}
+		{
+			id: "34BE011E4F2CE193"
+			tasks: [{
+				id: "25B96B91024DCCF0"
+				item: "croptopia:roasted_turnips"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -7.25d
+		}
+		{
+			id: "1D9ABECD32F7BCF0"
+			tasks: [{
+				id: "461D2EC7321835A7"
+				item: "croptopia:steamed_broccoli"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.5d
+		}
+		{
+			id: "0AD220222B66CBCD"
+			tasks: [{
+				id: "170D0F5060C08F52"
+				item: "croptopia:steamed_green_beans"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 6.5d
+		}
+		{
+			id: "65B0FA1D2084BC03"
+			tasks: [{
+				id: "0083F514E37B3286"
+				item: "croptopia:stir_fry"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.5d
+		}
+		{
+			id: "4D216C94B6D9A748"
+			tasks: [{
+				id: "57CECF8F8BC5971B"
+				item: "croptopia:stuffed_artichoke"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -7.25d
+		}
+		{
+			id: "31FFCE2E7C45BB33"
+			tasks: [{
+				id: "58FDC9D0DEDE9A03"
+				item: "croptopia:toast_sandwich"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 6.5d
+		}
+		{
+			id: "358AFFE484797F30"
+			tasks: [{
+				id: "2E6D348147456178"
+				item: "croptopia:roasted_pumpkin_seeds"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -0.25d
+		}
+		{
+			id: "77164E904B3C6CB7"
+			tasks: [{
+				id: "7ACCA9F435F1BBC6"
+				item: "croptopia:roasted_sunflower_seeds"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -0.25d
+		}
+		{
+			id: "5142AF42633CC6FA"
+			tasks: [{
+				id: "53DB2E10EA57CD0B"
+				item: "croptopia:pumpkin_bars"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 6.5d
+		}
+		{
+			id: "4A17220B86E1DAC5"
+			tasks: [{
+				id: "4C85B1AEFAD27F96"
+				item: "croptopia:corn_bread"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.5d
+		}
+		{
+			id: "392544159A8A9282"
+			tasks: [{
+				id: "6254F81E300E7DD5"
+				item: "croptopia:pumpkin_soup"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -6.25d
+		}
+		{
+			id: "126996A504C4584B"
+			tasks: [{
+				id: "32A9E5FA98D5A4B2"
+				item: "croptopia:meringue"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.5d
+		}
+		{
+			id: "238B296014D25430"
+			tasks: [{
+				id: "2DB6848263D2A55F"
+				item: "croptopia:cabbage_roll"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -0.25d
+		}
+		{
+			id: "3C8E761C1C641495"
+			tasks: [{
+				id: "3B4B5586F43A8F87"
+				item: "croptopia:borscht"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -7.25d
+		}
+		{
+			id: "59D4B9DB88BEB5AA"
+			tasks: [{
+				id: "19A0E17E02E271B7"
+				item: "croptopia:goulash"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -0.25d
+		}
+		{
+			id: "0CA7AAA836AE0003"
+			tasks: [{
+				id: "2EC024E764B421D0"
+				item: "croptopia:beetroot_salad"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -2.25d
+		}
+		{
+			id: "11E9C924F10F2654"
+			tasks: [{
+				id: "172AA6CB10CB9702"
+				item: "croptopia:candied_kumquats"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.5d
+		}
+		{
+			id: "4456CB11F65CEA0A"
+			tasks: [{
+				id: "7909B50A65A98CB7"
+				item: "croptopia:steamed_crab"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -2.25d
+		}
+		{
+			id: "166DBDDB08E6C7AE"
+			tasks: [{
+				id: "4E923007B0E04D41"
+				item: "croptopia:deep_fried_shrimp"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -0.25d
+		}
+		{
+			id: "54D1788A20C8C592"
+			tasks: [{
+				id: "78520FDA29769045"
+				item: "croptopia:tuna_roll"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.5d
+		}
+		{
+			id: "60DEB32C670AD6C7"
+			tasks: [{
+				id: "105983A31D475325"
+				item: "croptopia:fried_calamari"
+				type: "item"
+			}]
+			x: -27.75d
+			y: 0.75d
+		}
+		{
+			id: "7527B09BA80D9C4C"
+			tasks: [{
+				id: "197C44FB7DED0894"
+				item: "croptopia:crab_legs"
+				type: "item"
+			}]
+			x: -26.75d
+			y: 0.75d
+		}
+		{
+			id: "6D081B3BF2CFFEF0"
+			tasks: [{
+				id: "2A65C9A843768BB1"
+				item: "croptopia:steamed_clams"
+				type: "item"
+			}]
+			x: -25.75d
+			y: 0.75d
+		}
+		{
+			id: "34D072BB7F3CE52D"
+			tasks: [{
+				id: "56DB5A644B0564D0"
+				item: "croptopia:grilled_oysters"
+				type: "item"
+			}]
+			x: -24.75d
+			y: 0.75d
+		}
+		{
+			id: "6C03A80C93D00507"
+			tasks: [{
+				id: "0B6A29BF5DDF62AC"
+				item: "croptopia:anchovy_pizza"
+				type: "item"
+			}]
+			x: -23.75d
+			y: 0.75d
+		}
+		{
+			id: "17C69F8DFBAA8BBC"
+			tasks: [{
+				id: "3A1FECF0CCD62F88"
+				item: "croptopia:mashed_potatoes"
+				type: "item"
+			}]
+			x: -11.75d
+			y: 7.5d
+		}
+		{
+			id: "5990DAD2BE902AC5"
+			tasks: [{
+				id: "7576871A8DF0408D"
+				item: "croptopia:baked_crepes"
+				type: "item"
+			}]
+			x: -27.75d
+			y: 1.75d
+		}
+		{
+			id: "60DE38CC510A1FC4"
+			tasks: [{
+				id: "09644901BB16D17E"
+				item: "croptopia:cinnamon_roll"
+				type: "item"
+			}]
+			x: -26.75d
+			y: -8.25d
+		}
+		{
+			id: "0D86C8329C299491"
+			tasks: [{
+				id: "70D3955B01833068"
+				item: "croptopia:croque_madame"
+				type: "item"
+			}]
+			x: -25.75d
+			y: 1.75d
+		}
+		{
+			id: "6E7C3D392027CE09"
+			tasks: [{
+				id: "68F1179CBF22EC8D"
+				item: "croptopia:croque_monsieur"
+				type: "item"
+			}]
+			x: -24.75d
+			y: 1.75d
+		}
+		{
+			id: "230424666EB504E7"
+			tasks: [{
+				id: "622A51C0D8CAF024"
+				item: "croptopia:dauphine_potatoes"
+				type: "item"
+			}]
+			x: -23.75d
+			y: 1.75d
+		}
+		{
+			id: "27B9573A80890C1C"
+			tasks: [{
+				id: "1B01EC4CF2E10904"
+				item: "croptopia:ground_pork"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.25d
+		}
+		{
+			id: "45F26BF8D78AD99B"
+			tasks: [{
+				id: "77F0BBBE35A4D198"
+				item: "croptopia:hashed_brown"
+				type: "item"
+			}]
+			x: -27.75d
+			y: -8.25d
+		}
+		{
+			id: "6DE39F7C0D6A2BD2"
+			tasks: [{
+				id: "57D7D2C4A62E3400"
+				item: "croptopia:macaron"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.25d
+		}
+		{
+			id: "624904DF5EC49320"
+			tasks: [{
+				id: "584C7580AA21DB0E"
+				item: "croptopia:quiche"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -8.25d
+		}
+		{
+			id: "5225898F32DCCB8B"
+			tasks: [{
+				id: "54F71B88600BAC95"
+				item: "croptopia:sausage"
+				type: "item"
+			}]
+			x: -12.75d
+			y: 7.5d
+		}
+		{
+			id: "329BDA4BECBD3D1B"
+			tasks: [{
+				id: "005D1ACE67D1A205"
+				item: "croptopia:sunny_side_eggs"
+				type: "item"
+			}]
+			x: -24.75d
+			y: -8.25d
+		}
+		{
+			id: "746A1CA289442D40"
+			tasks: [{
+				id: "3BD3476AA3E382F1"
+				item: "croptopia:sweet_crepes"
+				type: "item"
+			}]
+			x: -26.75d
+			y: 1.75d
+		}
+		{
+			id: "20D83CE8BDF8875F"
+			tasks: [{
+				id: "47219AFEBC6AA84D"
+				item: "croptopia:the_big_breakfast"
+				type: "item"
+			}]
+			x: -25.75d
+			y: -8.25d
+		}
+	]
+	title: "&2Croptopia Foods"
 }
