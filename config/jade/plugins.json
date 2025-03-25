@@ -138,6 +138,9 @@
     "camo": true,
     "semiblock": true
   },
+  "bonsaitrees3": {
+    "bonsaipot": true
+  },
   "mcjtylib": {
     "jadeaddons": true
   },
