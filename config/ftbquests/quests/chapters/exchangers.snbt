@@ -4,8 +4,973 @@
 	filename: "exchangers"
 	group: "6CFDE535DE131F6B"
 	id: "362D88E205765DFE"
+	images: [{
+		click: "https://ftb.fandom.com/wiki/Exchangers"
+		height: 0.5d
+		hover: ["Click for Help"]
+		image: "ftblibrary:icons/info_gray"
+		rotation: 0.0d
+		width: 0.5d
+		x: -6.5d
+		y: -16.25d
+	}]
 	order_index: 13
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["2ED1FD15753E3AFF"]
+			id: "7C1BB9F317E9915E"
+			tasks: [{
+				id: "3B8E375EAC948D46"
+				item: {
+					Count: 1
+					id: "exchangers:wooden_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["2ED1FD15753E3AFF"]
+			id: "071715F8D0493AE8"
+			tasks: [{
+				id: "49E2E4AA3F1E1854"
+				item: {
+					Count: 1
+					id: "exchangers:stone_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0ECBECF42A8B1D7C"]
+			id: "5C79AD5A57A44CF3"
+			tasks: [{
+				id: "05B7C71370EC845A"
+				item: {
+					Count: 1
+					id: "exchangers:golden_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0ECBECF42A8B1D7C"]
+			id: "121FDBFB11F6E175"
+			tasks: [{
+				id: "6BAFAEC707B15E22"
+				item: {
+					Count: 1
+					id: "exchangers:iron_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -11.75d
+		}
+		{
+			dependencies: ["0ECBECF42A8B1D7C"]
+			id: "23A29F6902E8BDA7"
+			tasks: [{
+				id: "4BB62484330BBB0B"
+				item: {
+					Count: 1
+					id: "exchangers:copper_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "68BA9478F3B13954"
+			tasks: [{
+				id: "4254CDB22A6773F7"
+				item: {
+					Count: 1
+					id: "exchangers:diamond_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "539016FE28FAD0F2"
+			tasks: [{
+				id: "7A4BE3CBDC663881"
+				item: {
+					Count: 1
+					id: "exchangers:emerald_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "1FD45D38C643B18D"
+			tasks: [{
+				id: "7090905C28A997FC"
+				item: {
+					Count: 1
+					id: "exchangers:obsidian_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "39AA346865CC8AEA"
+			tasks: [{
+				id: "1C8A33FB30B51369"
+				item: {
+					Count: 1
+					id: "exchangers:amethyst_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "388841648CBA18AB"
+			tasks: [{
+				id: "5F1F105BE32BADFB"
+				item: {
+					Count: 1
+					id: "exchangers:netherite_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["35890FFB89BAEEC3"]
+			id: "2526E560B7A2C31F"
+			tasks: [{
+				id: "15817AC1B5FE5E05"
+				item: {
+					Count: 1
+					id: "exchangers:end_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -11.75d
+		}
+		{
+			id: "2ED1FD15753E3AFF"
+			tasks: [{
+				id: "535BBBA97E933C68"
+				item: "exchangers:exchanger_core_tier1"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -10.5d
+		}
+		{
+			id: "0ECBECF42A8B1D7C"
+			tasks: [{
+				id: "3E93E8FA87EB9773"
+				item: "exchangers:exchanger_core_tier2"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -10.5d
+		}
+		{
+			id: "35890FFB89BAEEC3"
+			tasks: [{
+				id: "4ACC47B355445336"
+				item: "exchangers:exchanger_core_tier3"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["39A3A6252588F00A"]
+			id: "2BBEA0B66A0D0BE8"
+			tasks: [{
+				id: "16C7DC4B22DC1046"
+				item: {
+					Count: 1
+					id: "exchangers:copper_alloy_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["39A3A6252588F00A"]
+			id: "67A83932368A32EB"
+			tasks: [{
+				id: "40BA1920E240B890"
+				item: {
+					Count: 1
+					id: "exchangers:conductive_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -13.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["3AE5CD3C85C95B38"]
+			id: "1AA5E452761996E9"
+			tasks: [{
+				id: "244E7A2F03534C01"
+				item: {
+					Count: 1
+					id: "exchangers:pulsating_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0134AD68CA766464"]
+			id: "266590261E6581B0"
+			tasks: [{
+				id: "4D4E3FD47CEB98D8"
+				item: {
+					Count: 1
+					id: "exchangers:dark_steel_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.75d
+		}
+		{
+			dependencies: ["3AE5CD3C85C95B38"]
+			id: "2CF2210AFBF20900"
+			tasks: [{
+				id: "50829C2E7D4699B7"
+				item: {
+					Count: 1
+					id: "exchangers:energetic_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.25d
+			y: -11.75d
+		}
+		{
+			dependencies: ["0134AD68CA766464"]
+			id: "60CABD46B41657B2"
+			tasks: [{
+				id: "06A179FC386392B6"
+				item: {
+					Count: 1
+					id: "exchangers:vibrant_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0134AD68CA766464"]
+			id: "5949570973CFD34D"
+			tasks: [{
+				id: "1AACC34E96494368"
+				item: {
+					Count: 1
+					id: "exchangers:end_steel_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.25d
+		}
+		{
+			id: "39A3A6252588F00A"
+			tasks: [{
+				id: "482760AE4B372469"
+				item: "exchangers:eio_exchanger_core_tier1"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			id: "3AE5CD3C85C95B38"
+			tasks: [{
+				id: "55C36DEDA80CE7D5"
+				item: "exchangers:eio_exchanger_core_tier2"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -10.5d
+		}
+		{
+			id: "0134AD68CA766464"
+			tasks: [{
+				id: "331E703280905795"
+				item: "exchangers:eio_exchanger_core_tier3"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["717E49BA34E22727"]
+			id: "00D125A4E96995C9"
+			tasks: [{
+				id: "77A5EE39B725CF07"
+				item: {
+					Count: 1
+					id: "exchangers:leadstone_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -21.25d
+			y: -9.25d
+		}
+		{
+			id: "717E49BA34E22727"
+			tasks: [{
+				id: "42139A30909FCE9C"
+				item: "exchangers:thermal_exchanger_core_tier1"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -10.5d
+		}
+		{
+			id: "535A72055FB62E80"
+			tasks: [{
+				id: "24946F49B6AAB137"
+				item: "exchangers:thermal_exchanger_core_tier2"
+				type: "item"
+			}]
+			x: -18.75d
+			y: -10.5d
+		}
+		{
+			id: "655F4AF57DF38830"
+			tasks: [{
+				id: "33577596EF922BF6"
+				item: "exchangers:thermal_exchanger_core_tier3"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["717E49BA34E22727"]
+			id: "7CE47D9F93F8BC85"
+			tasks: [{
+				id: "78FEED43BFF3C0D7"
+				item: {
+					Count: 1
+					id: "exchangers:hardened_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["535A72055FB62E80"]
+			id: "3888FB72C625742C"
+			tasks: [{
+				id: "3848D80C631FDDBF"
+				item: {
+					Count: 1
+					id: "exchangers:reinforced_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -18.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["655F4AF57DF38830"]
+			id: "200E0F37ACBDC725"
+			tasks: [{
+				id: "118E68F560177EFB"
+				item: {
+					Count: 1
+					id: "exchangers:signalum_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["655F4AF57DF38830"]
+			id: "0C30B91BE94BF8F7"
+			tasks: [{
+				id: "1746F2E1712A90A2"
+				item: {
+					Count: 1
+					id: "exchangers:resonant_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -16.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["593F6BA2B5EFC4A4"]
+			id: "68B3A4358BB8C743"
+			tasks: [{
+				id: "42A12A1E645777AA"
+				item: {
+					Count: 1
+					id: "exchangers:basic_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["26E3FDED97B899F6"]
+			id: "12834156972B1BD3"
+			tasks: [{
+				id: "5F9F21C0C7FF1D1A"
+				item: {
+					Count: 1
+					id: "exchangers:advanced_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["71B767B40F4B839D"]
+			id: "07B2B1D587BB4D77"
+			tasks: [{
+				id: "4ABAAFA917D3EAEC"
+				item: {
+					Count: 1
+					id: "exchangers:elite_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["71B767B40F4B839D"]
+			id: "7D1C76E1096A81C0"
+			tasks: [{
+				id: "5D48C6059A5F2CAA"
+				item: {
+					Count: 1
+					id: "exchangers:ultimate_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.25d
+		}
+		{
+			id: "593F6BA2B5EFC4A4"
+			tasks: [{
+				id: "075ACE92D00B26FC"
+				item: "exchangers:mekanism_exchanger_core_tier1"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -10.5d
+		}
+		{
+			id: "26E3FDED97B899F6"
+			tasks: [{
+				id: "7F1765C7E16029FF"
+				item: "exchangers:mekanism_exchanger_core_tier2"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			id: "71B767B40F4B839D"
+			tasks: [{
+				id: "040625D11BDE435D"
+				item: "exchangers:mekanism_exchanger_core_tier3"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -10.5d
+		}
+		{
+			id: "63274ADD21EE3950"
+			tasks: [{
+				id: "6814916EB574F2CC"
+				item: "exchangers:ie_exchanger_core_tier1"
+				type: "item"
+			}]
+			x: -26.25d
+			y: -10.5d
+		}
+		{
+			id: "7428F1B102B44017"
+			tasks: [{
+				id: "45CF7D935F87D9E8"
+				item: "exchangers:ie_exchanger_core_tier2"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -10.5d
+		}
+		{
+			id: "7D9F47A4554FC021"
+			tasks: [{
+				id: "3AF55D76828CE2E2"
+				item: "exchangers:ie_exchanger_core_tier3"
+				type: "item"
+			}]
+			x: -23.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["63274ADD21EE3950"]
+			id: "44B7F1860D698BE6"
+			tasks: [{
+				id: "47EA9B00C10006B3"
+				item: {
+					Count: 1
+					id: "exchangers:lv_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -26.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["7428F1B102B44017"]
+			id: "53A97A9B92DFF5ED"
+			tasks: [{
+				id: "646BA07310667738"
+				item: {
+					Count: 1
+					id: "exchangers:mv_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["7D9F47A4554FC021"]
+			id: "1F5E92BB5AF42033"
+			tasks: [{
+				id: "16C950CFA1B30128"
+				item: {
+					Count: 1
+					id: "exchangers:hv_exchanger"
+					tag: {
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -23.75d
+			y: -9.25d
+		}
+		{
+			description: ["Exchangers are used to exchange (swap) blocks in the world with blocks in the player's inventory. When a block is shift right-clicked in the world it will be selected. Right-clicking another block in the world will swap it with the selected block, costing durability or Redstone Flux (RF)."]
+			id: "28B7A84A5D2089FA"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5FEFAC174B643B70"
+				title: "Exchangers"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -15.5d
+		}
+	]
 	title: "&6Exchangers"
 }

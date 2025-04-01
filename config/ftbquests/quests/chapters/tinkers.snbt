@@ -18,8 +18,18 @@
 			image: "combi:textures/other/tinkers.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -5.5d
-			y: 0.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			click: "https://youtu.be/jwxwHmgpxns?si=Mn5dHAeDop4Y6Cu9"
+			height: 0.5d
+			hover: ["Click for Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: -0.75d
 		}
 	]
 	order_index: 1
@@ -552,7 +562,7 @@
 				type: "checkmark"
 			}]
 			x: 6.75d
-			y: 3.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -569,7 +579,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 2.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -586,7 +596,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -603,7 +613,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -620,7 +630,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -637,7 +647,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 5.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -654,7 +664,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 0.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -671,7 +681,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -688,7 +698,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 0.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -705,7 +715,7 @@
 				type: "checkmark"
 			}]
 			x: 6.75d
-			y: -1.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -722,7 +732,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -1.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -739,7 +749,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -1.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -756,7 +766,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: -2.5d
+			y: -4.25d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -773,7 +783,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.5d
+			y: -4.25d
 		}
 		{
 			dependencies: ["3A858489D963D60C"]
@@ -790,7 +800,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.5d
+			y: -4.25d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -807,7 +817,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 7.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -824,7 +834,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 7.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -841,7 +851,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -858,7 +868,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -875,7 +885,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 10.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -892,7 +902,7 @@
 				type: "item"
 			}]
 			x: 6.75d
-			y: 10.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -909,7 +919,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 10.0d
+			y: 8.25d
 		}
 		{
 			dependencies: ["51C8824BBE9E7CA9"]
@@ -926,7 +936,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -943,7 +953,7 @@
 				type: "checkmark"
 			}]
 			x: 6.75d
-			y: 8.75d
+			y: 7.0d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -960,7 +970,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.75d
+			y: 2.0d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -977,7 +987,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["48620A5C3668C05F"]
@@ -994,7 +1004,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 5.0d
+			y: 3.25d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -1012,7 +1022,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -3.75d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -1030,7 +1040,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 6.25d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -1048,7 +1058,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 1.25d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4A8CB73AC260EE2F"]
@@ -1740,6 +1750,18 @@
 			}]
 			x: -13.75d
 			y: 1.25d
+		}
+		{
+			dependencies: ["4A8CB73AC260EE2F"]
+			hide_dependency_lines: true
+			id: "000B3FAB2C3BF7EE"
+			tasks: [{
+				id: "6AEE292BF4C4D4C7"
+				item: "tinkersjewelry:plain_ring_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
 		}
 	]
 	title: "&4Tinker's Construct"

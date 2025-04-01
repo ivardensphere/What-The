@@ -1,0 +1,18 @@
+{
+	id: "2382946F205F9EBC"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 2, item: "ars_nouveau:abjuration_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:conjuration_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:air_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:earth_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:fire_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:water_essence", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:starbuncle_shards", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:wilden_spike", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:wilden_horn", random_bonus: 2 }
+		{ count: 2, item: "ars_nouveau:source_gem", random_bonus: 2 }
+	]
+	title: "Ars Archmage Loot Bag"
+}

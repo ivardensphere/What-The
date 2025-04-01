@@ -4,8 +4,2394 @@
 	filename: "botania"
 	group: "2B0E76255596CDF2"
 	id: "03ACF9D5F525A568"
+	images: [{
+		height: 4.0d
+		image: "combi:textures/other/botania.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 10.0d
+		y: 4.25d
+	}]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Getting started in Botania is super easy, barely an inconvenience."
+				""
+				"Collect some flowers, get a bunch of wheat seeds, and put your cotton gloves on."
+			]
+			id: "0D5C5208F4D67ECC"
+			shape: "gear"
+			subtitle: "Vaskii thinks it's a tech mod..."
+			tasks: [{
+				id: "18D94A60EC5019FC"
+				title: "Floramagitech?!"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0D5C5208F4D67ECC"]
+			description: ["The Petal Apothecary is the first thing you will need to get making functional flowers, so get some stone and a bucket and make one!"]
+			id: "2DC22F5061F47ACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "botania:orange_petal"
+				id: "252E46F002B7D27E"
+				table_id: 6351608697392911255L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "5092F33B1E131430"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2DC22F5061F47ACE"]
+			id: "254C038F0D4FBDE2"
+			rewards: [{
+				id: "0EB6A714A36313E6"
+				item: "botania:pure_daisy"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A11774072D5F5C4"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "First One's (almost) Free"
+			x: -9.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["254C038F0D4FBDE2"]
+			description: ["Livingrock is made by putting stone next to flowers. Don't ask."]
+			id: "16FA78FA74E50AC4"
+			rewards: [{
+				id: "5DAAF314A7A83E6F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "25B542D2C7EE51A4"
+				item: { Count: 8, id: "botania:livingrock" }
+				type: "item"
+			}]
+			title: "Livingrock"
+			x: -9.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["254C038F0D4FBDE2"]
+			id: "2779B4C0D1809D77"
+			rewards: [{
+				id: "10032271D055E5A8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "08ECF8045C0A1F81"
+				item: { Count: 8, id: "botania:livingwood_log" }
+				type: "item"
+			}]
+			title: "Livingwood"
+			x: -9.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["2779B4C0D1809D77"]
+			description: [
+				"Make a wand so you can do stuff."
+				""
+				"Wands have two modes: &2Bind&r and &9Function&r."
+				""
+				"&2Bind&r mode connects flowers and blocks together."
+				""
+				"&9Function&r mode does the same things as a wrench."
+			]
+			id: "6F71DD87B33E5324"
+			rewards: [{
+				id: "41BBF4E4E0A9E3E1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "36B9D0FE7CEF5CA1"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magic Stick"
+			x: -7.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6F71DD87B33E5324"]
+			description: ["The Mana Spread shoots beams of flower magic in a direction, aim it at stuff using the Wand of the Forest."]
+			id: "1CEFB5FF87DDEE54"
+			rewards: [{
+				id: "4C5D1C1F9391CF77"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7F9D634E3360B13E"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6F71DD87B33E5324"]
+			description: ["The Pulse Mana Spreader shoots beams of mana when given a redstone signal. Good for control!"]
+			id: "2793512D715F0684"
+			rewards: [{
+				id: "64519B2CAD16D492"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "56E2CFCD379C8646"
+				item: "botania:redstone_spreader"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["16FA78FA74E50AC4"]
+			description: ["&1Mana Pools&r store your mana, just make sure to link your generating flower to it using the &2Wand of the Forest&r."]
+			id: "6AEFB127BA3BBE66"
+			tasks: [
+				{
+					id: "53F1F10C29882148"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "1CF5793088CC9F84"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:hydroangeas"
+								}
+								{
+									Count: 1b
+									id: "botania:endoflame"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["6AEFB127BA3BBE66"]
+			description: [
+				"The &cMana Splitter&r turns your magic beams 90 degrees somehow. I don't know how math works."
+				""
+				"&5Sparks&r move mana as well, but wirelessly. Because it's a tech mod. Really."
+				""
+				"Place a &5Spark&r over a mana pool, place another one over a nearby item that needs mana to function."
+				"Link them with the &2Wand of the Forest&r."
+				"Profit."
+				""
+				"(To break a &5Spark,&r sneak-right click with the Wand of the Forest."
+			]
+			id: "65A844B0EC9B01E9"
+			tasks: [
+				{
+					id: "64E9E0E27C4CB811"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+				{
+					id: "524236EB340CD9B9"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			title: "Shake it all about"
+			x: -7.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["6AEFB127BA3BBE66"]
+			description: [
+				"The &9Mana Tablet&r allows you to store a small amount of mana."
+				""
+				"Throw this into a &1Mana Pool&r to either drain the Tablet or fill the Tablet (sneak-right click with a &2Wand of The Forest&r to change modes)."
+				""
+				"&9Mana Tablets&r do NOT despawn, so don't leave them all over the place."
+			]
+			id: "69F12BABEFA51FA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DCFC7650A8664C7"
+				table_id: 1131677489327008970L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "0C054081535C16B6"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "Portable Mana"
+			x: -6.5d
+			y: -5.75d
+		}
+		{
+			dependencies: [
+				"6AEFB127BA3BBE66"
+				"6F71DD87B33E5324"
+			]
+			description: [
+				"Make any item in the mana pool."
+				"One of the blue ones."
+			]
+			id: "621BD6ECE113AD04"
+			tasks: [{
+				id: "6A03B151FBEDE848"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:mana_string"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_powder"
+							}
+							{
+								Count: 1b
+								id: "botania:quartz_mana"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_glass"
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_block"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_diamond"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_pearl"
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_ingot"
+							}
+							{
+								Count: 1b
+								id: "botania:mana_diamond_block"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Soak it All In"
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"621BD6ECE113AD04"
+				"0DFDB847F7501D73"
+			]
+			id: "186C8C4361C8BC69"
+			rewards: [{
+				id: "1CD94EA92E4802C2"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F8BA9065ECA97C6"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3DD2B6D10AF83D64"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0B2134EF878F1A1D"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+			]
+			title: "Green Bricks"
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["621BD6ECE113AD04"]
+			id: "28635F94D3E023B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08937FA831D93A62"
+				table_id: 2705955423812060363L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "024691952A0ADF18"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					id: "6943EFDDBE126D6A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:rune_water"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_fire"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_earth"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_air"
+								}
+								{
+									Count: 1b
+									id: "botania:rune_mana"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Flat Rocks"
+			x: -4.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["28635F94D3E023B6"]
+			id: "0DFDB847F7501D73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "769ED597AAE611A1"
+					table_id: 2705955423812060363L
+					type: "all_table"
+				}
+				{
+					id: "65273747C9D8E998"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "01DBD9856BF75413"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			title: "Just TAP it in"
+			x: -2.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["621BD6ECE113AD04"]
+			description: ["Make some secksie blue armor, da boo dee da boo da."]
+			id: "3C0BCA1C00217997"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "333272CAE8A9BC35"
+				table_id: 1326121563271946010L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "6D5D174442211772"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D05BD2D1AFAEB7"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD52FD69FD74C0E"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30F05F7247E1B391"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bespoke Tailoring"
+			x: -4.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["186C8C4361C8BC69"]
+			description: ["Cosplay as the Hulk."]
+			id: "320F998121D02956"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6801ABAE49FF8B72"
+				table_id: 3197456664727458795L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "4B146FE9C5CAE1F2"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "778EE03E4CE02CC2"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6478998F0139F0D7"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A9B8C15061355D"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Green Jello"
+			x: -1.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["186C8C4361C8BC69"]
+			id: "42552F8FFB85D05F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CF43061E64AD42D"
+				table_id: 3197456664727458795L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "10D38AD2772F6768"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "513DA86F17A73D1E"
+					item: { Count: 3, id: "botania:glimmering_livingwood_log" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0291A3DBF220BFED"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "71371615BBCC6711"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+			]
+			title: "Is it even a dimension?"
+			x: 0.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["42552F8FFB85D05F"]
+			id: "40AF75F9CD331092"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "214752CEE153D5CE"
+				table_id: 3197456664727458795L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "0EED124077AF246A"
+					item: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641EEF4D9EDD37E2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:pixie_dust"
+								}
+								{
+									Count: 1b
+									id: "botania:quartz_elven"
+								}
+								{
+									Count: 1b
+									id: "botania:elf_glass"
+								}
+								{
+									Count: 1b
+									id: "botania:elementium_ingot"
+								}
+								{
+									Count: 1b
+									id: "botania:elementium_block"
+								}
+								{
+									Count: 1b
+									id: "botania:dreamwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:dreamwood"
+								}
+								{
+									Count: 1b
+									id: "botania:dragonstone"
+								}
+								{
+									Count: 1b
+									id: "botania:dragonstone_block"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Wee Little People"
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["49DEC48CCC7E5972"]
+			id: "368D596E03B5C2F9"
+			rewards: [
+				{
+					count: 3
+					id: "0AB6A386786E52F5"
+					item: "botania:terrasteel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5A1DDD2D6C10267A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:gaia_head"
+					id: "4F7313677E9862EB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "334521738A273C1E"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			]
+			title: "Static Mess"
+			x: 6.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["40AF75F9CD331092"]
+			description: [
+				"Oh gods, my eyes!"
+				""
+				"This armor makes me wish I was blind."
+				""
+				"It &ois&r strong, though..."
+			]
+			id: "4839942CD386B4CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "265402997232629D"
+				table_id: 3197456664727458795L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					id: "08D0E71E99F68A67"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59E3523280A3E3DD"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4637E7F7CA34F3A1"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "567323DD9378F21C"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blind Power"
+			x: 2.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["40AF75F9CD331092"]
+			id: "49DEC48CCC7E5972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ADA8E3E27B7E981"
+				table_id: 3197456664727458795L
+				type: "all_table"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "1A11BC7BEB9DC715"
+					item: { Count: 4, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "0F87C83D8BD08218"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "Get ready to Rumble"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["368D596E03B5C2F9"]
+			description: [
+				"Added challenege:"
+				""
+				"Combine 4 &5Gaia Spirits&r with a &aTerrasteel&r ingot, then use that to activate the ritual."
+				""
+				"It gets worse than the first time."
+			]
+			id: "07402AFE49EB6D06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "456E085EAF0EE0C5"
+					table_id: 3197456664727458795L
+					type: "all_table"
+				}
+				{
+					id: "331C85E9687A3AB6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2007DCC8FA39D06D"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Do it again!"
+			x: 8.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["07402AFE49EB6D06"]
+			description: [
+				"Summoning the harder Guardian of Gaia will not only reward you with an enhanced sense of self-worth, you'll also get more Gaia Spirits and there's a (small) chance to get the DICE OF FATE."
+				""
+				"&oShake 'em up, shake 'em up, shake 'em up, shake 'em"
+				"Roll 'em in a circle of homies and watch me break 'em with the seven"
+				"7-11, 7-11, seven, even even back door Little Joe&r"
+			]
+			id: "46450BCE0EE7B4F9"
+			rewards: [{
+				id: "758CD47510E8DED6"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "1CB5CEEC651AECC2"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "Only Nat 20's"
+			x: 10.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3C0BCA1C00217997"]
+			id: "6A128CEA0582E3FC"
+			tasks: [{
+				id: "63354A0C565D2FB2"
+				item: {
+					Count: 1
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3C0BCA1C00217997"]
+			id: "7D5E20F88304ACB9"
+			tasks: [{
+				id: "03A2F9D44C0B087E"
+				item: {
+					Count: 1
+					id: "botania:manasteel_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3C0BCA1C00217997"]
+			id: "16B1801E09303AD6"
+			tasks: [{
+				id: "65F33283FB2A0EBF"
+				item: {
+					Count: 1
+					id: "botania:manasteel_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3C0BCA1C00217997"]
+			id: "3A2E9FA9FE5F2929"
+			tasks: [{
+				id: "7C3DB799D839311B"
+				item: {
+					Count: 1
+					id: "botania:manasteel_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3C0BCA1C00217997"]
+			id: "554AE5C14BF09EF9"
+			tasks: [{
+				id: "0E0530F880B4FE6E"
+				item: {
+					Count: 1
+					id: "botania:manasteel_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["320F998121D02956"]
+			id: "6DC5BBF415EC2D6D"
+			tasks: [{
+				id: "6A9302670F1C0881"
+				item: {
+					Count: 1
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["320F998121D02956"]
+			id: "2B6E0EF726C4E72D"
+			tasks: [{
+				id: "2B229E2B9289554C"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["320F998121D02956"]
+			id: "67939596C943CE49"
+			tasks: [{
+				id: "003A3F901FCF2DF8"
+				item: {
+					Count: 1
+					id: "delightful:terra_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["320F998121D02956"]
+			id: "5AD112EA1F10BC5A"
+			tasks: [{
+				id: "27A88AC68A6039B6"
+				item: {
+					Count: 1
+					id: "botania:terra_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["320F998121D02956"]
+			id: "42FC07C7501F28E6"
+			tasks: [{
+				id: "65E486A9295E4DD2"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["4839942CD386B4CA"]
+			id: "392678885C498DF8"
+			tasks: [{
+				id: "0118299D642AABA4"
+				item: {
+					Count: 1
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["4839942CD386B4CA"]
+			id: "1500DC520ADC74B0"
+			tasks: [{
+				id: "62FD32FA2FABDAD4"
+				item: {
+					Count: 1
+					id: "botania:elementium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["4839942CD386B4CA"]
+			id: "39BDDC4B9163C919"
+			tasks: [{
+				id: "082CEA76312212B0"
+				item: {
+					Count: 1
+					id: "botania:elementium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["4839942CD386B4CA"]
+			id: "6B867AE6D2BA2CF7"
+			tasks: [{
+				id: "39CB6D05A0D9B6C0"
+				item: {
+					Count: 1
+					id: "botania:elementium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4839942CD386B4CA"]
+			id: "7A1DCD99AD892AB7"
+			tasks: [{
+				id: "6D604A0AC32BCA7E"
+				item: {
+					Count: 1
+					id: "botania:elementium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.75d
+		}
+		{
+			dependencies: ["368D596E03B5C2F9"]
+			description: [
+				"Take your old, dusty &dElven Mana Spreader&r."
+				""
+				"Add a cup of &5Dragonstone&r."
+				""
+				"Fold in a &1Gaia Spirit&r."
+				""
+				"Bake at 400 for 20 minutes."
+				""
+				"Enjoy your amazing, blazing fast mana distribution box."
+			]
+			id: "4DDEC5FAAF0988D2"
+			rewards: [
+				{
+					id: "4EFF2B79FE03FC5D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D4008AEC62CA0A4"
+					table_id: 3197456664727458795L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "7C1C473C64C864D5"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			title: "Laser Beams!"
+			x: 6.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["28635F94D3E023B6"]
+			description: [
+				"Use Mana Lenses to change the way your Mana Spreader handles mana."
+				""
+				"The base model does nothing on it's own, you'll need to upgrade it."
+				""
+				"You can also combine 2 lenses with a slime ball to make them stick together, and get the benefit of both."
+				""
+				"It's real nice."
+			]
+			id: "70C6ECF59E332251"
+			rewards: [{
+				id: "0921EC3BE021BAF0"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "749A708B29DCC2B1"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "Upgrades!"
+			x: -4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["70C6ECF59E332251"]
+			description: ["More speed, less power... Engage."]
+			id: "5354D896A789F9AF"
+			rewards: [{
+				id: "7B1EAF889D906F1D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2009F7F01F1C4716"
+				item: "botania:lens_speed"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C6ECF59E332251"]
+			description: ["Less speed, more power."]
+			id: "6FA43AFD4ECBA633"
+			rewards: [{
+				id: "37195ADC63B3FA9F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "66B4AF1D5F7078A3"
+				item: "botania:lens_time"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C6ECF59E332251"]
+			description: ["Less loss over time. It's frugal, not flugel."]
+			id: "01F7FC89CB7343BA"
+			rewards: [{
+				id: "3DE13398402340AC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "640FC52621D1C042"
+				item: "botania:lens_efficiency"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C6ECF59E332251"]
+			description: ["Like dwarves, natural sprinters. Very strong over short distances, but lack stamina."]
+			id: "716C03FA8C7FA189"
+			rewards: [{
+				id: "014CC811C739C2E8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "23708E6FF32CD45B"
+				item: "botania:lens_power"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C6ECF59E332251"]
+			description: ["The ricochet beam, bounces off solid things."]
+			id: "45769FED11EDEE9F"
+			rewards: [{
+				id: "6C2BBAB09E3FB1D4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "133AD2962B585B63"
+				item: "botania:lens_bounce"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DC22F5061F47ACE"]
+			description: ["Works like regular fertilizer, except it only grows Botania flowers."]
+			id: "6E9DEDD4E907620B"
+			tasks: [{
+				id: "406AA98296482E82"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -4.25d
+		}
+		{
+			id: "45C055D42762BE4F"
+			rewards: [{
+				id: "3407684121D2CD6D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "2E35266726C6F30F"
+				item: { Count: 5, id: "botania:white_mystical_flower" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.75d
+		}
+		{
+			id: "64E40A44B9AE3C76"
+			rewards: [{
+				id: "0ED2D630966DCA0A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "767B260FEFEF00E3"
+				item: { Count: 5, id: "botania:light_gray_mystical_flower" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -7.0d
+		}
+		{
+			id: "0B96312B281F2346"
+			rewards: [{
+				id: "3AF577E959011190"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "176F67F188040CD7"
+				item: { Count: 5, id: "botania:gray_mystical_flower" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: -7.0d
+		}
+		{
+			id: "76B3B4D7D9A1A427"
+			rewards: [{
+				id: "2DA329BA17F30903"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "2548C1046AE64091"
+				item: { Count: 5, id: "botania:black_mystical_flower" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.25d
+		}
+		{
+			id: "7B392AFD855BF620"
+			rewards: [{
+				id: "5A471DC9450E5518"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "6F5400BAB469F74F"
+				item: { Count: 5, id: "botania:brown_mystical_flower" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.25d
+		}
+		{
+			id: "17D5741C203FC27D"
+			rewards: [{
+				id: "00EE12847516B762"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "0AB01B723DA4D63A"
+				item: { Count: 5, id: "botania:red_mystical_flower" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.25d
+		}
+		{
+			id: "5A32D08D6459CF54"
+			rewards: [{
+				id: "1012B5117B5C90C8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "7990BCC02DADAEA4"
+				item: { Count: 5, id: "botania:orange_mystical_flower" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.25d
+		}
+		{
+			id: "3F54CF3D17286BCE"
+			rewards: [{
+				id: "6C8F13855A1BCD33"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "1A31CD81F24BF2E4"
+				item: { Count: 5, id: "botania:yellow_mystical_flower" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -8.5d
+		}
+		{
+			id: "575E34AD919F7501"
+			rewards: [{
+				id: "1D64C39CBC299BC0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "61A7DE761818A0D6"
+				item: { Count: 5, id: "botania:lime_mystical_flower" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: -8.5d
+		}
+		{
+			id: "0E728FAB123B4E6B"
+			rewards: [{
+				id: "36C7C7EF204EECA9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "0A08B2DF9DC282E2"
+				item: { Count: 5, id: "botania:green_mystical_flower" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.75d
+		}
+		{
+			id: "787F01B309E9B4F9"
+			rewards: [{
+				id: "4EEC66D1BBF7C08F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "6BBE9E905BCBCD19"
+				item: { Count: 5, id: "botania:cyan_mystical_flower" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.75d
+		}
+		{
+			id: "441628144CAA0F2F"
+			rewards: [{
+				id: "3061CCEA360B2752"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "47BC2F5BBC17BAD3"
+				item: { Count: 5, id: "botania:light_blue_mystical_flower" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.75d
+		}
+		{
+			id: "78F8D0EA92D88DED"
+			rewards: [{
+				id: "504B85672942FFDA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "7BE29BEABCA23290"
+				item: { Count: 5, id: "botania:blue_mystical_flower" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.75d
+		}
+		{
+			id: "2E6B1FDF51940F01"
+			rewards: [{
+				id: "0A5C5409D66E4124"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "191EB54A4760826B"
+				item: { Count: 5, id: "botania:purple_mystical_flower" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.75d
+		}
+		{
+			id: "2A10159E9F5609B2"
+			rewards: [{
+				id: "04DF36E709589E08"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 5L
+				id: "65D78EC2A00C0F25"
+				item: { Count: 5, id: "botania:magenta_mystical_flower" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.75d
+		}
+		{
+			id: "608F914CBCBA9FAB"
+			rewards: [{
+				id: "748BCE1D2C5A361E"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				count: 5L
+				id: "35F3F7B357F621C6"
+				item: { Count: 5, id: "botania:pink_mystical_flower" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.75d
+		}
+		{
+			id: "560E3287B1409603"
+			rewards: [{
+				id: "4B02E69FCD636784"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "74FC27B2F2884A3E"
+				item: "botania:lens_gravity"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.75d
+		}
+		{
+			id: "192178C09BC0FB63"
+			rewards: [{
+				id: "275531AC0E57CBB1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "77A1AF9F9871B3CF"
+				item: "botania:lens_mine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.75d
+		}
+		{
+			id: "7FC6EE50661A979F"
+			rewards: [{
+				id: "6E05C4F91580ED01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2647A2289D20646D"
+				item: "botania:lens_damage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			id: "04D3F9169ECB51EF"
+			rewards: [{
+				id: "09EF3E226FB28644"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6CFA94A5D81C3CEA"
+				item: "botania:lens_phantom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.75d
+		}
+		{
+			id: "622CD4CFEC9D681F"
+			rewards: [{
+				id: "4825CF77B69883ED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "723743A413146FB3"
+				item: "botania:lens_magnet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.75d
+		}
+		{
+			id: "09F83052FB9C7C82"
+			rewards: [{
+				id: "35F3A43D0267C59D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "29221A989640AB39"
+				item: "botania:lens_explosive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.75d
+		}
+		{
+			id: "01E724EC0486F0DA"
+			rewards: [{
+				id: "0B02320494FAD521"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E57E0C16B585BA0"
+				item: "botania:lens_influence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.75d
+		}
+		{
+			id: "755646EFEF0DD649"
+			rewards: [{
+				id: "2102E59DA82257D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "64412848311324D3"
+				item: "botania:lens_weight"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.75d
+		}
+		{
+			id: "44E4E2278FFDAA0A"
+			rewards: [{
+				id: "34FD2D0C4FDEE38D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "656A58244A114292"
+				item: "botania:lens_paint"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.75d
+		}
+		{
+			id: "2F747252CA68089D"
+			rewards: [{
+				id: "2F47C0C665DE4025"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C08C9A07E02DED9"
+				item: "botania:lens_fire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.75d
+		}
+		{
+			id: "2C4C4C62E16311AA"
+			rewards: [{
+				id: "3F21C5D9F75CAA29"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "191FBECFCD5F4B00"
+				item: "botania:lens_piston"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.75d
+		}
+		{
+			id: "117A3DF2BEA6209A"
+			rewards: [{
+				id: "4979B9FDE4C048F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2ECAA376AD7D2510"
+				item: "botania:lens_light"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.75d
+		}
+		{
+			id: "33F3F1F75FD683B8"
+			rewards: [{
+				id: "4309DF584A4502E9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22EA51AC8733E999"
+				item: "botania:lens_warp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.75d
+		}
+		{
+			id: "7D7262D848EAEFDA"
+			rewards: [{
+				id: "13B3ECD33E7E6780"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "414F7CBAB1244EC2"
+				item: "botania:lens_redirect"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.75d
+		}
+		{
+			id: "5B18C18307BE0154"
+			rewards: [{
+				id: "1DB1F558E71325DA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "69666648DBC2BCA1"
+				item: "botania:lens_firework"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.75d
+		}
+		{
+			id: "329414984F81B6BC"
+			rewards: [{
+				id: "2AD5620764220FF0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D0641BADB2076CD"
+				item: "botania:lens_flare"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.75d
+		}
+		{
+			id: "66E023D57F89D561"
+			rewards: [{
+				id: "16BD57203A3C2B53"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6348E9D6A5254B30"
+				item: "botania:lens_messenger"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.75d
+		}
+		{
+			id: "00B0161D0E3988FD"
+			rewards: [{
+				id: "0413BF7455E9260E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6975CCAA33B4DA21"
+				item: "botania:lens_tripwire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.75d
+		}
+		{
+			id: "479AF9DBA0480297"
+			rewards: [{
+				id: "12B26C01CF5340C7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3267331EB25CF267"
+				item: "botania:manastar"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -6.5d
+		}
+		{
+			id: "30AF3D165AA36CA7"
+			rewards: [{
+				id: "39CFB83FA19CAFEA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "14F10358C785CFEC"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: -23.25d
+			y: -2.5d
+		}
+		{
+			id: "71E9E32227A25BFE"
+			rewards: [{
+				id: "32B22EF7C1D318B1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "19DB5A97226F8BDA"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: -23.25d
+			y: -3.5d
+		}
+		{
+			id: "37426F755DA437FA"
+			rewards: [{
+				id: "25E4D7EDC09755F6"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "63CD051B1717A076"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: -23.25d
+			y: -4.5d
+		}
+		{
+			id: "26FA00FF6C1C2D37"
+			rewards: [{
+				id: "286ECF9C790AA4AC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "17176B662BB6B3CF"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -4.5d
+		}
+		{
+			id: "61A351871F1E2DEE"
+			rewards: [{
+				id: "261F99EB14FF8491"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "027815216D646EEB"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -3.5d
+		}
+		{
+			id: "5F70AD56BDF9C85E"
+			rewards: [{
+				id: "774585DCC1845E77"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "571189C11E2099D2"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -2.5d
+		}
+		{
+			id: "3748A71C13CB6A17"
+			rewards: [{
+				id: "76098B24F7EB6478"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A486AD0C2D84980"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: -21.25d
+			y: -4.5d
+		}
+		{
+			id: "59CBB22B840AF8BA"
+			rewards: [{
+				id: "607CE9EFB2086E55"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5003BAC3C62C8A08"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -21.25d
+			y: -3.5d
+		}
+		{
+			id: "36DB387AB29B072E"
+			rewards: [{
+				id: "4BB0EFB1D85DE86D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "31F3FA608BE64C13"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: -21.25d
+			y: -2.5d
+		}
+		{
+			id: "339FFF769E10A81B"
+			rewards: [{
+				id: "1C73463AD0CC9445"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01D3FA2EEEC61AC7"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: -20.25d
+			y: -4.5d
+		}
+		{
+			id: "08195E87584AB4C3"
+			rewards: [{
+				id: "3EF933494F3C3A38"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "000636F338A8A4D8"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: -20.25d
+			y: -3.5d
+		}
+		{
+			id: "36EFCFB348BECF73"
+			rewards: [{
+				id: "4E83B2C74697C87B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A503916F804C56B"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -20.25d
+			y: -2.5d
+		}
+		{
+			id: "75ECEFAACBF514C0"
+			rewards: [{
+				id: "055D12537E77AD0E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "64CB4537BAD8F328"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: -23.25d
+			y: -0.5d
+		}
+		{
+			id: "75EC66AA718DE403"
+			rewards: [{
+				id: "22C6C3470947F11D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0460D9D953B2D6C4"
+				item: "botania:bergamute"
+				type: "item"
+			}]
+			x: -23.25d
+			y: -6.5d
+		}
+		{
+			id: "2C5D3C4A22BCC891"
+			rewards: [{
+				id: "312D6245C36FB5A0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "24A003E61AD62D6D"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: -22.25d
+			y: -0.5d
+		}
+		{
+			id: "1D49D7AD1E098AC0"
+			rewards: [{
+				id: "57400E9EF8401856"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C1FFF441F77F1B9"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: -21.25d
+			y: -0.5d
+		}
+		{
+			id: "70382B805B67B8CE"
+			rewards: [{
+				id: "28747C7B05353A3D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1480BEF8298DE3C8"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: -20.25d
+			y: -0.5d
+		}
+		{
+			id: "48BEABB291A82EE2"
+			rewards: [{
+				id: "2D84DE98BDFA4812"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "213E3912D181B780"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: -23.25d
+			y: 0.5d
+		}
+		{
+			id: "0F06ABF50952BBF0"
+			rewards: [{
+				id: "4C8E7F3F78B59444"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44268835853B9895"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: -22.25d
+			y: 0.5d
+		}
+		{
+			id: "48FD7DF1EEE5E72C"
+			rewards: [{
+				id: "74891F7362D60E6A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1F9F8D03A8F77276"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: -21.25d
+			y: 0.5d
+		}
+		{
+			id: "2EC5304B82D0AA64"
+			rewards: [{
+				id: "6BDD4A9C4892BFDC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5B7DD9D17997C0AF"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: -20.25d
+			y: 0.5d
+		}
+		{
+			id: "46C978A5A33E2493"
+			rewards: [{
+				id: "5218D3C0056B36CF"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7818BEA359529067"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: -23.25d
+			y: 1.5d
+		}
+		{
+			id: "7C20F35D4AF1D40C"
+			rewards: [{
+				id: "708B5BB66CCDECD1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F9180A13D1F8F40"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: -22.25d
+			y: 1.5d
+		}
+		{
+			id: "63EF1A17E972DA02"
+			rewards: [{
+				id: "084AB15F42485D7C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "311DBCE7831EB970"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: -21.25d
+			y: 1.5d
+		}
+		{
+			id: "697C22EB0668A2B0"
+			rewards: [{
+				id: "043B66B2B1E34F53"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F1FA78BE83EDF64"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -20.25d
+			y: 1.5d
+		}
+		{
+			id: "0E02F2E9F7F6E2B0"
+			rewards: [{
+				id: "7100706E807EE458"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12EA58A67DD79315"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: -23.25d
+			y: 2.5d
+		}
+		{
+			id: "38322DC6CE6F0409"
+			rewards: [{
+				id: "44DC712026B14204"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "57B28EAA0B7FD697"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: -22.25d
+			y: 2.5d
+		}
+		{
+			id: "55CBE888B88CBEB4"
+			rewards: [{
+				id: "61E232431C8E4B4F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "31828E2DE8EEEE89"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: -21.25d
+			y: 2.5d
+		}
+		{
+			id: "64C6BB5D89D8CC4E"
+			rewards: [{
+				id: "65CB90CC5687E9DE"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4201EDBCF77C2227"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -20.25d
+			y: 2.5d
+		}
+		{
+			id: "73ECE3E205E3970B"
+			rewards: [{
+				id: "008C763D9301533D"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1C66BAAC6ABAAD6B"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: -23.25d
+			y: 3.5d
+		}
+		{
+			id: "452B385EDBF89C16"
+			rewards: [{
+				id: "59EB1C07A3613D72"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66E85B9977AECBA2"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: -22.25d
+			y: 3.5d
+		}
+		{
+			id: "34809ADA09E66C2A"
+			rewards: [{
+				id: "41D7F005C8DFB899"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "29DB64B6779711A5"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: -21.25d
+			y: 3.5d
+		}
+		{
+			id: "1774D07A3AD36605"
+			rewards: [{
+				id: "7A4138C966BBB513"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "654578DE2D68FFF5"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: -20.25d
+			y: 3.5d
+		}
+		{
+			id: "275BCF685E9C2387"
+			rewards: [{
+				id: "321F59637D6A4DE0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F9E65FC8B26F3F2"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: -19.25d
+			y: -0.5d
+		}
+		{
+			id: "5481B27B7FDAB92B"
+			rewards: [{
+				id: "246B66F4BF7E6D63"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "382A996773B0CB3E"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: -19.25d
+			y: 0.5d
+		}
+		{
+			id: "3F761A0577E06ED5"
+			rewards: [{
+				id: "303699E880A3D827"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "313E36E028A4ADE7"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: -19.25d
+			y: 1.5d
+		}
+		{
+			id: "199F59E57CEA4182"
+			rewards: [{
+				id: "413AF8B9EFBAE2A3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E98A827282E8BBD"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -19.25d
+			y: 2.5d
+		}
+	]
 	title: "&5Botania"
 }

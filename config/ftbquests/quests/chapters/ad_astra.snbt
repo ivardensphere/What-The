@@ -9,7 +9,7 @@
 		image: "combi:textures/other/adastra.png"
 		rotation: 0.0d
 		width: 10.0d
-		x: 1.75d
+		x: 6.25d
 		y: 8.5d
 	}]
 	order_index: 0
@@ -22,7 +22,7 @@
 				item: "ad_astra:compressor"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.25d
 			y: -2.25d
 		}
 		{
@@ -33,7 +33,7 @@
 				item: "ad_astra:engine_frame"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.25d
 			y: -1.0d
 		}
 		{
@@ -77,8 +77,8 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			x: 3.75d
-			y: -1.0d
+			x: 7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["64E3A8964FF35D67"]
@@ -291,8 +291,8 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["27E16CC3B5A4502A"]
@@ -302,7 +302,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.25d
 			y: -3.5d
 		}
 		{
@@ -313,7 +313,7 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.25d
 			y: -4.75d
 		}
 		{
@@ -324,7 +324,7 @@
 				item: "ad_astra_giselle_addon:automation_nasa_workbench"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 5.0d
 			y: -4.75d
 		}
 		{
@@ -335,7 +335,7 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 7.5d
 			y: -6.0d
 		}
 		{
@@ -346,7 +346,7 @@
 				item: "ad_astra:fan"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 7.5d
 			y: -4.75d
 		}
 		{
@@ -357,7 +357,7 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 7.5d
 			y: -7.25d
 		}
 		{
@@ -368,7 +368,7 @@
 				item: "ad_astra:tier_1_rover"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -379,7 +379,7 @@
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 5.0d
 			y: -7.25d
 		}
 		{
@@ -389,7 +389,7 @@
 				item: "ad_astra:radio"
 				type: "item"
 			}]
-			x: 6.25d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -399,7 +399,7 @@
 				item: "ad_astra:ti_69"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 16.25d
 			y: 1.5d
 		}
 		{
@@ -409,7 +409,7 @@
 				item: "ad_astra:solar_panel"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -419,7 +419,7 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 17.5d
 			y: 2.75d
 		}
 		{
@@ -429,7 +429,7 @@
 				item: "ad_astra:oxygen_loader"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 16.25d
 			y: 2.75d
 		}
 		{
@@ -439,7 +439,7 @@
 				item: "ad_astra:water_pump"
 				type: "item"
 			}]
-			x: 6.25d
+			x: 15.0d
 			y: 2.75d
 		}
 		{
@@ -449,7 +449,7 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: 6.25d
+			x: 15.0d
 			y: 4.0d
 		}
 		{
@@ -459,7 +459,7 @@
 				item: "ad_astra:etrionic_blast_furnace"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 16.25d
 			y: 4.0d
 		}
 		{
@@ -469,7 +469,7 @@
 				item: "ad_astra:coal_generator"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 17.5d
 			y: 4.0d
 		}
 		{
@@ -487,7 +487,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.25d
+			x: 15.0d
 			y: 5.25d
 		}
 		{
@@ -497,7 +497,7 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 16.25d
 			y: 5.25d
 		}
 		{
@@ -507,7 +507,7 @@
 				item: "ad_astra:gravity_normalizer"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 17.5d
 			y: 5.25d
 		}
 		{
@@ -720,7 +720,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: -2.25d
+			y: -2.5d
 		}
 		{
 			id: "308F9BB4F6B00A9E"
@@ -731,7 +731,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.25d
+			y: -2.5d
 		}
 		{
 			id: "2482B0524DA4AF87"
@@ -742,7 +742,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -2.25d
+			y: -2.5d
 		}
 		{
 			id: "47EC70C77CE19080"
@@ -753,7 +753,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.0d
+			y: -1.25d
 		}
 		{
 			id: "4E3800B042915D71"
@@ -764,7 +764,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: -1.0d
+			y: -1.25d
 		}
 		{
 			id: "1426ACAAF7170F99"
@@ -774,7 +774,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: -1.25d
 		}
 		{
 			id: "761C1CA73AB8C160"
@@ -783,8 +783,8 @@
 				item: "ad_astra:mars_globe"
 				type: "item"
 			}]
-			x: 6.25d
-			y: -2.25d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			id: "6ACD1D65A160E022"
@@ -793,8 +793,8 @@
 				item: "ad_astra:venus_globe"
 				type: "item"
 			}]
-			x: 6.25d
-			y: -1.0d
+			x: 15.0d
+			y: -1.25d
 		}
 		{
 			id: "150FFA4DD102D142"
@@ -803,8 +803,8 @@
 				item: "ad_astra:earth_globe"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.25d
+			x: 16.25d
+			y: -2.5d
 		}
 		{
 			id: "13D4B3625FCFE4DD"
@@ -813,8 +813,8 @@
 				item: "ad_astra:mercury_globe"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 16.25d
+			y: -1.25d
 		}
 		{
 			id: "79ADDC0B857FF702"
@@ -823,8 +823,8 @@
 				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
-			x: 8.75d
-			y: -2.25d
+			x: 17.5d
+			y: -2.5d
 		}
 		{
 			id: "17B52D86F5FA5356"
@@ -833,8 +833,743 @@
 				item: "ad_astra:glacio_globe"
 				type: "item"
 			}]
+			x: 17.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["55FBA846343163D9"]
+			id: "627A2A4B193C581C"
+			tasks: [{
+				id: "4E44ECB62A637AA4"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_5_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5DB8782B3A0B90AC"]
+			id: "55FBA846343163D9"
+			tasks: [{
+				id: "71FCE48CC857EEC4"
+				item: "ad_extendra:juperium_tank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A02F5D81DC19C1A"]
+			id: "5DB8782B3A0B90AC"
+			tasks: [{
+				id: "505ACDB4A27C4FBD"
+				item: "ad_extendra:juperium_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["4295DC7226FFA9C0"]
+			id: "0A02F5D81DC19C1A"
+			tasks: [{
+				id: "004B5421DD000ECC"
+				item: "ad_extendra:juperium_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "4295DC7226FFA9C0"
+			tasks: [{
+				id: "3C084A8493FFAD5A"
+				item: "ad_extendra:juperium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["2BFA0DC6604D5A4C"]
+			id: "1438165321E8A206"
+			tasks: [{
+				id: "480079CF9D4C54DC"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_6_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3145DD22FE68ACDA"]
+			id: "248523BD09BB76FD"
+			tasks: [{
+				id: "0D908399BDB81232"
+				item: "ad_extendra:saturlyte_engine"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["248523BD09BB76FD"]
+			id: "2BFA0DC6604D5A4C"
+			tasks: [{
+				id: "70288F9CD1E66617"
+				item: "ad_extendra:saturlyte_tank"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05E7ECBF3EC7B724"]
+			id: "3145DD22FE68ACDA"
+			tasks: [{
+				id: "4637843F74FA16A0"
+				item: "ad_extendra:saturlyte_plate"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "05E7ECBF3EC7B724"
+			tasks: [{
+				id: "7A4E4FEB4B0F532B"
+				item: "ad_extendra:saturlyte_ingot"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["525E3CB234A6BA1B"]
+			id: "00072DC8D3E0BB14"
+			tasks: [{
+				id: "340DF9BDD49C3102"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_7_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["449C27026041191F"]
+			id: "525E3CB234A6BA1B"
+			tasks: [{
+				id: "0F69C1DB9515AFE8"
+				item: "ad_extendra:uranium_tank"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62925994D3E996BC"]
+			hide_dependency_lines: true
+			id: "449C27026041191F"
+			tasks: [{
+				id: "5DC839FB0F151D29"
+				item: "ad_extendra:uranium_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["31EF7F799C323379"]
+			id: "559A06C4347B7C64"
+			tasks: [{
+				id: "03B1080A4C20BA20"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_8_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
 			x: 8.75d
-			y: -1.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["141D965067BEFF55"]
+			id: "31EF7F799C323379"
+			tasks: [{
+				id: "17FB30225F29D77F"
+				item: "ad_extendra:neptunium_tank"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62925994D3E996BC"]
+			id: "141D965067BEFF55"
+			tasks: [{
+				id: "4D65F509A58CB510"
+				item: "ad_extendra:neptunium_engine"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["3CFB0B65FE318CE7"]
+			id: "62925994D3E996BC"
+			tasks: [{
+				id: "21C2D16FE9A78CAC"
+				item: "ad_extendra:neptunium_plate"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "3CFB0B65FE318CE7"
+			tasks: [{
+				id: "41CBBEE4A9984272"
+				item: "ad_extendra:neptunium_ingot"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["2A4050D24164C837"]
+			id: "5F81C3AAEA7D7E63"
+			tasks: [{
+				id: "30E768B47EF9772E"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_9_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1B74C28AA58E4D4E"]
+			id: "5AEEBD469895A839"
+			tasks: [{
+				id: "2A4050D24164C837"
+				item: "ad_extendra:radium_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48736CEA68A88E0C"]
+			id: "1B74C28AA58E4D4E"
+			tasks: [{
+				id: "5083179E64246C22"
+				item: "ad_extendra:radium_engine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["54F12BF29A769642"]
+			id: "48736CEA68A88E0C"
+			tasks: [{
+				id: "419714698732AA18"
+				item: "ad_extendra:radium_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "54F12BF29A769642"
+			tasks: [{
+				id: "62037B56B110EDB4"
+				item: "ad_extendra:radium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["433151195143B467"]
+			id: "7E3A477ABA7A4548"
+			tasks: [{
+				id: "3066BDDCCBBAC7BA"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_10_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["694F4729C278C089"]
+			id: "433151195143B467"
+			tasks: [{
+				id: "19D83B40F9FC7006"
+				item: "ad_extendra:plutonium_tank"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56DB86DB48070C38"]
+			id: "694F4729C278C089"
+			tasks: [{
+				id: "091ABAF8036D99C9"
+				item: "ad_extendra:plutonium_engine"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["4C7E0E100E358945"]
+			id: "56DB86DB48070C38"
+			tasks: [{
+				id: "50BE015230AB2F88"
+				item: "ad_extendra:plutonium_plate"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "4C7E0E100E358945"
+			tasks: [{
+				id: "4B6A4B28A3DAE067"
+				item: "ad_extendra:plutonium_ingot"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["4D22E7EF32978B06"]
+			id: "36EBD44BF120B62A"
+			tasks: [{
+				id: "4D5E94570B0A5D0F"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_11_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4547B4A8F31C621A"]
+			id: "4D22E7EF32978B06"
+			tasks: [{
+				id: "0FD1F7C2C2F55A3B"
+				item: "ad_extendra:electrolyte_tank"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74247D6CF7965930"]
+			id: "4547B4A8F31C621A"
+			tasks: [{
+				id: "6044781D48A5DCA3"
+				item: "ad_extendra:electrolyte_engine"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["54C400121945A1AE"]
+			id: "74247D6CF7965930"
+			tasks: [{
+				id: "068A2CAFD6AC47FD"
+				item: "ad_extendra:electrolyte_plate"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64E3A8964FF35D67"]
+			id: "54C400121945A1AE"
+			tasks: [{
+				id: "66E38BE3D8C867C9"
+				item: "ad_extendra:electrolyte_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.25d
+		}
+		{
+			id: "48ECD95A97A32E5B"
+			tasks: [{
+				id: "6073D07CC5AFB383"
+				item: "ad_extendra:ceres_globe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			id: "7AFE788925B7BDD5"
+			tasks: [{
+				id: "33909C3FB1641DC0"
+				item: "ad_extendra:jupiter_globe"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -3.75d
+		}
+		{
+			id: "24CCB21A51559E9B"
+			tasks: [{
+				id: "4CAD005889316387"
+				item: "ad_extendra:saturn_globe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.75d
+		}
+		{
+			id: "4798A94C94CCF90F"
+			tasks: [{
+				id: "28BF9A5DD2D656EC"
+				item: "ad_extendra:uranus_globe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			id: "493B719A02D8CE4D"
+			tasks: [{
+				id: "76AECDC433929830"
+				item: "ad_extendra:neptune_globe"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -5.0d
+		}
+		{
+			id: "2C1DC101F4F94E62"
+			tasks: [{
+				id: "5D43FDBA3D6FB39B"
+				item: "ad_extendra:orcus_globe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			id: "218057337AB9A2C6"
+			tasks: [{
+				id: "598EEC9056EF2DF1"
+				item: "ad_extendra:pluto_globe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.25d
+		}
+		{
+			id: "593DDB06310F0D42"
+			tasks: [{
+				id: "5D5E317E17A75DD1"
+				item: "ad_extendra:haumea_globe"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -6.25d
+		}
+		{
+			id: "339CF6F67EE4CA01"
+			tasks: [{
+				id: "6E2F84694E1E2940"
+				item: "ad_extendra:quaoar_globe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.25d
+		}
+		{
+			id: "5275978DA7D8C59E"
+			tasks: [{
+				id: "7450549DF4020E59"
+				item: "ad_extendra:makemake_globe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			id: "3C379C2411F1AB1C"
+			tasks: [{
+				id: "22B757E2B131DADA"
+				item: "ad_extendra:gonggong_globe"
+				type: "item"
+			}]
+			x: 16.25d
+			y: -7.5d
+		}
+		{
+			id: "34045189F5104DE2"
+			tasks: [{
+				id: "06C9B5D6619F712A"
+				item: "ad_extendra:eris_globe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			id: "177F7BB42FAAE6D9"
+			tasks: [{
+				id: "78ADDCDC4C8EBF1C"
+				item: "ad_extendra:sedna_globe"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -8.75d
+		}
+		{
+			id: "0DFBDCAEDEF1C24F"
+			tasks: [{
+				id: "7F0AA49B1C505A0B"
+				item: "ad_extendra:b_globe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.75d
+		}
+		{
+			id: "4E74B6D0F4F6681E"
+			tasks: [{
+				count: 10L
+				id: "2E894F3E3E3ED92B"
+				item: { Count: 10, id: "ad_extendra:ceres_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.75d
+		}
+		{
+			id: "6960BE325B5AA20D"
+			tasks: [{
+				count: 10L
+				id: "371DF622DE8F656F"
+				item: { Count: 10, id: "ad_extendra:jupiter_stone" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			id: "1CC1D2A63680FB8B"
+			tasks: [{
+				count: 10L
+				id: "26F63397E9F723ED"
+				item: "ad_extendra:saturn_stone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			id: "51810EC5058122D9"
+			tasks: [{
+				count: 10L
+				id: "5806E007F607622E"
+				item: { Count: 10, id: "ad_extendra:uranus_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "1D88DF9F343E5373"
+			tasks: [{
+				count: 10L
+				id: "1DA8F4CD6229240E"
+				item: { Count: 10, id: "ad_extendra:neptune_stone" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.0d
+		}
+		{
+			id: "085F3166CEC88D0E"
+			tasks: [{
+				count: 10L
+				id: "4CABEA6278FA1F5A"
+				item: { Count: 10, id: "ad_extendra:orcus_stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "529EA4AC72602CB7"
+			tasks: [{
+				count: 10L
+				id: "268CDA96FE78DC7C"
+				item: { Count: 10, id: "ad_extendra:pluto_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.25d
+		}
+		{
+			id: "2B54EAB89139C2E9"
+			tasks: [{
+				count: 10L
+				id: "5662BCF3E38858C9"
+				item: { Count: 10, id: "ad_extendra:quaoar_stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.25d
+		}
+		{
+			id: "5612E5370FDB7D69"
+			tasks: [{
+				count: 10L
+				id: "5E6B4FFEDA4CD2EB"
+				item: { Count: 10, id: "ad_extendra:haumea_stone" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.25d
+		}
+		{
+			id: "1109F8DF2E69C2F8"
+			tasks: [{
+				count: 10L
+				id: "1A9683D0C5B923E4"
+				item: { Count: 10, id: "ad_extendra:makemake_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			id: "48BDCA5057E85C41"
+			tasks: [{
+				count: 10L
+				id: "45C579E5BEAA2453"
+				item: { Count: 10, id: "ad_extendra:gonggong_stone" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: -7.5d
+		}
+		{
+			id: "71BF47D8ACE658B1"
+			tasks: [{
+				count: 10L
+				id: "38592E3498FCA1F4"
+				item: { Count: 10, id: "ad_extendra:eris_stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "5E040B05AEB4DE0B"
+			tasks: [{
+				count: 10L
+				id: "2425E27F91315693"
+				item: { Count: 10, id: "ad_extendra:sedna_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.75d
+		}
+		{
+			id: "4F61C672CBA8E1E5"
+			tasks: [{
+				count: 10L
+				id: "4DBC83141C1AD7BA"
+				item: { Count: 10, id: "ad_extendra:b_stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.75d
 		}
 	]
 	title: "&1Ad Astra"

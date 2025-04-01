@@ -1,0 +1,13 @@
+{
+	id: "258D7C1F065C04CB"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 3, item: "botania:rune_water" }
+		{ count: 3, item: "botania:rune_fire" }
+		{ count: 3, item: "botania:rune_earth" }
+		{ count: 3, item: "botania:rune_air" }
+		{ count: 3, item: "botania:rune_mana" }
+	]
+	title: "Mana Rune Loot Bag"
+}

@@ -1,0 +1,16 @@
+{
+	id: "2C5FA5E54DC913EB"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "botania:blacker_lotus", weight: 0.25f }
+		{ item: "botania:terrasteel_nugget" }
+		{ item: "botania:mana_quartz" }
+		{ item: "botania:manasteel_block", weight: 0.5f }
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:mana_pearl" }
+		{ item: "botania:black_lotus", weight: 0.5f }
+		{ count: 3, item: "botania:manasteel_ingot", weight: 1.5f }
+	]
+	title: "Rare Mana Loot Bag"
+}

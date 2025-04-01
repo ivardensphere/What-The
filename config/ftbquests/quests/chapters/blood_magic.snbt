@@ -6,6 +6,1594 @@
 	id: "0122D4E3F1DAADC1"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Guess what?!"
+				""
+				"I found an old book in the attic today! It's got funny pictures and words I don't really understand, but it talks about building something called an Evil Infusion Altar. That sounds really cool!"
+				""
+				"I'm excited to read through this book and learn all about this, it's gonna be SUPER fun!"
+			]
+			id: "18C4F66E7D54273F"
+			rewards: [{
+				id: "6290C3CF8F652327"
+				item: "evilcraft:origins_of_darkness"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "479CF8263B78E79A"
+				title: "Click here for fun!"
+				type: "checkmark"
+			}]
+			title: "Puppies and Kittens"
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18C4F66E7D54273F"]
+			description: [
+				"Guess what? I was looking through the book and there's a part about these super pretty &6Dark Gems&r!"
+				""
+				"They sparkle in all kinds of colors and look so magical!"
+				""
+				"The book says they are really important for crafting all sorts of fun things, and I just know it will be great to have a bunch."
+				""
+				"Let's go on an adventure and find some together!"
+			]
+			id: "58A9664A2EB0CC21"
+			rewards: [
+				{
+					count: 2
+					id: "710E9ED4CBB8CB2F"
+					item: "evilcraft:dark_gem"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "40BCD9C4841264B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "411A19FCE6A0A337"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			title: "Pretty Things"
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58A9664A2EB0CC21"]
+			description: [
+				"Okay, so there's this thing the book talks about called a &6Blood Extractor&r. It's not scary at all, I promise."
+				""
+				"It's a little tool that helps us gather a teeny bit of our own blood. The book says it's super safe and helps us make fun things with all the magical stuff we can collect."
+				""
+				"Let's make one and try it out, it'll be really quick and won't hurt or anything!"
+				""
+				"Maybe it will help us learn more magic stuff, too!"
+			]
+			id: "37A46471D0AB6804"
+			rewards: [
+				{
+					id: "200F758D61240E6B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:blood_extractor"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD3AEDE2B1CF47D"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "1914453A76E50F19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:blood_extractor"
+				}
+				type: "item"
+			}]
+			title: "A Little Helping Hand"
+			x: -13.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Hey! I just found something super neat! We can store the blood we collect in a &6Dark Tank&r! It looks like a little jar, but it holds a LOT!"
+				""
+				"This will keep our blood safe and ready for when we need it. The book says it's a great way to store all the blood we've been collecting, so let's make one! It'll be like our very own magical storage jar, and we can have fun seeing how much blood we can collect and keep it all nice and neat."
+			]
+			id: "392260C864CC6E04"
+			rewards: [{
+				id: "1828E7C1F1A5131E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "35E4C36F7C4BFC51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:dark_tank"
+				}
+				type: "item"
+			}]
+			title: "A Safe Place"
+			x: -13.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Guess what I just found out? You can make these super cool things called Spikey Claws! They look like little pointy fingered gloves and the book says they will help us with all sorts of tasks around the house, like digging and fdefending ourselves against mischievous creatures!"
+				""
+				"They sound exactly like something an explorer would wear, so let's make some and wear them on our next adventure, I think that will make it extra fun!"
+			]
+			id: "5293DF4F9C5DDF86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E0153CFC011D94A"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "763942EE308D1102"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "77DFA0F24B56E587"
+				item: {
+					Count: 1
+					id: "evilcraft:spikey_claws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Spiky Claws for Adventure!"
+			x: -12.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Something super interesting happened today! I noticed that when the monsters fall and disappear, sometimes little puddles of blood are left behind on the ground! It’s like a tiny little leftover after they’ve... gone to sleep. The book says we can collect these little Blood Samples for crafting things or just learning more about the creatures around us. Isn’t that neat?"
+				""
+				"Can you help me collect some of these little blood samples? Don’t worry, they’re not dangerous at all! I think they’re just the perfect thing to use for all kinds of fun projects. Plus, it’ll help us learn more about the creatures we see! Let’s gather them together!"
+			]
+			icon: "evilcraft:blood_stain"
+			id: "1019E3F95A3E63FC"
+			rewards: [{
+				id: "1DEC69B92EB038A5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "evilcraft:blood"
+				id: "0DD895EF1179E8C8"
+				type: "fluid"
+			}]
+			title: "Little Samples"
+			x: -14.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18C4F66E7D54273F"]
+			description: [
+				"Guess what I’ve heard about? There are secret &6Dark Temples&r hidden out in the wild! It’s said to be full of mysteries and magical treasures, but it’s also really hard to find. I think it’s somewhere deep in the forest, maybe hidden behind a waterfall or in a secret cave. Wouldn’t that be fun? We could be the first to discover it!"
+				""
+				"I don’t think the temple is scary at all, just a bit forgotten, like a secret from a long time ago. Maybe we can find some cool gems or even ancient artifacts inside! Do you think we can find it together? Let’s go exploring and see what we discover!"
+			]
+			id: "4F976D887FE29B13"
+			tasks: [{
+				icon: "evilcraft:environmental_accumulator"
+				id: "0F160EA8C780FA38"
+				structure: "evilcraft:dark_temple"
+				type: "structure"
+			}]
+			title: "The Search for the Hidden Temple!"
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Hi again!"
+				""
+				"I found something really neat in the book today! It talks about making a &6Vengeance Ring&r, and it sounds super fun! The ring is supposed to help us protect ourselves and can even call upon a friendly little spirit when we need it. It's not for hurting anyone though, it just something to keep us safe while we are on our adventures!"
+				""
+				"Once we make the ring, we’ll need to collect a &5Vengeance Spirit&r. I don’t think it’s scary at all—just a little spirit that likes to help and keep things balanced! I bet they’re kind of like magical friends who pop up when we need them most. Would you help me make the ring and find a spirit to keep us company? I think it’ll be really fun to have a tiny protector with us!"
+			]
+			id: "4A5C1D26EDEBEE46"
+			rewards: [
+				{
+					count: 3
+					id: "6201482F324E4618"
+					item: "evilcraft:dark_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "318CE82C7309A5A2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "1C7A631FE5B7F570"
+					item: "evilcraft:vengeance_essence"
+					type: "item"
+				}
+				{
+					id: "5B8B3FF4B8078768"
+					item: "evilcraft:vengeance_ring"
+					type: "item"
+				}
+			]
+			title: "Friendly Spirits!"
+			x: -11.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Guess what? I found out how to make Tough Little Blood Crystals! They’re just like tiny, magical stones made from blood that gets all strong and solid. I think they’ll be perfect for crafting all sorts of adorable, tough items! It’s kind of like turning a soft puddle into something hard and shiny—how cool is that?"
+				""
+				"Would you help me make some? I think they’ll be super fun to use, and who knows, we might be able to make something really special with them! It’s like turning a liquid into a sparkly little treasure! Let’s give it a try!"
+				""
+				"We just need to pour a bucket of blood in a hole and wait for a while, then we can smelt it down into tough crystals!"
+			]
+			id: "540C2FB9EB3DCBB4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40C7AAD9AD733E79"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "3C4303044DC18471"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "70516C929C97820E"
+				item: { Count: 9, id: "evilcraft:hardened_blood_shard" }
+				type: "item"
+			}]
+			title: "Tough Little Blood Crystals!"
+			x: -11.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["37A46471D0AB6804"]
+			description: [
+				"Guess what I found out today? We can make a Sparkly &6Dark Power Gem&r! It’s a super magical gem that we create by giving a little bit of our blood to one of those shiny Dark Gems. Isn’t that fun? It’s like giving the gem a special boost of magic so it can shine even brighter!"
+				""
+				"Don’t worry—it’s all safe and just a little bit of magic! I think the gem will be extra special once we do this, and I bet we can use it for all sorts of cool things! Would you help me make one? It sounds like so much fun to create something sparkly and magical!"
+			]
+			id: "621625A203D99942"
+			rewards: [
+				{
+					id: "27808EFF449BCDE3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2089DB7ADABA3666"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				id: "382293C73E23BB1F"
+				item: "evilcraft:dark_power_gem"
+				type: "item"
+			}]
+			title: "Sparkle Power!"
+			x: -11.25d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"540C2FB9EB3DCBB4"
+				"621625A203D99942"
+			]
+			description: [
+				"Okay, I think we’re about to make something REALLY cool! I found a special recipe in the book to make a &6Blood Infusion Core&r! It’s made by combining our shiny &5Blood Crystals&r and those magical &5Dark Power Gems&r we created! Isn’t that amazing? It’s like combining two super magical things to create something even stronger and more powerful!"
+				""
+				"I think the &6Blood Infusion Core&r will help us do all sorts of fun things and unlock new crafting recipes. It sounds like the perfect magical tool for all our adventures! Would you help me put everything together and make this magical core? I’m so excited to see what it can do!"
+			]
+			id: "3D7190D2DF2DCE63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20AEF6EE9FBFB159"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "188A406237E6F1E9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "26289E9D04273993"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			title: "Super Magic!"
+			x: -9.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4F976D887FE29B13"]
+			description: [
+				"Guess what I just found out? When it rains, we can collect all the water we need forever! It’s like magic! If we put a &5Weather Container&r inside an &5Environmental Accumulator&r while it’s raining, it can make an infinite water source! That means we’ll never run out of water again, no matter what! Isn’t that the coolest thing?"
+				""
+				"We could fill up buckets, create ponds, or even water our gardens all the time without ever running out! It’s like a never-ending water fountain! Can you help me set it up? All we need is the rain, and I think we’ll have the most magical water source ever!"
+			]
+			id: "787AD178946B8347"
+			tasks: [
+				{
+					id: "07BDE54CA0A435B5"
+					item: "evilcraft:bucket_eternal_water"
+					type: "item"
+				}
+				{
+					id: "4D4692DAD49B43C2"
+					item: "evilcraft:eternal_water"
+					type: "item"
+				}
+			]
+			title: "Rain, Rain, never go away!"
+			x: -14.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["4F976D887FE29B13"]
+			description: [
+				"Okay, this one is SO exciting! When there’s a lightning storm, we can use that powerful lightning to make some super fun items! If we place a &5Weather Container&r inside an &5Environmental Accumulator&r while a storm is happening, we can collect the lightning and turn it into a &6Lightning Grenade&r or a &6Lightning Bomb&r!"
+				""
+				"The &6Lightning Grenade&r will zap anything nearby, and the &6Lightning Bomb&r will make a BIG, fun explosion of lightning energy! It sounds like a super cool way to use the storm to our advantage. I promise we’ll use them for fun (and not to scare anyone!)."
+				""
+				"Do you want to help me gather some lightning? It’s going to be so much fun to see what we can do with this stormy power!"
+			]
+			id: "629CF26E6CCD809C"
+			tasks: [
+				{
+					id: "77716242199D0F4E"
+					item: "evilcraft:lightning_grenade"
+					type: "item"
+				}
+				{
+					id: "5C41F8036FD83138"
+					item: "evilcraft:lightning_bomb"
+					type: "item"
+				}
+			]
+			title: "Stormy Lightning Fun!"
+			x: -16.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["3D7190D2DF2DCE63"]
+			description: [
+				"Okay, this one is a little mysterious! I found a way to create a Blood Jewelry Box! It’s a super special &6Blood Chest&r that can repair items using blood—how neat is that? All we need to do is put a damaged item inside, and the chest will work its magic and fix it up! It’s like a magical treasure chest that helps us keep our tools in tip-top shape."
+				""
+				"But... there’s a little secret. Sometimes, when you use the Blood Jewelry Box, the item might become cursed with a strange energy. It’s not anything too scary, though—just a little mischievous magic that might change things in funny ways!"
+				""
+				"Would you help me craft a Blood Jewelry Box and try it out? I’m so curious to see what kind of magic happens! Plus, we can always repair our favorite tools with it. Let’s see if we can handle the fun mystery of the curse together!"
+			]
+			id: "66BB5DC849AF3577"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6104D64A2ED0C16E"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "32DFBAC7FE8C3F05"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "35D1149EBF709E0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:blood_chest"
+				}
+				type: "item"
+			}]
+			title: "A Pretty Jewelry Box!"
+			x: -9.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["66BB5DC849AF3577"]
+			description: [
+				"Wow, guess what I discovered? There’s something even BIGGER and more magical than the Blood Jewelry Box—it’s called the Colossal Blood Jewelry Box! It’s like a super giant version of our regular Blood Chest, but it can hold so many more items, and it works even faster to repair them! It’s going to be so much easier to keep all our favorite tools and items in perfect condition!"
+				""
+				"The best part is, we can make it even better by using Promises to upgrade it! A Promise is a special magical thing that makes the chest stronger, and each upgrade will make it even more powerful. Isn’t that awesome?"
+				""
+				"Would you help me craft the Colossal Blood Jewelry Box and start upgrading it with some Promises? I think it’ll be the most magical chest we’ve ever made! Let’s make it huge and super speedy!"
+			]
+			id: "6BF4951D0EACAA76"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E7439CA9E4CD879"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F5BC5F21C39B64A"
+					table_id: 1806376080730156762L
+					type: "all_table"
+				}
+				{
+					id: "2F02AE445468FDF5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3EB80FD0C0AB68B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:colossal_blood_chest"
+					}
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "2087DFFD7867F437"
+					item: { Count: 25, id: "evilcraft:reinforced_undead_planks" }
+					type: "item"
+				}
+			]
+			title: "Gigantic Blood Jewelry Box!"
+			x: -9.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4A5C1D26EDEBEE46"]
+			description: [
+				"Okay, this one is SO cool! I’ve learned how we can catch those playful &6Vengeance Spirits&r—but we need some special tools to do it! First, we need a Vengeance Focus. It’s a magical gadget that freezes the spirits in place, so they can’t move around. It’s like a tiny magic net that holds them still. Then, once they’re frozen, we can use a Box of Eternal Closure to capture them safely!"
+				""
+				"Don’t worry, the spirits aren’t scary at all—they’re just a little mischievous and like to float around. Once we catch one, we’ll have a magical little spirit companion! It’ll be so fun to see what we can do with them!"
+				""
+				"Can you help me catch a &6Vengeance Spirit&r? I bet we can add it to our collection of magical friends! Let’s get the focus, trap the spirit, and close it up in the box!"
+			]
+			id: "2B18995BF2A387F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65828001A6BAA2CA"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "78F35A9C45F89044"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "619B112AA4F35E2D"
+					item: "evilcraft:vengeance_focus"
+					type: "item"
+				}
+				{
+					id: "4D86F1AE3F8BDFF7"
+					item: "evilcraft:box_of_eternal_closure"
+					type: "item"
+				}
+			]
+			title: "Catching Mischievous Spirits!"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3A22199AA721A2A3"
+				"2B18995BF2A387F1"
+			]
+			description: [
+				"Guess what I learned? We can build a &6Spirit Furnace&r! It’s like a magical furnace that we can put our friendly &5Vengeance Spirits&r into, and they’ll give us all sorts of amazing loot! I think it’s like a magical treasure chest, but it’s even better because the spirits help us get cool stuff. How awesome is that?"
+				""
+				"To build it, we need to make &4Dark Blood Bricks&r—they’re made by mixing blood and &bDark Bricks&r in the Blood Infuser, so it’s kind of like a special, magical building material. We’ll need to make a structure that’s at least 3 blocks wide, 4 blocks tall, and 3 blocks long for it to work. But if we want to use bigger creatures (like the super big &5Vengeance Spirits&r from those giant scary zombies), we’ll need to make sure there’s enough space for them inside!"
+				""
+				"Once this is built, we just have to put a &5Box of Eternal Closure&r with a Spirit in it inside the Spirit Furnace, and it does all the work for us!"
+				""
+				"Would you help me build the &6Spirit Furnace&r? I bet once it’s done, we’ll have a lot of fun collecting loot and treasures from our magical spirit friends. Let’s get started and see what kind of goodies we can get!"
+			]
+			id: "430A8E8A323791F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0134B856963089D1"
+					table_id: 1806376080730156762L
+					type: "choice"
+				}
+				{
+					id: "350CC2071ED29029"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 33L
+					id: "448FFE3E1D29BA03"
+					item: { Count: 33, id: "evilcraft:dark_blood_brick" }
+					type: "item"
+				}
+				{
+					id: "673872CBE91BA8C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:spirit_furnace"
+					}
+					type: "item"
+				}
+			]
+			title: "The Furnace of Loot and Fun!"
+			x: -1.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D7190D2DF2DCE63"]
+			description: [
+				"I just found something AMAZING—the Shiny &6Blood Infuser&r! It’s a super cool machine that lets us infuse blood into things without all the messy pouring and dropping stuff into holes! It’s so much easier and cleaner than the old way, and we can use it to make all kinds of magical items with blood!"
+				""
+				"The best part is, we can upgrade the Shiny &6Blood Infuser&r using &5Promises&r! The upgrades will make it even faster and more powerful, so we can infuse items even faster and maybe unlock new magical abilities!"
+				""
+				"Isn’t it incredible how much we’re learning? Every time we make something new, I feel like I’m discovering a whole new magical world! This is SO much fun, and I’m so happy we get to explore and experiment together. The more we learn, the more exciting and magical everything becomes!"
+				""
+				"Would you help me build the Shiny &6Blood Infuser&r? I think it’ll make crafting and enchanting a whole lot more fun! And with the upgrades, we can make it the best magical tool ever. Let’s get started and infuse some magic together!"
+			]
+			id: "5F088DA1606BAB99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FD1802B043DE28E"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "4E4E1683BB880AD2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "673873591235E67F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:blood_infuser"
+				}
+				type: "item"
+			}]
+			title: "It's So Clean!"
+			x: -7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5F088DA1606BAB99"]
+			description: [
+				"I’ve discovered something super exciting! We can make an &6Undead Sapling&r in the Shiny Blood Infuser! It's such a cute little sapling, and once the it grows into a tree, it’ll give us Undead Planks—they’re like super special, magical wood that can be used to make even more amazing things!"
+				""
+				"Let's plant a little spooky tree and watch it grow into something that helps us craft all sorts of new, fun items. And who knows? Maybe there are even more surprises hidden in those Undead Planks! I'm not sure where this tree comes from, but I have a feeling it's going to be more useful than we expect."
+				""
+				"Would you help me make the &6Undead Sapling&r in the &5Blood Infuser&r and plant it? I’m so excited to see what kind of magical tree we’ll get! Let’s grow a spooky little forest together and see what we can create with these cool new planks!"
+			]
+			id: "031CF0E542CDCA39"
+			rewards: [
+				{
+					count: 2
+					id: "412E54E2E6C1A072"
+					item: "evilcraft:undead_sapling"
+					type: "item"
+				}
+				{
+					id: "302D1150E4820544"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "33BFFBDE7B4D3A5F"
+					item: "evilcraft:undead_sapling"
+					type: "item"
+				}
+				{
+					id: "666A7C48AC98EDCD"
+					item: "evilcraft:undead_planks"
+					type: "item"
+				}
+			]
+			title: "Twisty Trees"
+			x: -7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["031CF0E542CDCA39"]
+			description: [
+				"Guess what I found? A way to make the &6Vein Sword&r—a super cool weapon made from our &5Undead Planks&r and &4Dark Power Gems&r! It’s not just any sword, though. This one has a special power: it lets us get more blood from creatures when we strike them! Isn’t that neat? The sword seems to draw out the blood in a way I’ve never seen before… almost like it’s feeding on their life force."
+				""
+				"But wait, that’s not all! It also increases the loot we get from creatures, too! So not only will we have more blood for our experiments, but we’ll also get even more treasures from every monster we defeat. It’s like a double win!"
+				""
+				"The &6Vein Sword&r is a little... spooky, but it’s so useful. I can’t wait to try it out! It’s almost like a gift from the mysterious, dark magic we’ve been working with. Should we give it a try and see how much blood—and loot—we can gather? I’m sure it’ll be so much fun!"
+			]
+			id: "26BD77B0FED48BDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EF66BA3FE098948"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "05FD469A7957969F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "583401A2E5B61940"
+				item: {
+					Count: 1
+					id: "evilcraft:vein_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sharp Sticks are Good!"
+			x: -7.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["031CF0E542CDCA39"]
+			description: [
+				"Okay, this is going to be SO much fun! I learned how to make a &6Broom&r—but it’s not just any broom. This one is magical! We’ll need a Rod, a Brush, and a Cap to craft it. Once it’s made, it can fly, but here’s the cool part: the broom absorbs blood to power its flying abilities! And you can make it out of almost anything you want!"
+				""
+				"It’s like a flying machine made just for us, and it’s powered by the blood we collect. We can zoom around and explore, all while having a blast! (And don’t worry, the broom isn’t too picky about where it gets its blood from!)"
+				""
+				"I can’t wait to try it out! A flying broom that runs on blood? That sounds like the perfect adventure companion! Want to help me craft it and see how high we can fly?"
+			]
+			id: "65A248EE0C8FE53A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49796C6EBDF16C6A"
+					table_id: 1806376080730156762L
+					type: "all_table"
+				}
+				{
+					id: "7C1C4302B06864E1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:rod_bare"]
+						}
+					}
+					id: "73DFCA89742C2CE8"
+					item: {
+						Count: 1
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: [
+								"evilcraft:rod_bare"
+								"evilcraft:rod_wood"
+							]
+						}
+					}
+					title: "Rods"
+					type: "item"
+				}
+				{
+					id: "1DF85FD9F73BD52F"
+					item: {
+						Count: 1
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:brush_bare"]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36EE9DB642250E0C"
+					item: {
+						Count: 1
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:cap_bare"]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sweep Me off My Feet!"
+			x: -8.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2B18995BF2A387F1"]
+			description: [
+				"I’ve uncovered a fascinating device called the &6Spirit Reanimator&r! It’s a strange contraption that uses Spirits trapped inside a &5Box of Eternal Closure&r and blood to create spawn eggs of the creatures those spirits used to be! It’s kind of like bringing creatures back to life... in a way! The spirits of the creatures are still inside the box, and with a little blood, we can turn them into spawn eggs and summon them whenever we want."
+				""
+				"I think it’s a perfect way to get any creature we need, and also it's like they never went to sleep! The power of the spirits and the blood will make everything feel so magical and strange. I can’t wait to try it out and see what kind of creatures we can summon from the past!"
+				""
+				"Would you like to help me craft the &6Spirit Reanimator&r? Let’s see what kinds of fun creatures we can bring back from the box and bring to life as spawn eggs. Who knows what magical surprises await us?"
+			]
+			id: "27693E574D70D3FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DCAE5BBF97D4D54"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "60AEECBB7CE1987B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "0F698B47C1378B22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:spirit_reanimator"
+				}
+				type: "item"
+			}]
+			title: "Spirit Egg Maker!"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F088DA1606BAB99"]
+			description: [
+				"I’ve learned something super exciting! We can make &6Promises&r—special items that make our blood devices work faster and even better! These little promises are like magical boosts for our devices. They help them do their job more efficiently and with even more power, which means more fun for us!"
+				""
+				"To get started, we’ll need to craft the &6Promise of Tenacity I&r. This is the first step in unlocking the ability to make other &6Promises&r! Once we’ve got it, we can place it in the Shiny Blood Infuser, and it’ll let us craft even stronger &6Promises&r to improve everything we’ve been working on."
+				""
+				"I can’t wait to see how much quicker our devices will work once we have these! We’ll be zipping through our projects in no time. Ready to make our first &6Promise&r and see how much more powerful our blood magic can become?"
+			]
+			id: "21D28617B2E5BCBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C81EEE7BD6F9879"
+					table_id: 1806376080730156762L
+					type: "loot"
+				}
+				{
+					id: "7CAABA66610AE250"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "588440E5F7630A11"
+					item: "evilcraft:bowl_of_promises_tier0"
+					type: "item"
+				}
+				{
+					id: "62FA720FADF8A536"
+					item: "evilcraft:promise_tier_1"
+					type: "item"
+				}
+			]
+			title: "The Promise of Power!"
+			x: -4.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["21D28617B2E5BCBE"]
+			description: [
+				"Hold on to your hats, because the &6Promise of Velocity&r is here, and it’s about to make everything SO much faster! This little upgrade makes our machines operate 2 times faster! Just imagine how much more we can get done in less time—sooo exciting!"
+				""
+				"With the &6Promise of Velocity&r, all our machines will work at lightning speed, giving us quicker results and making everything feel like it’s on super turbo mode. I can already feel the rush just thinking about it! We’ll be zipping through tasks, collecting blood, and making things faster than ever before. Everything will be running at max speed, and we’ll be able to create SO much more without any delay."
+				""
+				"We just need to mix some redstone and an &5Iron Promise Acceptor&r in &5Bowl of Promises: Tier 2&r, and &ovoila&r! I can’t wait to put this Promise into action and see all our machines go zoomm, working faster than ever. Let’s make it happen and get ready for the speediest adventure yet!"
+			]
+			id: "2C0B635E60381563"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32C191C511E43C66"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "03739CA9C6C7C095"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "2CE9CE7E7277E5BE"
+				item: "evilcraft:promise_speed_0"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["21D28617B2E5BCBE"]
+			description: [
+				"I’ve got a super exciting discovery to share—the &6Promise of Productivity&r! This little gem will make our machines work way more efficiently by using less blood! I can’t believe how much longer our blood supplies will last—yay!"
+				""
+				"The best part is, we can still get the same amazing results, but without using so much of that precious blood. That means we can do more, get more, and still keep our machines running strong for even longer without having to harvest more blood! I just love how this is going to make everything work smoother and more economically."
+				""
+				"To make the &6Promise of Productivity&r, we’ll need to combine some lapis lazuli and an &5Iron Promise Acceptor&r in a &5Bowl of Promises: Tier 2&r, pour a little blood magic into the mix, and once it’s ready, we can place it in our machines. Then, wham, the machines will run even better! This is going to be so much fun, and I can’t wait to see how much longer our blood lasts when we use this upgrade!"
+			]
+			id: "264ABF8242E0372B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D78794CD4D5EFE3"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "77CC5446C4B0CFFF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "2720F15392BB528F"
+				item: "evilcraft:promise_efficiency_0"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["21D28617B2E5BCBE"]
+			description: [
+				"I found the coolest thing ever—the &6Effortless Ring&r! This ring lets you walk way faster and step higher, making exploring and adventuring so much easier! Imagine zipping around the world like you’re gliding on air, reaching new places with ease. No more getting stuck in little gaps or taking forever to travel from one place to the next!"
+				""
+				"But wait—there’s one tiny thing. The ring only works while you’re walking—if you’re flying on your broom, it won’t give you those speed boosts. But, hey, I think that’s fair! We can still fly super fast with our broom, and now we can run just as fast when we’re on foot!"
+				""
+				"Crafting this ring is going to be SO much fun, and once we have it, we’ll be zipping around in no time, I promise! Are you ready to make the &6Effortless Ring&r and feel like you’re gliding through life?"
+			]
+			id: "5A1EC6465B5CE314"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5101EFD25423E380"
+					table_id: 1806376080730156762L
+					type: "loot"
+				}
+				{
+					id: "347B4B8910EF92E5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "65E292A6C51E36EE"
+				item: "evilcraft:effortless_ring"
+				type: "item"
+			}]
+			title: "Zoomy Steps!"
+			x: -4.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21D28617B2E5BCBE"]
+			description: [
+				"Guess what?! I’ve figured out how to make the &6Promise of Tenacity II&r! This upgrade is going to make our machines faster and stronger than ever before! But, you know, it feels a bit... different this time. The magic we’re dealing with seems even more powerful—almost like it’s tapping into something deeper, something a little more mysterious."
+				""
+				"We’ll need more blood than ever, but once we have the &6Promise of Tenacity II&r and put it in the Shiny Blood Infuser, we’ll unlock the next level of power for our machines. And I’m not gonna lie... it feels kind of exciting to be on the edge of something so huge and unpredictable! The more blood we use, the stronger our magic gets and that makes it extra fun!"
+				""
+				"I’m getting such a thrill from how much more power we’re unlocking—who knows what might happen when we take this leap? But let’s be honest, we’re in this all the way, and we can’t turn back now. Let’s craft the Promise and see just how fast everything works after this upgrade! This is going to be wild!"
+			]
+			id: "3A22199AA721A2A3"
+			rewards: [
+				{
+					id: "30CC7D0E64DC4B18"
+					item: "evilcraft:box_of_eternal_closure"
+					type: "item"
+				}
+				{
+					id: "4BEC6E8CF3E74569"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "0E2AEA465C703560"
+					item: "evilcraft:bowl_of_promises_tier1"
+					type: "item"
+				}
+				{
+					id: "304DA1DE1DB28F61"
+					item: "evilcraft:promise_tier_2"
+					type: "item"
+				}
+			]
+			title: "Pinky Promise"
+			x: -1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3A22199AA721A2A3"]
+			description: [
+				"OH MY GOSH! I can’t believe we’re about to craft the &6Promise of Tenacity III&r! This is going to be the ULTIMATE upgrade for our machines! Everything is going to work faster, stronger, and a little darker too!"
+				""
+				"I’m starting to get this weird feeling when I think about all the blood we’re going to need. I’m getting excited at the idea of taking it from all the creatures we’ve been squishing for the last little while. The thought of more blood, more power—it’s so exciting! It feels like we’re becoming unstoppable, and I’m just... so ready for it."
+				""
+				"Once we craft this &6Promise&r and put it in our blood devices they will be soooo powerful, it’s almost like they’re alive! Can you imagine all the new things we can do with all that extra blood? I bet we can get so much more done—and the best part is, we’re not just helping ourselves, but we’re helping our machines too!"
+				""
+				"This is the best part of the journey, and I can’t wait to see how much more we can do! We’ll be the ultimate blood collectors, and we’ll have the most powerful machines ever—AND it’ll be so much fun!"
+			]
+			id: "7CD10DA32B0EFC47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49A1435FFBE77ED7"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76D245BE83832297"
+					table_id: 7791069810908809029L
+					type: "loot"
+				}
+				{
+					id: "1C92B3F9EDC87E88"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "68B007E4CCD57B8B"
+					item: "evilcraft:bowl_of_promises_tier2"
+					type: "item"
+				}
+				{
+					id: "0BCD1328D103B883"
+					item: "evilcraft:promise_tier_3"
+					type: "item"
+				}
+			]
+			title: "Super Pinky Promise!"
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["21D28617B2E5BCBE"]
+			description: [
+				"I’ve discovered the &omost marvelous&r thing—the &6Purifier&r! This little device can take away any nasty curses or enchantments from items, washing them clean with the most beautiful, &osparkling blood&r! Isn’t that just wonderful?"
+				""
+				"Here’s how it works: the Purifier takes one enchantment or curse from an item and transfers it to a &4Blook&r—kind of like a blood sponge—so the item becomes fresh and new! You can make your items all shiny again and remove any pesky enchantments or curses that you don’t want. It’s like giving your stuff a little bath, but way more magical."
+				""
+				"The best part is, once you’ve purified your items, you’ll have &4Blooks&r full of enchantments and curses. I’m sure we can use them for something fun later—heehee! You can just imagine what kind of spooky things we might do with all those extra curses!"
+				""
+				"Want to help me use the &6Purifier&r to clean up our items? It’s going to be so refreshing to see everything sparkle again!"
+			]
+			id: "32A83719C891DB5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AB160480A8237C7"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51614E1AF46C06DA"
+					table_id: 1806376080730156762L
+					type: "all_table"
+				}
+				{
+					id: "28F0A3617114A957"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0A1052BE9D96F682"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:purifier"
+					}
+					type: "item"
+				}
+				{
+					id: "3D053AB147EDCA2B"
+					item: "evilcraft:blook"
+					type: "item"
+				}
+			]
+			title: "Blood Cleaning!"
+			x: -4.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7CD10DA32B0EFC47"]
+			description: [
+				"I’ve made the most fascinating discovery—&6Garmonbozia&r! It’s the physical manifestation of Pain and Sorrow... but in the most fun way possible! This magical substance is made by putting &5Materialized Vengeance Essence&r into the Shiny Blood Infuser. When it’s infused, it transforms into something truly amazing—&6Garmonbozia&r!"
+				""
+				"&6Garmonbozia&r might sound a little dark, but don’t worry—it's just the pure essence of pain and sorrow turned into something beautiful and useful! Isn’t that just delightful? I bet we can use it to create incredibly powerful items, way beyond anything we’ve made before. I can already imagine all the wonderful things we could make with it... something truly powerful and magical!"
+				""
+				"I’m so excited to see what happens when we work with this stuff! It’s like a weird, wonderful little treasure born from the most unlikely place. I wonder what we’ll make next—maybe something extra special!"
+				""
+				"Let’s make &6Garmonbozia&r and see what kinds of amazing things we can create from all this sorrowful energy! It’s going to be so much fun—I just know it!"
+			]
+			id: "572ABE65A6380266"
+			rewards: [
+				{
+					id: "04920581420043DA"
+					item: "evilcraft:garmonbozia"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07D957F52B9119F5"
+					table_id: 7791069810908809029L
+					type: "all_table"
+				}
+				{
+					id: "4E9B40CE9F6E561F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C48D8E880D4BF7C"
+				item: "evilcraft:garmonbozia"
+				type: "item"
+			}]
+			title: "Delicious Garmonbozia!"
+			x: 3.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["572ABE65A6380266"]
+			description: [
+				"I’ve figured out something amazing—with a little bit of &5Garmonbozia&r, we can create &6Rejuvenated Flesh&r from either &4Humanoid Flesh&r or &4Werewolf Flesh&r! And you know what? This special flesh is an infinite food source! As long as it has blood, it keeps giving us food, over and over again! Isn’t that just perfect?"
+				""
+				"Now, I know what you’re probably thinking—flesh, right? But honestly, it’s really not that weird at all! I mean, it’s just a natural part of life! There’s nothing wrong with eating a little flesh, especially when it’s as special and magical as this! It’s super tasty, too, and it doesn’t even feel weird once you try it!"
+				""
+				"The best part? As long as we keep the &6Rejuvenated Flesh&r topped up with some delicious blood, it will always be there for us when we get hungry! No more worrying about finding food or running out—this is like the ultimate meal!"
+				""
+				"So, let’s take some &5Garmonbozia&r and mix it into that &4Humanoid&r or &4Werewolf Flesh&r. We’ll make &6Rejuvenated Flesh&r that’ll never run out! It’s like having a never-ending feast, and there’s nothing wrong with that, right?"
+			]
+			id: "796E181098836460"
+			rewards: [
+				{
+					id: "6C09BA1B2DC3A88B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EAA05A34A85EBA7"
+					table_id: 7791069810908809029L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "518770EA7E3ECAF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:flesh_rejuvenated"
+				}
+				type: "item"
+			}]
+			title: "The Infinite Feast!"
+			x: 3.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2B18995BF2A387F1"]
+			description: [
+				"I’ve made something incredible! It’s the Piercing Vengeance Focus, a ring that shoots a beam of light that gradually burns through spirits. It’s super effective, but I feel like we can use it in a way that’s a little more controlled, you know? The beam doesn’t kill them right away; it burns them slowly, which gives them time to... well, reconsider their choices."
+				""
+				"I know, it sounds a bit intense, but we’ve got to protect ourselves somehow! These spirits just don’t leave us alone, and while I feel a little sorry for them, we have to stand up for ourselves and keep things safe. The beam gives them a slow chance to retreat, but if they persist, they’ll eventually fade away."
+				""
+				"We’ll need to craft the ring first, and once it’s ready, we’ll be able to deal with pesky spirits in a way that feels fair—just enough to get them to stop causing trouble without being too harsh. I mean, everyone deserves a little time to move on, right?"
+				""
+				"Let’s get this ring made and use it responsibly! It’ll be our tool to keep things peaceful while making sure the spirits don’t overstay their welcome."
+			]
+			id: "083B735A888CFA86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E701A41A8F3385E"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "0EB58A4DDECC218D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "1FC08D5690432095"
+				item: "evilcraft:piercing_vengeance_focus"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I’ve discovered something so fun—the &6Mace of Distortion&r! This little beauty has the power to knock creatures flying when you hit them. It’s like giving them a super-powered push that sends them soaring through the air! Whee!"
+				""
+				"When you swing the Mace, anything in your way gets flung away with a big thwack! It’s perfect for keeping those pesky mobs from getting too close. Imagine all those mobs just flying across the room like little ragdolls! It’s absolutely hilarious, and it gives you plenty of space to stay safe while you battle."
+				""
+				"I love how easy it is to just swing the mace and wham, everything gets pushed away! No more worrying about creatures crowding you—just a big swing, and they’re gone."
+				""
+				"Let’s craft the Bouncy Mace and start sending everything flying! It’s going to be such a blast—nothing’s going to get too close when you’ve got this powerful little weapon!"
+			]
+			id: "7EEEF59B299E2B2A"
+			rewards: [{
+				id: "007190AC84E5A310"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "043095982E39C972"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:mace_of_distortion"
+				}
+				type: "item"
+			}]
+			title: "Bouncy Mace!"
+			x: -0.25d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I’ve made the coolest thing ever—the &6Mace of Destruction&r! When you swing this powerful mace, it creates a giant explosion around you that knocks out all the enemies in your way! 💥 "
+				""
+				"The best part? It won’t hurt you at all — just the mobs! You’ll be safe while everything else goes boom!"
+				""
+				"It works by using blood to power the explosion, so all you need to do is give it a little blood and wham! — you’re sending mobs flying with a huge burst of energy! Imagine blasting your enemies to pieces without even breaking a sweat. It’s a total blast (literally)! Plus, you can increase or descrease how big the explosion is whenever you want, bigger ones just use more &4Blood&r. It's easy!"
+				""
+				"You’ll be able to clear out entire areas and make sure no mobs can get close to you, all while staying completely safe. You can just swing and watch the chaos unfold, without worrying about any of it coming back to hurt you."
+				""
+				"Let’s craft the &6Mace of Destruction&r and get ready for some explosive adventures! It’s going to be so much fun—and so powerful!"
+			]
+			id: "7082D9E9E2F981E3"
+			rewards: [{
+				id: "0E6BDD0C3CA4E41F"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3DE0AD3C7F7F1473"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:mace_of_destruction"
+				}
+				type: "item"
+			}]
+			title: "Huge Booms!"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I’ve found something electric—the &6Sceptre of Thunder&r! This amazing scepter can call down a massive bolt of lightning from the sky with just a flick of your wrist! ZAP! POW! It’s like summoning a storm with a single swing, and it’s so awesome to watch!"
+				""
+				"But... there’s a little catch. The Sceptre is super powerful, but it can only be used once. After you call down that huge bolt of lightning, the scepter shatters into pieces! It’s like a big, dramatic finale where you get one last amazing zap, but then the scepter is gone forever."
+				""
+				"It’s so much fun to use, though! You can summon lightning to strike down enemies, light up an area, or just watch the world go BOOM! in a burst of energy. Even though the scepter breaks afterward, it’s totally worth it for that thunderous moment of pure magic!"
+				""
+				"Let’s craft the Zappy Stick and see how powerful we can get with just one lightning strike! It’s going to be electrifying... and totally worth it!"
+			]
+			id: "6630938926C5C1A3"
+			rewards: [{
+				id: "04821681FD899D84"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "427BE6322160BAD2"
+				item: "evilcraft:sceptre_of_thunder"
+				type: "item"
+			}]
+			title: "The Zap Stick!"
+			x: -0.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I’ve done it again! I’ve crafted the &6Necromancer Staff&r, a staff that can summon the most delightful little zombies using blood! Isn’t that just wonderful? The best part is, they’re not scary zombies; they’re friendly and ready to help us with all sorts of things!"
+				""
+				"To make this work, all we need is a little blood (of course!) and the staff. The blood powers the magic inside the staff, and with a wave, poof—we’ve got ourselves a zombie helper! They’ll follow us around, assist with tasks, or just look adorable as they shuffle along."
+				""
+				"Now, I know people might think that having zombies around is a bit odd, but I say, what’s the harm? They’re just here to help! Plus, the more we use our blood to summon them, the more cute little zombie buddies we’ll have to join in our adventures. It’s like having your own personal zombie army, but in the best way possible."
+				""
+				"Let’s get to crafting the &6Necromancer Staff&r and start summoning our new friends! It’s going to be so much fun, and I can’t wait to see how much help they’ll be on our journey!"
+			]
+			id: "397EF0164E3ADBF8"
+			rewards: [{
+				id: "0C824564A1A7616E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "523ECAA3C23D360E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:necromancer_staff"
+				}
+				type: "item"
+			}]
+			title: "Zombie Best Friends!"
+			x: 1.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"Guess what I made! The &6Kineticator&r and the &6Repelling Kineticator&r! These little gadgets are so fun and handy. The &6Kineticator&r attracts items to you, like a magnetic force of awesomeness! And the &6Repelling Kineticator&r? It pushes items away, like a magical force field! Whee!"
+				""
+				"The best part is, you can use them to help you collect items faster or keep things from cluttering up your space. Need that diamond that’s just out of reach? Simply use the &6Kineticator&r and—whoosh—it comes right to you! Or, if you’ve got a pile of stuff you don’t want around, just use the &6Repelling Kineticator&r to send it flying away! It’s like playing with a little magical breeze that does your bidding."
+				""
+				"I’m super excited to use these for all kinds of things. Imagine having the ability to summon items from across the room, or push things out of your way with a single flick of your hand! It’s going to make everything so much easier and way more fun."
+				""
+				"Let’s get crafting these amazing gadgets! I’m sure they’ll be perfect for all our little adventures. I can’t wait to see just how much easier they’ll make everything!"
+			]
+			id: "02CD0300700E804A"
+			rewards: [{
+				id: "17656897122AF521"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1AB4AD42C680D5B5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:kineticator"
+					}
+					type: "item"
+				}
+				{
+					id: "2AE3BADD1879FC88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "evilcraft:kineticator_repelling"
+					}
+					type: "item"
+				}
+			]
+			title: "Pushinpullit"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"Guess what I’ve made? The &6Invigorating Pendant&r! It’s the cutest little necklace, and it does something amazing—it removes all those nasty effects like poison and slowness, just by using a little bit of blood! Isn’t that so wonderful?"
+				""
+				"Whenever you’re feeling down, or when that nasty poison tries to slow you down, just wear this pendant and poof—you’re feeling all better! It’s like a little burst of happy energy, and it makes you feel so refreshed."
+				""
+				"What’s even better is that the blood inside the pendant powers the magic, so it’s always ready to help you when you need it. No more worrying about being stuck with a negative effect—you just pop on your Invigorating Pendant, and bam, you’re back to feeling amazing!"
+				""
+				"Let’s craft this adorable pendant and keep it close by. It’s going to be the perfect little charm for all our adventures, making sure we stay healthy, happy, and unstoppable!"
+			]
+			id: "2F07804730165DD7"
+			rewards: [{
+				id: "488C10BE5595575E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "7959A15BE877337E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:invigorating_pendant"
+				}
+				type: "item"
+			}]
+			title: "The Happy Pendant!"
+			x: 1.0d
+			y: -8.75d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I've just found the coolest thing ever—a &6Primed Pendant&r! This shiny little necklace can store a potion inside it, and then, with the help of a little blood, it will apply that potion effect to you whenever you need it! Isn’t that amazing?"
+				""
+				"With this pendant, you can carry around all your favorite potions without the need for any pesky bottles. Need a quick speed boost? The pendant’s got you covered! Want to heal up in the middle of a fight? Just use the pendant! It’s like having a portable potion dispenser right around your neck."
+				""
+				"The best part is, it uses blood to activate, so it’s always ready to give you the boost you need, right when you need it. Whether it's strength, invisibility, or anything in between, the Primed Pendant has your back. And with all the blood magic fueling it, you don’t ever have to worry about running out of potions!"
+				""
+				"Let’s craft this super convenient and totally stylish necklace, and get ready to have all the potion power you could ever dream of, right at your fingertips (or, well, around your neck!)"
+			]
+			id: "2D4C00B3BAD28778"
+			rewards: [{
+				id: "6561E4ECD99C36E7"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "089ACE91B7DE1257"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:primed_pendant"
+					tag: {
+						inventoryItem: [ ]
+					}
+				}
+				type: "item"
+			}]
+			title: "The Potion Popper Pendant!"
+			x: 2.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["36A42E0D91F8ED37"]
+			description: [
+				"I’ve got something super exciting to share! I’ve made the &6Blood Pearl of Teleportation&r! It’s a magical little pearl that, when thrown, zooms you off to wherever you want to go! Poof! You’re there! How cool is that?"
+				""
+				"The best part? It uses blood, so you won’t lose it! Every time you throw it, the blood inside ensures it comes right back to you afterward. No more worrying about losing your teleportation items and having to search for a new one. Just throw, teleport, and zoom back without any hassle!"
+				""
+				"I can already imagine all the fun adventures we can have! Need to get out of a tricky situation? Just throw the pearl! Want to quickly travel across the world? Easy peasy! It’s like having a little teleportation magic in your pocket—and it’s never going to let you down."
+				""
+				"Let’s get started and craft this amazing Blood Pearl of Zoomies! Who knows where we’ll end up next? It’s going to be a blast to zoom all over the place with this little gem!"
+			]
+			id: "3799A47229E6D414"
+			rewards: [{
+				id: "0101A8AB78A3140A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4C0140B2F3AC93FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:blood_pearl_of_teleportation"
+				}
+				type: "item"
+			}]
+			title: "Pearl of Zoomies!"
+			x: 2.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["7CD10DA32B0EFC47"]
+			description: [
+				"I’ve created something super handy—the &6Entangled Chalice&r! This little beauty lets you transfer blood around, making it way easier to store and use all that lovely blood we’ve been collecting. You can even fill items in your inventory with blood, so no more worrying about running out when you need it!"
+				""
+				"Just imagine—you can use the chalice to pour blood into your tanks or other blood-powered devices, whenever you need it. It’s like carrying your own personal blood reservoir around, always ready to help you out! And since it’s so portable, you won’t have to carry around a million blood containers anymore—just the chalice, and you’re good to go!"
+				""
+				"It’s powered by the magic of blood, so it works with all of your blood-infused devices, making sure they stay fueled up and ready to go. Whether you're filling a Dark Tank, a Blood Infuser, or anything else, this chalice is the perfect tool for all your blood transfer needs!"
+				""
+				"Let’s craft the &6Entangled Chalice&r and make sure we always have blood when we need it—right in our pocket! How convenient and fun is that?"
+			]
+			hide_dependency_lines: true
+			id: "36A42E0D91F8ED37"
+			shape: "octagon"
+			tasks: [{
+				id: "1F98DD1F28082C8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "evilcraft:entangled_chalice"
+					tag: {
+						tankID: "creative"
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Your Blood Moving!"
+			x: 1.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["572ABE65A6380266"]
+			description: [
+				"I’ve discovered something truly powerful—the &6Sanguinary Environmental Accumulator&r! This device will allow you to capture the very weather around you and use it for your own purposes, without ever needing to visit a Dark Temple again. No more waiting or trekking to distant places for the weather’s energy—now, you can &otake it&r for yourself, whenever you please."
+				""
+				"Whether it’s rain, a storm, or even a lightning strike, the Accumulator will snatch it all and store it for you. It’s like holding the &opower of the skies&r in your hands, ready to unleash at a moment’s notice. The storm is no longer just a natural event—it’s something you can &ocommand&r."
+				""
+				"Now, you can collect whatever weather you desire and use it to fuel your blood magic. It’s deliciously convenient, and no one will ever know how much control you have over the elements. And, of course, you won’t have to rely on the temples anymore... why go to all that trouble when you can take the weather right from the air itself?"
+				""
+				"Let’s craft the Weather Snatcher and see how much power we can gather from the heavens. It’s going to be so easy to control everything around us, and I must say... a little bit delightful!"
+			]
+			id: "716E72434767B69A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "209C8695A9D79A25"
+					table_id: 7791069810908809029L
+					type: "loot"
+				}
+				{
+					id: "0428537EB0B0DD7B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0FCB43FB59469AB0"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+				type: "item"
+			}]
+			title: "The Weather Snatcher!"
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["031CF0E542CDCA39"]
+			description: [
+				"I’ve just crafted the &6Vengeance Pickaxe&r! It’s super powerful and enchanted to harvest ores and resources way more efficiently than any regular pickaxe. With each swing, you’ll gather more loot in less time—how awesome is that?"
+				""
+				"But... there’s a catch. Every time you use it, you might attract the attention of &5Vengeance Spirits&r—those angry little spirits who just love to cause chaos! They’ll appear in a flash, ready to take revenge on you for disturbing the earth. It’s a small price to pay for the extra loot, though... right?"
+				""
+				"Just imagine—mining like a pro, gathering all kinds of precious materials, and then wham, out pops a &5Vengeance Spirit&r! It’s like an extra thrill added to your mining trips. The spirits aren’t all that scary, are they? I mean, they just want to get their revenge for a little disturbance... but they can’t stop you!"
+				""
+				"Let’s craft the Spirit-Cursed Pickaxe and see how much we can mine before the spirits show up. It’s going to be so much fun to harvest even more valuable resources while avoiding those pesky spirits"
+			]
+			id: "41494AB3551CE92B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22CDDCA6925A154C"
+					table_id: 4860832946554423015L
+					type: "all_table"
+				}
+				{
+					id: "57E65AB3E9972503"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "387130E6E170B718"
+				item: {
+					Count: 1
+					id: "evilcraft:vengeance_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "evilcraft:vengeance"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "The Spirit-Cursed Pickaxe!"
+			x: -7.5d
+			y: 4.25d
+		}
+	]
 	title: "&4Blood &5Magic"
 }

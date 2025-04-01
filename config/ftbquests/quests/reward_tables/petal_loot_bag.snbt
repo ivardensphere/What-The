@@ -1,0 +1,33 @@
+{
+	id: "582572754062D397"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "petal_loot_bag"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 5, item: "botania:white_petal" }
+		{ count: 5, item: "botania:light_gray_petal" }
+		{ count: 5, item: "botania:gray_petal" }
+		{ count: 5, item: "botania:black_petal" }
+		{ count: 5, item: "botania:brown_petal" }
+		{ count: 5, item: "botania:red_petal" }
+		{ count: 5, item: "botania:orange_petal" }
+		{ count: 5, item: "botania:yellow_petal" }
+		{ count: 5, item: "botania:lime_petal" }
+		{ count: 5, item: "botania:green_petal" }
+		{ count: 5, item: "botania:cyan_petal" }
+		{ count: 5, item: "botania:light_blue_petal" }
+		{ count: 5, item: "botania:blue_petal" }
+		{ count: 5, item: "botania:purple_petal" }
+		{ count: 5, item: "botania:magenta_petal" }
+		{ count: 5, item: "botania:pink_petal" }
+	]
+	title: "Petal Loot Bag"
+}

@@ -1,0 +1,22 @@
+{
+	id: "437525CFA3E446E7"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "evilcraft:blood_extractor"
+			}
+		}
+		{ count: 2, item: "evilcraft:hardened_blood_shard", random_bonus: 3 }
+		{ count: 5, item: "evilcraft:condensed_blood", random_bonus: 5 }
+		{ count: 2, item: "evilcraft:dark_gem", random_bonus: 2 }
+		{ count: 2, item: "evilcraft:dark_gem_crushed", random_bonus: 2 }
+		{ item: "evilcraft:dark_power_gem", weight: 0.25f }
+	]
+	title: "Evil Loot Bag 1"
+}

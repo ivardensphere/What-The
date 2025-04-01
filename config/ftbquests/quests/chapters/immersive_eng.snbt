@@ -2032,6 +2032,36 @@
 			x: 14.75d
 			y: 12.5d
 		}
+		{
+			id: "58EB48D911822434"
+			tasks: [{
+				id: "3FAA8F778EC11452"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.25d
+		}
+		{
+			id: "28B0AECAA7C11EA2"
+			tasks: [{
+				id: "6409D4B0BBC6C217"
+				item: "botania:brown_shiny_flower"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			id: "772F8B9467562B88"
+			tasks: [{
+				id: "5EE8A4AA28AE0FD9"
+				item: "botania:red_shiny_flower"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
 	]
 	title: "&6Immersive Eng"
 }
