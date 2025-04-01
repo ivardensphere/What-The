@@ -1,10 +1,10 @@
-This is the github for the latest Ominous Dark pack, "What The?!" by Combi. This is an extremely LARGE pack with over 700 mods. There are slated roughly 3000+ questlines to optionally do.
+This is the github for the latest Ominous Dark pack, "What The?!" by Combi. This is an extremely LARGE pack with over 700 mods. There are slated roughly 16000+ questlines to optionally do.
 
-https://shorturl.at/v2lJW Current Modlist.
+https://docs.google.com/spreadsheets/d/1K5trgR-DugojAV6lSFDkUTlyUdxhvjymhUXyFWDrkUU/edit?usp=sharingCurrent Modlist.
 
-MINIMUM requirements: 12g memory, Some sort of launcher like MultiMC or Prism, and patience.
+MINIMUM requirements: 12g memory and a client like Curse or Prism.
 
-MultiMC: https://multimc.org/ Prism: https://prismlauncher.org/
+Prism: https://prismlauncher.org/
 
 The pack is currently using Minecraft 1.20.1 with Java 17.0.8 x64bit and Forge 47.3.25.
 
