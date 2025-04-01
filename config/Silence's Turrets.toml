@@ -260,4 +260,8 @@
 	laborartory_10_material3_consume = 2.0
 	laborartory_11_material3 = "silence_s_defense_tower:soul"
 	laborartory_11_material3_consume = 2.0
+	laborartory_10_material2 = "silence_s_defense_tower:soul_container_1"
+	laborartory_10_material2_consume = 1.0
+	laborartory_12_material3 = "silence_s_defense_tower:soul"
+	laborartory_12_material3_consume = 2.0
 

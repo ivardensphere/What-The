@@ -126,6 +126,9 @@
   "replication": {
     "matter_tank": true
   },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "deepresonance": {
     "crystal": true,
     "generator_part": true

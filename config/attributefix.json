@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "obscure_api:penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "wizards_reborn:magic_modifier": {
       "enabled": false,
       "min": {
@@ -53,6 +64,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "attributeslib:armor_shred": {
@@ -110,6 +132,17 @@
         "value": 1000
       }
     },
+    "obscure_api:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
+      }
+    },
     "irons_spellbooks:lightning_magic_resist": {
       "enabled": false,
       "min": {
@@ -152,6 +185,17 @@
       "max": {
         "default": 2000,
         "value": 2000
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:entity_reach": {
@@ -295,6 +339,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "ars_nouveau:ars_elemental.perk.summon_power": {
@@ -528,6 +583,17 @@
         "value": 1
       }
     },
+    "obscure_api:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "irons_spellbooks:spell_resist": {
       "enabled": false,
       "min": {
@@ -759,6 +825,17 @@
         "value": 10
       }
     },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -902,6 +979,17 @@
         "value": 100
       }
     },
+    "obscure_api:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
+      }
+    },
     "tetra:draw_strength": {
       "enabled": false,
       "min": {
@@ -911,6 +999,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:cooldown_reduction": {
@@ -1243,6 +1342,17 @@
         "value": 2048
       }
     },
+    "obscure_api:parry": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.mana_regen": {
       "enabled": false,
       "min": {
@@ -1347,6 +1457,17 @@
       "min": {
         "default": -100,
         "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "obscure_api:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 100,
