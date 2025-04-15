@@ -4,8 +4,605 @@
 	filename: "pipeworks"
 	group: "2AE14BA71BB3164A"
 	id: "54559E07D5D99F2D"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["7D6039BCE482E2E7"]
+			id: "589953754018B9B7"
+			tasks: [{
+				id: "36FB90E574526C60"
+				item: "prettypipes:crafting_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["64220D3800A05E6B"]
+			id: "7D6039BCE482E2E7"
+			tasks: [{
+				id: "64309D1EC5B8BDD5"
+				item: "prettypipes:item_terminal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "64220D3800A05E6B"
+			tasks: [{
+				id: "393ED788DA4CC563"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["64220D3800A05E6B"]
+			id: "5E95BE974CF59288"
+			tasks: [{
+				id: "385AE82A5E7FBFCE"
+				item: "prettypipes:wrench"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "26E4E832F847F28E"
+			tasks: [{
+				id: "497660BF2FF8C9AE"
+				item: "prettypipes:low_crafting_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["64220D3800A05E6B"]
+			id: "76B49F1B823FBFE7"
+			tasks: [{
+				id: "40717AF3BB7E4155"
+				item: "prettypipes:blank_module"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["26E4E832F847F28E"]
+			id: "418A1D3180A6A242"
+			tasks: [{
+				id: "63AC9485B569EA82"
+				item: "prettypipes:medium_crafting_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["418A1D3180A6A242"]
+			id: "381CF11FAB329651"
+			tasks: [{
+				id: "583DA9B4BB818663"
+				item: "prettypipes:high_crafting_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "29A38BD757E295F6"
+			tasks: [{
+				id: "65DCAF073DBB2C3C"
+				item: "prettypipes:low_extraction_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["29A38BD757E295F6"]
+			id: "7C57570396317142"
+			tasks: [{
+				id: "4962E87325D20C86"
+				item: "prettypipes:medium_extraction_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C57570396317142"]
+			id: "01CCE4F6312E910D"
+			tasks: [{
+				id: "632A8A90DD22B1FC"
+				item: "prettypipes:high_extraction_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "0FD93362B6AE417B"
+			tasks: [{
+				id: "60C062D45E23B9F3"
+				item: "prettypipes:low_filter_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FD93362B6AE417B"]
+			id: "274ACF8C6823A646"
+			tasks: [{
+				id: "25565B6341A9AB02"
+				item: "prettypipes:medium_filter_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["274ACF8C6823A646"]
+			id: "6E8BE8001C43554F"
+			tasks: [{
+				id: "2D06FB19CAE0D721"
+				item: "prettypipes:high_filter_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "1AB183FB44B89F4F"
+			tasks: [{
+				id: "6CBE057329C298D1"
+				item: "prettypipes:low_speed_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1AB183FB44B89F4F"]
+			id: "7C45E949A6CE5FED"
+			tasks: [{
+				id: "230F3AC1F061A2B2"
+				item: "prettypipes:medium_speed_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7C45E949A6CE5FED"]
+			id: "0244F323E7C55CAA"
+			tasks: [{
+				id: "4F7F9FDFF6AAD85A"
+				item: "prettypipes:high_speed_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "1B988CD7807909A1"
+			tasks: [{
+				id: "5C291C0CDB1A6067"
+				item: "prettypipes:low_high_priority_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1B988CD7807909A1"]
+			id: "40317BE6DEF10B25"
+			tasks: [{
+				id: "385F911227E743D7"
+				item: "prettypipes:medium_high_priority_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["40317BE6DEF10B25"]
+			id: "0822303115DCD6E2"
+			tasks: [{
+				id: "43CCD1A669792E96"
+				item: "prettypipes:high_high_priority_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "19BE87188419F2A4"
+			tasks: [{
+				id: "20EB1A1244212558"
+				item: "prettypipes:low_low_priority_module"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19BE87188419F2A4"]
+			id: "72DBC4957E7CBB0E"
+			tasks: [{
+				id: "1A1BEF173D4744A8"
+				item: "prettypipes:medium_low_priority_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72DBC4957E7CBB0E"]
+			id: "77560621AB4BCF68"
+			tasks: [{
+				id: "5FEC78F0CB3322BF"
+				item: "prettypipes:high_low_priority_module"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "1DAF88AA441ED374"
+			tasks: [{
+				id: "592F2150C783819C"
+				item: "prettypipes:filter_increase_modifier"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "3802D3DC2C46F305"
+			tasks: [{
+				id: "4E311025D7712736"
+				item: "prettypipes:damage_filter_modifier"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "179A1D7FBE9E8A55"
+			tasks: [{
+				id: "34327727A6904A83"
+				item: "prettypipes:mod_filter_modifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "436A7C2D1A92AC4B"
+			tasks: [{
+				id: "631F779768272782"
+				item: "prettypipes:nbt_filter_modifier"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "4A000CB8B7F8FC13"
+			tasks: [{
+				id: "7A6DC62B103146FE"
+				item: "prettypipes:tag_filter_modifier"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "483BDCC2344EF44C"
+			tasks: [{
+				id: "1E2A81573C7986BC"
+				item: "prettypipes:redstone_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "32169E22389974CC"
+			tasks: [{
+				id: "27BA5572470119D3"
+				item: "prettypipes:random_sorting_modifier"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "4393121FF2E0E39A"
+			tasks: [{
+				id: "34D4879D95E7A1C7"
+				item: "prettypipes:round_robin_sorting_modifier"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["76B49F1B823FBFE7"]
+			id: "758E034C3D712034"
+			tasks: [{
+				id: "1DD5AE7F28F144BC"
+				item: "prettypipes:stack_size_module"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["64220D3800A05E6B"]
+			id: "6403225FDC53A5ED"
+			tasks: [{
+				id: "6F8978EC3AD7E07C"
+				item: "prettypipes:pipe_frame"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			id: "38C15CBBA8DF8CF9"
+			tasks: [{
+				id: "35202699A6FCF44A"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38C15CBBA8DF8CF9"]
+			id: "5ACABB0EBF2F856A"
+			tasks: [{
+				id: "03CC8C7C70981C61"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38C15CBBA8DF8CF9"]
+			id: "481FA34CC9FE1998"
+			tasks: [{
+				id: "3A59D4E85762081F"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["38C15CBBA8DF8CF9"]
+			id: "62A38CC24E0ABE9E"
+			tasks: [{
+				id: "425524C63F6C7B69"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["38C15CBBA8DF8CF9"]
+			id: "343ADE114E2605D0"
+			tasks: [{
+				id: "36B610B3C52BFA89"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: -8.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"5ACABB0EBF2F856A"
+				"481FA34CC9FE1998"
+				"62A38CC24E0ABE9E"
+			]
+			id: "26CAFE93065CC3E0"
+			tasks: [{
+				id: "5B77A38983AFE9DE"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: -11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38C15CBBA8DF8CF9"]
+			id: "125B648BD7990073"
+			tasks: [{
+				id: "775489262ED5776F"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["26CAFE93065CC3E0"]
+			id: "3BF7B25DE8EEAB19"
+			tasks: [{
+				id: "070C1721301ECED9"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF7B25DE8EEAB19"]
+			id: "4FD15E6AB223B35E"
+			tasks: [{
+				id: "7C9D28B2689EEE18"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FD15E6AB223B35E"]
+			id: "07ED837AA4045B9F"
+			tasks: [{
+				id: "28ECF251DCA373E9"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07ED837AA4045B9F"]
+			id: "1423102894CBA8C8"
+			tasks: [{
+				id: "198FBF980C45A12B"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -16.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64220D3800A05E6B"]
+			id: "0EF0B06CCD3E8C89"
+			tasks: [{
+				id: "7DA7EA3E19E157B0"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EF0B06CCD3E8C89"]
+			id: "0CF84143519BB6E4"
+			tasks: [{
+				id: "276EE765424D9EB2"
+				item: "ppfluids:low_fluid_extraction_module"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["0CF84143519BB6E4"]
+			id: "0A5B7CFEB02F4F92"
+			tasks: [{
+				id: "0B6D25B04E8BAC9D"
+				item: "ppfluids:medium_fluid_extraction_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["0EF0B06CCD3E8C89"]
+			id: "28F8EDEA430CFCC2"
+			tasks: [{
+				id: "20FE5F1CB52B4995"
+				item: "ppfluids:low_fluid_filter_module"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0A5B7CFEB02F4F92"]
+			id: "33F65928209A1B34"
+			tasks: [{
+				id: "69BA4A7F2C285748"
+				item: "ppfluids:high_fluid_extraction_module"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["28F8EDEA430CFCC2"]
+			id: "09EDE73F141ADC58"
+			tasks: [{
+				id: "0B39E968EE2DDF02"
+				item: "ppfluids:medium_fluid_filter_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["09EDE73F141ADC58"]
+			id: "07D680588CFA6158"
+			tasks: [{
+				id: "6FC232F329CB977D"
+				item: "ppfluids:high_fluid_filter_module"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0EF0B06CCD3E8C89"]
+			id: "0E89D1DCFEC09BDB"
+			tasks: [{
+				id: "57A77DDD6E02940D"
+				item: "ppfluids:low_fluid_retrieval_module"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E89D1DCFEC09BDB"]
+			id: "712280F8F0BC5562"
+			tasks: [{
+				id: "7EEA3D08696CB0B1"
+				item: "ppfluids:medium_fluid_retrieval_module"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["712280F8F0BC5562"]
+			id: "3244CE984B1CF572"
+			tasks: [{
+				id: "5E6D7BF3B0122DCA"
+				item: "ppfluids:high_fluid_retrieval_module"
+				type: "item"
+			}]
+			x: -6.25d
+			y: 0.0d
+		}
+	]
 	title: "&3Pipeworks"
 }

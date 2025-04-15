@@ -6,6 +6,851 @@
 	id: "1AB7238D1A4BC7A1"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "34E7211D7C590143"
+			tasks: [{
+				id: "36809B8DD2D6AA08"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["34E7211D7C590143"]
+			id: "49321F5ED4692E59"
+			tasks: [{
+				id: "2ED1FC850DA67EDF"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["49321F5ED4692E59"]
+			id: "464A835155D0FDCF"
+			tasks: [{
+				id: "68BBDBCA459B2BDB"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["464A835155D0FDCF"]
+			id: "35CB1538A20A71DF"
+			tasks: [{
+				id: "791DFB5A5076FEE7"
+				item: "blue_skies:everbright_portal"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["464A835155D0FDCF"]
+			id: "3594010C1001CBA5"
+			tasks: [{
+				id: "5AF632FF38691792"
+				item: "blue_skies:everdawn_portal"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -9.5d
+		}
+		{
+			id: "6F44A6EA1464C8D2"
+			tasks: [{
+				count: 27L
+				id: "3C8C5ADCA04ECE2A"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.75d
+		}
+		{
+			id: "2A61E39501B5E730"
+			tasks: [{
+				count: 27L
+				id: "469D1D5D72FEC3B6"
+				item: "blue_skies:charoite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "5F2F2046E96B3286"
+			tasks: [{
+				count: 27L
+				id: "281C83A64FDDA486"
+				item: { Count: 27, id: "blue_skies:falsite_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.75d
+		}
+		{
+			id: "101C39586BD745FA"
+			tasks: [{
+				count: 27L
+				id: "16739270B9277485"
+				item: { Count: 27, id: "blue_skies:ventium_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			id: "015E1C7EC51B4626"
+			tasks: [{
+				count: 27L
+				id: "341D7D6ED15C8AFD"
+				item: { Count: 27, id: "blue_skies:horizonite_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["1BBEBAD8329D1E58"]
+			id: "4055AF3ABA6F2D60"
+			tasks: [
+				{
+					id: "7919F6DF84F28000"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7497E7F207546375"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290FDC80C17A702F"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A952B0A005D2C7"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: -7.0d
+		}
+		{
+			id: "6CD942990ACCA60C"
+			tasks: [{
+				count: 27L
+				id: "563DF88F8B3AC100"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6CD942990ACCA60C"]
+			id: "4A845B3F44F85940"
+			tasks: [{
+				id: "1D522F6D0A321043"
+				item: "blue_skies:pyrope_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4A845B3F44F85940"]
+			id: "1BBEBAD8329D1E58"
+			tasks: [
+				{
+					id: "2061F3F82D20F7E2"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48A778405858502F"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D7AE5083FE20981"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "088951F2803A4CC2"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56E8509B7B665DE0"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["101C39586BD745FA"]
+			id: "44CA5055B771D302"
+			tasks: [{
+				id: "7D7E96D019671484"
+				item: "blue_skies:ventium_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -12.0d
+		}
+		{
+			dependencies: ["101C39586BD745FA"]
+			id: "788C3C2D2BB38F76"
+			tasks: [{
+				id: "3D3F4BDB08B0D443"
+				item: "blue_skies:tool_box"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5F2F2046E96B3286"]
+			id: "7D9398AFEB3D8B26"
+			tasks: [{
+				id: "60E97E2E98E0991E"
+				item: "blue_skies:warding_pearl"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -10.75d
+		}
+		{
+			dependencies: ["5F2F2046E96B3286"]
+			id: "7CAE74F4DCEED0F5"
+			tasks: [{
+				id: "3B3AB49F63A7AD54"
+				item: "blue_skies:falsite_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -10.75d
+		}
+		{
+			dependencies: ["015E1C7EC51B4626"]
+			id: "65441F3FF43BDDFF"
+			tasks: [{
+				id: "02289272BFE46FCD"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["015E1C7EC51B4626"]
+			id: "4BA879299F6F6B6D"
+			tasks: [{
+				id: "36349E73D39E520F"
+				item: "blue_skies:horizonite_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["6F44A6EA1464C8D2"]
+			id: "3FCF6E41EEE136B9"
+			tasks: [{
+				id: "10F8CC45AFBE40BC"
+				item: "blue_skies:aquite_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["5EECAD6F56999ABA"]
+			id: "5CFEFB6BDA1CDEC3"
+			tasks: [
+				{
+					id: "22472060217850F1"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D7FB1A53A7CCD2B"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A923AE4D03F04BA"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79C43755B806E2D2"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2AF2FAEBAE502F9F"]
+			id: "2BE8D17CF5331874"
+			tasks: [
+				{
+					id: "330788B5332B46CA"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5972315123F9C78C"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A7FDBFE806F8549"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B98016EDA698C3"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["3FCF6E41EEE136B9"]
+			id: "5EECAD6F56999ABA"
+			tasks: [
+				{
+					id: "2D183BF53897F886"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43190DD4DADBC1D6"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CDBFA4DCCB2045A"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F35979C76772F84"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28FC8D1B5094CCA4"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["4BA879299F6F6B6D"]
+			id: "2AF2FAEBAE502F9F"
+			tasks: [
+				{
+					id: "72BEC73A7B106B0D"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C3BFB38C7D1C7DD"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B89A8D0CAAAB033"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D3E0A9E6E270EC4"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70B224E0796C9F6F"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -8.25d
+		}
+		{
+			dependencies: ["15134196DCCE287B"]
+			id: "44999341D602B177"
+			tasks: [
+				{
+					id: "0721A284D5E9E518"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DF9332CACC2875A"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "385F266A0EEC0B15"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F0C79EAC94621E5"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["049E46BE28F96028"]
+			id: "15134196DCCE287B"
+			tasks: [
+				{
+					id: "77C4ECF2E5BEEB0A"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00AF6BAADD43DB3F"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465E255DC97AA1D0"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2101F3FF539CE21F"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26C49EDC97EC6C8D"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0B48EBE1CD53776A"]
+			id: "03F0DD3B8E72B484"
+			tasks: [
+				{
+					id: "65F293FDE600A36B"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35632C9388B96F02"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70767518510DE5DB"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F67960D1AA2AC9D"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A61E39501B5E730"]
+			id: "6FC41287C4E69538"
+			tasks: [{
+				id: "1EC4484937EBA5E3"
+				item: "blue_skies:charoite_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -4.5d
+		}
+		{
+			id: "5A10AA49C8A4B734"
+			tasks: [{
+				count: 27L
+				id: "5BB66E55E5430371"
+				item: "blue_skies:moonstone_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5A10AA49C8A4B734"]
+			id: "22CF7DD08C7E65D0"
+			tasks: [{
+				id: "2886BCAE4C04BDDC"
+				item: "blue_skies:moonstone_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -3.25d
+		}
+		{
+			id: "3AC7325FACBD08D8"
+			tasks: [{
+				count: 27L
+				id: "32CD88D0913B49CB"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3AC7325FACBD08D8"]
+			id: "049E46BE28F96028"
+			tasks: [{
+				id: "3059E6F41EB7A89C"
+				item: "blue_skies:diopside_block"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6FC41287C4E69538"]
+			id: "0B48EBE1CD53776A"
+			tasks: [
+				{
+					id: "4B8DA40D76F968B7"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF06EF8E74C9BCF"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6828F8555B3C4D2B"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66898EB8AF36388D"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A187DEE2404D290"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -4.5d
+		}
+	]
 	title: "&9Blue &1Skies"
 }

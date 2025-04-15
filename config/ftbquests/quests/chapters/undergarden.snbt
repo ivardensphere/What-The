@@ -6,6 +6,648 @@
 	id: "21DF123A21911B97"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "14C42C195110C77D"
+			tasks: [{
+				count: 27L
+				id: "2DE0EC9275449AEE"
+				item: { Count: 27, id: "undergarden:froststeel_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			id: "52DD7A3F3059F508"
+			tasks: [{
+				count: 27L
+				id: "41E7371463AC93EE"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			id: "100AA8426F76B75C"
+			tasks: [{
+				count: 27L
+				id: "60AFCB433C590C9F"
+				item: { Count: 27, id: "undergarden:cloggrum_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "696F4D996E6BAEA8"
+			tasks: [{
+				count: 27L
+				id: "3486382BB22F911B"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			id: "4F3483C59C294604"
+			tasks: [{
+				count: 27L
+				id: "2634725C8706ABFD"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F3483C59C294604"]
+			id: "6A79648B280442A4"
+			tasks: [
+				{
+					id: "12004A5127E25715"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F79E216D94CD42F"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6438F80000E17DCB"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52D6ED214A67C54F"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "686C280AB9792641"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52DD7A3F3059F508"]
+			id: "3B6C51F0944D9B73"
+			tasks: [
+				{
+					id: "1611589E72700763"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1804BD551C921C4D"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F40E326C97D614"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E4C058E588A72B6"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BAA0CDF3E5056E"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1E24CF300338F3F3"]
+			id: "1B07A2E6F8182F2C"
+			tasks: [{
+				id: "6B47F8E11E5703DB"
+				item: {
+					Count: 1
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["100AA8426F76B75C"]
+			id: "0231AFEB47EEF253"
+			tasks: [
+				{
+					id: "010FFABE8750F1EE"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21C4E9C2C1DC9723"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A18C20FB8A8C2CC"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BB8B46C42B849CC"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC3BA149ECEAB48"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14C42C195110C77D"]
+			id: "79077841C150B193"
+			tasks: [
+				{
+					id: "3242CEBE5DF8A097"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EA54C00537B1CD0"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74961B95959D5B42"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21185F8490689177"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "038C2619EC567BF7"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["14C42C195110C77D"]
+			id: "0AA040124B0B8B9C"
+			tasks: [
+				{
+					id: "6D77AF5CC36CF2ED"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D972B21844DDC24"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689143F20B06A600"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7696621B8387561F"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["100AA8426F76B75C"]
+			id: "7E7E071C9A780122"
+			tasks: [
+				{
+					id: "551EDE8FAC3931E4"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75071A7611D46826"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4900CF249290E919"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "344FC5F7E2A2B768"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F3483C59C294604"]
+			id: "46CBAC2906D30556"
+			tasks: [
+				{
+					id: "586A1909C1A02FF8"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F45081CECC84DF6"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76B333B34F5057BD"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08578C6FE85C8B27"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["696F4D996E6BAEA8"]
+			id: "5F2F3D63EA3ECAA1"
+			tasks: [
+				{
+					id: "6BE26B5E46152A8D"
+					item: {
+						Count: 1
+						id: "undergarden:ancient_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C2DB6B87C6835CE"
+					item: {
+						Count: 1
+						id: "undergarden:ancient_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB894F5A7B05FC9"
+					item: {
+						Count: 1
+						id: "undergarden:ancient_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			id: "1E24CF300338F3F3"
+			tasks: [{
+				id: "37A02246B9973ED9"
+				item: "undergarden:twistytwig"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "3E1C502D14B2A3A4"
+			tasks: [{
+				id: "09330E79459EF913"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -1.25d
+		}
+		{
+			id: "0838754A147B6AE8"
+			tasks: [{
+				id: "6A642FB56C110ACC"
+				item: "undergarden:cloggrum_block"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -2.5d
+		}
+		{
+			id: "67D8F5D70521733D"
+			tasks: [{
+				id: "1024E8657C5F148E"
+				item: "undergarden:forgotten_block"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -1.25d
+		}
+		{
+			id: "7C48650F5AF58AD3"
+			tasks: [{
+				id: "4FAEE62E59E9A45A"
+				item: "undergarden:utherium_block"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			id: "0445B0CC1C03C00D"
+			tasks: [{
+				id: "34D08ED629061845"
+				item: "undergarden:froststeel_block"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -3.75d
+		}
+		{
+			id: "3F447724033B66E3"
+			tasks: [{
+				id: "1AA3EE64C18C3BE5"
+				item: "undergarden:regalium_block"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 1.25d
+		}
+		{
+			id: "495BCC2E77C53606"
+			tasks: [{
+				id: "71E42F3B50CCA27B"
+				item: "undergarden:grongle_planks"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.75d
+		}
+		{
+			id: "4ED393CF715F4C20"
+			tasks: [{
+				id: "7FB7A590636F7B45"
+				item: "undergarden:wigglewood_planks"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			id: "2C5C1B2D30D38483"
+			tasks: [{
+				id: "190D213D86CA120F"
+				item: "undergarden:smogstem_planks"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.25d
+		}
+		{
+			id: "391A86E398CB5BF9"
+			tasks: [{
+				id: "3554403CD7CBA77B"
+				item: "undergarden:gloomgourd"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "6380036D33D3953B"
+			tasks: [{
+				id: "2426450AA4DA4385"
+				item: "undergarden:shard_o_lantern"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.25d
+		}
+	]
 	title: "&1The Undergarden"
 }

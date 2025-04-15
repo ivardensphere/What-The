@@ -6,6 +6,548 @@
 	id: "68F29A683A4C597A"
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Theurgy is an open-source magic mod built around classical alchemy to replicate and transmute matter, and create magical artifacts."
+				""
+				""
+				"Theurgy aims to introduce a new take on Alchemy in Minecraft. "
+				"Deviating from the well-trodden path of the \"4 Elements\" - Air, Water, Fire, Earth - it is inspired by classical Alchemy and works with the elements of Sulfur, "
+				"Salt and Mercury and their handling through a group of processes known as Spagyrics."
+			]
+			id: "04C32A9AF5986BE8"
+			rewards: [{
+				id: "58810250EB28D581"
+				item: {
+					Count: 1
+					id: "modonomicon:modonomicon"
+					tag: {
+						"modonomicon:book_id": "theurgy:the_hermetica"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "379D03577CAA9489"
+				title: "Welcome to Theurgy"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A1C07C6E363E9DC"]
+			id: "5BEC53A4657DAC46"
+			tasks: [{
+				id: "2388B52D1EAC9051"
+				item: "theurgy:sal_ammoniac_accumulator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5BEC53A4657DAC46"]
+			id: "4FA44FB742F63E2C"
+			tasks: [{
+				id: "0EFB332E71BAFD4B"
+				item: "theurgy:liquefaction_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["6FBCD42411A7D8D5"]
+			id: "5A7CD02F94C38BDF"
+			tasks: [{
+				id: "5005F30BD9A880D7"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FA44FB742F63E2C"]
+			id: "6FBCD42411A7D8D5"
+			tasks: [{
+				id: "11B39861B68A9EFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_sulfurs"
+					}
+				}
+				title: "Any #theurgy:alchemical_sulfurs"
+				type: "item"
+			}]
+			title: "Sulfurs"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A7CD02F94C38BDF"]
+			id: "1F231681820ED604"
+			tasks: [{
+				id: "295DE2457E321449"
+				item: "theurgy:digestion_vat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6FBCD42411A7D8D5"]
+			id: "538752C0D0D4F19F"
+			tasks: [{
+				id: "67771056FBAED8E2"
+				item: "theurgy:reformation_source_pedestal"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["538752C0D0D4F19F"]
+			id: "258A24F050C8C086"
+			tasks: [{
+				id: "78CEAD3D0D2B51FE"
+				item: "theurgy:reformation_target_pedestal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["258A24F050C8C086"]
+			id: "5AA916C5B5C78D36"
+			tasks: [{
+				id: "73625D5662DDB18D"
+				item: "theurgy:reformation_result_pedestal"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AA916C5B5C78D36"]
+			id: "35CFDE4406177698"
+			tasks: [{
+				id: "501A6238F6F33B87"
+				item: "theurgy:sulfuric_flux_emitter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55D17656512B088D"]
+			id: "24D96A2FC93DD5B1"
+			tasks: [{
+				id: "76D5E898FB90F0F4"
+				item: "theurgy:caloric_flux_emitter"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "390EC8EC1A42A60B"
+			tasks: [{
+				id: "13CBC9A23D098065"
+				item: "theurgy:distiller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "2E678859A6257E9A"
+			tasks: [{
+				id: "3A545E59011CF94D"
+				item: "theurgy:pyromantic_brazier"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["390EC8EC1A42A60B"]
+			id: "55D17656512B088D"
+			tasks: [{
+				id: "4A958BEE29CB0D20"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "theurgy:alchemical_mercuries"
+					}
+				}
+				title: "Any #theurgy:alchemical_mercuries"
+				type: "item"
+			}]
+			title: "Mercury"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55D17656512B088D"]
+			id: "5EE93549DD69A042"
+			tasks: [{
+				id: "744C3E39E117255D"
+				item: "theurgy:mercury_catalyst"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55D17656512B088D"]
+			id: "1C78D7DBE95B09FE"
+			tasks: [{
+				id: "742DA07F6D83258B"
+				item: "theurgy:incubator_mercury_vessel"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3D66374345B01664"
+				"4D6C342D3DF326F0"
+			]
+			id: "3363084E5AFAE7B8"
+			tasks: [{
+				id: "6BB6C60DBBD10337"
+				item: "theurgy:incubator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["770F6732A9886297"]
+			id: "4D6C342D3DF326F0"
+			tasks: [{
+				id: "2A9C2B1974D50669"
+				item: "theurgy:incubator_salt_vessel"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6FBCD42411A7D8D5"]
+			id: "3D66374345B01664"
+			tasks: [{
+				id: "5030B09B3F09E344"
+				item: "theurgy:incubator_sulfur_vessel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["048FBE9940EA9411"]
+			id: "770F6732A9886297"
+			tasks: [{
+				id: "1518CB840E84C71B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_strata"
+							}
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_mineral"
+							}
+							{
+								Count: 1b
+								id: "theurgy:alchemical_salt_crops"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Salts"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "048FBE9940EA9411"
+			tasks: [{
+				id: "7243012887BF8E8A"
+				item: "theurgy:calcination_oven"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 8.5d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "44A6EEF6AE109E7F"
+			tasks: [{
+				id: "222BE333BE4B12B7"
+				item: {
+					Count: 1
+					id: "theurgy:divination_rod_t1"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 8
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "7C3E00F02F2ED512"
+			tasks: [{
+				id: "77478BAEE14E55F4"
+				item: {
+					Count: 1
+					id: "theurgy:divination_rod_t2"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 16
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "738EE08A054AB709"
+			tasks: [{
+				id: "517CE341BFA77DA6"
+				item: {
+					Count: 1
+					id: "theurgy:divination_rod_t3"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 32
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:diamond"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "2541E44826D0C845"
+			tasks: [{
+				id: "1AC4A4EA82625163"
+				item: {
+					Count: 1
+					id: "theurgy:divination_rod_t4"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 1b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t4_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t4_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 128
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:netherite"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "323098880739A5D0"
+			tasks: [{
+				id: "2842B8FEE4BD7633"
+				item: {
+					Count: 1
+					id: "theurgy:sulfur_attuned_divination_rod_abundant"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 0b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 16
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "1756ECBADB96453A"
+			tasks: [{
+				id: "0DDF35B41356003C"
+				item: {
+					Count: 1
+					id: "theurgy:sulfur_attuned_divination_rod_common"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 0b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 16
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "1F4D372756CCD5E1"
+			tasks: [{
+				id: "606F0140703852A3"
+				item: {
+					Count: 1
+					id: "theurgy:sulfur_attuned_divination_rod_rare"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 0b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 32
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "4D7C87C10DD6E8E2"
+			tasks: [{
+				id: "18F3D024DBD4F84D"
+				item: {
+					Count: 1
+					id: "theurgy:sulfur_attuned_divination_rod_precious"
+					tag: {
+						Damage: 0
+						"theurgy:divination.setting.allow_attuning": 0b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 32
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			hide_dependency_lines: true
+			id: "00FFF7BC927C6532"
+			tasks: [{
+				id: "2CF7185E98723955"
+				item: {
+					Count: 1
+					id: "theurgy:amethyst_divination_rod"
+					tag: {
+						Damage: 0
+						"theurgy:divination.linked_block_id": "minecraft:budding_amethyst"
+						"theurgy:divination.setting.allow_attuning": 0b
+						"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+						"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+						"theurgy:divination.setting.duration": 40
+						"theurgy:divination.setting.max_damage": 16
+						"theurgy:divination.setting.range": 96
+						"theurgy:divination.setting.tier": "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5BEC53A4657DAC46"]
+			id: "09251785509A28EE"
+			tasks: [{
+				id: "3FC2400E8BDE8925"
+				item: "theurgy:sal_ammoniac_bucket"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04C32A9AF5986BE8"]
+			id: "0A1C07C6E363E9DC"
+			tasks: [{
+				id: "50365FB854668804"
+				item: "theurgy:sal_ammoniac_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+	]
 	title: "&5Theurgy"
 }

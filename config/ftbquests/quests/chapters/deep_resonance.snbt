@@ -4,8 +4,140 @@
 	filename: "deep_resonance"
 	group: "6CFDE535DE131F6B"
 	id: "554B42AD0E8CEC69"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "76D15B105019D60E"
+			tasks: [{
+				id: "6EBF0604F8F4C777"
+				item: "deepresonance:resonating_crystal_natural"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "1EDBFF70EE087091"
+			tasks: [{
+				id: "14C86AFD487EFDBE"
+				item: "deepresonance:energy_collector"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76D15B105019D60E"]
+			id: "352AEFEBD6D3860D"
+			tasks: [{
+				id: "7080F765EBA62D06"
+				item: "deepresonance:resonating_plate"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["352AEFEBD6D3860D"]
+			id: "4CC946C855C76C0F"
+			tasks: [{
+				id: "7DB50C89C8CE26C6"
+				item: "deepresonance:machine_frame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "781DE9BDF5C85693"
+			tasks: [{
+				id: "2E2C68E93EF9FC9D"
+				item: "deepresonance:generator_part"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "32DAA5A0AF3583E3"
+			tasks: [{
+				id: "72208A7AAACA4009"
+				item: "deepresonance:generator_controller"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "3E2E486AD67C9F17"
+			tasks: [{
+				id: "1693A451AF287E96"
+				item: "deepresonance:valve"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "11ADF8D7B228BD12"
+			tasks: [{
+				id: "1ED06F36E39D3290"
+				item: "deepresonance:smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "2231D38B37FCEF1E"
+			tasks: [{
+				id: "0E8A6A5D02907D15"
+				item: "deepresonance:purifier"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "47ECB1438EB120C7"
+			tasks: [{
+				id: "6D88BA80AC672B9F"
+				item: "deepresonance:laser"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "610BE76FBD7D8632"
+			tasks: [{
+				id: "581ADCB3A5172559"
+				item: "deepresonance:crystallizer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CC946C855C76C0F"]
+			id: "4A8D316402D557E4"
+			tasks: [{
+				id: "45803FCA66945878"
+				item: "deepresonance:tank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+	]
 	title: "&6Deep Resonance"
 }

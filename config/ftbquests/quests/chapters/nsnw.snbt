@@ -6,6 +6,2273 @@
 	id: "54B381D8B2DE2AF4"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "5358C2885E436D46"
+			tasks: [{
+				id: "2D7DB64FC97A891A"
+				item: "nenufars_weapons:pumpkin_cutter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.75d
+		}
+		{
+			id: "154C681040314404"
+			tasks: [{
+				id: "0059C819DED2AEA4"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:cursed_necrolords_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.25d
+		}
+		{
+			id: "13888FF59CFBED96"
+			tasks: [{
+				id: "57F1111BC227E678"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "11F2742A1F6A4E2C"
+			tasks: [{
+				id: "1EA2F43ECB044385"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:pumpkin_evil_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			id: "3537A3D51AB23A1A"
+			tasks: [{
+				id: "37412EB1F96CAF70"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:evil_jack_o_lantern_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.75d
+		}
+		{
+			id: "05260EE3835B5E38"
+			tasks: [{
+				id: "259EFBAD5D48794D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:scared_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -8.5d
+		}
+		{
+			id: "2A9D54BAD92EB354"
+			tasks: [{
+				id: "7720549CB134CCE1"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:scared_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -9.75d
+		}
+		{
+			id: "6CD1C4B26CB77DEE"
+			tasks: [{
+				id: "77A16F4777BC36B8"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:boo_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -8.5d
+		}
+		{
+			id: "38CD2A6C554B43DB"
+			tasks: [{
+				id: "6838239EF7FBDBF3"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:boo_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -9.75d
+		}
+		{
+			id: "0F6D1E6A29AB923D"
+			tasks: [{
+				id: "0A802F08ADD9DEE0"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ciclops_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			id: "2C04270CE6B23A96"
+			tasks: [{
+				id: "2A50299E09D3E220"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ciclops_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.75d
+		}
+		{
+			id: "05CC2D54B2E34A04"
+			tasks: [{
+				id: "5C3B525343094273"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bigmouth_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "4F91F17883CFCF31"
+			tasks: [{
+				id: "493B76A2F7E00F8F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bigmouth_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.75d
+		}
+		{
+			id: "44EAF96BA6ED85A7"
+			tasks: [{
+				id: "31E0CF959E3FC1CD"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:creeper_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -8.5d
+		}
+		{
+			id: "51E83F597005A1B5"
+			tasks: [{
+				id: "65FC61EBDC789886"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:creeper_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -9.75d
+		}
+		{
+			id: "5DBB0B2BDDF91323"
+			tasks: [{
+				id: "41EEF8F5E1A8A974"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:skeleton_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -8.5d
+		}
+		{
+			id: "06E1889F007CC27A"
+			tasks: [{
+				id: "4113ADFA96117CF2"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:skeleton_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -9.75d
+		}
+		{
+			id: "6164B90C1F5A92B3"
+			tasks: [{
+				id: "5B99DC835A2594A1"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:guardian_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			id: "1F664D108FF76EB1"
+			tasks: [{
+				id: "40B8A079144EE6A7"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:guardian_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.75d
+		}
+		{
+			id: "76EB4F0A7EA87AEC"
+			tasks: [{
+				id: "27C33B00302E2849"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:enderman_pumpkin_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			id: "21FE1E939DFBDA5E"
+			tasks: [{
+				id: "6D8028773232CD18"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:enderman_jacko_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.75d
+		}
+		{
+			id: "5BC58248F6525D42"
+			tasks: [{
+				id: "01729E41C4D1F0C7"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:jade_macuahuitl_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.0d
+		}
+		{
+			id: "168148F1EFA34CC5"
+			tasks: [{
+				id: "61200907D7FDCCD6"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:druids_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "70919D20BFB8B45C"
+			tasks: [{
+				id: "62352E81D5133279"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:skull_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -4.75d
+		}
+		{
+			id: "56A101E7E502424B"
+			tasks: [{
+				id: "58123B6D78958D7F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:druids_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			id: "599A8AF5DEE498DC"
+			tasks: [{
+				id: "772F8124AF2DBD7C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:druids_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "24F7E21733963F95"
+			tasks: [{
+				id: "6C3A2FA73A55A59A"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sharktoothgreatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			id: "63545EFE8DC20C54"
+			tasks: [{
+				id: "30552C3286FD17C9"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bamboo_training_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "5AB1034C56C10BBA"
+			tasks: [{
+				id: "7B8C93F694DFF9FC"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:savanas_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.25d
+		}
+		{
+			id: "32A9CB3E6F981D51"
+			tasks: [{
+				id: "231CCA42E58CD50D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:jade_shovelknight_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.25d
+		}
+		{
+			id: "231940273B9681FA"
+			tasks: [{
+				id: "76FFD8E960781969"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:skull_heavy_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -6.0d
+		}
+		{
+			id: "7A501F82B7311CC7"
+			tasks: [{
+				id: "38F7768DBA3C3F51"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:torchflower_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.25d
+		}
+		{
+			id: "02B0BF108631D075"
+			tasks: [{
+				id: "4676AA0316A8FCFD"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:chorus_astral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.25d
+		}
+		{
+			id: "09E4D7B6A6E1CC91"
+			tasks: [{
+				id: "6C94C7663470338D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:shuelker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.25d
+		}
+		{
+			id: "3AC8EE30DCCA3DC4"
+			tasks: [{
+				id: "2BEDA2F7EC1D3EB4"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:pitcher_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.25d
+		}
+		{
+			id: "08EFB441CB80658A"
+			tasks: [{
+				id: "10CB6A42F55DECDD"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:slime_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.25d
+		}
+		{
+			id: "6F5C5EF0557A8A41"
+			tasks: [{
+				id: "7782502A5E6FA84A"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:goat_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "3A0CE01EBF640797"
+			tasks: [{
+				id: "189A349E52CB6561"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:green_froglight_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.25d
+		}
+		{
+			id: "1D2EE02C7E856662"
+			tasks: [{
+				id: "171B3C8615E2D9D9"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:yellow_froglight_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "50D0D0D1EB6307E6"
+			tasks: [{
+				id: "15A0E74EE6EBD6FE"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:purple_froglight_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.25d
+		}
+		{
+			id: "4F5E131F7688D1DE"
+			tasks: [{
+				id: "64C42BB18613A6E5"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:blue_froglight_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "381C5E80FC52B416"
+			tasks: [{
+				id: "0922EFB95869D5AB"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ender_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.5d
+		}
+		{
+			id: "3392DA006179B4CF"
+			tasks: [{
+				id: "303FCEAF61EEFAD6"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:storm_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: -7.25d
+		}
+		{
+			id: "36D13C8B00930DE8"
+			tasks: [{
+				id: "6028D7E9789AF290"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:amethyst_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			id: "6D261CE243D103A3"
+			tasks: [{
+				id: "5040BC0A8C60F2DE"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:storm_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: -6.0d
+		}
+		{
+			id: "13E5685798214E5E"
+			tasks: [{
+				id: "54DC17BA6D5C01B2"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:storm_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: -4.75d
+		}
+		{
+			id: "140A68AD440637B6"
+			tasks: [{
+				id: "1C9A7AD6F4C715BC"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bloodythirsty_necrolords_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -1.0d
+		}
+		{
+			id: "79C4BD7D7BA2E5A7"
+			tasks: [{
+				id: "535B89A123808C4F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:wart_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.75d
+		}
+		{
+			id: "6B43BC20173DD078"
+			tasks: [{
+				id: "345A716ADB8DE973"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:twisted_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "26826B64D64C10EF"
+			tasks: [{
+				id: "4086F06B4F3F6812"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:diavolo_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.25d
+		}
+		{
+			id: "370B438E5737F68A"
+			tasks: [{
+				id: "629A8FA682C034A0"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sharktooth_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.25d
+		}
+		{
+			id: "17EE2191C07818C4"
+			tasks: [{
+				id: "796C2FB789BD65C7"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sharktooth_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.75d
+		}
+		{
+			id: "3CC6829FBB317137"
+			tasks: [{
+				id: "0905AB708A56FBF4"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:cherry_broad_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			id: "3A9C4D5B3B244588"
+			tasks: [{
+				id: "1256B74C74FE3614"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:stick_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: -1.0d
+		}
+		{
+			id: "5A7FE1D61A0CDB8A"
+			tasks: [{
+				id: "7FECB6D4EA8180AA"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:birch_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: -2.25d
+		}
+		{
+			id: "2B7D83B24AD7128A"
+			tasks: [{
+				id: "783D15EF4B948B89"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:darkwood_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 0.25d
+		}
+		{
+			id: "320A9E6A07251F60"
+			tasks: [{
+				id: "34B60B52C5043C9C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:clay_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -2.25d
+		}
+		{
+			id: "61AECCB32D2CEED5"
+			tasks: [{
+				id: "4F865871875E5A6D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:cactus_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 1.5d
+		}
+		{
+			id: "78AD4113638D19A7"
+			tasks: [{
+				id: "5FBB3109E87A5AEE"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:phantom_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "486AC90E8FB22578"
+			tasks: [{
+				id: "77DA95192677E742"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:fortune_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: -1.0d
+		}
+		{
+			id: "76A7CBC43E6C5409"
+			tasks: [{
+				id: "5C1B8EA831801029"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:skull_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "0E71CC5DF0D4EFC0"
+			tasks: [{
+				id: "1B572AA0A11921AD"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:jungle_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 1.5d
+		}
+		{
+			id: "5EAAB7EB32769FFB"
+			tasks: [{
+				id: "2F65EF7804887A3D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sunbird_totem_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.25d
+		}
+		{
+			id: "410FC1EB5C0FA697"
+			tasks: [{
+				id: "6A7395C276B21395"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:taiga_survival_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 2.75d
+		}
+		{
+			id: "40F8160AF3773BC2"
+			tasks: [{
+				id: "625687FCB0E90D2F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bronze_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			id: "615E37DED458A20C"
+			tasks: [{
+				id: "6337E837392916BF"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ender_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 0.25d
+		}
+		{
+			id: "31BE94C6291D5A60"
+			tasks: [{
+				id: "358CDFA47791D695"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:primal_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 1.5d
+		}
+		{
+			id: "56172B46A301A0A4"
+			tasks: [{
+				id: "7BBEDCB0CDDCC8F7"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:spy_bayonet_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.75d
+		}
+		{
+			id: "2E2FF2BC669023C5"
+			tasks: [{
+				id: "1CD3999E87BCB928"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sugar_cane_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.0d
+		}
+		{
+			id: "599A3BE5443BECDD"
+			tasks: [{
+				id: "67EE29C040523D9A"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:harpoon_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 2.75d
+		}
+		{
+			id: "1C0B8DCC25E3E173"
+			tasks: [{
+				id: "7123004A454DF1F5"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:jewel_pirate_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -6.0d
+		}
+		{
+			id: "5F6F6CEECAB008EE"
+			tasks: [{
+				id: "1D27895F64CB08A6"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:golden_skull_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.75d
+		}
+		{
+			id: "393EE9B820068CFA"
+			tasks: [{
+				id: "4439D69DE800BE3C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:treasure_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.75d
+		}
+		{
+			id: "385BE398B0521D5C"
+			tasks: [{
+				id: "7B87B71211CDFC82"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:kelp_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: 5.25d
+		}
+		{
+			id: "3F7A30E0AB402A8E"
+			tasks: [{
+				id: "1D30C745B76B5870"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:coral_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -7.25d
+		}
+		{
+			id: "76D52249CD8A7DC6"
+			tasks: [{
+				id: "416926F7A9D5ADFE"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:snowball_handcannon_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.0d
+		}
+		{
+			id: "402BBCE74FF403C9"
+			tasks: [{
+				id: "4ED0E3A01F1CC5A7"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:davy_jones_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "13E9BD244E2CDA4A"
+			tasks: [{
+				id: "44B002B1D2DA2A26"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:nautilus_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -4.75d
+		}
+		{
+			id: "0A21AC50EDB3C834"
+			tasks: [{
+				id: "1E499E88D479F3AD"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ocean_lotus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -8.5d
+		}
+		{
+			id: "19C4AB79A0D41C41"
+			tasks: [{
+				id: "458D75EAA55B6240"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:note_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.75d
+		}
+		{
+			id: "25B45CED0010346D"
+			tasks: [{
+				id: "146F8D797938ECF3"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:bonk_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.75d
+		}
+		{
+			id: "5A9C443BF8440D3E"
+			tasks: [{
+				id: "0AE7443D7AA2C7B9"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:goat_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.25d
+		}
+		{
+			id: "2558839B42E2C808"
+			tasks: [{
+				id: "5258753FBBD54A6C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:blue_friend_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.25d
+		}
+		{
+			id: "14B5CB77DC2AC40F"
+			tasks: [{
+				id: "5124CF98F8EC5A90"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sniffer_shard_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "4A38958495892B2A"
+			tasks: [{
+				id: "01800AF2B077AB25"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:primal_halberd"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "08DCE13EE6D91126"
+			tasks: [{
+				id: "5E6E2381170C812B"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:amber_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.25d
+		}
+		{
+			id: "2FF375CD6C4806DD"
+			tasks: [{
+				id: "389DA11696B87146"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:serrated_primal_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "274C02DC7AE7DF7B"
+			tasks: [{
+				id: "20F805A5030E01AF"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:prehistoric_fishing_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.25d
+		}
+		{
+			id: "2194FECAF085C16E"
+			tasks: [{
+				id: "37FBAE39DCBD4D53"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:prehistoric_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.75d
+		}
+		{
+			id: "696389A5A10B85E7"
+			tasks: [{
+				id: "7CE938A95985D357"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:prehistoric_mining_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "3A8288D406A1C35A"
+			tasks: [{
+				id: "2747543CF06C458F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_nature_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.25d
+		}
+		{
+			id: "257825FD4B900190"
+			tasks: [{
+				id: "0739AE8AB6CAD59B"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_hissing_skull_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -2.25d
+		}
+		{
+			id: "3524835E21802D11"
+			tasks: [{
+				id: "3E7502A0C6DA090D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_bone_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: -1.0d
+		}
+		{
+			id: "5CA4943A9367EE7E"
+			tasks: [{
+				id: "6C90742E099FFA5C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_bone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.25d
+		}
+		{
+			id: "616223A244998182"
+			tasks: [{
+				id: "523AAFCD7BB3EECB"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:amber_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 1.5d
+		}
+		{
+			id: "678B330F781169E7"
+			tasks: [{
+				id: "3C5082DA455DB210"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:parasaur_whistling_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 2.75d
+		}
+		{
+			id: "61E386896BCB86D5"
+			tasks: [{
+				id: "14AFE19E51EECD7D"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:dilo_shooting_artifact_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 4.0d
+		}
+		{
+			id: "778F5A887BB92E74"
+			tasks: [{
+				id: "3E5C68BD05A3AA40"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:pyroraptor_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.25d
+			y: 5.25d
+		}
+		{
+			id: "17D98E34F9B2A1C0"
+			tasks: [{
+				id: "256EB8B9FA7D7363"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:primal_howling_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.25d
+		}
+		{
+			id: "57BEC38F6B7D91A0"
+			tasks: [{
+				id: "1E897E9AE9EC23F5"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:oviraptor_skull_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "7F8F6EC77225AF5A"
+			tasks: [{
+				id: "0D56D0537EC422D5"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:primal_shaman_raptor_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.25d
+		}
+		{
+			id: "71600CD8434D6ADD"
+			tasks: [{
+				id: "1CC041B9480F155E"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_mourners_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "1A5F1465C67C6579"
+			tasks: [{
+				id: "7F1F23D250303088"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_bone_2_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.75d
+		}
+		{
+			id: "1109796EF3192171"
+			tasks: [{
+				id: "4EE900C3DF462E36"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_bone_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "5DD9589EE91FDC86"
+			tasks: [{
+				id: "6CCBD99CE8710408"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:beelzebufo_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.25d
+		}
+		{
+			id: "762C804C8F35C7F1"
+			tasks: [{
+				id: "18A50500C9E31BA3"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_ocean_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: -2.25d
+		}
+		{
+			id: "121855B1F062CEAE"
+			tasks: [{
+				id: "0DC85641F08DFDB0"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:autumn_lily_birthcake_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 4.0d
+		}
+		{
+			id: "762F71E7B0FF5B97"
+			tasks: [{
+				id: "3D2F48500323E537"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:matasuegras_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 5.25d
+		}
+		{
+			id: "4C22CDDFFED39111"
+			tasks: [{
+				id: "1EEA81E50C22F136"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:olive_cocktail_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.25d
+		}
+		{
+			id: "1798BBE095E6E99E"
+			tasks: [{
+				id: "4E309352897CB18F"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:pomegrade_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			id: "39E17C472AE1DD2F"
+			tasks: [{
+				id: "51FC0B029C699859"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:vampire_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.25d
+		}
+		{
+			id: "77E14BF09FE41123"
+			tasks: [{
+				id: "6BE423AE7D23E83B"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:witch_broom_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 6.5d
+		}
+		{
+			id: "0217108978728235"
+			tasks: [{
+				id: "71185BD25BD14C73"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:vodoo_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "29B971931FA51DA0"
+			tasks: [{
+				id: "23FCF9F770042D95"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:hell_hand_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			id: "2A0D8116D13EFBC9"
+			tasks: [{
+				id: "117CADADA8CD8B44"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:big_peppa_pigsaw_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -1.0d
+		}
+		{
+			id: "35C13ABDA19FD2CD"
+			tasks: [{
+				id: "396BDB0CE4272D44"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:sweetberry_monster_gum_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -4.75d
+		}
+		{
+			id: "4C67B3E585B36286"
+			tasks: [{
+				id: "32C887F227256585"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:corn_monster_gum_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "232AE760FD001B96"
+			tasks: [{
+				id: "5532AFDA5278C50B"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:chorus_monster_gum_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.75d
+		}
+		{
+			id: "047AFF0CE95254CE"
+			tasks: [{
+				id: "1595C0BBC8ACA2FB"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:amalgam_monster_gum_waraxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -6.0d
+		}
+		{
+			id: "45E1648A0FE4F7B4"
+			tasks: [{
+				id: "44E6DFA51D6BCEEA"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:demon_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "524D6D3AF2F7D9DE"
+			tasks: [{
+				id: "6AAE54B713A0355C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:toy_reapers_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.5d
+		}
+		{
+			id: "659B5FFFEC286111"
+			tasks: [{
+				id: "62E5ABD19307BA30"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:haunted_lamp_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.75d
+		}
+		{
+			id: "6D23CE343C461F68"
+			tasks: [{
+				id: "5672FE831D9F5EEF"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:haunted_doll_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 7.75d
+		}
+		{
+			id: "430A63C9919DF69B"
+			tasks: [{
+				id: "409AFF4931C62734"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:scarecrow_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "06A8DD4FC3CB26F8"
+			tasks: [{
+				id: "518CC5CFDA8DEB9E"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:evil_pop_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.75d
+		}
+		{
+			id: "2F2F21A801D63717"
+			tasks: [{
+				id: "63694B9B992C5101"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:spooky_bat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "277D3B8068F89384"
+			tasks: [{
+				id: "5A21A816235722EB"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:frankenstein_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "1F9B516A67AE3EB2"
+			tasks: [{
+				id: "4EC6CD440FA829E0"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:tombstone_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.25d
+		}
+		{
+			id: "4FF064AC81C1AD4E"
+			tasks: [{
+				id: "53934B1A0A709C1B"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:river_ancient_bone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.75d
+		}
+		{
+			id: "756CEE4E40E52438"
+			tasks: [{
+				id: "6A0CDC2BD6BE00F6"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:blood_ancient_bone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.75d
+		}
+		{
+			id: "324A933F48763F63"
+			tasks: [{
+				id: "6CCC2A484591B1B6"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:forest_ancient_bone_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.75d
+		}
+		{
+			id: "0E8E6EC3B5235258"
+			tasks: [{
+				id: "5F41E683EE8395E2"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:river_ancient_bone_2_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "03E06C6787F45AE4"
+			tasks: [{
+				id: "039D945477826E54"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:blood_ancient_bone_2_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.75d
+		}
+		{
+			id: "4290F3A9CB3A073D"
+			tasks: [{
+				id: "2B702577704F0D52"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:forest_ancient_bone_2_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.25d
+		}
+		{
+			id: "4CD88798446A079E"
+			tasks: [{
+				id: "3181F0138EEA7BE0"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:river_ancient_bone_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "48900E14511AA2FD"
+			tasks: [{
+				id: "7E709CE0F6CF5FB1"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:blood_ancient_bone_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.25d
+		}
+		{
+			id: "4F629A18B913CB5C"
+			tasks: [{
+				id: "1FF21D01595E3A19"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:forest_ancient_bone_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "0590FB329E3091D1"
+			tasks: [{
+				id: "748DB7882825B910"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_pachyrodon_skull_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: -1.0d
+		}
+		{
+			id: "034F5D8EC2C2D26E"
+			tasks: [{
+				id: "60D663BB59882514"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_bone_flute_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: 0.25d
+		}
+		{
+			id: "27F3E69BFB8602A5"
+			tasks: [{
+				id: "777A2A1EDF96F91C"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_quetzalopelta_skull_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: 1.5d
+		}
+		{
+			id: "547DB7F4892A11CA"
+			tasks: [{
+				id: "430B097D96577448"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_tapejara_skull_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: 2.75d
+		}
+		{
+			id: "3FABE5DF990FC9A0"
+			tasks: [{
+				id: "1AD76B9E599991ED"
+				item: {
+					Count: 1
+					id: "nenufars_weapons:ancient_nature_flute_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.75d
+			y: 4.0d
+		}
+	]
 	title: "&4NSNW"
 }

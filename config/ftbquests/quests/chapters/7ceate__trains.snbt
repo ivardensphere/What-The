@@ -1,0 +1,974 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7ceate__trains"
+	group: "6CFDE535DE131F6B"
+	id: "6675D12BB10C0EF1"
+	images: [
+		{
+			click: "https://github.com/Layers-of-Railways/Railway/wiki/Track-Switches"
+			height: 0.5d
+			hover: ["Click for Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			click: "https://github.com/Layers-of-Railways/Railway/wiki/Track-Buffer-Stop"
+			height: 0.5d
+			hover: ["Click for Help"]
+			image: "ftblibrary:icons/info_gray"
+			rotation: 0.0d
+			width: 0.5d
+			x: 4.25d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4967C2A25826B989"
+			tasks: [{
+				count: 5L
+				id: "1EF0AB8F6B4D8660"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7F0B7C102C0A17E4"
+			tasks: [{
+				id: "613B46D108A56CCD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:conductor_caps"
+					}
+				}
+				title: "Any #railways:conductor_caps"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			id: "520E2DBAD43C92D3"
+			tasks: [{
+				id: "1CCAE45B2F27CF2D"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.5d
+		}
+		{
+			id: "7B63459E91E35ED0"
+			tasks: [{
+				count: 5L
+				id: "4135BF14CB783D48"
+				item: { Count: 5, id: "railways:track_oak_wide" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			id: "77929142E55DA264"
+			tasks: [{
+				count: 5L
+				id: "6E2A900204E78177"
+				item: { Count: 5, id: "railways:track_oak_narrow" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "3474F3139ED4F957"
+			tasks: [{
+				id: "1C9B153987DA214F"
+				item: "railways:smokestack_caboosestyle"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.0d
+		}
+		{
+			id: "0F938B4F598D810D"
+			tasks: [{
+				id: "1AB6A6069F824033"
+				item: "railways:smokestack_woodburner"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			id: "3C7C6B1C87B7820C"
+			tasks: [{
+				id: "0254FA57984F5955"
+				item: "railways:smokestack_long"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -2.5d
+		}
+		{
+			id: "596501D7E33A0B2C"
+			tasks: [{
+				id: "3FD8AE406FDDCFFC"
+				item: "railways:smokestack_coalburner"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.75d
+		}
+		{
+			id: "28DA727236E5DCD4"
+			tasks: [{
+				id: "58D6C626E9B3AC65"
+				item: "railways:smokestack_oilburner"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -5.0d
+		}
+		{
+			id: "4BFB36A54AC055CB"
+			tasks: [{
+				id: "4D85FC9C0B850EE1"
+				item: "railways:smokestack_streamlined"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "1F93C6315880BD4F"
+			tasks: [{
+				id: "676DEFB544196588"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.75d
+		}
+		{
+			id: "4F680BDB4D3B5D15"
+			tasks: [{
+				id: "0E3914CD36AF85BB"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F680BDB4D3B5D15"]
+			id: "3A68463E6D564BAC"
+			tasks: [{
+				id: "33A78D37EFDC306B"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4F680BDB4D3B5D15"]
+			id: "1F1FFD1E9362AA0F"
+			tasks: [{
+				id: "246E2906EB0E87BD"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "57D342B018FC7BF1"
+			tasks: [{
+				id: "1393B2AD127F7430"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "49AD1C038D9F5363"
+			tasks: [{
+				id: "5B73C40A2C27F1FF"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 11.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "401F28C5953C08BE"
+			tasks: [{
+				id: "30A0C579538A6C5A"
+				item: "create:train_trapdoor"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "39F5DD3D5016E126"
+			tasks: [{
+				id: "7D9893BA43831E76"
+				item: "create:train_door"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "02421D7C428A1BD8"
+			tasks: [{
+				id: "487EF5C34EB589E9"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "6F9A21B6A2F12E49"
+			tasks: [{
+				id: "0FA596973B68D155"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "6D0A2B2EDBDF3237"
+			tasks: [{
+				id: "5DBA759CF5F20247"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:seats"
+					}
+				}
+				title: "Any #create:seats"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			id: "44DF060524B1ABF9"
+			tasks: [{
+				id: "16C1F10B01F30E23"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+		{
+			id: "71D10C2AECADEC99"
+			tasks: [{
+				id: "660691D5E93806D0"
+				item: "railways:small_buffer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5A24D33B8451BE23"
+			tasks: [{
+				id: "3B34AEAB549FE275"
+				item: "create_things_and_misc:train_buffer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "2E19283C8A82C0D5"
+			tasks: [{
+				id: "37D5EADBC8E8C508"
+				item: "railways:big_buffer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			id: "280EC3146C4F69CF"
+			tasks: [{
+				id: "5BFC7AB5BA377B86"
+				item: "create_things_and_misc:train_stop"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			id: "3E05A10D447C6E65"
+			tasks: [{
+				id: "6793A09E286362C3"
+				item: "railways:buffer"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.5d
+		}
+		{
+			id: "302B7F2BB1790EE9"
+			tasks: [{
+				id: "2888876980CF873E"
+				item: "railways:wooden_headstock_link_and_pin"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			id: "6B344509E6ADA9EE"
+			tasks: [{
+				id: "52038629D575F60A"
+				item: "create:metal_girder"
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F680BDB4D3B5D15"]
+			id: "6E349DCB4E89DC1A"
+			tasks: [{
+				id: "0D5F51608360315E"
+				item: "railways:fuel_tank"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "32E0955819BFF3A8"
+			tasks: [{
+				id: "14F5777A82C78255"
+				item: "railways:portable_fuel_interface"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "74952612C27E7EB0"
+			tasks: [{
+				id: "6A5FA1CD6985B6FF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:palettes/dye_groups/boiler"
+					}
+				}
+				title: "Any #railways:palettes/dye_groups/boiler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["74952612C27E7EB0"]
+			id: "7FB0D131D3314183"
+			tasks: [{
+				id: "4AD552BE6B5607D3"
+				item: "railways:brass_wrapped_locometal_boiler"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["74952612C27E7EB0"]
+			id: "168AEA207B7DC814"
+			tasks: [{
+				id: "02F19F5219965F0C"
+				item: "railways:black_copper_wrapped_locometal_boiler"
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74952612C27E7EB0"]
+			id: "7FA0500A9D8CCE59"
+			tasks: [{
+				id: "1F9551974C095E02"
+				item: "railways:light_gray_iron_wrapped_locometal_boiler"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.5d
+		}
+		{
+			id: "7B71715A98292865"
+			tasks: [{
+				id: "797EC97065C90D1D"
+				item: "railways:green_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.75d
+		}
+		{
+			id: "0CABC2286951E935"
+			tasks: [{
+				id: "4E0186B94239D572"
+				item: "railways:brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			id: "152CB83E95B13B18"
+			tasks: [{
+				id: "02158FDED427D785"
+				item: "railways:red_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.75d
+		}
+		{
+			id: "03D9A61F8E4B5451"
+			tasks: [{
+				id: "7AC9F12737CB1E7C"
+				item: "railways:yellow_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.25d
+		}
+		{
+			id: "07606B974EC97BCE"
+			tasks: [{
+				id: "01AA95CBAF54BDC6"
+				item: "railways:cyan_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			id: "5E637F6B6504F871"
+			tasks: [{
+				id: "0CD67311B578A7EF"
+				item: "railways:light_blue_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -1.25d
+		}
+		{
+			id: "386CCD59C013F988"
+			tasks: [{
+				id: "0F4C2FB22B96E94B"
+				item: "railways:blue_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -2.5d
+		}
+		{
+			id: "5D750B7FCCC265BF"
+			tasks: [{
+				id: "03EF881C17158FFE"
+				item: "railways:purple_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -3.75d
+		}
+		{
+			id: "3D6A36BAF025ABFD"
+			tasks: [{
+				id: "140BDA9078C85F7F"
+				item: "railways:magenta_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "05CCD020C8136422"
+			tasks: [{
+				id: "48C55A4BF6063EE2"
+				item: "railways:iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "7DC35227D09AC3A9"
+			tasks: [{
+				id: "7530C081BA6A2B8E"
+				item: "railways:light_gray_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -8.75d
+		}
+		{
+			id: "12CB1743E20FFFF4"
+			tasks: [{
+				id: "2D749EB6D9672EC6"
+				item: "railways:gray_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -7.5d
+		}
+		{
+			id: "0B9653BFFFA4F888"
+			tasks: [{
+				id: "154674445D84B13E"
+				item: "railways:black_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -6.25d
+		}
+		{
+			id: "544508D5E88C90C4"
+			tasks: [{
+				id: "0E6A9450D564435E"
+				item: "railways:brown_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -5.0d
+		}
+		{
+			id: "4228D5DE4C1FB69F"
+			tasks: [{
+				id: "697BA2D0BF7C2419"
+				item: "railways:red_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -3.75d
+		}
+		{
+			id: "598C1E433C426DF7"
+			tasks: [{
+				id: "701FE5DA54943628"
+				item: "railways:light_gray_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.75d
+		}
+		{
+			id: "5A76F5DEB9BB8804"
+			tasks: [{
+				id: "6B1071CEB3DEA4BB"
+				item: "railways:gray_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			id: "41186902379BC176"
+			tasks: [{
+				id: "4FDF82D8D790A24A"
+				item: "railways:black_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.25d
+		}
+		{
+			id: "0977FA5D6A59933F"
+			tasks: [{
+				id: "227CE49F5089E27E"
+				item: "railways:brown_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			id: "69CFBD12C21C0593"
+			tasks: [{
+				id: "6C88895A29BCF6F7"
+				item: "railways:yellow_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -6.25d
+		}
+		{
+			id: "6423E27063B0DD5B"
+			tasks: [{
+				id: "7328F9797D540EA0"
+				item: "railways:lime_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -7.5d
+		}
+		{
+			id: "261E8B204BEA8DC9"
+			tasks: [{
+				id: "331F937DBA7F72C0"
+				item: "railways:green_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -8.75d
+		}
+		{
+			id: "052844F436152F2B"
+			tasks: [{
+				id: "6BD2150046E142A5"
+				item: "railways:lime_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			id: "704D9D8D204917A0"
+			tasks: [{
+				id: "00E0EE84237B2663"
+				item: "railways:cyan_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -10.0d
+		}
+		{
+			id: "370D2A06923C5E15"
+			tasks: [{
+				id: "3BB1D6B0FDA43ADD"
+				item: "railways:light_blue_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.25d
+		}
+		{
+			id: "63CB61FBF0015859"
+			tasks: [{
+				id: "2CE8DC903D9FAB1F"
+				item: "railways:blue_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			id: "0B526343868F7286"
+			tasks: [{
+				id: "26C86F886F776026"
+				item: "railways:purple_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.75d
+		}
+		{
+			id: "58990FB0CF8EBD85"
+			tasks: [{
+				id: "73BFCBDC5A1FF7C8"
+				item: "railways:magenta_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -2.5d
+		}
+		{
+			id: "46BA8346150E61BC"
+			tasks: [{
+				id: "4FC9A4DE767BBE03"
+				item: "railways:pink_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -1.25d
+		}
+		{
+			id: "22B2A78133A898D9"
+			tasks: [{
+				id: "4E4E8ECD9F94E23B"
+				item: "railways:pink_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.25d
+		}
+		{
+			id: "4882F4928854D631"
+			tasks: [{
+				id: "0B14C520CF8D597C"
+				item: "railways:pink_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.25d
+		}
+		{
+			id: "0D6B208F518169FA"
+			tasks: [{
+				id: "5055C877B5FBA1EF"
+				item: "railways:copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.75d
+			y: 0.0d
+		}
+		{
+			id: "0AFE1F7C2C006395"
+			tasks: [{
+				id: "385DC23D57569F41"
+				item: "railways:magenta_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			id: "0D5AEAF902F25299"
+			tasks: [{
+				id: "018E9FEE24EA364F"
+				item: "railways:red_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.75d
+		}
+		{
+			id: "5066118EE313E023"
+			tasks: [{
+				id: "17B05445A3DC4094"
+				item: "railways:yellow_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.25d
+		}
+		{
+			id: "414959449B769023"
+			tasks: [{
+				id: "4E076173EED1DE1F"
+				item: "railways:orange_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			id: "5AE296EC74CF55DE"
+			tasks: [{
+				id: "2260463A9D172F02"
+				item: "railways:orange_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -11.25d
+			y: -5.0d
+		}
+		{
+			id: "09465D7BFF75E33C"
+			tasks: [{
+				id: "73026D9D42C03C2D"
+				item: "railways:orange_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			id: "7A2DCF701B5CE29B"
+			tasks: [{
+				id: "35AF130203DCD977"
+				item: "railways:lime_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			id: "54E575AAE9D6423A"
+			tasks: [{
+				id: "0CC644D13C31B05C"
+				item: "railways:green_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.75d
+		}
+		{
+			id: "29D0AA42B47838CD"
+			tasks: [{
+				id: "40EDC76788020228"
+				item: "railways:cyan_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -10.0d
+		}
+		{
+			id: "0039A863AE215BA8"
+			tasks: [{
+				id: "51A8A6EF02C2199E"
+				item: "railways:light_blue_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -1.25d
+		}
+		{
+			id: "126BF453F96D8C3C"
+			tasks: [{
+				id: "20EFCB98D6282A20"
+				item: "railways:blue_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -2.5d
+		}
+		{
+			id: "50A49139E7E7E8C5"
+			tasks: [{
+				id: "05D7D449F530070C"
+				item: "railways:purple_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -3.75d
+		}
+		{
+			id: "729CD6FE018C3C3F"
+			tasks: [{
+				id: "5FBE61EE767953AA"
+				item: "railways:brown_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -5.0d
+		}
+		{
+			id: "0D3582B6CCB32FFD"
+			tasks: [{
+				id: "21E62234FA1AE8D0"
+				item: "railways:black_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -6.25d
+		}
+		{
+			id: "4B8710B98632D1C9"
+			tasks: [{
+				id: "285D831A4DB7F9AC"
+				item: "railways:gray_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -7.5d
+		}
+		{
+			id: "0CC26855221DE878"
+			tasks: [{
+				id: "5D7D95A630FF5223"
+				item: "railways:light_gray_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -8.75d
+		}
+		{
+			id: "3E9668F99C2EA016"
+			tasks: [{
+				id: "75E9D44953FCEFEF"
+				item: "railways:white_copper_wrapped_locometal"
+				type: "item"
+			}]
+			x: -16.25d
+			y: -10.0d
+		}
+		{
+			id: "0BB226037A41A7B0"
+			tasks: [{
+				id: "2097D631752E8F50"
+				item: "railways:white_iron_wrapped_locometal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			id: "76A9D151CDE9DEBF"
+			tasks: [{
+				id: "09AF63F87C282F65"
+				item: "railways:white_brass_wrapped_locometal"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -10.0d
+		}
+		{
+			id: "46CDD4F7640BDD89"
+			tasks: [{
+				id: "29791D9B27287409"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A68463E6D564BAC"]
+			id: "6CF481C7816A32F1"
+			tasks: [{
+				id: "5A28EA24EBF211E9"
+				item: "railways:track_switch_brass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.25d
+		}
+		{
+			id: "6CE414AD8D35ED55"
+			tasks: [{
+				id: "1A2EA99F60ECAE55"
+				item: "bellsandwhistles:headlight"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+	]
+	title: "&6Ceate - Trains"
+}

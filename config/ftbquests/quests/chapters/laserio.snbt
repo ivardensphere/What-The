@@ -4,8 +4,226 @@
 	filename: "laserio"
 	group: "2AE14BA71BB3164A"
 	id: "01DF6ECA1042527B"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1028CF2B860238D8"
+			tasks: [{
+				id: "2884430503EB479C"
+				item: "laserio:logic_chip_raw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1028CF2B860238D8"]
+			id: "6CA6FD7A1B56D7F0"
+			tasks: [{
+				id: "7D224324EEBBA5BA"
+				item: "laserio:logic_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "612884C412FD798D"
+			tasks: [{
+				id: "27DFC8F245A0FECE"
+				item: "laserio:laser_wrench"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "0B775506BC01879C"
+			tasks: [{
+				id: "698D93C23A63F715"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+					id: "laserio:card_holder"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "43D0F5AEA039B789"
+			tasks: [{
+				id: "61E5EB67A4ED9385"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "2CC34A7D00808DAA"
+			tasks: [{
+				id: "67D8F2CE626312AE"
+				item: "laserio:card_cloner"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "6D8BED57EBDB0205"
+			tasks: [{
+				id: "769EE71C97D35503"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "107A945A8F1AB729"
+			tasks: [{
+				id: "1B218ACF4ACF8B02"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "287C451E4CB49A26"
+			tasks: [{
+				id: "67E20C82C675C473"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "32A6B7E80DAF9E4B"
+			tasks: [{
+				id: "67AB352825184B67"
+				item: "laserio:card_redstone"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "45B6EBFBB006494C"
+			tasks: [{
+				id: "7714A4D6D94D27FD"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "7756030ADF2942D4"
+			tasks: [{
+				id: "64EAA0566AA7398B"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["43D0F5AEA039B789"]
+			id: "37361DC8ECC4E61A"
+			tasks: [{
+				id: "066CDCB8DAACC869"
+				item: "laserio:laser_connector_advanced"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CA6FD7A1B56D7F0"]
+			id: "73842291E7526E05"
+			tasks: [{
+				id: "286768C3B25BD9A1"
+				item: "laserio:filter_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73842291E7526E05"]
+			id: "24A00BD86886D01A"
+			tasks: [{
+				id: "46F2F18C7BE2C0C1"
+				item: "laserio:filter_count"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["73842291E7526E05"]
+			id: "7CACAD41E292B967"
+			tasks: [{
+				id: "22E22D5CF26F7AF1"
+				item: "laserio:filter_tag"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["73842291E7526E05"]
+			id: "1E44761708890F40"
+			tasks: [{
+				id: "5C1F6F21EACED8B9"
+				item: "laserio:filter_mod"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73842291E7526E05"]
+			id: "2DF4A05681401509"
+			tasks: [{
+				id: "1FE4B272B0883059"
+				item: "laserio:filter_nbt"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["43D0F5AEA039B789"]
+			id: "526AB66997553E67"
+			tasks: [{
+				id: "1DDAFFE24B16FB13"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+	]
 	title: "&3LaserIO"
 }

@@ -6,6 +6,1518 @@
 	id: "4DA25DC249AEF9ED"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "597EB572BD67FF58"
+			tasks: [{
+				id: "7B7FFE431F1A69C0"
+				item: {
+					Count: 1
+					id: "useless_sword:thorny_stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			id: "6F4CCA43867E682C"
+			tasks: [{
+				id: "515C9DA8087DCBA1"
+				item: {
+					Count: 1
+					id: "useless_sword:thorny_iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2A0F534B76C5B120"
+			tasks: [{
+				id: "10254C7687259CBD"
+				item: {
+					Count: 1
+					id: "useless_sword:thorny_golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			id: "0662DE979C2227EC"
+			tasks: [{
+				id: "1111CC64FED3EC5B"
+				item: {
+					Count: 1
+					id: "useless_sword:thorny_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "5D324A03624E87CD"
+			tasks: [{
+				id: "34BE97235F92326E"
+				item: {
+					Count: 1
+					id: "useless_sword:coal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "78CB5D6273429AFE"
+			tasks: [{
+				id: "47EA32560FA5BCBD"
+				item: {
+					Count: 1
+					id: "useless_sword:redstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			id: "5929D86143711226"
+			tasks: [{
+				id: "2DE78B3F4200DC0A"
+				item: {
+					Count: 1
+					id: "useless_sword:lapis_lazuli_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "418EF23CBA268527"
+			tasks: [{
+				id: "0E2BD35ECE6902B7"
+				item: {
+					Count: 1
+					id: "useless_sword:bamboo_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: 0.0d
+		}
+		{
+			id: "3F5C1147F5A93E8B"
+			tasks: [{
+				id: "16C995E62F54518B"
+				item: {
+					Count: 1
+					id: "useless_sword:slime_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: 0.0d
+		}
+		{
+			id: "156AF0A9BFF2F3E1"
+			tasks: [{
+				id: "00117A1289D1D2C7"
+				item: {
+					Count: 1
+					id: "useless_sword:cactus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -1.25d
+		}
+		{
+			id: "5D80C845BB60614E"
+			tasks: [{
+				id: "5558FF822D1E256F"
+				item: {
+					Count: 1
+					id: "useless_sword:sand_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7606885A63B80CA7"
+			tasks: [{
+				id: "7BEC1C1C048676FE"
+				item: {
+					Count: 1
+					id: "useless_sword:red_sand_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+		{
+			id: "22C7542B7279B7ED"
+			tasks: [{
+				id: "1A7AE7492FF22E68"
+				item: {
+					Count: 1
+					id: "useless_sword:soul_sand_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "6CEB7075FAAA5A99"
+			tasks: [{
+				id: "08773C93DC2823AE"
+				item: {
+					Count: 1
+					id: "useless_sword:sandstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.25d
+		}
+		{
+			id: "763544329213F9DC"
+			tasks: [{
+				id: "5329C71A3598C276"
+				item: {
+					Count: 1
+					id: "useless_sword:red_sandstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			id: "551CFCB6E9176901"
+			tasks: [{
+				id: "0BAA72BE2F6BC668"
+				item: {
+					Count: 1
+					id: "useless_sword:clay_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.75d
+		}
+		{
+			id: "1C4F6350F08B550D"
+			tasks: [{
+				id: "098D25CD7BC1AB19"
+				item: {
+					Count: 1
+					id: "useless_sword:witherred_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -1.25d
+		}
+		{
+			id: "4300D4D9EE48FE36"
+			tasks: [{
+				id: "0CD4789A363A463C"
+				item: {
+					Count: 1
+					id: "useless_sword:furnace_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "5AC72D9F971D9256"
+			tasks: [{
+				id: "50D2FFD55ECBF668"
+				item: {
+					Count: 1
+					id: "useless_sword:alloy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.25d
+		}
+		{
+			id: "7D37D0A2A876EBF6"
+			tasks: [{
+				id: "569E9B7C3BB56B1E"
+				item: {
+					Count: 1
+					id: "useless_sword:emerald_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.75d
+		}
+		{
+			id: "59F10722317FF3C8"
+			tasks: [{
+				id: "332289AFFEF15472"
+				item: {
+					Count: 1
+					id: "useless_sword:prismarine_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "644F3BA8095F087E"
+			tasks: [{
+				id: "0ADDB4AB295A1E8D"
+				item: {
+					Count: 1
+					id: "useless_sword:frozen_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "2D45B647362D8C80"
+			tasks: [{
+				id: "4D10B66C5306395F"
+				item: {
+					Count: 1
+					id: "useless_sword:dragon_breath_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -7.5d
+		}
+		{
+			id: "704A1494AAE7A6D6"
+			tasks: [{
+				id: "6DF8522F1DD2DB88"
+				item: {
+					Count: 1
+					id: "useless_sword:molten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.25d
+		}
+		{
+			id: "0EE8103AB5976148"
+			tasks: [{
+				id: "0FE7D8F0FE089204"
+				item: {
+					Count: 1
+					id: "useless_sword:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "41346A87AC677FC8"
+			tasks: [{
+				id: "73277BB3AC1C6317"
+				item: {
+					Count: 1
+					id: "useless_sword:water_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.75d
+		}
+		{
+			id: "663C0FDEAAEBBAA1"
+			tasks: [{
+				id: "7DA94386DB1DAD61"
+				item: {
+					Count: 1
+					id: "useless_sword:lava_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			id: "745E44E7C86A29BB"
+			tasks: [{
+				id: "1C8F535A3801A539"
+				item: {
+					Count: 1
+					id: "useless_sword:mushroom_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -2.5d
+		}
+		{
+			id: "64D7DAE05B15C2C8"
+			tasks: [{
+				id: "0B2CA8B1032C29DD"
+				item: {
+					Count: 1
+					id: "useless_sword:quartz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.25d
+		}
+		{
+			id: "5ED306C0560EB913"
+			tasks: [{
+				id: "03C9959A6F1DD055"
+				item: {
+					Count: 1
+					id: "useless_sword:glowstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "03EEA29A0B489AC7"
+			tasks: [{
+				id: "360A03C8026D9C22"
+				item: {
+					Count: 1
+					id: "useless_sword:netherrack_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -1.25d
+		}
+		{
+			id: "761472E108619BB2"
+			tasks: [{
+				id: "55022D91449AC540"
+				item: {
+					Count: 1
+					id: "useless_sword:endstone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.5d
+		}
+		{
+			id: "674376DB52EE4363"
+			tasks: [{
+				id: "4C8049B60743321E"
+				item: {
+					Count: 1
+					id: "useless_sword:thorny_wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C71A3E7B82EA1D3"
+			tasks: [{
+				id: "6E4701D92479D271"
+				item: {
+					Count: 1
+					id: "useless_sword:guardian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -3.75d
+		}
+		{
+			id: "5B497F6EC604D06E"
+			tasks: [{
+				id: "17BCB98BE6D32214"
+				item: {
+					Count: 1
+					id: "useless_sword:elder_guardian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -5.0d
+		}
+		{
+			id: "5E397E42CE972D64"
+			tasks: [{
+				id: "2F3AECD95A090C15"
+				item: {
+					Count: 1
+					id: "useless_sword:beacon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "284AEC5D6FDF6214"
+			tasks: [{
+				id: "38DCFAE156716EEC"
+				item: "useless_sword:undying_sword"
+				type: "item"
+			}]
+			x: 13.75d
+			y: -2.5d
+		}
+		{
+			id: "48CB21661E0A72A2"
+			tasks: [{
+				id: "109359C1D984D293"
+				item: {
+					Count: 1
+					id: "useless_sword:ghast_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -6.25d
+		}
+		{
+			id: "69CA93A73C602CD0"
+			tasks: [{
+				id: "12B3830E2438A196"
+				item: {
+					Count: 1
+					id: "useless_sword:nether_catalyst_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.25d
+		}
+		{
+			id: "6856026339B144EF"
+			tasks: [{
+				id: "0FAC16F4334CCE29"
+				item: {
+					Count: 1
+					id: "useless_sword:wither_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.5d
+		}
+		{
+			id: "261C34CC0A7236E6"
+			tasks: [{
+				id: "6D21A0CF3BA5D24B"
+				item: {
+					Count: 1
+					id: "useless_sword:dimensional_breacher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.75d
+		}
+		{
+			id: "03F57141FCD8F2BE"
+			tasks: [{
+				id: "56A82581F596A962"
+				item: {
+					Count: 1
+					id: "useless_sword:end_crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			id: "538E53B87212BA17"
+			tasks: [{
+				id: "37B95425B79A5CE8"
+				item: {
+					Count: 1
+					id: "useless_sword:ender_catalyst_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.25d
+		}
+		{
+			id: "7DF6D4B5EC3CF2AB"
+			tasks: [{
+				id: "4821B272B1D1E0E1"
+				item: {
+					Count: 1
+					id: "useless_sword:enderman_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -8.75d
+		}
+		{
+			id: "590B1710D1F9FC35"
+			tasks: [{
+				id: "37C2DBE94972F124"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 27
+						}
+					}
+					id: "useless_sword:shulker_sword"
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -10.0d
+		}
+		{
+			id: "2A213A01C00F8389"
+			tasks: [{
+				id: "2D15A75495C465D3"
+				item: {
+					Count: 1
+					id: "useless_sword:valhalla_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -8.75d
+		}
+		{
+			id: "66F7E618F9CC2673"
+			tasks: [{
+				id: "6157D9E2D35DA4D0"
+				item: {
+					Count: 1
+					id: "useless_sword:bugged_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			id: "6CF341576621B8C6"
+			tasks: [{
+				id: "419CA0C9CBD59425"
+				item: {
+					Count: 1
+					id: "useless_sword:turtle_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -11.25d
+		}
+		{
+			id: "3696E1D08249391A"
+			tasks: [{
+				id: "12A0A887FCFB4127"
+				item: {
+					Count: 1
+					id: "useless_sword:pillager_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			id: "13595243398FDD2F"
+			tasks: [{
+				id: "16769D26609F6902"
+				item: {
+					Count: 1
+					id: "useless_sword:ravager_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "183CE25E3C0F0216"
+			tasks: [{
+				id: "7984C06C2FD1AB06"
+				item: {
+					Count: 1
+					id: "useless_sword:vex_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.25d
+		}
+		{
+			id: "452E7A7742FCBEC7"
+			tasks: [{
+				id: "455623C4C02FE002"
+				item: {
+					Count: 1
+					id: "useless_sword:spider_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "29A4248C36E18E8F"
+			tasks: [{
+				id: "7901213043778514"
+				item: {
+					Count: 1
+					id: "useless_sword:charged_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			id: "2A454DB53CCC28E0"
+			tasks: [{
+				id: "3017B22442ECCFF2"
+				item: {
+					Count: 1
+					id: "useless_sword:tamed_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -3.75d
+		}
+		{
+			id: "6F955F28B976D088"
+			tasks: [{
+				id: "4480D16E61DF4014"
+				item: {
+					Count: 1
+					id: "useless_sword:honneycomb_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.75d
+		}
+		{
+			id: "0513886ADB9FA0E9"
+			tasks: [{
+				id: "00B106AD71FBD5ED"
+				item: {
+					Count: 1
+					id: "useless_sword:tube_coral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: 0.0d
+		}
+		{
+			id: "09BF4DDFDFE32A2B"
+			tasks: [{
+				id: "0C2D753DF1DA5F22"
+				item: {
+					Count: 1
+					id: "useless_sword:brain_coral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: -1.25d
+		}
+		{
+			id: "2C035142C0DE5FC0"
+			tasks: [{
+				id: "4AED44C1D5B10198"
+				item: {
+					Count: 1
+					id: "useless_sword:bubble_coral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: -2.5d
+		}
+		{
+			id: "23F856B52EFE2749"
+			tasks: [{
+				id: "5C16F936F39CE076"
+				item: {
+					Count: 1
+					id: "useless_sword:fire_coral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: -3.75d
+		}
+		{
+			id: "39EAEDFBCD692B4B"
+			tasks: [{
+				id: "7198C25AD0C186CA"
+				item: {
+					Count: 1
+					id: "useless_sword:horn_coral_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.25d
+			y: -5.0d
+		}
+		{
+			id: "24DFEBBCD650F3A2"
+			tasks: [{
+				id: "2FDFBA9F0A072AAC"
+				item: {
+					Count: 1
+					id: "useless_sword:magmatic_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			id: "242827FB405DE4BD"
+			tasks: [{
+				id: "091358DCF9DB311B"
+				item: {
+					Count: 1
+					id: "useless_sword:magma_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.75d
+		}
+		{
+			id: "3364C00D1417BFE8"
+			tasks: [{
+				id: "78C6EAF7BC2D2C56"
+				item: {
+					Count: 1
+					id: "useless_sword:basalt_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			id: "7164039EBF7DA3AA"
+			tasks: [{
+				id: "500D84D21301BA78"
+				item: {
+					Count: 1
+					id: "useless_sword:bugged_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			id: "192D55F2444164F1"
+			tasks: [{
+				id: "207E8EE858D2D541"
+				item: {
+					Count: 1
+					id: "useless_sword:crismon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -5.0d
+		}
+		{
+			id: "575ED78A1F76A6E2"
+			tasks: [{
+				id: "798F6E417E94C2AD"
+				item: {
+					Count: 1
+					id: "useless_sword:warped_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.75d
+			y: -6.25d
+		}
+		{
+			id: "1225D6B976BB3CDF"
+			tasks: [{
+				id: "0CA24BCB3723EA01"
+				item: {
+					Count: 1
+					id: "useless_sword:crying_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.0d
+		}
+		{
+			id: "5C8F3F6EDE335CC9"
+			tasks: [{
+				id: "386FBA9CE4554866"
+				item: {
+					Count: 1
+					id: "useless_sword:ender_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.25d
+		}
+		{
+			id: "01A889DA1A747F62"
+			tasks: [{
+				id: "343BB5A26C848D34"
+				item: {
+					Count: 1
+					id: "useless_sword:frosted_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			id: "4A0C8B384E855047"
+			tasks: [{
+				id: "3E5FFD36BB3BCE3E"
+				item: "useless_sword:sword_of_immortality"
+				type: "item"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			id: "76F8C5FD91C9D569"
+			tasks: [{
+				id: "49C2DB0D3E5192A5"
+				item: {
+					Count: 1
+					id: "useless_sword:ancient_guardian_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -1.25d
+		}
+		{
+			id: "3F3C7342D8DF8FD8"
+			tasks: [{
+				id: "6A6592E3785A4C6C"
+				item: {
+					Count: 1
+					id: "useless_sword:nether_striker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			id: "3AE4F97FD30C0A45"
+			tasks: [{
+				id: "78EF9DFE6E4F4547"
+				item: {
+					Count: 1
+					id: "useless_sword:netherite_slash_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -3.75d
+		}
+		{
+			id: "133307B3CAB27E71"
+			tasks: [{
+				id: "243040A79F3A7AE8"
+				item: {
+					Count: 1
+					id: "useless_sword:soul_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -5.0d
+		}
+		{
+			id: "7E6818E5419D0582"
+			tasks: [{
+				id: "572854A209C6B5C6"
+				item: {
+					Count: 1
+					id: "useless_sword:sculk_buster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			id: "29021712C72D7D1B"
+			tasks: [{
+				id: "039DC6CE51700287"
+				item: {
+					Count: 1
+					id: "useless_sword:dripstone_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.25d
+		}
+		{
+			id: "05F1DB1A276C1DC1"
+			tasks: [{
+				id: "22FD8D1473E319B5"
+				item: {
+					Count: 1
+					id: "useless_sword:amethyst_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			id: "0B1251946C4C3893"
+			tasks: [{
+				id: "593322726A8FCC5E"
+				item: {
+					Count: 1
+					id: "useless_sword:copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.5d
+		}
+		{
+			id: "1BE32A3479A13DE5"
+			tasks: [{
+				id: "397426C6C694C772"
+				item: {
+					Count: 1
+					id: "useless_sword:charged_copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			id: "02FE01C7F6D25DC8"
+			tasks: [{
+				id: "20E06F054D604758"
+				item: {
+					Count: 1
+					id: "useless_sword:pyro_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -6.25d
+		}
+		{
+			id: "7E5245002128B5A9"
+			tasks: [{
+				id: "35B6D51675DB81AD"
+				item: {
+					Count: 1
+					id: "useless_sword:pyro_soul_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -5.0d
+		}
+		{
+			id: "43EFA73F10EF051F"
+			tasks: [{
+				id: "4118A7162275A7CD"
+				item: {
+					Count: 1
+					id: "useless_sword:message_in_a_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -7.5d
+		}
+		{
+			id: "406E6B8CEA036BF4"
+			tasks: [{
+				id: "667FF4A901F9A7BF"
+				item: {
+					Count: 1
+					id: "useless_sword:neptunium_grab_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.25d
+		}
+		{
+			id: "386A19C9B18332AC"
+			tasks: [{
+				id: "14CB3BEEFE685C57"
+				item: {
+					Count: 1
+					id: "useless_sword:rotten_fish_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "04491E3434D1AE5D"
+			tasks: [{
+				id: "1B4F5A362918C632"
+				item: {
+					Count: 1
+					id: "useless_sword:refined_radiance_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -6.25d
+		}
+		{
+			id: "2B82D962A35AB8D0"
+			tasks: [{
+				id: "7F9BEBEB6F417B9D"
+				item: {
+					Count: 1
+					id: "useless_sword:copper_jigsaw_slicer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -8.75d
+		}
+		{
+			id: "281D5E17DBBE8DCD"
+			tasks: [{
+				id: "64D8ADDFBC4434AB"
+				item: {
+					Count: 1
+					id: "useless_sword:brass_head_turner"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -10.0d
+		}
+		{
+			id: "21958755ABD20B84"
+			tasks: [{
+				id: "2A72A9FDE3611823"
+				item: {
+					Count: 1
+					id: "useless_sword:chocolate_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -11.25d
+		}
+		{
+			id: "434FA3553D0FDD0B"
+			tasks: [{
+				id: "313A22D09B68517B"
+				item: {
+					Count: 1
+					id: "useless_sword:hemolymph_broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			id: "023AEBE2D4EB2D15"
+			tasks: [{
+				id: "7B2C8680A10B085C"
+				item: {
+					Count: 1
+					id: "useless_sword:guster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -7.5d
+		}
+		{
+			id: "6A27436681D2B8AC"
+			tasks: [{
+				id: "47D3FDF1A4FC7ADA"
+				item: {
+					Count: 1
+					id: "useless_sword:tooth_glaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.75d
+		}
+		{
+			id: "6A4B3E209F45D91C"
+			tasks: [{
+				id: "2493295A72503CE9"
+				item: {
+					Count: 1
+					id: "useless_sword:dna_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.75d
+			y: -12.5d
+		}
+		{
+			id: "24B5044A742446CE"
+			tasks: [{
+				id: "084724788AE9BE81"
+				item: {
+					Count: 1
+					id: "useless_sword:life_draining_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.25d
+			y: -13.75d
+		}
+		{
+			id: "2F1494EABD6C29A6"
+			tasks: [{
+				id: "553E81A89C15E336"
+				item: {
+					Count: 1
+					id: "useless_sword:naga_slicer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			id: "1B10DE505173372B"
+			tasks: [{
+				id: "3F523D0FE7CFCAE5"
+				item: {
+					Count: 1
+					id: "useless_sword:pesting_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.25d
+		}
+	]
 	title: "&4Useless Swords"
 }

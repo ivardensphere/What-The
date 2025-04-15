@@ -4,8 +4,1657 @@
 	filename: "industrial_foregoing"
 	group: "6CFDE535DE131F6B"
 	id: "0FE8DBE36084B6C1"
-	order_index: 5
+	order_index: 11
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "50307672B996DB38"
+			tasks: [{
+				id: "2750D646362610D8"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			id: "6E43F690C0EC3364"
+			tasks: [{
+				id: "0BE8837502F566A8"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			id: "178C1D0F728AC4F5"
+			tasks: [{
+				id: "5B0C945D5767F991"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			id: "3D2DB53E9A8EA1EB"
+			tasks: [{
+				id: "60AEBD6B11F198C7"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			id: "547AAF2B12AEEDF0"
+			tasks: [{
+				id: "3145B4BFF1C7A527"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "6F32B5735C60D521"
+			tasks: [{
+				id: "26596FB8AC9BE83D"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 12.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "59ACDB31CCFC1633"
+			tasks: [{
+				id: "52328EF630AC1363"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "5AC9FE992C1F5349"
+			tasks: [{
+				id: "7A350FC0D53AF5B1"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "77CBC6B9E9698A18"
+			tasks: [{
+				id: "3D41FEAB83135A38"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "391192C2BF11A908"
+			tasks: [{
+				id: "213FB4A1FC4F462B"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "6D1E5E7613C50802"
+			tasks: [{
+				id: "30BAB56839E78E05"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "557CA4D9AA44F3FF"
+			tasks: [{
+				id: "401B94BA7435B533"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "7FB24FE6F9604032"
+			tasks: [{
+				id: "549D7A2916374DAD"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 15.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "0A2CC01D834063ED"
+			tasks: [{
+				id: "50B4F2215E53AFB9"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 12.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "04915EAA23444789"
+			tasks: [{
+				id: "2C85401C53B4FFCC"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "7548C5C625EF88B6"
+			tasks: [{
+				id: "417077C9C4E527EC"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "4447209DC15DD482"
+			tasks: [{
+				id: "0D80294EFDA05401"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["547AAF2B12AEEDF0"]
+			hide_dependency_lines: true
+			id: "0F6B2BB888724CA2"
+			tasks: [{
+				id: "0C91145F5EF2C57A"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 17.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4976352EF491CD51"
+			tasks: [{
+				id: "656C642BCD87D1D3"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "3E7CAD540EA00586"
+			tasks: [{
+				id: "38CBA80E9ACBCDBE"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4286336F6ABC4D5E"
+			tasks: [{
+				id: "0F4DA560CBDD9A0B"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "3C406E54D5927F17"
+			tasks: [{
+				id: "13974ABF51CE7B14"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -14.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "7F6F47E58DC625F0"
+			tasks: [{
+				id: "15AEBB2B1EBC8DCA"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "7E849698FD786EDF"
+			tasks: [{
+				id: "4DA5658CC27CDC45"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "39312593AC72C172"
+			tasks: [{
+				id: "1E769C67439BDC87"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "5C942B7423ED37DD"
+			tasks: [{
+				id: "2F515BA297918A7D"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "63867B0C7C01B00F"
+			tasks: [{
+				id: "44BCF30FF7544B43"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "21D330DE9ABB550E"
+			tasks: [{
+				id: "09D67B52B8113B9E"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "5782056AAF443265"
+			tasks: [{
+				id: "15434AC567516396"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "14570A71B5E84AB6"
+			tasks: [{
+				id: "1F311F90970CCB24"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "49B4635770346DF5"
+			tasks: [{
+				id: "349E1F463E423DA6"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "14EC1D35F0E289AC"
+			tasks: [{
+				id: "36C1C2AD6667E70E"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "5C0FB276D89EF1FB"
+			tasks: [{
+				id: "14368EF2441A31EA"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "107DC8621774CF27"
+			tasks: [{
+				id: "64A9087C2941449D"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "608C901B69704B42"
+			tasks: [{
+				id: "5E9A59F6F7A32A7E"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "308D588084F7F8F2"
+			tasks: [{
+				id: "5CC87E9464D3A5C2"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "415E2E1D39E75088"
+			tasks: [{
+				id: "0C5E8AF864C23A2A"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "06767109256C606B"
+			tasks: [{
+				id: "059F4E7DCC5CE136"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "75BB5334991E0721"
+			tasks: [{
+				id: "1BB560C163142C9B"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "3F15E7D5ACDF2EC8"
+			tasks: [{
+				id: "30A0115A971FE580"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "6C1C03034B34ED02"
+			tasks: [{
+				id: "34C89ED879DDCC29"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "39CD35082FBA889F"
+			tasks: [{
+				id: "6B64450A5E42ABE4"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
+			x: -14.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4988B459D56EAB6A"
+			tasks: [{
+				id: "495028BCF2260D4A"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "439C89B18DF9BE1C"
+			tasks: [{
+				id: "123C655D840E0DC4"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: -12.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4E5D8297CFF50484"
+			tasks: [{
+				id: "6613B799564B7951"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "1124AD33286E1311"
+			tasks: [{
+				id: "4A3DB4174257487B"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: -9.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "111088F4EABCEEED"
+			tasks: [{
+				id: "1882626CADAC04D4"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "78F8CA61F35F3D04"
+			tasks: [{
+				id: "64D123FDF01283F0"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4B259702916E229D"
+			tasks: [{
+				id: "4D76FB7282FA4BD1"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "6B7A584CA3FA1CAC"
+			tasks: [{
+				id: "759FD167B55E09AE"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "748F2948E7A4650C"
+			tasks: [{
+				id: "7CA10BDFE068AFFE"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "6EA09D5B9C607A83"
+			tasks: [{
+				id: "692B30AB9C9E05BC"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 7.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "280085B2E790C6E1"
+			tasks: [{
+				id: "2FC308A12AF329AF"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "52073ABE3DB11D68"
+			tasks: [{
+				id: "5AD291D3B1B65AC3"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "7CB477221F3FC499"
+			tasks: [{
+				id: "6962F1611BB5EFDD"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "7920345BC42E2F27"
+			tasks: [{
+				id: "5B02FD45F643EC9F"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "1ED1489CD30FC90B"
+			tasks: [{
+				id: "3D9923FDA26C6D08"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "6DF5596D214A850E"
+			tasks: [{
+				id: "533B3C64EFDC986E"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "1B8B7988AB39B621"
+			tasks: [{
+				id: "3F5B6AFCDD6C39AE"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "0229E0B41AE5B5DC"
+			tasks: [{
+				id: "57BA82C91C2365D8"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "6677F2258CF5BC1A"
+			tasks: [{
+				id: "690C03E347A4BA8D"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "13954F82F874575D"
+			tasks: [{
+				id: "020A74D6169F4048"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "39F23C190D862296"
+			tasks: [{
+				id: "3BA0C0FDB90D9902"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "4854C8477CC9FE2F"
+			tasks: [{
+				id: "1C74BD49B68A59C5"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "32504082019B7AF9"
+			tasks: [{
+				id: "1EF8070439174992"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "1A2B4F097ECC21EC"
+			tasks: [{
+				id: "28DCE8BCAB162596"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "28A5CE007BA53478"
+			tasks: [{
+				id: "7BC3059DB264F5E2"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "788982E7878F9C2F"
+			tasks: [{
+				id: "76090D8A42C5B71B"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "5D412BC59C8F6456"
+			tasks: [{
+				id: "302836CF9B44DF2C"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "45BE3FCDE4287E83"
+			tasks: [{
+				id: "54BC50B9CA80277F"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "24D278A34847527F"
+			tasks: [{
+				id: "19508FDC84C27E66"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "66B740D3A035458A"
+			tasks: [{
+				id: "48160DCCB67161EE"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "7042BAC187855848"
+			tasks: [{
+				id: "728457A2415E9DAC"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "01D145D66165A6C5"
+			tasks: [{
+				id: "39949CC6ED7DB302"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["178C1D0F728AC4F5"]
+			hide_dependency_lines: true
+			id: "51DED3DD5EEEB3D9"
+			tasks: [{
+				id: "48E35FEC8C1D8BB2"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "63CF21D2F8BE8E23"
+			tasks: [{
+				id: "2E66D8504EEC4A19"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "5D791ADC6CE132CA"
+			tasks: [{
+				id: "5DF5FFF1434E32A8"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			hide_dependency_lines: true
+			id: "0EF15EF030CA88C0"
+			tasks: [{
+				id: "6D13F216895B69AA"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3D2DB53E9A8EA1EB"]
+			id: "0456EC716EA24F83"
+			tasks: [{
+				id: "333750F3ECB252AD"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["50307672B996DB38"]
+			id: "0D36E20542874D99"
+			tasks: [{
+				id: "3B52FC75C20EDC16"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "09134CFF74DC002D"
+			tasks: [{
+				id: "0EC78A83EFF4C53A"
+				item: "industrialforegoing:conveyor_extraction_upgrade"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "7E79A10F54307197"
+			tasks: [{
+				id: "265456F453F0A724"
+				item: "industrialforegoing:conveyor_insertion_upgrade"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "554015FCCEECD50B"
+			tasks: [{
+				id: "57700D5BFF73CBF4"
+				item: "industrialforegoing:conveyor_detection_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "14C1169EE428EE88"
+			tasks: [{
+				id: "71FD7B4F6A1BBB4E"
+				item: "industrialforegoing:conveyor_bouncing_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "43D4CEBB281FCF4B"
+			tasks: [{
+				id: "1C4705F28E72323F"
+				item: "industrialforegoing:conveyor_dropping_upgrade"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "457011E6B5AA31EB"
+			tasks: [{
+				id: "5786854CC39BB9D0"
+				item: "industrialforegoing:conveyor_blinking_upgrade"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0D36E20542874D99"]
+			id: "27A801EB1CB90F80"
+			tasks: [{
+				id: "2F7628858960C4B3"
+				item: "industrialforegoing:conveyor_splitting_upgrade"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "7483E6D3E4A98CDF"
+			tasks: [{
+				id: "14DA67A1FD8DCB8D"
+				item: "industrialforegoing:item_transporter_type"
+				type: "item"
+			}]
+			x: -14.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "7C2FD8B4B98CC9BD"
+			tasks: [{
+				id: "7C3776A5B9D77C7A"
+				item: "industrialforegoing:fluid_transporter_type"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6E43F690C0EC3364"]
+			hide_dependency_lines: true
+			id: "60A666236F01252A"
+			tasks: [{
+				id: "446B7E88BBECB0A3"
+				item: "industrialforegoing:world_transporter_type"
+				type: "item"
+			}]
+			x: -12.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["50307672B996DB38"]
+			id: "6F596360AB4A9C1D"
+			tasks: [{
+				id: "218F6945A5F1E7DF"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["50307672B996DB38"]
+			id: "6A44440A6A2C38AF"
+			tasks: [{
+				id: "71FBF7456A7A6FAD"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "4F8422A8B47A90F5"
+			tasks: [{
+				id: "29233F8804DB7DED"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "4784A77DDE2363F7"
+			tasks: [{
+				id: "65DD79667613449E"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "18EBB5C020677974"
+			tasks: [{
+				id: "513CE7C8D67A8618"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "7E68FA088283B0C8"
+			tasks: [{
+				id: "3CDF8FBBF53D9275"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 22.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "5876819109B4F100"
+			tasks: [{
+				id: "117244B30F13592F"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "488393CA3B9A0621"
+			tasks: [{
+				id: "483BFA37EB2DBCEB"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 22.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "3481AFCF407EB64A"
+			tasks: [{
+				id: "0ECBEC944402E51B"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 22.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "026258D03E2E410B"
+			tasks: [{
+				id: "2282FD48B32F5E6D"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "31DAA97D57950DC2"
+			tasks: [{
+				id: "475DA8994F1E1CE4"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon0"
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.25d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "66774A2EABC50ADD"
+			tasks: [{
+				id: "516C124A221863DD"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon1"
+					tag: {
+						TitaniumAugment: {
+							Range: 1.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "4D100DE7CF65CF98"
+			tasks: [{
+				id: "6DEB1C4814B16154"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon2"
+					tag: {
+						TitaniumAugment: {
+							Range: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "1D8C1FF5C4783B07"
+			tasks: [{
+				id: "46B45D105ACC5226"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon3"
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 15.25d
+			y: -9.25d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "41BBAB575749CBA5"
+			tasks: [{
+				id: "72A13BF698EEF57B"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon4"
+					tag: {
+						TitaniumAugment: {
+							Range: 4.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "5E7B7BAB6B7CC901"
+			tasks: [{
+				id: "0691DEC72C6102B2"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon5"
+					tag: {
+						TitaniumAugment: {
+							Range: 5.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "4A03F4DB3A4BFB8C"
+			tasks: [{
+				id: "0BE7ECAE4BF87CD4"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon6"
+					tag: {
+						TitaniumAugment: {
+							Range: 6.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "174D0659985DE813"
+			tasks: [{
+				id: "06E6558BAAFA853B"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon7"
+					tag: {
+						TitaniumAugment: {
+							Range: 7.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.25d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "2F66420F772D37A9"
+			tasks: [{
+				id: "1B56DBD92A1EAF7D"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon8"
+					tag: {
+						TitaniumAugment: {
+							Range: 8.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "757A11AEC468BFEC"
+			tasks: [{
+				id: "13C2581E5EA60AAA"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon9"
+					tag: {
+						TitaniumAugment: {
+							Range: 9.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "5B352AE2CA4C049D"
+			tasks: [{
+				id: "42D4635EA08DBF4B"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon10"
+					tag: {
+						TitaniumAugment: {
+							Range: 10.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "33A34DB622971DAB"
+			tasks: [{
+				id: "6178CBA7E3C1B10C"
+				item: {
+					Count: 1
+					id: "industrialforegoing:range_addon11"
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.75d
+			y: -9.25d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "32DCE56B18F5604C"
+			tasks: [{
+				id: "0DADC28BE6264BB4"
+				item: {
+					Count: 1
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "770A637005080654"
+			tasks: [{
+				id: "0FDC18611F28F04E"
+				item: {
+					Count: 1
+					id: "industrialforegoing:efficiency_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "573182C3BB58126E"
+			tasks: [{
+				id: "418D635C4867069A"
+				item: {
+					Count: 1
+					id: "industrialforegoing:efficiency_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "5A6B60AF70AEB0B0"
+			tasks: [{
+				id: "63AC782203E64C11"
+				item: {
+					Count: 1
+					id: "industrialforegoing:processing_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7097D9EA756EB49C"]
+			hide_dependency_lines: true
+			id: "58FAE8C91E86A35D"
+			tasks: [{
+				id: "3503A861C42B70D9"
+				item: {
+					Count: 1
+					id: "industrialforegoing:processing_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50307672B996DB38"]
+			id: "3777943D14C43915"
+			tasks: [{
+				id: "62AFA61570715ACF"
+				item: "industrialforegoing:machine_settings_copier"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -5.5d
+		}
+		{
+			id: "7097D9EA756EB49C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6A3F76E4C6CBB851"
+				title: "Welcome to Industrial Foregoing"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+	]
 	title: "&6Industrial Foregoing"
 }

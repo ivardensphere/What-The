@@ -4,8 +4,607 @@
 	filename: "hexerei"
 	group: "2B0E76255596CDF2"
 	id: "7B961DC6BED291B0"
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "284A41520249EEAA"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4B3157B9FC365AC9"
+				title: "Welcome to Hexerei"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "16FB490558FFE609"
+			tasks: [{
+				id: "05059CC2A4DE2F02"
+				item: "hexerei:coffer"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -9.0d
+		}
+		{
+			id: "1C5A2DA119900337"
+			tasks: [{
+				id: "3EF3E8CF063812B0"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.75d
+		}
+		{
+			id: "028A14B9562AD49B"
+			tasks: [{
+				id: "257296706096E704"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "13A8278EFD92ED49"
+			tasks: [{
+				id: "5D003B7178CB3F84"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "2E094A73BB6B3A78"
+			tasks: [{
+				id: "63DDB27BB0077EF0"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.25d
+		}
+		{
+			id: "48C61E76893DC6DC"
+			tasks: [{
+				id: "37CB60DFD49C30ED"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.75d
+		}
+		{
+			id: "4A9ABB9180C360D8"
+			tasks: [{
+				id: "7536FD1B400EB185"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.75d
+		}
+		{
+			id: "370F76753BAD5F60"
+			tasks: [{
+				id: "085FA67A051BCB4A"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -7.75d
+		}
+		{
+			id: "71B46C66E7D2DB65"
+			tasks: [{
+				id: "69D5EC9D4A10D038"
+				item: {
+					Count: 1
+					id: "hexerei:witch_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -5.0d
+		}
+		{
+			id: "03BD3175DF2DC249"
+			tasks: [{
+				id: "65994A3BB34F6860"
+				item: {
+					Count: 1
+					id: "hexerei:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "17209E6EBBF7C9B4"
+			tasks: [{
+				id: "4D784F323EE1E2BD"
+				item: {
+					Count: 1
+					id: "hexerei:witch_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -5.0d
+		}
+		{
+			id: "05042FD57D95AAB2"
+			tasks: [{
+				id: "4D1DD05CE1C0BD95"
+				item: "hexerei:willow_broom"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -3.75d
+		}
+		{
+			id: "3297114AF9BDB064"
+			tasks: [{
+				id: "244D14DBEB0823DC"
+				item: "hexerei:mahogany_broom"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			id: "1E632B236FAFBDC5"
+			tasks: [{
+				id: "6CB3D040E3DC722C"
+				item: "hexerei:witch_hazel_broom"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.75d
+		}
+		{
+			id: "7439AE0A1914BE13"
+			tasks: [{
+				id: "45F02367700EECBB"
+				item: {
+					Count: 1
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.5d
+		}
+		{
+			id: "124F2063FA972B65"
+			tasks: [{
+				id: "15A46A3AA564BB6A"
+				item: {
+					Count: 1
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "5357561F13E77D69"
+			tasks: [{
+				id: "134E611C07A56D89"
+				item: {
+					Count: 1
+					id: "hexerei:moon_dust_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -2.5d
+		}
+		{
+			id: "0B874DE54FFFC0CA"
+			tasks: [{
+				id: "2D7B7ECB42C3696C"
+				item: "hexerei:quicksilver_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			id: "48B9A155D0EEE0EA"
+			tasks: [{
+				id: "20ADD2F1A246442B"
+				item: "hexerei:tallow_bottle"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			id: "13339C12C79C8BF5"
+			tasks: [{
+				id: "72185F40F67EC480"
+				item: {
+					Count: 1
+					id: "hexerei:lava_bottle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.25d
+		}
+		{
+			id: "7385AA2B5463A0D5"
+			tasks: [{
+				id: "43CE06CA8DE7FB62"
+				item: {
+					Count: 1
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -6.5d
+		}
+		{
+			id: "2FE7984FFF190EC9"
+			tasks: [{
+				id: "5E506D078BEA9E88"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -9.0d
+		}
+		{
+			id: "2FAC0891A0743552"
+			tasks: [{
+				id: "6FBE65C7E5B9FFDE"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			id: "51CE9F6F4516578F"
+			tasks: [{
+				id: "13874913E15677D8"
+				item: "hexerei:large_satchel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.25d
+		}
+		{
+			id: "7D0F280E57322CB6"
+			tasks: [{
+				id: "0F3C8F1AA62562A6"
+				item: "hexerei:ender_satchel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			id: "28BD27C65F7D568D"
+			tasks: [{
+				id: "427CCB2566A2F5E9"
+				item: "hexerei:replacer_satchel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.75d
+		}
+		{
+			id: "1098D2687F5F1077"
+			tasks: [{
+				id: "40DABC477D306286"
+				item: "hexerei:gold_rings"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.75d
+		}
+		{
+			id: "1E58FDEC0F0DB504"
+			tasks: [{
+				id: "1F3706403D7D48E7"
+				item: "hexerei:broom_keychain"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.75d
+		}
+		{
+			id: "590CAAC759EAC858"
+			tasks: [{
+				id: "286EC85C091B1F74"
+				item: {
+					Count: 1
+					id: "hexerei:broom_thruster_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "20D5054794449F48"
+			tasks: [{
+				id: "4FE036EF3FEEDA99"
+				item: {
+					Count: 1
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.5d
+		}
+		{
+			id: "27A38701EE72D18D"
+			tasks: [{
+				id: "669822DD2F60E48D"
+				item: "hexerei:belladonna_berries"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.75d
+		}
+		{
+			id: "0614ADC03328DE9A"
+			tasks: [{
+				id: "64251089420941B3"
+				item: "hexerei:sage_seed"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -5.0d
+		}
+		{
+			id: "4DB49306292B6B11"
+			tasks: [{
+				id: "3B438D70AFC3319E"
+				item: "hexerei:belladonna_flowers"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "04F4A3E1F1361D36"
+			tasks: [{
+				id: "09A1F8CC961B9460"
+				item: "hexerei:dried_belladonna_flowers"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.25d
+		}
+		{
+			id: "4A9F97D2D697E4E1"
+			tasks: [{
+				id: "04DBDB34CF65EA9B"
+				item: "hexerei:sage_bundle"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -2.5d
+		}
+		{
+			id: "2901B1A2506B7FFC"
+			tasks: [{
+				id: "4803278EBD2D03FD"
+				item: "hexerei:sage"
+				type: "item"
+			}]
+			x: -5.75d
+			y: -3.75d
+		}
+		{
+			id: "4663180214F0CC19"
+			tasks: [{
+				id: "6FF3A1F344ADC2A9"
+				item: {
+					Count: 1
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -1.25d
+		}
+		{
+			id: "4560F4832AA4D58F"
+			tasks: [{
+				id: "327D0AC476C6EEA2"
+				item: "hexerei:mandrake_root"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -3.75d
+		}
+		{
+			id: "6545DC8326ED76C5"
+			tasks: [{
+				id: "42E7E8B3698E2B5B"
+				item: "hexerei:dried_mandrake_flowers"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -1.25d
+		}
+		{
+			id: "1A335938A286B757"
+			tasks: [{
+				id: "7DF21EDBF428AC57"
+				item: "hexerei:mandrake_flowers"
+				type: "item"
+			}]
+			x: -8.25d
+			y: -2.5d
+		}
+		{
+			id: "1BEB7EEF7675F8A6"
+			tasks: [{
+				id: "67E20DDDCB40ED4F"
+				item: "hexerei:yellow_dock_leaves"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.75d
+		}
+		{
+			id: "53575A1101FE007C"
+			tasks: [{
+				id: "3C2C54ECA49F8B0C"
+				item: "hexerei:yellow_dock_flowers"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "0CF67D81C5D7836D"
+			tasks: [{
+				id: "22EB77B56782E4ED"
+				item: "hexerei:mugwort_flowers"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -2.5d
+		}
+		{
+			id: "5AA1A9D716F24D75"
+			tasks: [{
+				id: "56B9BE3B067C6D7A"
+				item: "hexerei:mugwort_leaves"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -3.75d
+		}
+		{
+			id: "5633250560F40F26"
+			tasks: [{
+				id: "2480EE51AB7AAB4C"
+				item: "hexerei:dried_yellow_dock_flowers"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.25d
+		}
+		{
+			id: "75A1BD9353EACC6F"
+			tasks: [{
+				id: "6F2181E96D549AFB"
+				item: "hexerei:dried_mugwort_flowers"
+				type: "item"
+			}]
+			x: -10.75d
+			y: -1.25d
+		}
+		{
+			id: "4E31BCCD9A35AA5D"
+			tasks: [{
+				id: "67B81207E54D1DD8"
+				item: "hexerei:book_of_shadows"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -3.75d
+		}
+		{
+			id: "5C0D944BDAFE06EA"
+			tasks: [{
+				id: "65E717782A14D512"
+				item: "hexerei:crow_flute"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -3.75d
+		}
+		{
+			id: "28FC9E52CFF0520B"
+			tasks: [{
+				id: "57ED66CC17399F3A"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.25d
+		}
+		{
+			id: "319968FA1F5FA946"
+			tasks: [{
+				id: "1DB65641E00B494C"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.75d
+		}
+		{
+			id: "6CDE5DDF3819C553"
+			tasks: [{
+				id: "3AB8DEA02DF02D36"
+				item: "hexerei:reading_glasses"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.25d
+		}
+		{
+			id: "1E482434071CD5DB"
+			tasks: [{
+				id: "2D15567D7973FE13"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 1.25d
+		}
+	]
 	title: "&5Hexerei"
 }

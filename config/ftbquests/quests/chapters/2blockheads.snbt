@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2blockheads"
+	group: "6F1187A4D51268D1"
+	id: "5F341C38A3C31B46"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48B5EAE28ADFAEF4"
+			tasks: [{
+				id: "47D50B8E72C4D045"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1C2F4A9E77CC32AA"
+			tasks: [{
+				id: "1F2B39D6DB7283B2"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			id: "2C2B07ADD8BAB804"
+			tasks: [{
+				id: "405629A57E9658F0"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "2131804DBD847E68"
+			tasks: [{
+				id: "636077A507CBBB3F"
+				item: "farmingforblockheads:fertilized_farmland_stable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			id: "71DDC82A9D7EB0DB"
+			tasks: [{
+				id: "70968595EA24928A"
+				item: "farmingforblockheads:green_fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "10653A24DA68FE9B"
+			tasks: [{
+				id: "599D8B3843A8B5B3"
+				item: "farmingforblockheads:red_fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			id: "12B9D762F818EA39"
+			tasks: [{
+				id: "0D73CA86485DFC46"
+				item: "farmingforblockheads:yellow_fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"This mod adds a Market block to Minecraft, allowing you to buy seeds, saplings or other things such as bone meal. It also adds some farming utilties such as a Chicken Nest, a Feeding Trough, and Fertilizers to improve your crops."
+				""
+				"The market allows searching and scrolling through trades, can filter by category, and is configurable to add further trades and categories to it."
+			]
+			id: "5B9688BCFA394485"
+			tasks: [{
+				id: "0CFDAFF3880F3EB0"
+				title: "Welcome to Farming for Blockheads"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			description: [
+				"This mod adds a cooking book along with a functional kitchen to Minecraft. Use the book or the Cooking Table to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a single click."
+				""
+				"The kitchen is modular and can be upgraded through additional blocks, allowing for expanded storage, infinite water for crafting provided by the sink, or efficient and delicious cooking with the oven. Some people even went as far as capturing a cow in a jar to provide them with infinite milk!"
+			]
+			id: "34471B2111806A14"
+			tasks: [{
+				id: "1EDAE3645844A55D"
+				title: "Welcome to Cooking for Blockheads"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			id: "1ABEE02DEDF4FE4B"
+			tasks: [{
+				id: "605F967A4D6366AD"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			id: "2A7A54C988038339"
+			tasks: [{
+				id: "480E0A3E3EF3B487"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "12438E469776771A"
+			tasks: [{
+				id: "2EF33BC3B7107271"
+				item: "cookingforblockheads:spice_rack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.75d
+		}
+		{
+			id: "1660AADB28313B1B"
+			tasks: [{
+				id: "0ACD3EDD447A5EC5"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "78D8B614F30CACB0"
+			tasks: [{
+				id: "244D80DB3D29C596"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -10.0d
+		}
+		{
+			id: "267680EAC51D3D00"
+			tasks: [{
+				id: "4DB3E3A4F108B9E1"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -10.0d
+		}
+		{
+			id: "4D783B60A33294D3"
+			tasks: [{
+				id: "40A6ABE2ABFBF8A3"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			id: "4E39FC6F38CD4597"
+			tasks: [{
+				id: "1082F94114147FEA"
+				item: "cookingforblockheads:no_filter_edition"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "51FA9E3052D992D6"
+			tasks: [{
+				id: "15E0906392D1F575"
+				item: "cookingforblockheads:preservation_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+	]
+	title: "&2Blockheads"
+}

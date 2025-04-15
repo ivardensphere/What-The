@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fish_of_thieves"
+	group: "6F1187A4D51268D1"
+	id: "3B269CB7F8CAFF55"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D39E4887A8830FA"
+			tasks: [{
+				id: "16505ED835144C59"
+				item: "fishofthieves:earthworms"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "614CE3EBA27F2E94"
+			tasks: [{
+				id: "1D1E2B0614BC6425"
+				item: "fishofthieves:grubs"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.25d
+		}
+		{
+			id: "185BEE87138C89AC"
+			tasks: [{
+				id: "2B2A570D1F6233A0"
+				item: "fishofthieves:leeches"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "2B41D1806F3CDB4B"
+			tasks: [{
+				id: "14BAA1CB98B07A5B"
+				item: "fishofthieves:splashtail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B41D1806F3CDB4B"]
+			id: "5C8C07D9963BF154"
+			tasks: [{
+				id: "576BA9E1101FD821"
+				item: "fishofthieves:cooked_splashtail"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.75d
+		}
+		{
+			id: "1B1B97081290B16D"
+			tasks: [{
+				id: "40F204D95D442DB9"
+				item: "fishofthieves:pondie"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B1B97081290B16D"]
+			id: "30960575D95EA8FF"
+			tasks: [{
+				id: "0F7244402F359DB9"
+				item: "fishofthieves:cooked_pondie"
+				type: "item"
+			}]
+			x: -1.75d
+			y: -2.75d
+		}
+		{
+			id: "43C27D3506AF883F"
+			tasks: [{
+				id: "2757924046BA8B9A"
+				item: "fishofthieves:islehopper"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43C27D3506AF883F"]
+			id: "444E22B6B4DDC86F"
+			tasks: [{
+				id: "1A5074C287554121"
+				item: "fishofthieves:cooked_islehopper"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.75d
+		}
+		{
+			id: "621A7FADBAB30523"
+			tasks: [{
+				id: "270FBA681E0FE056"
+				item: "fishofthieves:ancientscale"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["621A7FADBAB30523"]
+			id: "7073F1309C64CF55"
+			tasks: [{
+				id: "688737F2721C5798"
+				item: "fishofthieves:cooked_ancientscale"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -2.75d
+		}
+		{
+			id: "212EC115DDEB2468"
+			tasks: [{
+				id: "7FD1FE7E41F4E8A9"
+				item: "fishofthieves:plentifin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["212EC115DDEB2468"]
+			id: "1ED1ECC145A00F81"
+			tasks: [{
+				id: "7EE6AF76EF2959C2"
+				item: "fishofthieves:cooked_plentifin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.75d
+		}
+		{
+			id: "5A0F0AF6AE8A1804"
+			tasks: [{
+				id: "45E9BE888AC6E124"
+				item: "fishofthieves:wildsplash"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A0F0AF6AE8A1804"]
+			id: "53EA8A5F5382B8F9"
+			tasks: [{
+				id: "0A4AC747E3D69C7A"
+				item: "fishofthieves:cooked_wildsplash"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -2.75d
+		}
+		{
+			id: "4B8BA63B8AC60930"
+			tasks: [{
+				id: "448DDD207362D386"
+				item: "fishofthieves:devilfish"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B8BA63B8AC60930"]
+			id: "1669A5DBE83861ED"
+			tasks: [{
+				id: "37DBFBDC0324ABB9"
+				item: "fishofthieves:cooked_devilfish"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.75d
+		}
+		{
+			id: "7BE530B6AD3792E8"
+			tasks: [{
+				id: "07918B0C687C066C"
+				item: "fishofthieves:battlegill"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BE530B6AD3792E8"]
+			id: "696185347CC07E72"
+			tasks: [{
+				id: "2CAF9A6657EAB43F"
+				item: "fishofthieves:cooked_battlegill"
+				type: "item"
+			}]
+			x: -9.25d
+			y: -2.75d
+		}
+		{
+			id: "31499BF80EDB12E2"
+			tasks: [{
+				id: "24E9FE7D6D17F410"
+				item: "fishofthieves:wrecker"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "6C5163C4471FFE9D"
+			tasks: [{
+				id: "0C25C189D347AE8E"
+				item: "fishofthieves:stormfish"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31499BF80EDB12E2"]
+			id: "2942E21866678550"
+			tasks: [{
+				id: "51D02C948835C198"
+				item: "fishofthieves:cooked_wrecker"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["6C5163C4471FFE9D"]
+			id: "2E5D96653DA40E20"
+			tasks: [{
+				id: "51BE076DD2CA99C9"
+				item: "fishofthieves:cooked_stormfish"
+				type: "item"
+			}]
+			x: -11.75d
+			y: -2.75d
+		}
+	]
+	title: "&2Fish of Thieves"
+}

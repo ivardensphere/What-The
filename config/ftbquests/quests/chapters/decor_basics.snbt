@@ -1,0 +1,558 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decor_basics"
+	group: "4E47870FD3F3DAA8"
+	id: "1F0F76A78B76B1B3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0706FDC1EA655606"
+			tasks: [{
+				id: "501FF9D693D1837E"
+				item: "xtonesreworked:bitt_block_1"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			id: "5F178360A5841986"
+			tasks: [{
+				id: "01A31F6929B1ED92"
+				item: "xtonesreworked:bitt_block_13"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			id: "0AA97236523541A7"
+			tasks: [{
+				id: "1A795A634AE0F0C9"
+				item: "xtonesreworked:bitt_block_12"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			id: "373824ABBCAED490"
+			tasks: [{
+				id: "27DEC2400F628E48"
+				item: "xtonesreworked:bitt_block_11"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			id: "2899191722D1A7A4"
+			tasks: [{
+				id: "69FFEFC4A7363FC4"
+				item: "xtonesreworked:bitt_block_10"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			id: "163F123C20881F28"
+			tasks: [{
+				id: "55CAFC4DF6E0C26A"
+				item: "xtonesreworked:bitt_block_9"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			id: "2B4AB9C1FE6C81D7"
+			tasks: [{
+				id: "0D6901718939D9AE"
+				item: "xtonesreworked:bitt_block_8"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			id: "200A3C8C36F5D9F3"
+			tasks: [{
+				id: "69E2557CB95530E5"
+				item: "xtonesreworked:bitt_block_7"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			id: "066E1D18BB666DE5"
+			tasks: [{
+				id: "26C68DC456A8661F"
+				item: "xtonesreworked:bitt_block_6"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "3A5D65F3E2CC1AE9"
+			tasks: [{
+				id: "50BCC2C9D9593C8E"
+				item: "xtonesreworked:bitt_block_5"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			id: "599851A59BC00489"
+			tasks: [{
+				id: "52AE9506E322CDE6"
+				item: "xtonesreworked:bitt_block_4"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			id: "66EDA3D13721C372"
+			tasks: [{
+				id: "32AA31F6181ABDB0"
+				item: "xtonesreworked:bitt_block_3"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "319D4211A211DBD0"
+			tasks: [{
+				id: "0118AB64CC3E6965"
+				item: "xtonesreworked:bitt_block_2"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			id: "15B521B99A9FC1CB"
+			tasks: [{
+				id: "3FCD372569FEB83A"
+				item: "xtonesreworked:bitt_block_15"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "2761DB8CC9B5F6F8"
+			tasks: [{
+				id: "70948078A2921393"
+				item: "xtonesreworked:bitt_block_14"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			id: "1A6BB6798DBA3602"
+			tasks: [{
+				id: "6D1DF1864694AC0E"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "0354E9D530348C89"
+			tasks: [{
+				id: "05D8DCD82347459A"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "663BED84B0F9F06E"
+			tasks: [{
+				id: "00C9429BD3FFE998"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "488D30D108996A6B"
+			tasks: [{
+				id: "6600FB8359659794"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "4D7AD73F0EC30EE1"
+			tasks: [{
+				id: "5C6CA9BB2B4AE95B"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "1049555E18FA2043"
+			tasks: [{
+				id: "168B2413FFE0D173"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "709EE118FDEB893F"
+			tasks: [{
+				id: "1E3F36B0223D932C"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			id: "2DF16BEEFB26696B"
+			tasks: [{
+				id: "3F276DCD580B5A3B"
+				item: "rechiseled:chisel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "656073AE3B0E6DF0"
+			tasks: [{
+				id: "0B572572DA11F4A8"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "2BEA2CFB3EB87A5A"
+			tasks: [{
+				id: "6DB381B69EAF3D07"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "35C9C8929681EF66"
+			tasks: [{
+				id: "6EDCB19166284A07"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "3183D2523DC0FA18"
+			tasks: [{
+				id: "3B4377708D1BA1D5"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "179B84E900EDCE2C"
+			tasks: [{
+				id: "33E440F58A14DB4D"
+				item: {
+					Count: 1
+					id: "chiselsandbits:chisel_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "40C63BA1BCD6168B"
+			tasks: [{
+				id: "52301B1063545295"
+				item: {
+					Count: 1
+					id: "chiselsandbits:bit_bag"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "1169B9C45FB532DF"
+			tasks: [{
+				id: "71D9CFF81CFE7EEF"
+				item: "chiselsandbits:modification_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "0552FBC4A3E5C597"
+			tasks: [{
+				id: "3D7E4F4C485A28B2"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "718AB177ADAAD811"
+			tasks: [{
+				id: "50EADBA76A469517"
+				item: "framedblocks:framed_glowing_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "26222C6A66D0AC42"
+			tasks: [{
+				id: "1AA12771299D3680"
+				item: "framedblocks:framed_redstone_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "18AF1F4374BAA319"
+			tasks: [{
+				id: "48834EDC89C05DE9"
+				item: "framedblocks:framed_collapsible_copycat_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "22A83DCAD8DC6A6A"
+			tasks: [{
+				id: "4118F2E2C1213E04"
+				item: "framedblocks:framed_bouncy_cube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "7D584F2FB377C39C"
+			tasks: [{
+				id: "517B87CF7EF181D1"
+				item: "framedblocks:framed_hammer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "4E0ECBE741A07960"
+			tasks: [{
+				id: "6072C174B809DB2D"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "7417702FB554C004"
+			tasks: [{
+				id: "01A31B7A82151E38"
+				item: "framedblocks:framed_key"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "5913FA9DE45A1897"
+			tasks: [{
+				id: "5FB07476F33FA874"
+				item: "framedblocks:framed_screwdriver"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			id: "3B6D49808CB455EA"
+			tasks: [{
+				id: "1DB266B183981AEA"
+				item: "chimes:bamboo_chimes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "423D1153CD1B76E1"
+			tasks: [{
+				id: "3EDE9519C70CC05B"
+				item: "chimes:iron_chimes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "6D474F8C5FDD47DA"
+			tasks: [{
+				id: "2FD31CB680DBAD9C"
+				item: "chimes:carved_bamboo_chimes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "13913BA0D74AFBF2"
+			tasks: [{
+				id: "7BC7AD366E5B5F76"
+				item: "chimes:copper_chimes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "5887B5E2C3A02AA9"
+			tasks: [{
+				id: "375E44989E00B459"
+				item: "chimes:amethyst_chimes"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "09AF08F0C835759A"
+			tasks: [{
+				id: "64BBA7ED29107F5F"
+				item: "chimes:glass_bells"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			id: "1215113C5717B681"
+			tasks: [{
+				id: "79D15BFF289CC7D1"
+				item: "rechiseled:amethyst_block_jewel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "559E2B69C42BAFD3"
+			tasks: [{
+				id: "149FD7A2756120AC"
+				item: "rechiseled:andesite_rotated_bricks_connecting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "4A59C8F545FBD982"
+			tasks: [{
+				id: "0A60429FF2E1607E"
+				item: "rechiseled:basalt_bricks_connecting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "6371B344A9EBDEE4"
+			tasks: [{
+				id: "2972A70E0DE582F1"
+				item: "rechiseled:blackstone_tiles_connecting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "22169288035C5326"
+			tasks: [{
+				id: "12FAC464B9A9F75F"
+				item: "rechiseled:emerald_block_patterned_connecting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "09CA6623246267E7"
+			tasks: [{
+				id: "507E19BD82FB0927"
+				item: "rechiseled:red_nether_bricks_diagonal_bricks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "&fDecor Basics"
+}

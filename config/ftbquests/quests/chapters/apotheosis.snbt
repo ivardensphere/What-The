@@ -1,0 +1,1070 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "2B0E76255596CDF2"
+	id: "5D6990946F438FA6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1093AA37AD2E2ECB"
+			tasks: [{
+				id: "0FFC53D1F41FC9CC"
+				item: "apotheosis:helmet_tome"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.75d
+		}
+		{
+			id: "6DB7141342D3156E"
+			tasks: [{
+				id: "7F75B596356965D8"
+				item: "apotheosis:chestplate_tome"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "093EF2B9F3E18433"
+			tasks: [{
+				id: "2B51903EAB308569"
+				item: "apotheosis:leggings_tome"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.25d
+		}
+		{
+			id: "239E35061F9B95FD"
+			tasks: [{
+				id: "68D6F7878B2097E6"
+				item: "apotheosis:boots_tome"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "1E3EFCE8662B1409"
+			tasks: [{
+				id: "584FF5F6FEEED84F"
+				item: "apotheosis:weapon_tome"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			id: "1798CC2710A319F9"
+			tasks: [{
+				id: "4A9128FCE2463964"
+				item: "apotheosis:bow_tome"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -2.5d
+		}
+		{
+			id: "233CA57240188E88"
+			tasks: [{
+				id: "24545C5C0553CD9B"
+				item: "apotheosis:pickaxe_tome"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -1.25d
+		}
+		{
+			id: "22BAA7CA550B8224"
+			tasks: [{
+				id: "7B7AE0E7AD6BE3BB"
+				item: "apotheosis:fishing_tome"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			id: "24B3926C930CBA92"
+			tasks: [{
+				id: "40D52EE8D6D08053"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.75d
+		}
+		{
+			id: "0E54DDF2D133FD98"
+			tasks: [{
+				id: "3B778D274A562388"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "061E8E22D917DFE6"
+			tasks: [{
+				id: "613EC266699B07B5"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.25d
+		}
+		{
+			id: "76C3C735FA11542B"
+			tasks: [{
+				id: "726C8FBD799313FB"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "180BCF17030B1C07"
+			tasks: [{
+				id: "1F9C72F55A0F732A"
+				item: "apotheosis:gem_fused_slate"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "656C006030F1060B"
+			tasks: [{
+				id: "194E3BC050F7521F"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "6CEA3101F52ABFAD"
+			tasks: [{
+				id: "440C18EB06B8F384"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "40299E2438547841"
+			tasks: [{
+				id: "5F2E1B500A31A8BB"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "7E27457CA035C2C8"
+			tasks: [{
+				id: "19D138BA5217665F"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "559A53DF8E2393AF"
+			tasks: [{
+				id: "214CDD5F65883773"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -1.25d
+		}
+		{
+			id: "5A50AC486FF400A2"
+			tasks: [{
+				id: "5AF600D5BEB8AEB0"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "310CD558AF6792DE"
+			tasks: [{
+				id: "788CE8B5785FD657"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			id: "6C4E53702F22CE1A"
+			tasks: [{
+				id: "52526E5A75E46E90"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -3.75d
+		}
+		{
+			id: "41AC9D56E1395FDF"
+			tasks: [{
+				id: "5B4B4F774CEF2E9E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.75d
+		}
+		{
+			id: "42E374DAC309C424"
+			tasks: [{
+				id: "68F4AB13D2A23C4E"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.5d
+		}
+		{
+			id: "0B5B6C10CC32BEAA"
+			tasks: [{
+				id: "66C0F4AFBDECA5DF"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -1.25d
+		}
+		{
+			id: "68B224D102A12749"
+			tasks: [{
+				id: "1861AEC7FF006B41"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			id: "05CC4A97F9251148"
+			tasks: [{
+				id: "3012000176EBD4B4"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["05CC4A97F9251148"]
+			id: "17FC1BC8E2443B31"
+			tasks: [{
+				id: "030DECE902829875"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17FC1BC8E2443B31"]
+			id: "6B75F2EF5E633C8E"
+			tasks: [{
+				id: "44D6892FC6B811A4"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 7.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["180BCF17030B1C07"]
+			id: "6B2A8C3FE7EAC80F"
+			tasks: [{
+				id: "6FE66D7EC42ED5EF"
+				item: "apotheotic_additions:gemboundsigil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "23106B1474C72AF7"
+			tasks: [{
+				id: "15EA838069EE2376"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/guardian"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -3.75d
+		}
+		{
+			id: "08B68D3C765EB273"
+			tasks: [{
+				id: "2FFF3F7D2A52F01B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/briar"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -2.5d
+		}
+		{
+			id: "0361DBBDC943B3FF"
+			tasks: [{
+				id: "5929B11B9D7FE04B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:blood"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -1.25d
+		}
+		{
+			id: "5CB1AB6D6CE24AD9"
+			tasks: [{
+				id: "73CC210281375AE6"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:bumblezone/bee_queen"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			id: "1C3E7D0A8AB6CA1B"
+			tasks: [{
+				id: "548023331E1D9DAB"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:cast_time"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.75d
+		}
+		{
+			id: "7F3670347D5638F2"
+			tasks: [{
+				id: "2B0F1524A759F30D"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/slipstream"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "38391CF6976C0694"
+			tasks: [{
+				id: "513D4A1088165407"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:cooldown"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.25d
+		}
+		{
+			id: "0CCFC9C1E62E8DDB"
+			tasks: [{
+				id: "07CE2EC1E836BDE0"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/ballast"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "43B04B059BF5A615"
+			tasks: [{
+				id: "38D0342F2D94F634"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/bismuth"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.25d
+			y: -3.75d
+		}
+		{
+			id: "745BB91B7468ED17"
+			tasks: [{
+				id: "772E01CAB554DBCA"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/brawlers"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.25d
+			y: -2.5d
+		}
+		{
+			id: "7558205F90801E98"
+			tasks: [{
+				id: "3D02D0108D6B43E7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/breach"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.25d
+			y: -1.25d
+		}
+		{
+			id: "676D7059BE9EF345"
+			tasks: [{
+				id: "67820334870AD3E9"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/combatant"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.25d
+			y: 0.0d
+		}
+		{
+			id: "066928CE65CC0DED"
+			tasks: [{
+				id: "7C98B191D81A4156"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/gogok"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			id: "624CE84FB87F0C0F"
+			tasks: [{
+				id: "7281DA85D4C6C96F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/icy"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			id: "3416933D8A13E038"
+			tasks: [{
+				id: "15A1DDA61B07585F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/invig"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.25d
+		}
+		{
+			id: "4BA4B31873B5768B"
+			tasks: [{
+				id: "3E4F8516D2C70FC7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/lightning"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "5A69F2423D8FC671"
+			tasks: [{
+				id: "630B87593DADC307"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/lunar"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: -3.75d
+		}
+		{
+			id: "048FA4E39394721B"
+			tasks: [{
+				id: "4E6E250C264A29C7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/samurai"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: -2.5d
+		}
+		{
+			id: "39A68C918E11FCE2"
+			tasks: [{
+				id: "73FCCC9FEA7F3091"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/slipstream"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: -1.25d
+		}
+		{
+			id: "7A32E79AB1143F47"
+			tasks: [{
+				id: "32C644A1727AE081"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/solar"
+					}
+				}
+				type: "item"
+			}]
+			x: 14.75d
+			y: 0.0d
+		}
+		{
+			id: "4669C27B798A9E53"
+			tasks: [{
+				id: "22E1D55055B607CB"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/splendor"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.75d
+		}
+		{
+			id: "5A7097E9968FED73"
+			tasks: [{
+				id: "5A4C72671F5AC0EF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/tyrannical"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			id: "379E1A63C427A4BC"
+			tasks: [{
+				id: "3C3B5D7AF19D5C5F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheosis:core/warlord"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.25d
+		}
+		{
+			id: "37DBEC0F2E50B2AD"
+			tasks: [{
+				id: "24E75D46ED6A3C55"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:core/zeis"
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "44D76AF7E7DE0EEF"
+			tasks: [{
+				id: "1F5312A18E7BB68B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:ender"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: -3.75d
+		}
+		{
+			id: "114556316AB11D16"
+			tasks: [{
+				id: "26D5647995A1B354"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:evocation"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: -2.5d
+		}
+		{
+			id: "3E3F49DF2C6FE749"
+			tasks: [{
+				id: "3638C13DC171B7C6"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:holy"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: -1.25d
+		}
+		{
+			id: "25889CD634E08164"
+			tasks: [{
+				id: "32EF6247CFA07ACE"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:ice"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.25d
+			y: 0.0d
+		}
+		{
+			id: "3623B53AF2B96AC3"
+			tasks: [{
+				id: "0260256D3AA16E9C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:intelligent"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.75d
+		}
+		{
+			id: "4CD5836A0E35B960"
+			tasks: [{
+				id: "217AB7487CA3C6B5"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:lightning"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			id: "7AAB471A14586220"
+			tasks: [{
+				id: "77372909E181958D"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/armor"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.25d
+		}
+		{
+			id: "763502BF48AB3269"
+			tasks: [{
+				id: "04966DE623BBE550"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/ars_mana"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "2269412F22FB4EF7"
+			tasks: [{
+				id: "524A42D8CBF84142"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/felfire"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.75d
+			y: -3.75d
+		}
+		{
+			id: "3E4D1187F45E4BF0"
+			tasks: [{
+				id: "5982D422A09BF367"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/hearty"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.75d
+			y: -2.5d
+		}
+		{
+			id: "533AA2B0D017CDCB"
+			tasks: [{
+				id: "013F91ECAE26FFA1"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/thermal"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.75d
+			y: -1.25d
+		}
+		{
+			id: "72A4FCDBC12C05FA"
+			tasks: [{
+				id: "683CEB493FBB2901"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "apotheotic_additions:modded/witch_queen"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.75d
+			y: 0.0d
+		}
+		{
+			id: "33A2D20995DA5D68"
+			tasks: [{
+				id: "4D713CECB81A7FCF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:nature"
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.75d
+		}
+		{
+			id: "4513AF46E33B005F"
+			tasks: [{
+				id: "36BF905090AABBA5"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:spell_resist"
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			id: "6B010EBFC7403335"
+			tasks: [{
+				id: "5CF67D413E70557F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:summoning"
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.25d
+		}
+		{
+			id: "6FF9AF81392D3A6D"
+			tasks: [{
+				id: "2C28FDA81DC4C9FF"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "zoeygems:the_nether/hoarder"
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+	title: "&5Apotheosis"
+}

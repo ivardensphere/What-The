@@ -4,7 +4,7 @@
 	filename: "backpacks"
 	group: "2AE14BA71BB3164A"
 	id: "5A4A61EEF7C0DD1D"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -636,5 +636,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&3Backpacks"
+	title: "&3Sophisticated Backpacks"
 }
