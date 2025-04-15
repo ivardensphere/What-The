@@ -14,6 +14,51 @@
     # Whether or not Abyssal Stew should be enabled. [default: true, synchronized: yes]
     B:AbyssalStewEnabled=true
 
+    # Whether or not Astral Button should be enabled. [default: true, synchronized: yes]
+    B:AstralButtonEnabled=true
+
+    # Whether or not Astral Cabinet should be enabled. [default: true, synchronized: yes]
+    B:AstralCabinetEnabled=true
+
+    # Whether or not Astral Door should be enabled. [default: true, synchronized: yes]
+    B:AstralDoorEnabled=true
+
+    # Whether or not Astral Fruit should be enabled. [default: true, synchronized: yes]
+    B:AstralFruitEnabled=true
+
+    # Whether or not Astral Leaf should be enabled. [default: true, synchronized: yes]
+    B:AstralLeafEnabled=true
+
+    # Whether or not Astral Leaves should be enabled. [default: true, synchronized: yes]
+    B:AstralLeavesEnabled=true
+
+    # Whether or not Astral Log should be enabled. [default: true, synchronized: yes]
+    B:AstralLogEnabled=true
+
+    # Whether or not Astral Planks should be enabled. [default: true, synchronized: yes]
+    B:AstralPlanksEnabled=true
+
+    # Whether or not Astral Popsicle should be enabled. [default: true, synchronized: yes]
+    B:AstralPopsicleEnabled=true
+
+    # Whether or not Astral Pressure Plate should be enabled. [default: true, synchronized: yes]
+    B:AstralPressurePlateEnabled=true
+
+    # Whether or not Astral Sapling should be enabled. [default: true, synchronized: yes]
+    B:AstralSaplingEnabled=true
+
+    # Whether or not Astral Slab should be enabled. [default: true, synchronized: yes]
+    B:AstralSlabEnabled=true
+
+    # Whether or not Astral Stairs should be enabled. [default: true, synchronized: yes]
+    B:AstralStairsEnabled=true
+
+    # Whether or not Astral Trapdoor should be enabled. [default: true, synchronized: yes]
+    B:AstralTrapdoorEnabled=true
+
+    # Whether or not Astral Wood should be enabled. [default: true, synchronized: yes]
+    B:AstralWoodEnabled=true
+
     # Whether or not Balanced Stewed Soup Block should be enabled. [default: true, synchronized: yes]
     B:BalancedStewedSoupBlockEnabled=true
 
@@ -25,6 +70,9 @@
 
     # Whether or not Bloody Custard should be enabled. [default: true, synchronized: yes]
     B:BloodyCustardEnabled=true
+
+    # Whether or not Blossoming Astral Leaves should be enabled. [default: true, synchronized: yes]
+    B:BlossomingAstralLeavesEnabled=true
 
     # Whether or not Charm of Self-discipline should be enabled. [default: true, synchronized: yes]
     B:CharmofSelfdisciplineEnabled=true
@@ -62,6 +110,9 @@
     # Whether or not Etherium Stove should be enabled. [default: true, synchronized: yes]
     B:EtheriumStoveEnabled=true
 
+    # Whether or not Glistening Bark should be enabled. [default: true, synchronized: yes]
+    B:GlisteningBarkEnabled=true
+
     # Whether or not Glory of Weapon Master should be enabled. [default: true, synchronized: yes]
     B:GloryofWeaponMasterEnabled=true
 
@@ -80,6 +131,9 @@
     # Whether or not Passion Fried Rice should be enabled. [default: true, synchronized: yes]
     B:PassionFriedRiceEnabled=true
 
+    # Whether or not Potted Astral Sapling should be enabled. [default: true, synchronized: yes]
+    B:PottedAstralSaplingEnabled=true
+
     # Whether or not Purified Dragon Breath should be enabled. [default: true, synchronized: yes]
     B:PurifiedDragonBreathEnabled=true
 
@@ -94,6 +148,12 @@
 
     # Whether or not Sticky Enigmatic Pie should be enabled. [default: true, synchronized: yes]
     B:StickyEnigmaticPieEnabled=true
+
+    # Whether or not Stripped Astral Log should be enabled. [default: true, synchronized: yes]
+    B:StrippedAstralLogEnabled=true
+
+    # Whether or not Stripped Astral Wood should be enabled. [default: true, synchronized: yes]
+    B:StrippedAstralWoodEnabled=true
 
     # Whether or not Stuffed Astral Potato should be enabled. [default: true, synchronized: yes]
     B:StuffedAstralPotatoEnabled=true
@@ -115,6 +175,15 @@
 
     # The damage resistance modifier when you have the effect of Abyssal Stew. Measured in percentage. [range: 0 ~ 100, default: 60, synchronized: yes]
     I:AbyssalStewResistanceModifier=60
+
+    # The additional damage modifier of max health while charging attack. [range: 0 ~ 32768, default: 25, synchronized: yes]
+    I:CurseBladeAdditionalDamageModifier=25
+
+    # The Max Health Multiplier when you get the curse after gaining Blooded Ring of the Seven Curses. [range: 0 ~ 32768, default: 40, synchronized: yes]
+    I:CurseBladeHealthCurseMultiplier=40
+
+    # The damage modifier when equipped Glory of Weapon Master. Measured in percentage. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:GloryofWeaponMasterDamageModifier=10
 }
 
 

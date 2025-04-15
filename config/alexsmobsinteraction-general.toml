@@ -39,7 +39,7 @@
 	[Mobs."Bald Eagle"]
 		#Bald Eagle will rarely cannibalize weaker eagles
 		EAGLE_CANNIBALIZE_ENABLED = true
-		#--Compatibiility with Alexs Caves--
+		#--Compatibility with Alexs Caves--
 		#Bald Eagle can bomb targetted areas when being controlled
 		BIRD_BOMBING_ENABLED = true
 
@@ -170,6 +170,8 @@
 	[Mobs."Flying Fish"]
 		#Flying Fish Boots's mechanics are changed to be more fluid and based on speed and look angle
 		WEAVING_WATERS_ENABLED = true
+		#Flying Fish can launch themselves when hurt
+		PANIC_LAUNCING_ENABLED = true
 
 	[Mobs."Frilled Shark"]
 		#Frilled Shark will attack players with exsanguination or low on health
@@ -280,7 +282,7 @@
 	[Mobs.Skelewag]
 		#Skelewag circle their prey like hammerhead sharks
 		SKELEWAG_CIRCLE_ENABLED = true
-		#Withered variants of skelewag that spawn in the nether
+		#Withered Variant of Skelewag that can be made with coal
 		WITHERED_SKELEWAG_ENABLED = true
 
 	[Mobs.Skreecher]
@@ -354,6 +356,10 @@
 		#Warped Toads will not attack food unless given the orders so
 		WARPED_FRIENDLY_ENABLED = true
 
+	[Mobs.Kangaroo]
+		#Kangaroos can be given totems
+		PROPER_ARMAMENTS_ENABLED = true
+
 ["April Fools"]
 	#April Fools Banana Slug and Banana Effects
 	GOOFY_BANANA_SLIP_ENABLED = false
@@ -367,8 +373,6 @@
 	GOOFY_CAPUCHIN_BOMB_ENABLED = false
 	#April Fools Straddler Effects
 	GOOFY_STRADDLER_SHOTGUN_ENABLED = false
-	#Mine Turtle
-	MINE_TURTLE_ENABLED = false
 	#Boxing Gloves
 	BOXING_GLOVES_ENABLED = false
 	#Catfish texture changes when hot thing in mouth

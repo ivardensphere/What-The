@@ -334,5 +334,23 @@
     "length": 9.0,
     "duration": 350,
     "damage": 6.0
+  },
+  "wyvern": {
+    "weight": 6.0,
+    "length": 8.0,
+    "duration": 450,
+    "damage": 6.0
+  },
+  "draconic": {
+    "weight": 7.0,
+    "length": 18.0,
+    "duration": 800,
+    "damage": 9.0
+  },
+  "chaotic": {
+    "weight": 7.5,
+    "length": 18.0,
+    "duration": 800,
+    "damage": 10.0
   }
 }

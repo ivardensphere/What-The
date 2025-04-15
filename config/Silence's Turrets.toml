@@ -172,6 +172,10 @@
 	healing_pylon_2_attackrange = 15.0
 	healing_pylon_3_heal = 20.0
 	healing_pylon_3_attackrange = 15.0
+	soul_ballista_1_damage = 6.0
+	soul_ballista_1_attackrange = 17.0
+	soul_ballista_2_damage = 8.0
+	soul_ballista_2_attackrange = 18.0
 
 ["Variety Store"]
 	nether_wart_sauce_consume1 = 16.0

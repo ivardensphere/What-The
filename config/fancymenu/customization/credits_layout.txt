@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1741965781444
+  last_edited_time = 1744404256365
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5b8fab51-8fee-48ce-b849-124f8ae909ec-1741965576907] = [groups:][instances:]
+  [loading_requirement_container_meta:10f8ecce-614c-444b-8655-5a6cc14b8e79-1744404108885] = [groups:][instances:]
 }
 
 menu_background {
@@ -82,7 +82,7 @@ element {
 
 element {
   interactable = true
-  source = Over the many years of playing Minecraft and creating packs, I've learned%n%that it all means nothing without the friends I've made as I've progressed.%n%Some are new, some are old, some have faded in time but all are very%n%important. Without the supoort of them, this pack and the ones I've made%n%privately would not exist. So thank you to everyone I've met in my journey.%n%%n%                                         My Son%n%                                    Reesiepoobear%n%                                         Dowis%n%                                     BinaryDruid%n%                                  CaptainRedbeard%n%                                        Jhary%n%                                          Val%n%                                       KayGee%n%                                       Dreamer%n%                                  Mr.Cortus (MIA)%n%                                   Robbo73 (MIA)%n%                                   Sp000ky (MIA)%n%                                     Xain (MIA)%n%                                     JBo (MIA)%n%                                This_Guy_Red (MIA)%n%                                   Bengsch85 (MIA)%n%                                 FlamingArmor (MIA)%n%                               %n%And to all pack creators I've both played and pulled inspiration from.%n%%n%                                   Thank you,%n%                                     -Combi-
+  source = Over the many years of playing Minecraft and creating packs, I've learned%n%that it all means nothing without the friends I've made as I've progressed.%n%Some are new, some are old, some have faded in time but all are very%n%important. Without the supoort of them, this pack and the ones I've made%n%privately would not exist. So thank you to everyone I've met in my journey.%n%%n%                                         My Son%n%                                    Reesiepoobear%n%                                         Dowis%n%                                     BinaryDruid%n%                                  CaptainRedbeard%n%                                        Jhary%n%                                          Val%n%                                       KayGee%n%                                       Dreamer%n%                                    FlamingArmor%n%                                   OrangeBucket%n%                                  Ghostbuster789%n%                                  Mr.Cortus (MIA)%n%                                   Robbo73 (MIA)%n%                                   Sp000ky (MIA)%n%                                     Xain (MIA)%n%                                     JBo (MIA)%n%                                This_Guy_Red (MIA)%n%                                  Bengsch85 (MIA)%n%                               %n%And to all pack creators I've both played and pulled inspiration from.%n%%n%                                   Thank you,%n%                                     -Combi-
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -115,7 +115,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 3840
-  auto_sizing_base_screen_height = 2055
+  auto_sizing_base_screen_height = 2054
   sticky_anchor = false
   anchor_point = mid-centered
   x = -179
